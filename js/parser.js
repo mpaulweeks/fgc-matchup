@@ -26,7 +26,7 @@ function fixPlayers(player1, player2){
 (X[0-9] )?([\w\.\- ]+) \( ([\w\. ]+) \) Vs ([\w\.\- ]+) \( ([\w\. ]+) \) (SF5|SFV|SF4) 1080p|720p - 60fps
 (X[0-9] )?([\w\.\- ]+) \( ([\w\. ]+) \) Vs ([\w\.\- ]+) \( ([\w\. ]+) \) ((SF5|SFV|SF4) )?1080p|720p - 60fps
 */
-var REGEX_YOGAFLAME = /(X[0-9] )?([\w\.\- ]+) \( ([\w\. ]+) \) Vs ([\w\.\- ]+) \( ([\w\. ]+) \) ((SF5|SFV|SF4) )?1080p|720p - 60fps/g;
+var REGEX_YOGAFLAME = /(X[0-9] )?([\w\.\- ]+) \( ([\w\. ]+) \) Vs ([\w\.\- ]+) \( ([\w\. ]+) \) ((SF5|SFV|SF4) )?1080p|720p - 60fps/;
 
 function parseYogaFlame(id, title){
     var res = REGEX_YOGAFLAME.exec(title);
