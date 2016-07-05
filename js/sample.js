@@ -54,10 +54,11 @@ var SAMPLE_DATA = [
 
 function runSample(){
 
-    var out = $('.container');
+    // setup data
+    var out = $('#videos');
     var manager = Manager();
-    var video;
     var titles = [];
+    var video;
     SAMPLE_DATA.forEach(function (tuple){
         titles.push(tuple[1]);
         video = parseYogaFlame(tuple[0], tuple[1]);
@@ -66,16 +67,32 @@ function runSample(){
         }
     });
 
-    var sampleOut = (
-        // manager.getVideosByCharacter("Ibuki")
-        manager.getVideosByGame("SF5")
-    )
-    sampleOut.forEach(function (video){
-        out.append(video.toHTML());
+    // setup display
+    manager.getCharacters().forEach(function (char){
+        var html = '<option value="' + char + '">' + char + '</option>';
+        $('#char1').append(html);
+        $('#char2').append(html);
+    });
+    manager.getPlayers().forEach(function (player){
+        var html = '<option value="' + player + '">' + player + '</option>';
+        $('#player').append(html);
     });
 
-    out.append("<hr/>");
-    titles.forEach(function (title){
-        out.append(title + '<br/>');
-    });
+    // setup triggers
+    function printResults(){
+        var game = 'SF5';
+        var player = $('#player').val();
+        var char1 = $('#char1').val();
+        var char2 = $('#char2').val();
+        var videos = manager.getVideos(game, player, char1, char2);
+
+        var html = "";
+        videos.forEach(function (video){
+            html += video.toHTML();
+        });
+        out.html(html);
+    }
+    $('.filter').change(printResults);
+
+    printResults();
 }
