@@ -93,6 +93,11 @@ function runSample(){
         out.html(html);
     }
     $('.filter').change(printResults);
+    $('.reset').click(function (){
+        var select_id = $(this).data('id');
+        $('#' + select_id).val('').prop('selected', true);
+        $('#' + select_id).trigger('change');
+    });
 
     printResults();
 }
