@@ -1,8 +1,11 @@
 
+import scala.io.Source._
 import scala.collection.mutable
 
-// todo
-val url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UU1UzB_b7NSxoRjhZZDicuqw&key=";
+// import dispatch._, Defaults._
+// import scala.util.{Success, Failure}
+
+val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UU1UzB_b7NSxoRjhZZDicuqw&key=";
 
 case class VideoItem(timestamp: String, id: String, title: String)
 
@@ -23,16 +26,28 @@ class VideoLibrary() {
     }
 }
 
-class VideoFetcher() {
+case class VideoFetcher(apiKey: String) {
     private val library = new VideoLibrary();
 
     def fetchVideos(nextPage: String = ""): Unit = {
         println("fetching videos");
         // on success, call process
+        // val svc = url(BASE_URL + apiKey);
+        // val response : Future[String] = Http(svc OK as.String)
+
+        // response onComplete {
+        //     case Success(content) => {
+        //         println("Successful response" + content)
+        //     }
+        //     case Failure(t) => {
+        //         println("An error has occurred: " + t.getMessage)
+        //     }
+        // }
     }
 
     private def makeVideo(): VideoItem = {
         // parse json
+        return new VideoItem("","","");
     }
 
     private def processVideos(content: String): Unit = {
@@ -48,7 +63,8 @@ object Demo {
     }
 
     def run() {
-        val fetcher = new VideoFetcher();
+        val apiKey = fromFile("keys/youtube").getLines().next()
+        val fetcher = new VideoFetcher(apiKey);
         fetcher.fetchVideos();
     }
 }
