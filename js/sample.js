@@ -54,21 +54,28 @@ var SAMPLE_DATA = [
 
 function runSample(){
 
+    var out = $('.container');
     var manager = Manager();
     var video;
+    var titles = [];
     SAMPLE_DATA.forEach(function (tuple){
+        titles.push(tuple[1]);
         video = parseYogaFlame(tuple[0], tuple[1]);
         if (video){
             manager.manageVideo(video);
         }
     });
 
-    var out = $('.container');
     var sampleOut = (
         // manager.getVideosByCharacter("Ibuki")
-        manager.allVideos
+        manager.getVideosByGame("SF5")
     )
     sampleOut.forEach(function (video){
         out.append(video.toHTML());
+    });
+
+    out.append("<hr/>");
+    titles.forEach(function (title){
+        out.append(title + '<br/>');
     });
 }

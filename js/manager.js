@@ -4,7 +4,7 @@ function Manager(){
     var self = {};
     var byChar = {};
     var byPlayer = {};
-    self.allVideos = [];
+    var byGame = {};
 
     self.manageVideo = function(video){
         video.characters.forEach(function (char){
@@ -19,7 +19,10 @@ function Manager(){
             }
             byPlayer[player].push(video);
         });
-        self.allVideos.push(video);
+        if (!(video.game in byGame)){
+            byGame[video.game] = [];
+        }
+        byGame[video.game].push(video);
     }
 
     self.getVideosByCharacter = function(char){
@@ -36,6 +39,10 @@ function Manager(){
 
     self.getVideosByPlayer = function(player){
         return byPlayer[player];
+    }
+
+    self.getVideosByGame = function(game){
+        return byGame[game];
     }
 
     return self;
