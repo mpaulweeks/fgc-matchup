@@ -20,4 +20,4 @@ project/plugins/project/
 .worksheet
 
 # Security
-keys/
+scala/keys/

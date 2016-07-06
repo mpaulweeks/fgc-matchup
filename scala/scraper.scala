@@ -5,8 +5,6 @@ import scala.collection.mutable
 // import dispatch._, Defaults._
 // import scala.util.{Success, Failure}
 
-val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UU1UzB_b7NSxoRjhZZDicuqw&key=";
-
 case class VideoItem(timestamp: String, id: String, title: String)
 
 class VideoLibrary() {
@@ -27,6 +25,8 @@ class VideoLibrary() {
 }
 
 case class VideoFetcher(apiKey: String) {
+
+    private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UU1UzB_b7NSxoRjhZZDicuqw&key=";
     private val library = new VideoLibrary();
 
     def fetchVideos(nextPage: String = ""): Unit = {
@@ -59,7 +59,7 @@ case class VideoFetcher(apiKey: String) {
 
 object Demo {
     def main(args: Array[String]) {
-        // todo
+        run()
     }
 
     def run() {
@@ -68,5 +68,3 @@ object Demo {
         fetcher.fetchVideos();
     }
 }
-
-Demo.run()
