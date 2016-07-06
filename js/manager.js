@@ -39,7 +39,7 @@ function Manager(){
     }
 
     self.getGames = function(){
-        return TOOL.sort(Object.keys(byGame));
+        return Object.keys(byGame);
     }
 
     self.getVideosByCharacter = function(game, char){
