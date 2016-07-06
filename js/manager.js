@@ -4,6 +4,8 @@ function Manager(){
     var self = {};
     var byGame = {};
 
+    self.currentGame = null;
+
     self.manageVideo = function(video){
         if (!(video.game in byGame)){
             byGame[video.game] = {
@@ -40,6 +42,18 @@ function Manager(){
 
     self.getGames = function(){
         return Object.keys(byGame);
+    }
+
+    self.hasGame = function(game){
+        return game in byGame;
+    }
+
+    self.hasPlayer = function(game, player){
+        return player in byGame[game].byPlayer;
+    }
+
+    self.hasCharacter = function(game, char){
+        return char in byGame[game].byChar;
     }
 
     self.getVideosByCharacter = function(game, char){

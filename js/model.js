@@ -39,7 +39,7 @@ function Video(
         return html;
     }
 
-    var linkTemplate = '<a target="_blank" href="https://youtu.be/{1}">{2}</a>';
+    var linkTemplate = '<a class="external" target="_blank" href="https://youtu.be/{1}">{2}</a>';
 
     self.toData = function(){
         return [

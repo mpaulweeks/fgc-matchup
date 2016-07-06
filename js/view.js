@@ -33,6 +33,62 @@ function runView(){
         });
     }
 
+    function readUrlParams(manager){
+        var game = TOOL.readUrlParam("game");
+        if (game && manager.hasGame(game)){
+            $('#game').val(game).prop('selected', true);
+            printResults(manager);
+
+            var player = TOOL.readUrlParam("player");
+            if (player && manager.hasPlayer(game, player)){
+                $('#player').val(player).prop('selected', true);
+            }
+            var char1 = TOOL.readUrlParam("char1");
+            if (char1 && manager.hasCharacter(game, char1)){
+                $('#char1').val(char1).prop('selected', true);
+            }
+            var char2 = TOOL.readUrlParam("char2");
+            if (char2 && manager.hasCharacter(game, char2)){
+                $('#char2').val(char2).prop('selected', true);
+            }
+        }
+        printResults(manager);
+    }
+
+    function printResults(manager){
+        var game = $('#game').val();
+
+        if (manager.currentGame != game){
+            manager.currentGame = game;
+            var base_select = '<option value="">-</option>';
+            var html_char1 = base_select;
+            var html_char2 = base_select;
+            var html_player = base_select;
+            manager.getCharacters(game).forEach(function (char){
+                html_char1 += TOOL.option(char);
+                html_char2 += TOOL.option(char);
+            });
+            manager.getPlayers(game).forEach(function (player){
+                html_player += TOOL.option(player);
+            });
+            $('#char1').html(html_char1);
+            $('#char2').html(html_char2);
+            $('#player').html(html_player);
+        }
+
+        var player = $('#player').val();
+        var char1 = $('#char1').val();
+        var char2 = $('#char2').val();
+
+        var videos = manager.getVideos(game, player, char1, char2);
+        var out = $('#videos').DataTable()
+        out.clear();
+        videos.forEach(function (video){
+            out.row.add(video.toData());
+        });
+        out.draw();
+    }
+
     function onLoad(parsedVideos){
         var manager = Manager();
         parsedVideos.forEach(function (video){
@@ -46,50 +102,18 @@ function runView(){
         });
         $('#game').html(html_game);
         $('#game').val('SF5').prop('selected', true);
-        var currentGame = null;
 
         // setup triggers
-        function printResults(){
-            var game = $('#game').val();
-
-            if (currentGame != game){
-                currentGame = game;
-                var base_select = '<option value="">-</option>';
-                var html_char1 = base_select;
-                var html_char2 = base_select;
-                var html_player = base_select;
-                manager.getCharacters(game).forEach(function (char){
-                    html_char1 += TOOL.option(char);
-                    html_char2 += TOOL.option(char);
-                });
-                manager.getPlayers(game).forEach(function (player){
-                    html_player += TOOL.option(player);
-                });
-                $('#char1').html(html_char1);
-                $('#char2').html(html_char2);
-                $('#player').html(html_player);
-            }
-
-            var player = $('#player').val();
-            var char1 = $('#char1').val();
-            var char2 = $('#char2').val();
-
-            var videos = manager.getVideos(game, player, char1, char2);
-            var out = $('#videos').DataTable()
-            out.clear();
-            videos.forEach(function (video){
-                out.row.add(video.toData());
-            });
-            out.draw();
-        }
-        $('.filter').change(printResults);
+        $('.filter').change(function (){
+            printResults(manager);
+        });
         $('.reset').click(function (){
             var select_id = $(this).data('id');
             $('#' + select_id).val('').prop('selected', true);
             $('#' + select_id).trigger('change');
         });
 
-        printResults();
+        readUrlParams(manager);
     }
 
     function setup(){
