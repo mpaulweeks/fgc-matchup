@@ -10,12 +10,16 @@ function Tool(){
         if (self.is_local){
             console.log(message);
         }
-    }
+    };
 
     self.option = function(value, name){
         name = name || value;
         return '<option value="' + value + '">' + name + '</option>';
-    }
+    };
+
+    self.sort = function(arr) {
+        return arr.concat().sort();
+    };
 
     return self;
 }

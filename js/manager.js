@@ -31,15 +31,15 @@ function Manager(){
     }
 
     self.getCharacters = function(game){
-        return Object.keys(byGame[game].byChar);
+        return TOOL.sort(Object.keys(byGame[game].byChar));
     }
 
     self.getPlayers = function(game){
-        return Object.keys(byGame[game].byPlayer);
+        return TOOL.sort(Object.keys(byGame[game].byPlayer));
     }
 
     self.getGames = function(){
-        return Object.keys(byGame);
+        return TOOL.sort(Object.keys(byGame));
     }
 
     self.getVideosByCharacter = function(game, char){
