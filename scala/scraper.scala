@@ -14,6 +14,9 @@ class VideoLibrary() {
     // init: load file
 
     def add(video: VideoItem): Boolean = {
+        if (videoIds.size > 15) {
+            return false;
+        }
         if (!(videoIds contains video.id)){
             videoList += video;
             videoIds add video.id;
@@ -26,27 +29,25 @@ class VideoLibrary() {
 
 case class VideoFetcher(apiKey: String) {
 
-    private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UU1UzB_b7NSxoRjhZZDicuqw&key=";
-    private val library = new VideoLibrary();
+    private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UU1UzB_b7NSxoRjhZZDicuqw&key="
+    private val library = new VideoLibrary()
 
-    def fetchVideos(nextPage: String = ""): Unit = {
-        println("fetching videos");
+    def fetchVideos(nextPageToken: String = ""): Unit = {
+        println("fetching videos")
 
-        val requestUrl = BASE_URL + apiKey
-        println(BASE_URL + apiKey)
+        var requestUrl = BASE_URL + apiKey
+        if (nextPageToken.length > 0){
+            requestUrl += "&pageToken=" + nextPageToken
+        }
+        println(requestUrl)
 
         val response: HttpResponse[String] = Http(requestUrl).asString
-        println(response.body)
+        // println(response.body)
         println(response.code)
-        println(response.headers)
-        println(response.cookies)
+        // println(response.headers)
+        // println(response.cookies)
 
         processVideos(response.body)
-    }
-
-    private def makeVideo(): VideoItem = {
-        // parse json
-        return new VideoItem("","","");
     }
 
     private def processVideos(content: String): Unit = {
@@ -56,8 +57,9 @@ case class VideoFetcher(apiKey: String) {
         val jsonString = content
         val json:Option[Any] = JSON.parseFull(jsonString)
         val resObj:Map[String,Any] = json.get.asInstanceOf[Map[String, Any]]
+        val nextPageToken:String = resObj.get("nextPageToken").get.asInstanceOf[String]
         val videoItems:List[Any] = resObj.get("items").get.asInstanceOf[List[Any]]
-        // val continue = true
+        var continue = true
         videoItems.foreach( item => {
             val itemMap:Map[String,Any] = item.asInstanceOf[Map[String,Any]]
             val snippet:Map[String,Any] = itemMap.get("snippet").get.asInstanceOf[Map[String,Any]]
@@ -67,9 +69,14 @@ case class VideoFetcher(apiKey: String) {
             val videoId:String = resource.get("videoId").get
             val newVideo = new VideoItem(timestamp, videoId, title)
 
-            val continue = library.add(newVideo)
             println(newVideo)
+            continue &= library.add(newVideo)
         })
+        if (continue){
+            fetchVideos(nextPageToken)
+        } else {
+            println("duplicate found")
+        }
     }
 }
 
