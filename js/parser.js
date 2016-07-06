@@ -72,7 +72,7 @@ function YogaFlameParser(){
         var title = dataTuple[2];
         var res = REGEX.exec(title);
         if (!res){
-            TOOL.log(title);
+            // TOOL.log(title);
             return null;
         }
         return Video(

@@ -18,3 +18,38 @@ select {
     background-color: #222222;
     color: #DDDDDD;
 }
+
+.table th {
+   text-align: center;
+}
+tbody tr:hover {
+    background-color: #DDDDDD;
+    color: #222222;
+}
+tbody a tr:hover {
+    background-color: #DDDDDD;
+    color: #222222;
+}
+a {
+    color: #91d2fa;
+}
+tr a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+a:focus {
+    color: inherit;
+}
+table.dataTable.fixedHeader-floating {
+    background-color: #222222;
+}
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+tr:last-child td {
+    border-bottom: 1px solid #ddd;
+}
