@@ -3,7 +3,7 @@ var GAME_SF5 = "SF5";
 var GAME_SF4 = "SF4";
 
 function fixGame(game){
-    if (!game || game == "SFV"){
+    if (game == "SFV"){
         game = GAME_SF5;
     }
     return game;
