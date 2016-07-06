@@ -13,3 +13,4 @@ http://video.fightinggame.community/
 - support multiple character games/videos
 - look into CapcomFighters/alternative channels
 - toggle embed
+- scrape/parse Olympic Gaming https://www.youtube.com/playlist?list=PL3wLBbIcuzZf3YVar5e5dNEryNWhTYsTt
