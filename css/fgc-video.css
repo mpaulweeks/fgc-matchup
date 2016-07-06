@@ -33,7 +33,7 @@ tbody a tr:hover {
 a {
     color: #91d2fa;
 }
-tr a .internal {
+tr a.internal {
     color: inherit;
 }
 tr:hover a {
