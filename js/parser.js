@@ -43,27 +43,27 @@ function YogaFlameParser(){
     var REGEX = buildRegex();
     TOOL.log(REGEX);
 
+    TYPO = TypoFixer();
+
     function fixGame(game){
-        var matchingKey = null;
         var res = null;
         for (var key in GAME_REGEX) {
             if (GAME_REGEX.hasOwnProperty(key)) {
                 res = GAME_REGEX[key].exec(game);
                 if (res){
-                    matchingKey = key;
-                    break;
+                    return key;
                 }
             }
         }
-        return matchingKey || game;
+        return game;
     }
 
     function fixCharacters(char1, char2){
-        return [[char1], [char2]];
+        return [[TYPO.fixCharacterName(char1)], [TYPO.fixCharacterName(char2)]];
     }
 
     function fixPlayers(player1, player2){
-        return [player1, player2];
+        return [TYPO.fixPlayerName(player1), TYPO.fixPlayerName(player2)];
     }
 
     self.parse = function(dataTuple){
