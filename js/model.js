@@ -39,25 +39,14 @@ function Video(
         return html;
     }
 
-    var tableRow = `
-    <tr>
-        <td> {1} </td>
-        <td> {2} </td>
-        <td> {3} </td>
-        <td> {4} </td>
-        <td> {5} </td>
-    </tr>
-    `;
-
-    self.toHTML = function(){
-        return TOOL.format(
-            tableRow,
+    self.toData = function(){
+        return [
             date,
             self.players[0],
             characterStr(0),
             self.players[1],
             characterStr(1)
-        );
+        ];
     }
 
     return self;

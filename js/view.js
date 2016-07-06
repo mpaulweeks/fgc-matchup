@@ -5,7 +5,7 @@ function runView(){
 
     function createTable(){
         var tableHtml = `
-<table class="table video">
+<table class="table table-video" id="videos">
     <thead>
         <tr>
             <th> Date </th>
@@ -19,10 +19,21 @@ function runView(){
     </tbody>
 </table>`;
         $('#output').html(tableHtml);
+        $('.table-video').each(function (){
+            $(this).DataTable({
+                "paging": false,
+                "ordering": true,
+                "info": false,
+                "bFilter": false,
+                "columnDefs": [
+                    // { "orderable": false, "targets": 0 }
+                ],
+                "order": [[0, 'desc']],
+            });
+        });
     }
 
     function onLoad(parsedVideos){
-        var out = $('#videos');
         var manager = Manager();
         parsedVideos.forEach(function (video){
             manager.manageVideo(video);
@@ -64,23 +75,12 @@ function runView(){
             var char2 = $('#char2').val();
 
             var videos = manager.getVideos(game, player, char1, char2);
-            var html = "";
+            var out = $('#videos').DataTable()
+            out.clear();
             videos.forEach(function (video){
-                html += video.toHTML();
+                out.row.add(video.toData());
             });
-            out.html(html);
-            $('.video.table').each(function (){
-                $(this).DataTable({
-                    "paging": false,
-                    "ordering": true,
-                    "info": false,
-                    "bFilter": false,
-                    "columnDefs": [
-                        // { "orderable": false, "targets": 0 }
-                    ],
-                    "order": [[0, 'desc']],
-                });
-            });
+            out.draw();
         }
         $('.filter').change(printResults);
         $('.reset').click(function (){
