@@ -16,7 +16,7 @@ function Store() {
     self.load = function(callback){
         var yogaflame_file = fix_file(YOGAFLAME_FILE);
         $.getJSON(yogaflame_file, function(data){
-            var parsedVideos = parseJSON(data, parseYogaFlame);
+            var parsedVideos = parseJSON(data, YogaFlameParser().parse);
             callback(parsedVideos);
         });
     };
