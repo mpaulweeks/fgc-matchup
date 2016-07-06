@@ -1,0 +1,3 @@
+
+cd scala
+sbt run
