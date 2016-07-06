@@ -104,6 +104,23 @@ function runView(){
             out.row.add(video.toData());
         });
         out.draw();
+        $('.link-player').click(function (){
+            var playerValue = $(this).data("value");
+            $('#player').val(playerValue).prop('selected', true);
+            $('#char1').val('').prop('selected', true);
+            $('#char2').val('').prop('selected', true);
+            $('#player').trigger('change');
+        });
+        $('.link-character').click(function (){
+            var characterValue = $(this).data("value");
+            if ($('#char1').val()){
+                $('#char2').val(characterValue).prop('selected', true);
+                $('#char2').trigger('change');
+            } else {
+                $('#char1').val(characterValue).prop('selected', true);
+                $('#char1').trigger('change');
+            }
+        });
     }
 
     function onLoad(parsedVideos){

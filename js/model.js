@@ -39,15 +39,17 @@ function Video(
         return html;
     }
 
-    var linkTemplate = '<a class="external" target="_blank" href="https://youtu.be/{1}">{2}</a>';
+    var youtubeLink = '<a class="external" target="_blank" href="https://youtu.be/{1}">{2}</a>';
+    var playerLink = '<a class="internal link-player" href="javascript:void(0)" data-value="{1}">{1}</a>';
+    var characterLink = '<a class="internal link-character" href="javascript:void(0)" data-value="{1}">{1}</a>';
 
     self.toData = function(){
         return [
-            TOOL.format(linkTemplate, id, date),
-            self.players[0],
-            characterStr(0),
-            self.players[1],
-            characterStr(1)
+            TOOL.format(youtubeLink, id, date),
+            TOOL.format(playerLink, self.players[0]),
+            TOOL.format(characterLink, characterStr(0)),
+            TOOL.format(playerLink, self.players[1]),
+            TOOL.format(characterLink, characterStr(1))
         ];
     }
 
