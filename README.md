@@ -1,4 +1,4 @@
-# fgc-matchup
+# fgc-video
 
 Static website hosted using GitHub pages.
 
