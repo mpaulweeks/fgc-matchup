@@ -1,5 +1,8 @@
 # fgc-matchup
 
+Static website hosted using GitHub pages.
+
+http://video.fightinggame.community/
 https://mpaulweeks.github.io/fgc-matchup/
 
 todo:
