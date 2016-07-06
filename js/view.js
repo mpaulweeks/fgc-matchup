@@ -21,6 +21,7 @@ function runView(){
         $('#output').html(tableHtml);
         $('.table-video').each(function (){
             $(this).DataTable({
+                "fixedHeader": true,
                 "paging": false,
                 "ordering": true,
                 "info": false,
