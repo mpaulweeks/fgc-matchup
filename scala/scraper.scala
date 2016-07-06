@@ -14,10 +14,23 @@ case class VideoItem(timestamp: String, id: String, title: String) {
 }
 
 class VideoLibrary() {
+    private val DATA_FILE_PATH = "keys/temp.json"
     private val videoList: mutable.ListBuffer[VideoItem] = mutable.ListBuffer.empty[VideoItem];
     private val videoIds: mutable.Set[String] = mutable.Set();
 
-    // init: load file
+    private def loadFile(): Unit = {
+        if (!(new File(DATA_FILE_PATH).exists())){
+            return
+        }
+        val jsonString = fromFile(DATA_FILE_PATH).getLines.mkString
+        val jsonMap:List[Any] = JSON.parseFull(jsonString).get.asInstanceOf[List[Any]]
+        jsonMap.foreach( item => {
+            val videoTuple:List[String] = item.asInstanceOf[List[String]]
+            val videoItem = new VideoItem(videoTuple(0), videoTuple(1), videoTuple(2))
+            add(videoItem)
+        })
+    }
+    loadFile()
 
     def add(video: VideoItem): Boolean = {
         if (videoIds.size > 9) {
@@ -33,7 +46,7 @@ class VideoLibrary() {
     }
 
     def toFile(): Unit = {
-        val file = new File("keys/temp.json")
+        val file = new File(DATA_FILE_PATH)
         val bw = new BufferedWriter(new FileWriter(file))
         var first = true
         videoList.foreach( videoItem => {
@@ -78,12 +91,9 @@ case class VideoFetcher(apiKey: String) {
     }
 
     private def processVideos(content: String): Unit = {
-        // foreach -> makeVideo, then add to library
-        // if any adds return false, terminate
-        // else if nextPage, call fetch
         val jsonString = content
-        val json:Option[Any] = JSON.parseFull(jsonString)
-        val resObj:Map[String,Any] = json.get.asInstanceOf[Map[String, Any]]
+        val jsonMap:Option[Any] = JSON.parseFull(jsonString)
+        val resObj:Map[String,Any] = jsonMap.get.asInstanceOf[Map[String, Any]]
         var nextPageToken = ""
         if (resObj.contains("nextPageToken")){
             nextPageToken = resObj.get("nextPageToken").get.asInstanceOf[String]
