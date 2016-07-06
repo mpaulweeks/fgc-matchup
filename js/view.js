@@ -33,21 +33,35 @@ function runView(){
         });
     }
 
+    function setUrlParams(game, player, char1, char2){
+        var params = "?game=" + game;
+        if (player){
+            params += "&player=" + player;
+        }
+        if (char1){
+            params += "&char1=" + char1;
+        }
+        if (char2){
+            params += "&char2=" + char2;
+        }
+        window.history.pushState({}, "", params);
+    }
+
     function readUrlParams(manager){
         var game = TOOL.readUrlParam("game");
         if (game && manager.hasGame(game)){
             $('#game').val(game).prop('selected', true);
-            printResults(manager);
-
             var player = TOOL.readUrlParam("player");
+            var char1 = TOOL.readUrlParam("char1");
+            var char2 = TOOL.readUrlParam("char2");
+
+            printResults(manager);
             if (player && manager.hasPlayer(game, player)){
                 $('#player').val(player).prop('selected', true);
             }
-            var char1 = TOOL.readUrlParam("char1");
             if (char1 && manager.hasCharacter(game, char1)){
                 $('#char1').val(char1).prop('selected', true);
             }
-            var char2 = TOOL.readUrlParam("char2");
             if (char2 && manager.hasCharacter(game, char2)){
                 $('#char2').val(char2).prop('selected', true);
             }
@@ -79,6 +93,7 @@ function runView(){
         var player = $('#player').val();
         var char1 = $('#char1').val();
         var char2 = $('#char2').val();
+        setUrlParams(game, player, char1, char2);
 
         var videos = manager.getVideos(game, player, char1, char2);
         var out = $('#videos').DataTable()
