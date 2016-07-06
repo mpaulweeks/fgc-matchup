@@ -1,5 +1,6 @@
 
 function Video(
+    timestamp,
     id,
     title,
     game,
@@ -7,6 +8,7 @@ function Video(
     players)
 {
     var self = {
+        timestamp: timestamp,
         id: id,
         title: title,
         game: game,

@@ -9,8 +9,10 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 
 <link rel="stylesheet" href="style.css">
+<script src="js/tool.js"></script>
 <script src="js/model.js"></script>
 <script src="js/parser.js"></script>
+<script src="js/store.js"></script>
 <script src="js/manager.js"></script>
 <script src="js/sample.js"></script>
 
@@ -20,22 +22,22 @@
 <div class="container text-center">
 <div class="col-md-12">
 
-<div class="col-md-4">
-<select class="filter" id="char1">
-    <option value="">-</option>
-</select>
+<div class="col-md-3">
+<select class="filter" id="game"></select>
+</div>
+
+<div class="col-md-3">
+<select class="filter" id="char1"></select>
 <button class="reset" data-id="char1">x</button>
 </div>
-<div class="col-md-4">
-<select class="filter" id="char2">
-    <option value="">-</option>
-</select>
+
+<div class="col-md-3">
+<select class="filter" id="char2"></select>
 <button class="reset" data-id="char2">x</button>
 </div>
-<div class="col-md-4">
-<select class="filter" id="player">
-    <option value="">-</option>
-</select>
+
+<div class="col-md-3">
+<select class="filter" id="player"></select>
 <button class="reset" data-id="player">x</button>
 </div>
 
