@@ -49,7 +49,8 @@ class VideoLibrary() {
         val file = new File(DATA_FILE_PATH)
         val bw = new BufferedWriter(new FileWriter(file))
         var first = true
-        videoList.foreach( videoItem => {
+        val sortedVideos = videoList.sortWith(_.timestamp > _.timestamp)
+        sortedVideos.foreach( videoItem => {
             var jsonLine = videoItem.toJSON()
             if (first){
                 first = false
