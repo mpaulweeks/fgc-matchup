@@ -28,20 +28,23 @@ class VideoLibrary() {
 }
 
 case class VideoFetcher(apiKey: String) {
-
-    private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UU1UzB_b7NSxoRjhZZDicuqw&key="
+    private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems"
     private val library = new VideoLibrary()
 
     def fetchVideos(nextPageToken: String = ""): Unit = {
         println("fetching videos")
 
-        var requestUrl = BASE_URL + apiKey
+        var request: HttpRequest = (
+            Http(BASE_URL)
+            .param("part", "snippet")
+            .param("maxResults", "5")
+            .param("playlistId", "UU1UzB_b7NSxoRjhZZDicuqw")
+            .param("key", apiKey)
+        )
         if (nextPageToken.length > 0){
-            requestUrl += "&pageToken=" + nextPageToken
+            request = request.param("pageToken", nextPageToken)
         }
-        println(requestUrl)
-
-        val response: HttpResponse[String] = Http(requestUrl).asString
+        val response: HttpResponse[String] = request.asString
         // println(response.body)
         println(response.code)
         // println(response.headers)
@@ -57,9 +60,12 @@ case class VideoFetcher(apiKey: String) {
         val jsonString = content
         val json:Option[Any] = JSON.parseFull(jsonString)
         val resObj:Map[String,Any] = json.get.asInstanceOf[Map[String, Any]]
-        val nextPageToken:String = resObj.get("nextPageToken").get.asInstanceOf[String]
+        var nextPageToken = ""
+        if (resObj.contains("nextPageToken")){
+            nextPageToken = resObj.get("nextPageToken").get.asInstanceOf[String]
+        }
         val videoItems:List[Any] = resObj.get("items").get.asInstanceOf[List[Any]]
-        var continue = true
+        var allUnique = true
         videoItems.foreach( item => {
             val itemMap:Map[String,Any] = item.asInstanceOf[Map[String,Any]]
             val snippet:Map[String,Any] = itemMap.get("snippet").get.asInstanceOf[Map[String,Any]]
@@ -70,12 +76,14 @@ case class VideoFetcher(apiKey: String) {
             val newVideo = new VideoItem(timestamp, videoId, title)
 
             println(newVideo)
-            continue &= library.add(newVideo)
+            allUnique &= library.add(newVideo)
         })
-        if (continue){
-            fetchVideos(nextPageToken)
+        if (!allUnique){
+            println("dupe found, terminating")
+        } else if (nextPageToken.length == 0){
+            println("hit end of video list, termination")
         } else {
-            println("duplicate found")
+            fetchVideos(nextPageToken)
         }
     }
 }
