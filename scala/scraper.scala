@@ -1,6 +1,7 @@
 
 import scala.io.Source._
 import scala.collection.mutable
+import scala.util.parsing.json.JSON
 
 import scalaj.http._
 
@@ -39,6 +40,8 @@ case class VideoFetcher(apiKey: String) {
         println(response.code)
         println(response.headers)
         println(response.cookies)
+
+        processVideos(response.body)
     }
 
     private def makeVideo(): VideoItem = {
@@ -50,6 +53,23 @@ case class VideoFetcher(apiKey: String) {
         // foreach -> makeVideo, then add to library
         // if any adds return false, terminate
         // else if nextPage, call fetch
+        val jsonString = content
+        val json:Option[Any] = JSON.parseFull(jsonString)
+        val resObj:Map[String,Any] = json.get.asInstanceOf[Map[String, Any]]
+        val videoItems:List[Any] = resObj.get("items").get.asInstanceOf[List[Any]]
+        // val continue = true
+        videoItems.foreach( item => {
+            val itemMap:Map[String,Any] = item.asInstanceOf[Map[String,Any]]
+            val snippet:Map[String,Any] = itemMap.get("snippet").get.asInstanceOf[Map[String,Any]]
+            val timestamp:String = snippet.get("publishedAt").get.asInstanceOf[String]
+            val title:String = snippet.get("title").get.asInstanceOf[String]
+            val resource:Map[String,String] = snippet.get("resourceId").get.asInstanceOf[Map[String,String]]
+            val videoId:String = resource.get("videoId").get
+            val newVideo = new VideoItem(timestamp, videoId, title)
+
+            val continue = library.add(newVideo)
+            println(newVideo)
+        })
     }
 }
 
