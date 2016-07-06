@@ -39,9 +39,11 @@ function Video(
         return html;
     }
 
+    var linkTemplate = '<a target="_blank" href="https://youtu.be/{1}">{2}</a>';
+
     self.toData = function(){
         return [
-            date,
+            TOOL.format(linkTemplate, id, date),
             self.players[0],
             characterStr(0),
             self.players[1],
