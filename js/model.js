@@ -4,7 +4,7 @@ function Video(
     id,
     title,
     game,
-    characters,
+    characterTuples,
     players)
 {
     var self = {
@@ -12,12 +12,20 @@ function Video(
         id: id,
         title: title,
         game: game,
-        characters: characters,
         players: players
     }
 
-    self.isMirror = function(){
-        return characters.length == 1;
+    var _char = new Set();
+    var characterSets = [new Set(characterTuples[0]), new Set(characterTuples[1])];
+    characterSets.forEach(function (charSet){
+        charSet.forEach(function (char){
+            _char.add(char);
+        });
+    });
+    self.characters = Array.from(_char);
+
+    self.isMirror = function(char){
+        return characterSets[0].has(char) && characterSets[1].has(char);
     }
 
     self.iFrame = function(){

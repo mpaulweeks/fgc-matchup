@@ -54,7 +54,7 @@ function Manager(){
         if (char1 && char2 && char1 == char2){
             var am = self.getVideosByCharacter(game, char1);
             return am.filter(function(n) {
-                return n.isMirror();
+                return n.isMirror(char1);
             });
         }
         var a1 = self.getVideosByCharacter(game, char1);

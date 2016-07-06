@@ -59,10 +59,7 @@ function YogaFlameParser(){
     }
 
     function fixCharacters(char1, char2){
-        if (char1 == char2){
-            return [char1];
-        }
-        return [char1, char2];
+        return [[char1], [char2]];
     }
 
     function fixPlayers(player1, player2){
