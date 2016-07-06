@@ -3,7 +3,6 @@
 Static website hosted using GitHub pages.
 
 http://video.fightinggame.community/
-https://mpaulweeks.github.io/fgc-matchup/
 
 todo:
 - make game list/synonyms, build regex off of that
