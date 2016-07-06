@@ -10,6 +10,5 @@ todo:
 - support multiple characters (slash splitting)
 - sort by date descending on all lists (might be free?)
 - look into CapcomFighters/alternative channels
-- datatables
 - update url to make searches linkable
 - toggle embed
