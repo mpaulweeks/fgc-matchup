@@ -2,8 +2,7 @@
 import scala.io.Source._
 import scala.collection.mutable
 
-// import dispatch._, Defaults._
-// import scala.util.{Success, Failure}
+import scalaj.http._
 
 case class VideoItem(timestamp: String, id: String, title: String)
 
@@ -31,18 +30,15 @@ case class VideoFetcher(apiKey: String) {
 
     def fetchVideos(nextPage: String = ""): Unit = {
         println("fetching videos");
-        // on success, call process
-        // val svc = url(BASE_URL + apiKey);
-        // val response : Future[String] = Http(svc OK as.String)
 
-        // response onComplete {
-        //     case Success(content) => {
-        //         println("Successful response" + content)
-        //     }
-        //     case Failure(t) => {
-        //         println("An error has occurred: " + t.getMessage)
-        //     }
-        // }
+        val requestUrl = BASE_URL + apiKey
+        println(BASE_URL + apiKey)
+
+        val response: HttpResponse[String] = Http(requestUrl).asString
+        println(response.body)
+        println(response.code)
+        println(response.headers)
+        println(response.cookies)
     }
 
     private def makeVideo(): VideoItem = {
