@@ -124,6 +124,7 @@ function runView(){
     }
 
     function onLoad(parsedVideos){
+        $('#loading').hide();
         var manager = Manager();
         parsedVideos.forEach(function (video){
             manager.manageVideo(video);
@@ -151,6 +152,7 @@ function runView(){
     }
 
     function setup(){
+        $('#enableJs').hide();
         createTable();
         var store = Store();
         store.load(onLoad);

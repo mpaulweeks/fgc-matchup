@@ -9,5 +9,4 @@ todo:
 - document how to run scala script
 - support multiple characters (slash splitting)
 - look into CapcomFighters/alternative channels
-- update url to make searches linkable
 - toggle embed
