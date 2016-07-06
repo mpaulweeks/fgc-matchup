@@ -1,4 +1,20 @@
 
 body {
-    background-color: #EEEEEE;
+    background-color: #222222;
+    color: #DDDDDD;
+}
+button.dark {
+    background-color: #222222;
+    color: #DDDDDD;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DDDDDD;
+}
+button.dark:hover {
+    color: lightblue;
+    border-color: lightblue;
+}
+select {
+    background-color: #222222;
+    color: #DDDDDD;
 }
