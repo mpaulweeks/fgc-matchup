@@ -39,10 +39,10 @@ function runView(){
             params += "&player=" + player;
         }
         if (char1){
-            params += "&char1=" + char1;
+            params += "&char=" + char1;
         }
         if (char2){
-            params += "&char2=" + char2;
+            params += "&char=" + char2;
         }
         window.history.pushState({}, "", params);
     }
@@ -52,18 +52,20 @@ function runView(){
         if (game && manager.hasGame(game)){
             $('#game').val(game).prop('selected', true);
             var player = TOOL.readUrlParam("player");
-            var char1 = TOOL.readUrlParam("char1");
-            var char2 = TOOL.readUrlParam("char2");
+            var chars = TOOL.readUrlParam("char", true);
 
             printResults(manager);
             if (player && manager.hasPlayer(game, player)){
                 $('#player').val(player).prop('selected', true);
             }
-            if (char1 && manager.hasCharacter(game, char1)){
-                $('#char1').val(char1).prop('selected', true);
-            }
-            if (char2 && manager.hasCharacter(game, char2)){
-                $('#char2').val(char2).prop('selected', true);
+            if (chars){
+                var charId = 1;
+                chars.forEach(function (char){
+                    if (char && manager.hasCharacter(game, char)){
+                        $('#char' + charId).val(char).prop('selected', true);
+                        charId += 1;
+                    }
+                });
             }
         }
         printResults(manager);
