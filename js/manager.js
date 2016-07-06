@@ -51,6 +51,12 @@ function Manager(){
     }
 
     self.getVideosByMatchup = function(game, char1, char2){
+        if (char1 && char2 && char1 == char2){
+            var am = self.getVideosByCharacter(game, char1);
+            return am.filter(function(n) {
+                return n.isMirror();
+            });
+        }
         var a1 = self.getVideosByCharacter(game, char1);
         var a2 = self.getVideosByCharacter(game, char2);
         return a1.filter(function(n) {
