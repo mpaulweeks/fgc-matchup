@@ -14,7 +14,7 @@ case class VideoItem(timestamp: String, id: String, title: String) {
 }
 
 class VideoLibrary() {
-    private val DATA_FILE_PATH = "keys/temp.json"
+    private val DATA_FILE_PATH = "data/YogaFlame24.json"
     private val videoList: mutable.ListBuffer[VideoItem] = mutable.ListBuffer.empty[VideoItem];
     private val videoIds: mutable.Set[String] = mutable.Set();
 
@@ -33,9 +33,9 @@ class VideoLibrary() {
     loadFile()
 
     def add(video: VideoItem): Boolean = {
-        if (videoIds.size > 9) {
-            return false;
-        }
+        // if (videoIds.size > 9) {
+        //     return false;
+        // }
         if (!(videoIds contains video.id)){
             videoList += video;
             videoIds add video.id;
@@ -75,7 +75,7 @@ case class VideoFetcher(apiKey: String) {
         var request: HttpRequest = (
             Http(BASE_URL)
             .param("part", "snippet")
-            .param("maxResults", "5")
+            .param("maxResults", "50")
             .param("playlistId", "UU1UzB_b7NSxoRjhZZDicuqw")
             .param("key", apiKey)
         )
