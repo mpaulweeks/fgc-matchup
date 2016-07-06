@@ -1,11 +1,17 @@
 
+import java.io._
 import scala.io.Source._
 import scala.collection.mutable
 import scala.util.parsing.json.JSON
 
 import scalaj.http._
 
-case class VideoItem(timestamp: String, id: String, title: String)
+case class VideoItem(timestamp: String, id: String, title: String) {
+
+    def toJSON():String = {
+        return "[\"" + timestamp + "\",\"" + id + "\",\"" + title + "\"]"
+    }
+}
 
 class VideoLibrary() {
     private val videoList: mutable.ListBuffer[VideoItem] = mutable.ListBuffer.empty[VideoItem];
@@ -14,7 +20,7 @@ class VideoLibrary() {
     // init: load file
 
     def add(video: VideoItem): Boolean = {
-        if (videoIds.size > 15) {
+        if (videoIds.size > 9) {
             return false;
         }
         if (!(videoIds contains video.id)){
@@ -24,6 +30,24 @@ class VideoLibrary() {
         } else {
             return false;
         }
+    }
+
+    def toFile(): Unit = {
+        val file = new File("keys/temp.json")
+        val bw = new BufferedWriter(new FileWriter(file))
+        var first = true
+        videoList.foreach( videoItem => {
+            var jsonLine = videoItem.toJSON()
+            if (first){
+                first = false
+                jsonLine = "[\n" + jsonLine
+            } else {
+                jsonLine = ",\n" + jsonLine
+            }
+            bw.write(jsonLine)
+        })
+        bw.write("\n]")
+        bw.close()
     }
 }
 
@@ -84,7 +108,9 @@ case class VideoFetcher(apiKey: String) {
             println("hit end of video list, termination")
         } else {
             fetchVideos(nextPageToken)
+            return
         }
+        library.toFile()
     }
 }
 
