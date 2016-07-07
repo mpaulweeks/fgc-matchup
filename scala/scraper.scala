@@ -1,5 +1,6 @@
 
 import java.io._
+
 import scala.io.Source._
 import scala.collection.mutable
 import scala.util.parsing.json.JSON
@@ -9,7 +10,7 @@ import scalaj.http._
 case class VideoItem(timestamp: String, id: String, title: String) {
 
     def toJSON():String = {
-        return "[\"" + timestamp + "\",\"" + id + "\",\"" + title + "\"]"
+        return "[\"" + timestamp + "\",\"" + id + "\",\"" + title.replaceAll("\"", "'") + "\"]"
     }
 }
 
@@ -35,9 +36,11 @@ class VideoLibrary(fileName: String) {
     loadFile()
 
     def add(video: VideoItem): Boolean = {
-        if (videoIds.size > 9) {
-            return false;
-        }
+        // for debugging
+        // if (videoIds.size > 9) {
+        //     return false;
+        // }
+
         if (!(videoIds contains video.id)){
             videoList += video;
             videoIds add video.id;
