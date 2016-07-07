@@ -12,6 +12,12 @@ function Tool(){
         }
     };
 
+    self.visuLog = function(message){
+        if (self.is_local){
+            $('#log').append(self.format("<p>{1}</p>", message));
+        }
+    };
+
     self.option = function(value, name){
         name = name || value;
         return '<option value="' + value + '">' + name + '</option>';

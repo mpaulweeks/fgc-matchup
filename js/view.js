@@ -154,6 +154,9 @@ function runView(){
     }
 
     function setup(){
+        if (TOOL.is_local){
+            $(".container").append('<div id="log"></div>');
+        }
         $('#enableJs').hide();
         var store = Store();
         store.load(onLoad);

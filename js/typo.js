@@ -5,101 +5,113 @@ function TypoFixer(){
 
     var CHAR_NAME_MAP = {
         'Abel': [
-            'abel'
+            'abel',
         ],
         'Balrog': [
-            'Barlog'
+            'Barlog',
         ],
         'Bison': [
             'Bision',
             'M. Bison',
-            'M.Bison'
+            'M.Bison',
+            'M .Bison',
         ],
         'Blanka': [
-            'blanka'
+            'blanka',
         ],
         'C. Viper': [
             'C.Viper',
             'Viper',
-            'Wolfkrone'
+            'Wolfkrone',
         ],
         'Chun Li': [
             'Chun li',
             'ChunLi',
-            'Chunli'
+            'Chunli',
         ],
         'Cody': [
             'cody',
-            'Sasaki'
+            'Sasaki',
         ],
         'Decapre': [
             'Decaore',
-            'Decapri'
+            'Decapri',
         ],
         'Dee Jay': [
             'DeeJay',
             'Deejay',
-            'Deeay'
+            'Deeay',
         ],
         'Dhalsim': [
             'Dhalsm',
             'Dhasim',
-            'Dhlaism'
+            'Dhlaism',
         ],
         'E. Honda': [
             'E.Honda',
-            'Honda'
+            'Honda',
         ],
         'El Fuerte': [
             'EL Fuerte',
             'EL fuerte',
             'El fuerte',
             'ElFuerte',
-            'GiPie'
+            'GiPie',
         ],
         'Evil Ryu': [
-            'Evil Ry'
+            'Evil Ry',
+        ],
+        'Fang': [
+            'F.A.N.G.',
+            'F.A.N.G',
+            'FANG',
         ],
         'Fei Long': [
             'FeiLong',
             'FeLong',
-            'Feilong'
+            'Feilong',
         ],
         'Ibuki': [
-            'ibuki'
+            'ibuki',
         ],
         'Juri': [
-            'juri'
+            'juri',
+        ],
+        'Ken': [
+            'ken',
         ],
         'Laura': [
-            'laura'
+            'laura',
         ],
         'Makoto': [
-            'makoto'
+            'makoto',
         ],
         'Nash': [
-            'Charlie'
+            'Charlie',
         ],
         'Necalli': [
-            'Necali'
+            'Necali',
+        ],
+        'R. Mika': [
+            'R.Mika',
         ],
         'T. Hawk': [
             'T.Hawk',
-            'Hawk'
+            'Hawk',
         ],
         'Rose': [
-            'rose'
+            'rose',
         ],
         'Ryu': [
             'rYU',
         ],
         'Yun': [
-            'YUN'
+            'YUN',
         ],
         'Zangief': [
             'Zangeif',
             'Zanguef',
-            'Zangef'
+            'Zangef',
         ],
     };
     var CHAR_TYPO_MAP = {};
