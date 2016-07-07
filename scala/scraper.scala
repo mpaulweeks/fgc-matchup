@@ -13,8 +13,10 @@ case class VideoItem(timestamp: String, id: String, title: String) {
     }
 }
 
-class VideoLibrary() {
-    private val DATA_FILE_PATH = "data/YogaFlame24.json"
+case class ChannelInfo(fileName: String, playlistId: String)
+
+class VideoLibrary(fileName: String) {
+    private val DATA_FILE_PATH = s"data/$fileName.json"
     private val videoList: mutable.ListBuffer[VideoItem] = mutable.ListBuffer.empty[VideoItem];
     private val videoIds: mutable.Set[String] = mutable.Set();
 
@@ -33,9 +35,9 @@ class VideoLibrary() {
     loadFile()
 
     def add(video: VideoItem): Boolean = {
-        // if (videoIds.size > 9) {
-        //     return false;
-        // }
+        if (videoIds.size > 9) {
+            return false;
+        }
         if (!(videoIds contains video.id)){
             videoList += video;
             videoIds add video.id;
@@ -65,9 +67,9 @@ class VideoLibrary() {
     }
 }
 
-case class VideoFetcher(apiKey: String) {
+case class VideoFetcher(apiKey: String, channelInfo: ChannelInfo) {
     private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems"
-    private val library = new VideoLibrary()
+    private val library = new VideoLibrary(channelInfo.fileName)
 
     def fetchVideos(nextPageToken: String = ""): Unit = {
         println("fetching videos")
@@ -76,18 +78,14 @@ case class VideoFetcher(apiKey: String) {
             Http(BASE_URL)
             .param("part", "snippet")
             .param("maxResults", "50")
-            .param("playlistId", "UU1UzB_b7NSxoRjhZZDicuqw")
+            .param("playlistId", channelInfo.playlistId)
             .param("key", apiKey)
         )
         if (nextPageToken.length > 0){
             request = request.param("pageToken", nextPageToken)
         }
         val response: HttpResponse[String] = request.asString
-        // println(response.body)
         println(response.code)
-        // println(response.headers)
-        // println(response.cookies)
-
         processVideos(response.body)
     }
 
@@ -126,13 +124,17 @@ case class VideoFetcher(apiKey: String) {
 }
 
 object Demo {
-    def main(args: Array[String]) {
-        run()
-    }
+
+    val ChannelYogaFlame = new ChannelInfo("YogaFlame24", "UU1UzB_b7NSxoRjhZZDicuqw")
+    val ChannelOlympicGaming = new ChannelInfo("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
 
     def run() {
         val apiKey = fromFile("keys/youtube").getLines().next()
-        val fetcher = new VideoFetcher(apiKey);
-        fetcher.fetchVideos();
+        new VideoFetcher(apiKey, ChannelYogaFlame).fetchVideos();
+        new VideoFetcher(apiKey, ChannelOlympicGaming).fetchVideos();
+    }
+
+    def main(args: Array[String]) {
+        run()
     }
 }
