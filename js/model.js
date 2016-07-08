@@ -40,16 +40,16 @@ function Video(
     }
 
     var youtubeLink = '<a class="external" target="_blank" href="https://youtu.be/{1}">{2}</a>';
-    var playerLink = '<a class="internal link-player" href="javascript:void(0)" data-value="{1}">{1}</a>';
-    var characterLink = '<a class="internal link-character" href="javascript:void(0)" data-value="{1}">{1}</a>';
+    var playerClass = 'link-player';
+    var characterClass = 'link-character';
 
     self.toData = function(){
         return [
             TOOL.format(youtubeLink, id, date),
-            TOOL.format(playerLink, self.players[0]),
-            TOOL.format(characterLink, characterStr(0)),
-            TOOL.format(playerLink, self.players[1]),
-            TOOL.format(characterLink, characterStr(1))
+            TOOL.internalLink(playerClass, self.players[0]),
+            TOOL.internalLink(characterClass, characterStr(0)),
+            TOOL.internalLink(playerClass, self.players[1]),
+            TOOL.internalLink(characterClass, characterStr(1)),
         ];
     }
 

@@ -18,11 +18,6 @@ function Tool(){
         }
     };
 
-    self.option = function(value, name){
-        name = name || value;
-        return '<option value="' + value + '">' + name + '</option>';
-    };
-
     self.sort = function(arr) {
         return arr.concat().sort();
     };
@@ -56,6 +51,25 @@ function Tool(){
             return vars[param_name];
         }
         return null;
+    };
+
+    // view stuff
+
+    self.fixValue = function(rawValue){
+        // todo cover more edge cases
+        return rawValue.replace(' ', '_');
+    };
+
+    var optionHTML = '<option value="{1}">{2}</option>';
+    self.option = function(value, name){
+        name = name || value;
+        return self.format(optionHTML, self.fixValue(value), name);
+    };
+
+    var internalLinkHTML = '<a class="internal {1}" href="javascript:void(0)" data-value="{2}">{3}</a>';
+    self.internalLink = function(cssClass, value, name){
+        name = name || value;
+        return self.format(internalLinkHTML, cssClass, self.fixValue(value), name);
     };
 
     return self;

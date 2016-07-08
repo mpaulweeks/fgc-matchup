@@ -34,6 +34,14 @@ function runView(){
         });
     }
 
+    function checkValue(elemId, value){
+        if (!value){
+            return false;
+        }
+        var selector = TOOL.format("#{1} option[value='{2}']", elemId, value);
+        return $(selector).length > 0;
+    }
+
     function setUrlParams(game, player, char1, char2){
         var params = "?game=" + game;
         if (player){
@@ -50,19 +58,19 @@ function runView(){
 
     function readUrlParams(manager){
         var game = TOOL.readUrlParam("game");
-        if (game && manager.hasGame(game)){
+        if (checkValue('game', game)){
             $('#game').val(game).prop('selected', true);
             var player = TOOL.readUrlParam("player");
             var chars = TOOL.readUrlParam("char", true);
 
             printResults(manager, true);
-            if (player && manager.hasPlayer(game, player)){
+            if (checkValue('player', player)){
                 $('#player').val(player).prop('selected', true);
             }
             if (chars){
                 var charId = 1;
                 chars.forEach(function (char){
-                    if (char && manager.hasCharacter(game, char)){
+                    if (checkValue('char1', char)){
                         $('#char' + charId).val(char).prop('selected', true);
                         charId += 1;
                     }
@@ -137,7 +145,7 @@ function runView(){
         // setup display
         var html_game = "";
         manager.getGames().forEach(function (game){
-            html_game += '<option value="' + game + '">' + CONSTANTS.GAMES[game] + '</option>';
+            html_game += TOOL.option(game, CONSTANTS.GAMES[game]);
         });
         $('#game').html(html_game);
         $('#game').val('SF5').prop('selected', true);
