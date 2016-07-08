@@ -8,7 +8,7 @@ CONSTANTS.GAMES = {
     SF3: "Street Fighter 3",
     SFxT: "Street Fighter x Tekken",
     TTT2: "Tekken Tag Tournament 2",
-    SC5: "SoulCalibur 5/V",
+    SC5: "Soulcalibur V",
     DOA5: "Dead Or Alive 5 Last Round",
     GGXrd: "Guilty Gear Xrd",
     P4AU: "Persona 4 Arena Ultimax",

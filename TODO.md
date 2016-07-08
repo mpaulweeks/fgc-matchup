@@ -17,6 +17,3 @@
 ## quickies
 - add real url encoding/decoding for params
 - overhaul readme, describe how to contrib
-- advertise this site on sfv.FGC
-    - similar banners?
-    - break out the www subdomain as a hub? would help clarify that only sfv is "shut down"
