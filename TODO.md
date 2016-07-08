@@ -16,7 +16,6 @@
 
 ## quickies
 - add real url encoding/decoding for params
-- add contact footer, link to github, remove FORK ME banner
 - overhaul readme, describe how to contrib
 - advertise this site on sfv.FGC
     - similar banners?

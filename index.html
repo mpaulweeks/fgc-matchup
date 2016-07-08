@@ -35,53 +35,51 @@
 
 </head>
 <body>
-
-<a href="https://github.com/mpaulweeks/fgc-video"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
-
 <div class="container text-center">
-<div class="col-md-12">
 
 <h3> Fighting Game Videos </h3>
-
 <div class="col-md-12"><hr/></div>
 
-<div class="col-md-3">
+<div class="col-md-3 selector first">
 <p> GAME </p>
 <select class="filter dark" id="game"></select>
 </div>
 
-<div class="col-md-3">
+<div class="col-md-3 selector">
 <p> PLAYER </p>
 <select class="filter" id="player"></select>
-<button class="reset btn btn-xs dark" data-id="player">x</button>
+<button class="reset btn btn-xs dark" data-id="player">CLEAR</button>
 </div>
 
-<div class="col-md-3">
+<div class="col-md-3 selector">
 <p> CHARACTER </p>
 <select class="filter" id="char1"></select>
-<button class="reset btn btn-xs dark" data-id="char1">x</button>
+<button class="reset btn btn-xs dark" data-id="char1">CLEAR</button>
 </div>
 
-<div class="col-md-3">
+<div class="col-md-3 selector">
 <p> CHARACTER </p>
 <select class="filter" id="char2"></select>
-<button class="reset btn btn-xs dark" data-id="char2">x</button>
+<button class="reset btn btn-xs dark" data-id="char2">CLEAR</button>
 </div>
 
 <div class="col-md-12"><hr/></div>
-
-<div id="loading">
-<h1> loading... </h1>
-</div>
-<div id="enableJs">
-<h3> this site needs javascript to run! stop blocking it and refresh </h3>
-</div>
-
+<div id="loading"><h1> loading... </h1></div>
+<div id="enableJs"><h3> this site needs javascript to run! stop blocking it and refresh </h3></div>
 <div class="col-md-12" id="output"></div>
 
-</div>
+<div class="small col-md-12 text-center">
+    <hr/>
+    <p>Copyright 2016 M. Paul Weeks</p>
+    <p>
+        <a href="mailto:fightinggamedotcommunity@gmail.com">email</a> |
+        <a href="https://twitter.com/fgc_status">twitter</a> |
+        <a href="https://github.com/mpaulweeks/fgc-video">contribute</a>
+    </p>
+    <br/>
 </div>
 
+</div> <!-- end container -->
 <script type="text/javascript">
 $(document).ready(function () {
     runView();

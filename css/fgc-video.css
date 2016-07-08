@@ -14,9 +14,19 @@ button.dark:hover {
     color: lightblue;
     border-color: lightblue;
 }
+
 select {
     background-color: #222222;
     color: #DDDDDD;
+    width: 100%;
+}
+.selector {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid #ddd;
+}
+.selector.first {
+    border-left: 0px solid #ddd;
 }
 
 .table th {
@@ -53,6 +63,8 @@ table.dataTable.fixedHeader-floating {
    pointer-events: none;
    cursor: default;
 }
+/*
 tr:last-child td {
     border-bottom: 1px solid #ddd;
 }
+*/

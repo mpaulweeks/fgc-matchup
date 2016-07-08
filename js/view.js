@@ -165,7 +165,7 @@ function runView(){
 
     function setup(){
         if (TOOL.is_local){
-            $(".container").append('<div id="log"></div>');
+            $(".container").append('<div class="col-md-12" id="log"><hr/></div>');
         }
         $('#enableJs').hide();
         var store = Store();
