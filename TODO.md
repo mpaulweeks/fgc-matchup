@@ -16,7 +16,6 @@
 
 ## quickies
 - fix bug where reading url-encoded params dont decode properly
-- substitute game names in drop down
 - add contact footer, link to github, remove FORK ME banner
 - overhaul readme, describe how to contrib
 - advertise this site on sfv.FGC

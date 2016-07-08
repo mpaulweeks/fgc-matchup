@@ -1,15 +1,4 @@
 
-// todo
-var CONSTANTS = {
-    SF5: 'Street Fighter V',
-    USF4: 'Ultra Street Fighter 4',
-    AE2012: 'Super Street Fighter 4 AE 2012',
-    AE: 'Super Street Fighter 4 Arcade Edition',
-    SF3: "Street Fighter 3",
-    SFxT: "Street Fighter x Tekken",
-    TTT2: "Tekken Tag Tournament 2"
-}
-
 function Fixer(){
     var self = {};
     var typo = TypoFixer();
@@ -37,13 +26,13 @@ function YogaFlameParser(){
     var fixer = Fixer();
 
     var GAME_REGEX_STR = {
-        "SF5": "SF5|SFV|Beta SFV",
-        "USF4": "USF4",
-        "SF4 AE 2012": "(Arcade Edition|AE)( Version)? +2012",
-        "SF4 AE": "Arcade Edition|AE",
-        "SF3": "SF3",
-        "SFxT": "SFxT",
-        "Tekken Tag Tournament 2": "Tekken Tag Tournament 2"
+        SF5: "SF5|SFV|Beta SFV",
+        USF4: "USF4",
+        SSF4AE2012: "(Arcade Edition|AE)( Version)? +2012",
+        SSF4AE: "Arcade Edition|AE",
+        SF3: "SF3",
+        SFxT: "SFxT",
+        TTT2: "Tekken Tag Tournament 2"
     }
     var GAME_REGEX = {};
     function buildRegex(){
@@ -112,15 +101,15 @@ function OlympicParser(){
     var fixer = Fixer();
 
     var GAME_REGEX_STR = {
-        "SF5": "Street Fighter (5 */? *V|5|V)|SFV",
-        "SFxT": "Street Fighter X Tekken",
-        "P4AU": "Persona 4 Arena Ultimax",
-        "MKX": "Mortal Kombat X",
-        "SC5": "SoulCalibur 5/V",
-        "DOA5": "Dead Or Alive 5 Last Round",
-        "Smash4": "Super Smash Bros Wii U",
-        "GGXrd": "Guilty Gear Xrd",
-        "KI": "Killer Instinct",
+        SF5: "Street Fighter (5 */? *V|5|V)|SFV",
+        SFxT: "Street Fighter X Tekken",
+        P4AU: "Persona 4 Arena Ultimax",
+        MKX: "Mortal Kombat X",
+        SC5: "SoulCalibur 5/V",
+        DOA5: "Dead Or Alive 5 Last Round",
+        Smash4: "Super Smash Bros Wii U",
+        GGXrd: "Guilty Gear Xrd",
+        KI: "Killer Instinct",
     }
     var GAME_REGEX = {};
     var REGEX_1 = null;

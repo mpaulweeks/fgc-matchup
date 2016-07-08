@@ -137,7 +137,7 @@ function runView(){
         // setup display
         var html_game = "";
         manager.getGames().forEach(function (game){
-            html_game += '<option value="' + game + '">' + game + '</option>';
+            html_game += '<option value="' + game + '">' + CONSTANTS.GAMES[game] + '</option>';
         });
         $('#game').html(html_game);
         $('#game').val('SF5').prop('selected', true);
