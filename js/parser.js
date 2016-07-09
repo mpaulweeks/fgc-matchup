@@ -17,8 +17,8 @@ function Fixer(){
 
 var REGEX_STR = {
     PLAYER: "([\\w\\.\\-\| ]+) ",
-    CHARACTER: "(\\(|\\[) *([\\w\\. ]+) *(\\)|\\]) ",
-    VERSUS: "(Vs|vs)\\.? ",
+    CHARACTER: "(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) ",
+    VERSUS: "(?:Vs|vs)\\.? ",
 }
 
 function YogaFlameParser(){
@@ -28,7 +28,7 @@ function YogaFlameParser(){
     var GAME_REGEX_STR = {
         SF5: "SF5|SFV|Beta SFV",
         USF4: "USF4",
-        SSF4AE2012: "(Arcade Edition|AE)( Version)? +2012",
+        SSF4AE2012: "(?:Arcade Edition|AE)(?: Version)? +2012",
         SSF4AE: "Arcade Edition|AE",
         SF3: "SF3",
         SFxT: "SFxT",
@@ -36,8 +36,8 @@ function YogaFlameParser(){
     }
     var GAME_REGEX = {};
     function buildRegex(){
-        var rounds = "(X[0-9] )?";
-        var resolution = " *(1080p|720p)";
+        var rounds = "(?:X[0-9] )?";
+        var resolution = " *(?:1080p|720p)";
         var gameRegexArr = [];
         for (var key in GAME_REGEX_STR) {
             if (GAME_REGEX_STR.hasOwnProperty(key)) {
@@ -60,6 +60,7 @@ function YogaFlameParser(){
         return new RegExp(regexStr);
     }
     var REGEX = buildRegex();
+    TOOL.log(REGEX);
 
     function fixGame(game){
         var res = null;
@@ -87,9 +88,9 @@ function YogaFlameParser(){
             timestamp,
             id,
             title,
-            fixGame(res[11]),
-            fixer.fixCharacters(res[4], res[9]),
-            fixer.fixPlayers(res[2], res[7])
+            fixGame(res[5]),
+            fixer.fixCharacters(res[2], res[4]),
+            fixer.fixPlayers(res[1], res[3])
         );
     };
 
@@ -101,11 +102,11 @@ function OlympicParser(){
     var fixer = Fixer();
 
     var GAME_REGEX_STR = {
-        SF5: "Street Fighter (5 */? *V|5|V)|SFV",
+        SF5: "Street Fighter (?:5 */? *V|5|V)|SFV",
         SFxT: "Street Fighter X Tekken",
         P4AU: "Persona 4 Arena Ultimax",
         MKX: "Mortal Kombat X",
-        SC5: "SoulCalibur 5/V",
+        SC5: "SoulCalibur 5\/V",
         DOA5: "Dead Or Alive 5 Last Round",
         Smash4: "Super Smash Bros Wii U",
         GGXrd: "Guilty Gear Xrd",
@@ -115,7 +116,7 @@ function OlympicParser(){
     var REGEX_1 = null;
     var REGEX_2 = null;
     function buildRegex(){
-        var endtag = "(Wii|Xbox|PS4|-? ?Gameplay).*";
+        var endtag = "(?:Wii|Xbox|PS4|-? ?Gameplay).*";
         var gameRegexArr = [];
         for (var key in GAME_REGEX_STR) {
             if (GAME_REGEX_STR.hasOwnProperty(key)) {
@@ -174,9 +175,9 @@ function OlympicParser(){
                 timestamp,
                 id,
                 title,
-                fixGame(res[10]),
-                fixer.fixCharacters(res[3], res[8]),
-                fixer.fixPlayers(res[1], res[6])
+                fixGame(res[5]),
+                fixer.fixCharacters(res[2], res[4]),
+                fixer.fixPlayers(res[1], res[3])
             );
         }
         res = REGEX_2.exec(title);
@@ -186,8 +187,8 @@ function OlympicParser(){
                 id,
                 title,
                 fixGame(res[1]),
-                fixer.fixCharacters(res[5], res[10]),
-                fixer.fixPlayers(res[3], res[8])
+                fixer.fixCharacters(res[3], res[5]),
+                fixer.fixPlayers(res[2], res[4])
             );
         }
         // else
