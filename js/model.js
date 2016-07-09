@@ -13,20 +13,21 @@ function Video(
     }
 
     var date = timestamp.split('T')[0];
-    var _char = new Set();
+    var allChars = new Set();
     var characterSets = [new Set(characterTuples[0]), new Set(characterTuples[1])];
     characterSets.forEach(function (charSet){
         charSet.forEach(function (char){
-            _char.add(char);
+            allChars.add(char);
         });
     });
-    self.characters = Array.from(_char);
+    self.characters = Array.from(allChars);
 
     function characterStr(index){
         return characterTuples[index].join(', ');
     }
 
     self.isMirror = function(char){
+        // check if both player's rosters contain char
         return characterSets[0].has(char) && characterSets[1].has(char);
     }
 

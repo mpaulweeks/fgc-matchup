@@ -42,7 +42,7 @@ function YogaFlameParser(){
         for (var key in GAME_REGEX_STR) {
             if (GAME_REGEX_STR.hasOwnProperty(key)) {
                 GAME_REGEX[key] = new RegExp(GAME_REGEX_STR[key]);
-                gameRegexArr.push(TOOL.format("({1})", GAME_REGEX_STR[key]));
+                gameRegexArr.push(TOOL.format("{1}", GAME_REGEX_STR[key]));
             }
         }
         var combinedGame = gameRegexArr.join('|');
@@ -120,7 +120,7 @@ function OlympicParser(){
         for (var key in GAME_REGEX_STR) {
             if (GAME_REGEX_STR.hasOwnProperty(key)) {
                 GAME_REGEX[key] = new RegExp(GAME_REGEX_STR[key]);
-                gameRegexArr.push(TOOL.format("({1})", GAME_REGEX_STR[key]));
+                gameRegexArr.push(TOOL.format("{1}", GAME_REGEX_STR[key]));
             }
         }
         var combinedGame = gameRegexArr.join('|');
@@ -186,8 +186,8 @@ function OlympicParser(){
                 id,
                 title,
                 fixGame(res[1]),
-                fixer.fixCharacters(res[14], res[19]),
-                fixer.fixPlayers(res[12], res[17])
+                fixer.fixCharacters(res[5], res[10]),
+                fixer.fixPlayers(res[3], res[8])
             );
         }
         // else
