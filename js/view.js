@@ -107,7 +107,7 @@ function runView(){
         var player = $('#player').val();
         var char1 = $('#char1').val();
         var char2 = $('#char2').val();
-        setUrlParams(manager.game, player, char1, char2);
+        setUrlParams(manager.currentGame, player, char1, char2);
 
         var videos = manager.getVideos(player, char1, char2);
         var out = $('#videos').DataTable()
