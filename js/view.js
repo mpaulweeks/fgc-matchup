@@ -57,6 +57,7 @@ function runView(){
     }
 
     function readUrlParams(manager){
+        TOOL.log('reading url params');
         var game = TOOL.readUrlParam("game");
         if (checkValue('game', game)){
             $('#game').val(game).prop('selected', true);

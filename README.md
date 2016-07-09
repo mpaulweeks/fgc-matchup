@@ -6,7 +6,7 @@ http://video.fightinggame.community/
 
 ## Resources
 
--[DataTables](https://datatables.net/reference/api/)
+- [DataTables](https://datatables.net/reference/api/)
 
 ## License
 

@@ -44,10 +44,6 @@ function Manager(){
         return Object.keys(byGame);
     }
 
-    self.hasGame = function(game){
-        return game in byGame;
-    }
-
     function getVideosByCharacter(game, char){
         var byChar = byGame[game].byChar;
         if (!(char in byChar)){
