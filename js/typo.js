@@ -93,6 +93,7 @@ var TYPO = (function(){
         ],
         'R. Mika': [
             'R.Mika',
+            'Mika',
         ],
         'T. Hawk': [
             'T.Hawk',
