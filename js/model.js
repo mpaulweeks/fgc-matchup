@@ -1,16 +1,23 @@
 
+function Player(name){
+    var self = {};
+    self.name = name;
+    self.id = TOOL.fixValue(TYPO.fixPlayerName(name));
+    return self;
+}
+
 function Video(
     timestamp,
     id,
     title,
     game,
     characterTuples,
-    players)
+    playerNames)
 {
     var self = {
         game: game,
-        players: players
     }
+
 
     var date = timestamp.split('T')[0];
     var allChars = new Set();
@@ -21,6 +28,10 @@ function Video(
         });
     });
     self.characters = Array.from(allChars);
+    self.players = [];
+    playerNames.forEach(function (playerName){
+        self.players.push(Player(playerName));
+    });
 
     function characterStr(index){
         return characterTuples[index].join(', ');
@@ -47,9 +58,9 @@ function Video(
     self.toData = function(){
         return [
             TOOL.format(youtubeLink, id, date),
-            TOOL.internalLink(playerClass, self.players[0]),
+            TOOL.internalLink(playerClass, self.players[0].id, self.players[0].name),
             TOOL.internalLink(characterClass, characterStr(0)),
-            TOOL.internalLink(playerClass, self.players[1]),
+            TOOL.internalLink(playerClass, self.players[1].id, self.players[1].name),
             TOOL.internalLink(characterClass, characterStr(1)),
         ];
     }

@@ -25,10 +25,10 @@ function Manager(){
         });
         var byPlayer = gameObj.byPlayer;
         video.players.forEach(function (player){
-            if (!(player in byPlayer)){
-                byPlayer[player] = [];
+            if (!(player.id in byPlayer)){
+                byPlayer[player.id] = [];
             }
-            byPlayer[player].push(video);
+            byPlayer[player.id].push(video);
         });
     }
 

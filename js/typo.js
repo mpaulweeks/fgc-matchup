@@ -131,6 +131,14 @@ function TypoFixer(){
         return char;
     }
 
+    var playerNames = {};
+    self.recordPlayerName = function(player){
+        if (!(player in playerNames)){
+            playerNames[player] = 0;
+        }
+        playerNames[player] += 1;
+    }
+
     self.fixPlayerName = function(player){
         player = player.trim().replace(/\s+/g, ' ');
         return player;
@@ -138,3 +146,5 @@ function TypoFixer(){
 
     return self;
 }
+
+var TYPO = TypoFixer();

@@ -1,7 +1,7 @@
 
 function Fixer(){
     var self = {};
-    var typo = TypoFixer();
+    var typo = TYPO;
 
     self.fixCharacters = function(char1, char2){
         return [[typo.fixCharacterName(char1)], [typo.fixCharacterName(char2)]];
@@ -13,6 +13,7 @@ function Fixer(){
 
     return self;
 }
+var FIXER = Fixer();
 
 
 var REGEX_STR = {
@@ -23,7 +24,7 @@ var REGEX_STR = {
 
 function YogaFlameParser(){
     var self = {};
-    var fixer = Fixer();
+    var fixer = FIXER;
 
     var GAME_REGEX_STR = {
         SF5: "SF5|SFV|Beta SFV",
@@ -99,7 +100,7 @@ function YogaFlameParser(){
 
 function OlympicParser(){
     var self = {};
-    var fixer = Fixer();
+    var fixer = FIXER;
 
     var GAME_REGEX_STR = {
         SF5: "Street Fighter (?:5 */? *V|5|V)|SFV",
