@@ -136,6 +136,7 @@ var TYPO = (function(){
             playerNames[player] = 0;
         }
         playerNames[player] += 1;
+        // todo
     }
 
     self.fixPlayerName = function(player){

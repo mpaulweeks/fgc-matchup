@@ -4,17 +4,17 @@ var VideoManager = (function(){
     var self = {};
     var byGame = {};
 
-    self.currentGame = null;
+    self.currentGameId = null;
 
     self.manageVideo = function(video){
-        if (!(video.game in byGame)){
-            byGame[video.game] = {
+        if (!(video.game.id in byGame)){
+            byGame[video.game.id] = {
                 videos: [],
                 byChar: {},
                 byPlayer: {}
             };
         }
-        var gameObj = byGame[video.game];
+        var gameObj = byGame[video.game.id];
         gameObj.videos.push(video);
         var byChar = gameObj.byChar;
         video.characters.forEach(function (char){
@@ -32,9 +32,13 @@ var VideoManager = (function(){
         });
     }
 
+    function currentGame(){
+        return byGame[self.currentGameId];
+    }
+
     self.getCharacters = function(){
         var charItems = [];
-        for (var charId in byGame[self.currentGame].byChar){
+        for (var charId in currentGame().byChar){
             charItems.push(CharacterManager.get(charId));
         }
         return TOOL.sortById(charItems);
@@ -42,7 +46,7 @@ var VideoManager = (function(){
 
     self.getPlayers = function(){
         var playerItems = [];
-        for (var playerId in byGame[self.currentGame].byPlayer){
+        for (var playerId in currentGame().byPlayer){
             playerItems.push(PlayerManager.get(playerId));
         }
         return TOOL.sortById(playerItems);
@@ -87,8 +91,8 @@ var VideoManager = (function(){
     }
 
     self.getVideos = function(player, char1, char2){
-        var ap = getVideosByPlayer(self.currentGame, player);
-        var ac = getVideosByMatchup(self.currentGame, char1, char2);
+        var ap = getVideosByPlayer(self.currentGameId, player);
+        var ac = getVideosByMatchup(self.currentGameId, char1, char2);
         return ap.filter(function(n) {
             return ac.indexOf(n) != -1;
         });

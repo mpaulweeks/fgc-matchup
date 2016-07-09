@@ -40,8 +40,8 @@ function runView(){
         return $(selector).length > 0;
     }
 
-    function setUrlParams(game, player, char1, char2){
-        var params = "?game=" + game;
+    function setUrlParams(gameId, player, char1, char2){
+        var params = "?game=" + gameId;
         if (player){
             params += "&player=" + player;
         }
@@ -80,7 +80,7 @@ function runView(){
     }
 
     function updateDropdowns(){
-        VideoManager.currentGame = $('#game').val();
+        VideoManager.currentGameId = $('#game').val();
         var base_select = '<option value="">-</option>';
         var html_char1 = base_select;
         var html_char2 = base_select;
@@ -98,14 +98,14 @@ function runView(){
     }
 
     function printResults(){
-        if (VideoManager.currentGame != $('#game').val()){
+        if (VideoManager.currentGameId != $('#game').val()){
             updateDropdowns();
         }
 
         var player = $('#player').val();
         var char1 = $('#char1').val();
         var char2 = $('#char2').val();
-        setUrlParams(VideoManager.currentGame, player, char1, char2);
+        setUrlParams(VideoManager.currentGameId, player, char1, char2);
 
         var videos = VideoManager.getVideos(player, char1, char2);
         var out = $('#videos').DataTable()

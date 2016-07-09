@@ -1,5 +1,7 @@
 # todo.txt
 
+when in doubt: `git grep todo`
+
 ## (re)design
 - find a way to algorithmically fix typos/collapse similar players/chars
 - support games with multiple chars

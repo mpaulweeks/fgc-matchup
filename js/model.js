@@ -37,12 +37,16 @@ var PlayerManager = (function(){
         return item;
     }
 
-    self.get = function(playerName){
+    self.get = function(playerId){
+        return lookup[playerId];
+    }
+
+    self.new = function(playerName){
         var playerItem = PlayerItem(playerName);
         if (!(playerItem.id in lookup)){
             lookup[playerItem.id] = playerItem;
         }
-        return lookup[playerItem.id];
+        return self.get(playerItem.id);
     }
 
     return self;
@@ -59,12 +63,16 @@ var CharacterManager = (function(){
         return item;
     }
 
-    self.get = function(charName){
+    self.get = function(charId){
+        return lookup[charId];
+    }
+
+    self.new = function(charName){
         var charItem = CharacterItem(charName);
         if (!(charItem.id in lookup)){
             lookup[charItem.id] = charItem;
         }
-        return lookup[charItem.id];
+        return self.get(charItem.id);
     }
 
     return self;
@@ -74,14 +82,13 @@ function VideoItem(
     timestamp,
     id,
     title,
-    game,
+    gameId,
     characterTuples,
     playerNames)
 {
-    var self = {
-        game: game,
-    }
+    var self = {};
 
+    self.game = GameManager.get(gameId);
     var date = timestamp.split('T')[0];
     var allChars = new Set();
     var characterSets = [new Set(characterTuples[0]), new Set(characterTuples[1])];
@@ -92,11 +99,11 @@ function VideoItem(
     });
     self.characters = [];
     allChars.forEach(function (charName){
-        self.characters.push(CharacterManager.get(charName));
+        self.characters.push(CharacterManager.new(charName));
     });
     self.players = [];
     playerNames.forEach(function (playerName){
-        self.players.push(PlayerManager.get(playerName));
+        self.players.push(PlayerManager.new(playerName));
     });
 
     function characterStr(index){
@@ -106,15 +113,6 @@ function VideoItem(
     self.isMirror = function(char){
         // check if both player's rosters contain char
         return characterSets[0].has(char) && characterSets[1].has(char);
-    }
-
-    self.iFrame = function(){
-        var html = (
-            '<iframe id="ytplayer" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/'
-            + self.id
-            + '?autoplay=1"  frameborder="0"></iframe>'
-        );
-        return html;
     }
 
     var youtubeLink = '<a class="external" target="_blank" href="https://youtu.be/{1}">{2}</a>';
