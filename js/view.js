@@ -63,7 +63,8 @@ function runView(){
             var player = TOOL.readUrlParam("player");
             var chars = TOOL.readUrlParam("char", true);
 
-            printResults(manager, true);
+            updateDropdowns(manager, game);
+
             if (checkValue('player', player)){
                 $('#player').val(player).prop('selected', true);
             }
@@ -80,40 +81,42 @@ function runView(){
         printResults(manager);
     }
 
-    function printResults(manager, dontSetUrlParams){
-        var game = $('#game').val();
+    function updateDropdowns(manager){
+        manager.currentGame = $('#game').val();
+        var base_select = '<option value="">-</option>';
+        var html_char1 = base_select;
+        var html_char2 = base_select;
+        var html_player = base_select;
+        manager.getCharacters().forEach(function (char){
+            html_char1 += TOOL.option(char);
+            html_char2 += TOOL.option(char);
+        });
+        manager.getPlayers().forEach(function (player){
+            html_player += TOOL.option(player);
+        });
+        $('#char1').html(html_char1);
+        $('#char2').html(html_char2);
+        $('#player').html(html_player);
+    }
 
-        if (manager.currentGame != game){
-            manager.currentGame = game;
-            var base_select = '<option value="">-</option>';
-            var html_char1 = base_select;
-            var html_char2 = base_select;
-            var html_player = base_select;
-            manager.getCharacters(game).forEach(function (char){
-                html_char1 += TOOL.option(char);
-                html_char2 += TOOL.option(char);
-            });
-            manager.getPlayers(game).forEach(function (player){
-                html_player += TOOL.option(player);
-            });
-            $('#char1').html(html_char1);
-            $('#char2').html(html_char2);
-            $('#player').html(html_player);
+    function printResults(manager){
+        if (manager.currentGame != $('#game').val()){
+            updateDropdowns(manager);
         }
 
         var player = $('#player').val();
         var char1 = $('#char1').val();
         var char2 = $('#char2').val();
-        if (!dontSetUrlParams){
-            setUrlParams(game, player, char1, char2);
-        }
+        setUrlParams(manager.game, player, char1, char2);
 
-        var videos = manager.getVideos(game, player, char1, char2);
+        var videos = manager.getVideos(player, char1, char2);
         var out = $('#videos').DataTable()
         out.clear();
+        var videoData = [];
         videos.forEach(function (video){
-            out.row.add(video.toData());
+            videoData.push(video.toData());
         });
+        out.rows.add(videoData);
         out.draw();
         $('.link-player').click(function (){
             var playerValue = $(this).data("value");
