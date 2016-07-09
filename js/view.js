@@ -1,6 +1,4 @@
 
-
-
 function runView(){
 
     function createTable(){
@@ -57,7 +55,6 @@ function runView(){
     }
 
     function readUrlParams(){
-        TOOL.log('reading url params');
         var game = TOOL.readUrlParam("game");
         if (checkValue('game', game)){
             $('#game').val(game).prop('selected', true);
@@ -145,7 +142,7 @@ function runView(){
             VideoManager.manageVideo(video);
         });
 
-        // setup display
+        // setup game dropdown
         var html_game = "";
         VideoManager.getGames().forEach(function (gameItem){
             html_game += TOOL.option(gameItem);
@@ -162,7 +159,10 @@ function runView(){
             $('#' + select_id).val('').prop('selected', true);
             $('#' + select_id).trigger('change');
         });
+        $(window).bind("popstate", readUrlParams);  //Back button
+        $(window).bind("pushstate", readUrlParams); //Forward button, OR window.history.pushState()
 
+        // start
         readUrlParams();
     }
 
@@ -171,8 +171,7 @@ function runView(){
             $(".container").append('<div class="col-md-12" id="log"><hr/></div>');
         }
         $('#enableJs').hide();
-        var store = Store();
-        store.load(onLoad);
+        Store.load(onLoad);
     }
 
     setup();

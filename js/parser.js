@@ -1,5 +1,5 @@
 
-function Fixer(){
+var FIXER = (function(){
     var self = {};
     var typo = TYPO;
 
@@ -12,8 +12,7 @@ function Fixer(){
     }
 
     return self;
-}
-var FIXER = Fixer();
+})();
 
 
 var REGEX_STR = {
@@ -22,7 +21,7 @@ var REGEX_STR = {
     VERSUS: "(?:Vs|vs)\\.? ",
 }
 
-function YogaFlameParser(){
+var YogaFlameParser = (function(){
     var self = {};
     var fixer = FIXER;
 
@@ -96,9 +95,9 @@ function YogaFlameParser(){
     };
 
     return self;
-}
+})();
 
-function OlympicParser(){
+var OlympicParser = (function(){
     var self = {};
     var fixer = FIXER;
 
@@ -198,7 +197,7 @@ function OlympicParser(){
     };
 
     return self;
-}
+})();
 
 function parseJSON(data, parser){
     var res = [];

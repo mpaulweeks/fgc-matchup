@@ -1,5 +1,5 @@
 
-function Store() {
+var Store = (function() {
 
     var self = {};
 
@@ -19,13 +19,13 @@ function Store() {
         var olympic_file = fix_file(OLYMPIC_FILE);
         var parsedVideos = [];
         $.getJSON(yogaflame_file, function(data){
-            parsedVideos = parsedVideos.concat(parseJSON(data, YogaFlameParser().parse));
+            parsedVideos = parsedVideos.concat(parseJSON(data, YogaFlameParser.parse));
             $.getJSON(olympic_file, function (data){
-                parsedVideos = parsedVideos.concat(parseJSON(data, OlympicParser().parse));
+                parsedVideos = parsedVideos.concat(parseJSON(data, OlympicParser.parse));
                 callback(parsedVideos);
             });
         });
     };
 
     return self;
-}
+})();
