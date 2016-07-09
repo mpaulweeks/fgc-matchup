@@ -1,14 +1,13 @@
 
 var FIXER = (function(){
     var self = {};
-    var typo = TYPO;
 
     self.fixCharacters = function(char1, char2){
-        return [[typo.fixCharacterName(char1)], [typo.fixCharacterName(char2)]];
+        return [[char1], [char2]];
     }
 
     self.fixPlayers = function(player1, player2){
-        return [typo.fixPlayerName(player1), typo.fixPlayerName(player2)];
+        return [player1, player2];
     }
 
     return self;

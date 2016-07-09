@@ -90,25 +90,26 @@ function VideoItem(
 
     self.game = GameManager.get(gameId);
     var date = timestamp.split('T')[0];
-    var allChars = new Set();
-    var characterSets = [new Set(characterTuples[0]), new Set(characterTuples[1])];
-    characterSets.forEach(function (charSet){
-        charSet.forEach(function (char){
-            allChars.add(char);
+    var allChars = {};
+    var playerCharacters = [[],[]];
+    for (var i = 0; i < 2; i++){
+        var charTuple = characterTuples[i];
+        charTuple.forEach(function (char){
+            var charItem = CharacterManager.new(char);
+            allChars[charItem.id] = charItem;
+            playerCharacters[i].push(charItem);
         });
-    });
+    }
     self.characters = [];
-    allChars.forEach(function (charName){
-        self.characters.push(CharacterManager.new(charName));
-    });
+    for (var charId in allChars){
+        if (allChars.hasOwnProperty(charId)) {
+            self.characters.push(allChars[charId]);
+        }
+    }
     self.players = [];
     playerNames.forEach(function (playerName){
         self.players.push(PlayerManager.new(playerName));
     });
-
-    function characterStr(index){
-        return characterTuples[index].join(', ');
-    }
 
     self.isMirror = function(char){
         // check if both player's rosters contain char
@@ -119,13 +120,21 @@ function VideoItem(
     var playerClass = 'link-player';
     var characterClass = 'link-character';
 
+    function characterLinks(index){
+        var playerCharLinks = []
+        playerCharacters[index].forEach(function (charItem){
+            playerCharLinks.push(TOOL.internalLink(characterClass, charItem));
+        });
+        return playerCharLinks.join(', ');
+    }
+
     self.toData = function(){
         return [
             TOOL.format(youtubeLink, id, date),
-            TOOL.internalLink(playerClass, self.players[0].id, self.players[0].name),
-            TOOL.internalLink(characterClass, characterStr(0)), // todo
-            TOOL.internalLink(playerClass, self.players[1].id, self.players[1].name),
-            TOOL.internalLink(characterClass, characterStr(1)),
+            TOOL.internalLink(playerClass, self.players[0]),
+            characterLinks(0),
+            TOOL.internalLink(playerClass, self.players[1]),
+            characterLinks(1),
         ];
     }
 

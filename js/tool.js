@@ -71,9 +71,8 @@ var TOOL = (function(){
     };
 
     var internalLinkHTML = '<a class="internal {1}" href="javascript:void(0)" data-value="{2}">{3}</a>';
-    self.internalLink = function(cssClass, value, name){
-        name = name || value;
-        return self.format(internalLinkHTML, cssClass, self.fixValue(value), name);
+    self.internalLink = function(cssClass, item){
+        return self.format(internalLinkHTML, cssClass, item.id, item.name);
     };
 
     return self;
