@@ -56,7 +56,7 @@ function runView(){
         window.history.pushState({}, "", params);
     }
 
-    function readUrlParams(manager){
+    function readUrlParams(){
         TOOL.log('reading url params');
         var game = TOOL.readUrlParam("game");
         if (checkValue('game', game)){
@@ -64,7 +64,7 @@ function runView(){
             var player = TOOL.readUrlParam("player");
             var chars = TOOL.readUrlParam("char", true);
 
-            updateDropdowns(manager, game);
+            updateDropdowns(game);
 
             if (checkValue('player', player)){
                 $('#player').val(player).prop('selected', true);
@@ -79,20 +79,20 @@ function runView(){
                 });
             }
         }
-        printResults(manager);
+        printResults();
     }
 
-    function updateDropdowns(manager){
-        manager.currentGame = $('#game').val();
+    function updateDropdowns(){
+        VideoManager.currentGame = $('#game').val();
         var base_select = '<option value="">-</option>';
         var html_char1 = base_select;
         var html_char2 = base_select;
         var html_player = base_select;
-        manager.getCharacters().forEach(function (char){
+        VideoManager.getCharacters().forEach(function (char){
             html_char1 += TOOL.option(char);
             html_char2 += TOOL.option(char);
         });
-        manager.getPlayers().forEach(function (player){
+        VideoManager.getPlayers().forEach(function (player){
             html_player += TOOL.option(player);
         });
         $('#char1').html(html_char1);
@@ -100,17 +100,17 @@ function runView(){
         $('#player').html(html_player);
     }
 
-    function printResults(manager){
-        if (manager.currentGame != $('#game').val()){
-            updateDropdowns(manager);
+    function printResults(){
+        if (VideoManager.currentGame != $('#game').val()){
+            updateDropdowns();
         }
 
         var player = $('#player').val();
         var char1 = $('#char1').val();
         var char2 = $('#char2').val();
-        setUrlParams(manager.currentGame, player, char1, char2);
+        setUrlParams(VideoManager.currentGame, player, char1, char2);
 
-        var videos = manager.getVideos(player, char1, char2);
+        var videos = VideoManager.getVideos(player, char1, char2);
         var out = $('#videos').DataTable()
         out.clear();
         var videoData = [];
@@ -141,22 +141,21 @@ function runView(){
     function onLoad(parsedVideos){
         $('#loading').hide();
         createTable();
-        var manager = Manager();
         parsedVideos.forEach(function (video){
-            manager.manageVideo(video);
+            VideoManager.manageVideo(video);
         });
 
         // setup display
         var html_game = "";
-        manager.getGames().forEach(function (game){
-            html_game += TOOL.option(game, CONSTANTS.GAMES[game]);
+        VideoManager.getGames().forEach(function (gameItem){
+            html_game += TOOL.option(gameItem);
         });
         $('#game').html(html_game);
         $('#game').val('SF5').prop('selected', true);
 
         // setup triggers
         $('.filter').change(function (){
-            printResults(manager);
+            printResults();
         });
         $('.reset').click(function (){
             var select_id = $(this).data('id');
@@ -164,7 +163,7 @@ function runView(){
             $('#' + select_id).trigger('change');
         });
 
-        readUrlParams(manager);
+        readUrlParams();
     }
 
     function setup(){

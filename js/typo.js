@@ -1,6 +1,5 @@
 
-function TypoFixer(){
-
+var TYPO = (function(){
     var self = {};
 
     var CHAR_NAME_MAP = {
@@ -145,6 +144,4 @@ function TypoFixer(){
     }
 
     return self;
-}
-
-var TYPO = TypoFixer();
+})();

@@ -1,6 +1,5 @@
 
-function Tool(){
-
+var TOOL = (function(){
     var self = {};
 
     self.is_local = window.location.href.indexOf('file:///') > -1;
@@ -20,6 +19,12 @@ function Tool(){
 
     self.sort = function(arr) {
         return arr.concat().sort();
+    };
+
+    self.sortById = function(arr) {
+        return arr.concat().sort(function (item1, item2){
+            return item1.id > item2.id;
+        });
     };
 
 
@@ -61,9 +66,8 @@ function Tool(){
     };
 
     var optionHTML = '<option value="{1}">{2}</option>';
-    self.option = function(value, name){
-        name = name || value;
-        return self.format(optionHTML, self.fixValue(value), name);
+    self.option = function(item){
+        return self.format(optionHTML, item.id, item.name);
     };
 
     var internalLinkHTML = '<a class="internal {1}" href="javascript:void(0)" data-value="{2}">{3}</a>';
@@ -73,6 +77,4 @@ function Tool(){
     };
 
     return self;
-}
-
-var TOOL = Tool();
+})();

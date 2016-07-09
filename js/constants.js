@@ -1,6 +1,6 @@
 
 var CONSTANTS = {};
-CONSTANTS.GAMES = {
+CONSTANTS.GAME_NAMES = {
     SF5: 'Street Fighter V',
     USF4: 'Ultra Street Fighter 4',
     SSF4AE2012: 'Super Street Fighter 4 AE 2012',
@@ -16,9 +16,3 @@ CONSTANTS.GAMES = {
     KI: "Killer Instinct",
     Smash4: "Super Smash Bros Wii U",
 };
-CONSTANTS.getGame = function(game){
-    if (game in CONSTANTS.GAMES){
-        return CONSTANTS.GAMES[game];
-    }
-    return "(unknown)";
-}

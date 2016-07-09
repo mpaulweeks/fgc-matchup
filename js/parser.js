@@ -85,7 +85,7 @@ function YogaFlameParser(){
             TOOL.visuLog(title);
             return null;
         }
-        return Video(
+        return VideoItem(
             timestamp,
             id,
             title,
@@ -172,7 +172,7 @@ function OlympicParser(){
 
         var res = REGEX_1.exec(title);
         if (res){
-            return Video(
+            return VideoItem(
                 timestamp,
                 id,
                 title,
@@ -183,7 +183,7 @@ function OlympicParser(){
         }
         res = REGEX_2.exec(title);
         if (res){
-            return Video(
+            return VideoItem(
                 timestamp,
                 id,
                 title,
