@@ -21,3 +21,14 @@ when in doubt: `git grep todo`
 - overhaul readme, describe how to contrib
 - organize classes, figure out dependency graph
 - refactor parsers and FIXER
+
+## player converge
+- delay indexing ValueManager until all videos loaded
+- once all videos loaded (and all players indexed) fix all players
+- create map of reduced -> originals
+- prbalrog: {
+    PR Balrog: 2,
+    pr balrog: 1,
+    prbalrog: 1
+}
+- determine true name off of high count of pre-formatted
