@@ -9,8 +9,7 @@ import scalaj.http._
 
 case class VideoItem(timestamp: String, id: String, title: String) {
     val json:String = (
-        s"['$timestamp','$id','$title']"
-        .replaceAll("\"", "~")
+        s"['$timestamp','$id','${title.replaceAll("'", "~").replaceAll("\"", "~")}']"
         .replaceAll("'", "\"")
         .replaceAll("~", "'")
     )
@@ -56,7 +55,7 @@ class VideoLibrary(fileName: String) {
         val file = new File(DATA_FILE_PATH)
         val bw = new BufferedWriter(new FileWriter(file))
         var first = true
-        val sortedVideos = videoList.sortBy(_.timestamp).reverse
+        val sortedVideos = videoList.sortBy(r => (r.timestamp, r.id)).reverse
         sortedVideos.foreach( videoItem => {
             var jsonLine = videoItem.json
             if (first){
