@@ -21,7 +21,7 @@ case class ChannelInfo(fileName: String, playlistId: String)
 class VideoLibrary(fileName: String) {
     private val DATA_FILE_PATH = s"data/$fileName.json"
     private val videoList: mutable.ListBuffer[VideoItem] = mutable.ListBuffer.empty[VideoItem]
-    private val videoIds: mutable.Set[String] = mutable.Set
+    private val videoIds: mutable.Set[String] = mutable.Set()
 
     private def loadFile(): Unit = {
         if (!(new File(DATA_FILE_PATH).exists)){
@@ -134,8 +134,8 @@ object Demo {
 
     def run() {
         val apiKey = Source.fromFile("keys/youtube").getLines.next
-        new VideoFetcher(apiKey, ChannelYogaFlame).fetchVideos
-        new VideoFetcher(apiKey, ChannelOlympicGaming).fetchVideos
+        new VideoFetcher(apiKey, ChannelYogaFlame).fetchVideos()
+        new VideoFetcher(apiKey, ChannelOlympicGaming).fetchVideos()
     }
 
     def main(args: Array[String]) {
