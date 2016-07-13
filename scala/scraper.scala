@@ -8,10 +8,11 @@ import scala.util.parsing.json.JSON
 import scalaj.http._
 
 case class VideoItem(timestamp: String, id: String, title: String) {
-
-    // todo mix str interpolation + replace for " bug
     val json:String = (
-        "[\"" + timestamp + "\",\"" + id + "\",\"" + title.replaceAll("\"", "'") + "\"]"
+        s"['$timestamp','$id','$title']"
+        .replaceAll("\"", "~")
+        .replaceAll("'", "\"")
+        .replaceAll("~", "'")
     )
 }
 
