@@ -1,7 +1,7 @@
 
 import java.io._
 
-import scala.io.Source._
+import scala.io.Source
 import scala.collection.mutable
 import scala.util.parsing.json.JSON
 
@@ -9,23 +9,24 @@ import scalaj.http._
 
 case class VideoItem(timestamp: String, id: String, title: String) {
 
-    def toJSON():String = {
-        return "[\"" + timestamp + "\",\"" + id + "\",\"" + title.replaceAll("\"", "'") + "\"]"
-    }
+    // todo mix str interpolation + replace for " bug
+    val json:String = (
+        "[\"" + timestamp + "\",\"" + id + "\",\"" + title.replaceAll("\"", "'") + "\"]"
+    )
 }
 
 case class ChannelInfo(fileName: String, playlistId: String)
 
 class VideoLibrary(fileName: String) {
     private val DATA_FILE_PATH = s"data/$fileName.json"
-    private val videoList: mutable.ListBuffer[VideoItem] = mutable.ListBuffer.empty[VideoItem];
-    private val videoIds: mutable.Set[String] = mutable.Set();
+    private val videoList: mutable.ListBuffer[VideoItem] = mutable.ListBuffer.empty[VideoItem]
+    private val videoIds: mutable.Set[String] = mutable.Set
 
     private def loadFile(): Unit = {
-        if (!(new File(DATA_FILE_PATH).exists())){
+        if (!(new File(DATA_FILE_PATH).exists)){
             return
         }
-        val jsonString = fromFile(DATA_FILE_PATH).getLines.mkString
+        val jsonString = Source.fromFile(DATA_FILE_PATH).getLines.mkString
         val jsonMap:List[Any] = JSON.parseFull(jsonString).get.asInstanceOf[List[Any]]
         jsonMap.foreach( item => {
             val videoTuple:List[String] = item.asInstanceOf[List[String]]
@@ -33,20 +34,20 @@ class VideoLibrary(fileName: String) {
             add(videoItem)
         })
     }
-    loadFile()
+    loadFile
 
     def add(video: VideoItem): Boolean = {
         // for debugging
         // if (videoIds.size > 9) {
-        //     return false;
+        //     return false
         // }
 
         if (!(videoIds contains video.id)){
-            videoList += video;
-            videoIds add video.id;
-            return true;
+            videoList += video
+            videoIds.add(video.id)
+            return true
         } else {
-            return false;
+            return false
         }
     }
 
@@ -54,9 +55,9 @@ class VideoLibrary(fileName: String) {
         val file = new File(DATA_FILE_PATH)
         val bw = new BufferedWriter(new FileWriter(file))
         var first = true
-        val sortedVideos = videoList.sortWith(_.timestamp > _.timestamp)
+        val sortedVideos = videoList.sortBy(_.timestamp).reverse
         sortedVideos.foreach( videoItem => {
-            var jsonLine = videoItem.toJSON()
+            var jsonLine = videoItem.json
             if (first){
                 first = false
                 jsonLine = "[\n" + jsonLine
@@ -66,7 +67,7 @@ class VideoLibrary(fileName: String) {
             bw.write(jsonLine)
         })
         bw.write("\n]")
-        bw.close()
+        bw.close
     }
 }
 
@@ -92,8 +93,7 @@ case class VideoFetcher(apiKey: String, channelInfo: ChannelInfo) {
         processVideos(response.body)
     }
 
-    private def processVideos(content: String): Unit = {
-        val jsonString = content
+    private def processVideos(jsonString: String): Unit = {
         val jsonMap:Option[Any] = JSON.parseFull(jsonString)
         val resObj:Map[String,Any] = jsonMap.get.asInstanceOf[Map[String, Any]]
         var nextPageToken = ""
@@ -122,7 +122,7 @@ case class VideoFetcher(apiKey: String, channelInfo: ChannelInfo) {
             fetchVideos(nextPageToken)
             return
         }
-        library.toFile()
+        library.toFile
     }
 }
 
@@ -132,12 +132,12 @@ object Demo {
     val ChannelOlympicGaming = new ChannelInfo("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
 
     def run() {
-        val apiKey = fromFile("keys/youtube").getLines().next()
-        new VideoFetcher(apiKey, ChannelYogaFlame).fetchVideos();
-        new VideoFetcher(apiKey, ChannelOlympicGaming).fetchVideos();
+        val apiKey = Source.fromFile("keys/youtube").getLines.next
+        new VideoFetcher(apiKey, ChannelYogaFlame).fetchVideos
+        new VideoFetcher(apiKey, ChannelOlympicGaming).fetchVideos
     }
 
     def main(args: Array[String]) {
-        run()
+        run
     }
 }
