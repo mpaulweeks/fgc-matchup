@@ -3,7 +3,6 @@ import java.io._
 
 import scala.io.Source
 import scala.collection.breakOut
-import scala.collection.mutable
 import scala.util.parsing.json.JSON
 
 import scalaj.http._
@@ -122,7 +121,6 @@ case class VideoFetcher(apiKey: String) {
 }
 
 object Scraper {
-
     val ChannelYogaFlame = new YouTubeChannel("YogaFlame24", "UU1UzB_b7NSxoRjhZZDicuqw")
     val ChannelOlympicGaming = new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
 
