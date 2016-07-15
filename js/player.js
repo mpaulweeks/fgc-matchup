@@ -6,8 +6,8 @@ var PlayerManager = (function(){
 
     self.getDisplayName = function(playerName){
         var reg = registry[playerKey(playerName)];
-        while (reg.levensteinMatch){
-            reg = registry[reg.levensteinMatch];
+        while (reg.levensteinKey && reg.count < registry[reg.levensteinKey].count){
+            reg = registry[reg.levensteinKey];
         }
         return reg.displayName;
     }
@@ -40,7 +40,8 @@ var PlayerManager = (function(){
         if (!(key in registry)){
             registry[key] = {
                 displayName: null,
-                levensteinMatch: null,
+                levensteinKey: null,
+                levensteinDistance: null,
                 count: 0,
                 matches: {},
             }
@@ -57,24 +58,25 @@ var PlayerManager = (function(){
         var regKeys = Object.keys(registry);
 
         var levenReq = 1;
-        regKeys.forEach(function (key1){
+        regKeys.forEach(function (key1, index1){
             var reg1 = registry[key1];
-            var levenKey = null;
-            var levenMin = 100;
-            regKeys.forEach(function (key2){
-                if (key1 != key2){
+            var levenKey = reg1.levensteinKey;
+            var levenMin = reg1.levensteinDistance;
+            regKeys.forEach(function (key2, index2){
+                if (index1 < index2){
                     var distance = key1.levenstein(key2);
-                    if (distance <= levenReq && distance < levenMin){
+                    if (distance <= levenReq && (levenMin == null || distance < levenMin)){
                         levenKey = key2;
                         levenMin = distance;
                     }
                 }
             });
-            if (levenKey){
-                if (registry[levenKey].count > reg1.count){
-                    reg1.levensteinKey = levenKey;
-                    console.log(levenKey, key1);
-                }
+            if (levenKey != reg1.levensteinKey){
+                reg1.levensteinKey = levenKey;
+                reg1.levensteinDistance = levenMin;
+                registry[levenKey].levensteinKey = key1;
+                registry[levenKey].levensteinDistance = levenMin;
+                console.log(levenKey, key1);
             }
         });
     }
