@@ -6,6 +6,9 @@ import scala.collection.breakOut
 import scala.util.parsing.json.JSON
 
 import scalaj.http._
+import org.json4s._
+import org.json4s.JsonDSL._
+import org.json4s.native.JsonMethods._
 
 case class VideoItem(timestamp: String, id: String, title: String) {
     val json:String = (
@@ -137,10 +140,10 @@ object Scraper {
         channels.foreach { channel =>
             newVideos |= fetcher.fetchVideos(channel)
         }
-        println(newVideos)
+        newVideos
     }
 
     def main(args: Array[String]) {
-        run
+        println(run)
     }
 }
