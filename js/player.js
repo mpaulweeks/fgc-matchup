@@ -2,9 +2,10 @@
 var PlayerManager = (function(){
     var self = {};
     var lookup = {};
-    var registry = null;
+    var regByGame = {};
 
-    self.getDisplayName = function(playerName){
+    self.getDisplayName = function(gameId, playerName){
+        var registry = regByGame[gameId];
         var reg = registry[playerKey(playerName)];
         while (reg.levensteinKey && reg.count < registry[reg.levensteinKey].count){
             reg = registry[reg.levensteinKey];
@@ -12,9 +13,9 @@ var PlayerManager = (function(){
         return reg.displayName;
     }
 
-    function PlayerItem(name){
+    function PlayerItem(gameId, name){
         var item = {};
-        item.name = self.getDisplayName(name);
+        item.name = self.getDisplayName(gameId, name);
         item.id = TOOL.fixValue(item.name);
         return item;
     }
@@ -23,8 +24,8 @@ var PlayerManager = (function(){
         return lookup[playerId];
     }
 
-    self.new = function(playerName){
-        var playerItem = PlayerItem(playerName);
+    self.new = function(gameId, playerName){
+        var playerItem = PlayerItem(gameId, playerName);
         if (!(playerItem.id in lookup)){
             lookup[playerItem.id] = playerItem;
         }
@@ -35,7 +36,7 @@ var PlayerManager = (function(){
         return playerName.toLowerCase().trim().replace(/\s+/g, '');
     }
 
-    function register(playerName){
+    function register(registry, playerName){
         var key = playerKey(playerName);
         if (!(key in registry)){
             registry[key] = {
@@ -54,7 +55,7 @@ var PlayerManager = (function(){
         matches[playerName] += 1;
     }
 
-    function calculateLevenstein(){
+    function calculateLevenstein(registry){
         var regKeys = Object.keys(registry);
 
         var levenReq = 1;
@@ -81,10 +82,10 @@ var PlayerManager = (function(){
         });
     }
 
-    self.organize = function(playerNames){
-        registry = {};
+    self.organize = function(gameId, playerNames){
+        var registry = {};
         playerNames.forEach(function (playerName){
-            register(playerName);
+            register(registry, playerName);
         });
 
         var regKeys = Object.keys(registry);
@@ -106,7 +107,9 @@ var PlayerManager = (function(){
         });
 
         // disabled for now, takes too long :(
-        // calculateLevenstein();
+        // calculateLevenstein(registry);
+
+        regByGame[gameId] = registry;
     }
 
     return self;

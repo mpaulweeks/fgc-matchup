@@ -31,7 +31,7 @@ function VideoItem(
     self.players = function(){
         var playerItems = [];
         playerNames.forEach(function (playerName){
-            playerItems.push(PlayerManager.new(playerName));
+            playerItems.push(PlayerManager.new(self.game.id, playerName));
         });
         return playerItems;
     };
@@ -76,11 +76,18 @@ var VideoManager = (function(){
     self.currentGameId = null;
 
     self.organize = function(allVideos){
-        var allPlayers = [];
+        var playerNamesByGame = {};
         allVideos.forEach(function (video){
-            allPlayers = allPlayers.concat(video.playerNames);
+            if (!(video.game.id in playerNamesByGame)){
+                playerNamesByGame[video.game.id] = [];
+            }
+            video.playerNames.forEach(function (playerName){
+                playerNamesByGame[video.game.id].push(playerName);
+            })
         });
-        PlayerManager.organize(allPlayers);
+        Object.keys(playerNamesByGame).forEach(function (gameId){
+            PlayerManager.organize(gameId, playerNamesByGame[gameId]);
+        });
         allVideos.forEach(function (video){
             if (!(video.game.id in byGame)){
                 byGame[video.game.id] = {
