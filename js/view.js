@@ -138,9 +138,7 @@ function runView(){
     function onLoad(parsedVideos){
         $('#loading').hide();
         createTable();
-        parsedVideos.forEach(function (video){
-            VideoManager.manageVideo(video);
-        });
+        VideoManager.organize(parsedVideos);
 
         // setup game dropdown
         var html_game = "";
