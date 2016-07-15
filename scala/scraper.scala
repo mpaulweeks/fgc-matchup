@@ -54,10 +54,14 @@ case class YouTubeChannel(fileName: String, playlistId: String) {
 case class VideoFetcher(apiKey: String) {
     private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems"
 
-    def fetchVideos(channel: YouTubeChannel): Unit = {
+    def fetchVideos(channel: YouTubeChannel): Boolean = {
         val existingVideos = channel.loadFile
         val updatedVideos = updateVideos(channel, existingVideos)
-        channel.toFile(updatedVideos)
+        val newVideos = updatedVideos.size > existingVideos.size
+        if (newVideos) {
+            channel.toFile(updatedVideos)
+        }
+        newVideos
     }
 
     private def updateVideos(
@@ -121,14 +125,19 @@ case class VideoFetcher(apiKey: String) {
 }
 
 object Scraper {
-    val ChannelYogaFlame = new YouTubeChannel("YogaFlame24", "UU1UzB_b7NSxoRjhZZDicuqw")
-    val ChannelOlympicGaming = new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
+    val channels = List(
+        new YouTubeChannel("YogaFlame24", "UU1UzB_b7NSxoRjhZZDicuqw"),
+        new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
+    )
 
     def run() {
         val apiKey = Source.fromFile("keys/youtube").getLines.next
         val fetcher = new VideoFetcher(apiKey)
-        fetcher.fetchVideos(ChannelYogaFlame)
-        fetcher.fetchVideos(ChannelOlympicGaming)
+        var newVideos = false
+        channels.foreach { channel =>
+            newVideos |= fetcher.fetchVideos(channel)
+        }
+        println(newVideos)
     }
 
     def main(args: Array[String]) {
