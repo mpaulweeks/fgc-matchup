@@ -47,6 +47,16 @@ case class YouTubeChannel(fileName: String, playlistId: String) {
     }
 }
 
+object YouTubeChannel {
+    val YogaFlame = new YouTubeChannel("YogaFlame24", "UU1UzB_b7NSxoRjhZZDicuqw")
+    val OlympicGaming = new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
+
+    val Channels = List(
+        YogaFlame,
+        OlympicGaming,
+    )
+}
+
 case class VideoFetcher(apiKey: String) {
     private val BASE_URL = "https://www.googleapis.com/youtube/v3/playlistItems"
 
@@ -121,16 +131,11 @@ case class VideoFetcher(apiKey: String) {
 }
 
 object Scraper {
-    val channels = List(
-        new YouTubeChannel("YogaFlame24", "UU1UzB_b7NSxoRjhZZDicuqw"),
-        new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
-    )
-
     def run() {
         val apiKey = Source.fromFile("keys/youtube").getLines.next
         val fetcher = new VideoFetcher(apiKey)
         var newVideos = false
-        channels.foreach { channel =>
+        YouTubeChannel.Channels.foreach { channel =>
             newVideos |= fetcher.fetchVideos(channel)
         }
         newVideos
