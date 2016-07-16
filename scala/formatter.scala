@@ -22,16 +22,15 @@ case class VideoData(
 trait Parser {
     val channel: YouTubeChannel
     def parseVideo(videoItem: VideoItem): Option[VideoData]
-
     def loadVideos(): List[VideoData] = {
-        val videoItemMap = channel.loadFile
-        videoItemMap.values.flatMap(parseVideo).toList
+        channel.loadFile.values.flatMap(parseVideo).toList
     }
 
     val rPlayer = "([\\w\\.\\-\\| ]+) "
     val rCharacter = "(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) "
     val rVersus = "(?:Vs|vs)\\.? "
     val rGameMap: Map[String, String]
+
     def fixGame(rawGame: String): String = {
         var matchingKey = ""
         rGameMap.foreach { case (key, value) =>
@@ -54,7 +53,7 @@ trait Parser {
 }
 
 object YogaFlameParser extends Parser {
-    val channel = YouTubeChannel.YogaFlame // foinoern
+    val channel = YouTubeChannel.YogaFlame
 
     val rGameMap = Map(
         "SF5" -> "SF5|SFV|Beta SFV",
@@ -95,7 +94,10 @@ object YogaFlameParser extends Parser {
                     fixPlayers(matches(0), matches(2))
                 ))
             }
-            case None => None
+            case None => {
+                // failed regex, maybe log?
+                None
+            }
         }
     }
 }
@@ -121,16 +123,11 @@ object VideoManager {
     }
 
     def loadVideos(): List[VideoData] = {
-        // todo rewrite as single map expression that flattens
-        var videos = List[VideoData]()
-        parsers.foreach { parser =>
-            videos = videos ++ parser.loadVideos
-        }
-        videos
+        parsers.map(p => p.loadVideos).flatten
     }
 
     def formatVideos(rawVideos: List[VideoData]): List[VideoData] = {
-        // todo
+        // todo player/character normalization
         rawVideos
     }
 }

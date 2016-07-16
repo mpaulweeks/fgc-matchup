@@ -131,15 +131,6 @@ var TYPO = (function(){
         return char;
     }
 
-    var playerNames = {};
-    self.recordPlayerName = function(player){
-        if (!(player in playerNames)){
-            playerNames[player] = 0;
-        }
-        playerNames[player] += 1;
-        // todo
-    }
-
     self.fixPlayerName = function(player){
         player = player.trim().replace(/\s+/g, ' ');
         return player;
