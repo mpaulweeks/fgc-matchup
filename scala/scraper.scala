@@ -7,15 +7,12 @@ import scala.util.parsing.json.JSON
 
 import scalaj.http._
 import org.json4s._
-import org.json4s.JsonDSL._
-import org.json4s.native.JsonMethods._
+// import org.json4s.JsonDSL._
+// import org.json4s.native.JsonMethods._
+import org.json4s.native.Serialization
 
 case class VideoItem(timestamp: String, id: String, title: String) {
-    val json:String = (
-        s"['$timestamp','$id','${title.replaceAll("'", "~").replaceAll("\"", "~")}']"
-        .replaceAll("'", "\"")
-        .replaceAll("~", "'")
-    )
+    val tuple: List[String] = List(timestamp, id, title)
 }
 
 case class YouTubeChannel(fileName: String, playlistId: String) {
@@ -35,21 +32,16 @@ case class YouTubeChannel(fileName: String, playlistId: String) {
     }
 
     def toFile(videoMap: Map[String, VideoItem]): Unit = {
+        val sortedVideos = (
+            videoMap.values.toSeq
+            .sortBy(r => (r.timestamp, r.id)).reverse
+            .map(item => item.tuple)
+        )
+        implicit val formats = Serialization.formats(NoTypeHints)
+        val serialized = Serialization.write(sortedVideos)
         val file = new File(DATA_FILE_PATH)
         val bw = new BufferedWriter(new FileWriter(file))
-        var first = true
-        val sortedVideos = videoMap.values.toSeq.sortBy(r => (r.timestamp, r.id)).reverse
-        sortedVideos.foreach( videoItem => {
-            var jsonLine = videoItem.json
-            if (first){
-                first = false
-                jsonLine = "[\n" + jsonLine
-            } else {
-                jsonLine = ",\n" + jsonLine
-            }
-            bw.write(jsonLine)
-        })
-        bw.write("\n]")
+        bw.write(serialized)
         bw.close
     }
 }
@@ -144,6 +136,9 @@ object Scraper {
     }
 
     def main(args: Array[String]) {
-        println(run)
+        // println(run)
+        val c = new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
+        val videoMap = c.loadFile
+        c.toFile(videoMap)
     }
 }
