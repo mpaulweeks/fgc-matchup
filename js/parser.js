@@ -1,18 +1,5 @@
 
-var FIXER = (function(){
-    var self = {};
-
-    self.fixCharacters = function(char1, char2){
-        return [[char1], [char2]];
-    }
-
-    self.fixPlayers = function(player1, player2){
-        return [player1, player2];
-    }
-
-    return self;
-})();
-
+// todo delete this file
 
 var REGEX_STR = {
     PLAYER: "([\\w\\.\\-\| ]+) ",
@@ -197,14 +184,3 @@ var OlympicParser = (function(){
 
     return self;
 })();
-
-function parseJSON(data, parser){
-    var res = [];
-    data.forEach(function (dataTuple){
-        var video = parser(dataTuple);
-        if (video){
-            res.push(video);
-        }
-    });
-    return res;
-}
