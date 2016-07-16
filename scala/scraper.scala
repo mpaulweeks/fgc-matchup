@@ -31,18 +31,19 @@ case class YouTubeChannel(fileName: String, playlistId: String) {
         }(breakOut)
     }
 
-    def toFile(videoMap: Map[String, VideoItem]): Unit = {
+    def toFile(videoMap: Map[String, VideoItem]): String = {
         val sortedVideos = (
             videoMap.values.toSeq
             .sortBy(r => (r.timestamp, r.id)).reverse
             .map(item => item.tuple)
         )
         implicit val formats = Serialization.formats(NoTypeHints)
-        val serialized = Serialization.write(sortedVideos)
+        val serialized = Serialization.writePretty(sortedVideos)
         val file = new File(DATA_FILE_PATH)
         val bw = new BufferedWriter(new FileWriter(file))
         bw.write(serialized)
         bw.close
+        serialized
     }
 }
 
@@ -53,7 +54,7 @@ case class VideoFetcher(apiKey: String) {
         val existingVideos = channel.loadFile
         val updatedVideos = updateVideos(channel, existingVideos)
         val newVideos = updatedVideos.size > existingVideos.size
-        if (newVideos) {
+        if (true) {
             channel.toFile(updatedVideos)
         }
         newVideos
@@ -136,9 +137,6 @@ object Scraper {
     }
 
     def main(args: Array[String]) {
-        // println(run)
-        val c = new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
-        val videoMap = c.loadFile
-        c.toFile(videoMap)
+        println(run)
     }
 }
