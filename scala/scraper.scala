@@ -1,4 +1,6 @@
 
+package fgc.scraper
+
 import java.io._
 
 import scala.io.Source
@@ -53,7 +55,7 @@ object YouTubeChannel {
 
     val Channels = List(
         YogaFlame,
-        OlympicGaming,
+        OlympicGaming
     )
 }
 
@@ -131,7 +133,7 @@ case class VideoFetcher(apiKey: String) {
 }
 
 object Scraper {
-    def run() {
+    def run(): Boolean = {
         val apiKey = Source.fromFile("keys/youtube").getLines.next
         val fetcher = new VideoFetcher(apiKey)
         var newVideos = false
@@ -139,9 +141,5 @@ object Scraper {
             newVideos |= fetcher.fetchVideos(channel)
         }
         newVideos
-    }
-
-    def main(args: Array[String]) {
-        println(run)
     }
 }

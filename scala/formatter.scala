@@ -1,5 +1,11 @@
 
+package fgc.formatter
+
+import fgc.scraper.VideoItem
+import fgc.scraper.YouTubeChannel
+
 import java.io._
+import scala.util.matching.Regex
 
 import scalaj.http._
 import org.json4s._
@@ -15,29 +21,31 @@ case class VideoData(
 
 trait Parser {
     val channel: YouTubeChannel
-    def parseVideo(videoItem: VideoItem): VideoData
+    def parseVideo(videoItem: VideoItem): Option[VideoData]
 
-    def loadVideos(): Map[String, VideoData] = {
+    def loadVideos(): List[VideoData] = {
         val videoItemMap = channel.loadFile
-        videoItemMap.map { case (key, item) =>
-            (key, parseVideo(item))
-        }
+        videoItemMap.values.flatMap(parseVideo).toList
     }
 
-    val rPlayer = "([\\w\\.\\-\| ]+) "
+    val rPlayer = "([\\w\\.\\-\\| ]+) "
     val rCharacter = "(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) "
     val rVersus = "(?:Vs|vs)\\.? "
-    val rGameMap
+    val rGameMap: Map[String, String]
     def fixGame(rawGame: String): String = {
         var matchingKey = ""
-        rGameMap.foreach ( case (key, value) =>
-            if (value.r.findFirstIn(rawGame).length > 0){
-                matchingKey = key
+        rGameMap.foreach { case (key, value) =>
+            val matchMaybe = value.r.findFirstIn(rawGame)
+            matchMaybe match {
+                case Some(name) =>
+                    matchingKey = key
+                case None =>
+                    // do nothing
             }
-        )
+        }
         matchingKey
     }
-    def fixCharacters(char1: String, char2: String): List[String] = {
+    def fixCharacters(char1: String, char2: String): List[List[String]] = {
         List(List(char1), List(char2))
     }
     def fixPlayers(player1: String, player2: String): List[String] = {
@@ -57,12 +65,12 @@ object YogaFlameParser extends Parser {
         "SFxT" -> "SFxT",
         "TTT2" -> "Tekken Tag Tournament 2"
     )
-    val regex = {
+    val regex: Regex = {
         val rRounds = "(?:X[0-9] )?"
         val rResolution = " *(?:1080p|720p)"
         val rGames = rGameMap.values.mkString("|")
         val rGame = s" *($rGames) "
-        val regexStr = (
+        (
             rRounds +
             rPlayer +
             rCharacter +
@@ -71,29 +79,34 @@ object YogaFlameParser extends Parser {
             rCharacter +
             rGame +
             rResolution
-        );
-        return regexStr.r
+        ).r
     }
 
-    def parseVideo(videoItem): VideoData = {
-        val matches = regex.findFirstIn(videoItem.title)
-        new VideoData(
-            videoItem.id,
-            videoItem.timestamp,
-            fixGame(matches(5)),
-            fixCharacters(matches(2), matches(4)),
-            fixPlayers(matches(1), matches(3))
-        )
+    def parseVideo(videoItem: VideoItem): Option[VideoData] = {
+        val matchMaybe = regex.findFirstMatchIn(videoItem.title)
+        matchMaybe match {
+            case Some(matchRes) => {
+                val matches = matchRes.subgroups
+                Option(new VideoData(
+                    videoItem.id,
+                    videoItem.timestamp,
+                    fixGame(matches(4)),
+                    fixCharacters(matches(1), matches(3)),
+                    fixPlayers(matches(0), matches(2))
+                ))
+            }
+            case None => None
+        }
     }
 }
 
 object VideoManager {
     private val DATA_FILE_PATH = "data/video.json"
     private val parsers = List(
-        YogaFlameParser,
+        YogaFlameParser
     )
 
-    private def toFile(videoDatas: List[VideoData]): String = {
+    def toFile(videoDatas: List[VideoData]): String = {
         val sortedVideos = (
             videoDatas
             .sortBy(r => (r.timestamp, r.id)).reverse
@@ -108,10 +121,25 @@ object VideoManager {
     }
 
     def loadVideos(): List[VideoData] = {
-        var videoMap = Map()
+        // todo rewrite as single map expression that flattens
+        var videos = List[VideoData]()
         parsers.foreach { parser =>
-            videoMap = videoMap ++ parser.loadVideos
+            videos = videos ++ parser.loadVideos
         }
-        videoMap.values.toSeq
+        videos
+    }
+
+    def formatVideos(rawVideos: List[VideoData]): List[VideoData] = {
+        // todo
+        rawVideos
+    }
+}
+
+object Formatter {
+    def run(): Boolean = {
+        val videos = VideoManager.loadVideos
+        val formatted = VideoManager.formatVideos(videos)
+        VideoManager.toFile(formatted)
+        true
     }
 }
