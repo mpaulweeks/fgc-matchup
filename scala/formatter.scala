@@ -35,21 +35,11 @@ trait ChannelParser {
     }
     val parsers: List[VideoParser]
     def parseVideo(videoItem: VideoItem): Option[VideoData] = {
-        var toRet: Option[VideoData] = None
-        parsers.foreach { parser =>
-            val matchMaybe = parser.regex.findFirstMatchIn(videoItem.title)
-            matchMaybe match {
-                case Some(matchRes) => {
-                    val regexMatch = matchRes.subgroups
-                    toRet = Option(parser.parseSuccess(videoItem, regexMatch))
-                }
-                case None => {}
+        parsers.flatMap { parser =>
+            parser.regex.findFirstMatchIn(videoItem.title).map { m =>
+                parser.parseSuccess(videoItem, m.subgroups)
             }
-        }
-        if (toRet == None){
-            // failed regex, maybe log?
-        }
-        toRet
+        }.headOption
     }
 
     val rPlayer = "([\\w\\.\\-\\| ]+) "
@@ -62,6 +52,10 @@ trait ChannelParser {
     }
 
     def fixGame(rawGame: String): String = {
+        // rGameMap.flatMap { case (key, value) =>
+        //     value.r.findFirstIn(rawGame).map { m => key }
+        // }.head
+
         // todo improve this
         var matchingKey = ""
         rGameMap.foreach { case (key, value) =>
@@ -90,7 +84,7 @@ object YogaFlameParser extends ChannelParser {
         "SF5" -> "SF5|SFV|Beta SFV",
         "USF4" -> "USF4",
         "SSF4AE2012" -> "(?:Arcade Edition|AE)(?: Version)? +2012",
-        "SSF4AE" -> "Arcade Edition|AE",
+        "SSF4AE" -> "Arcade Edition|AE",  // todo this collides with above
         "SF3" -> "SF3",
         "SFxT" -> "SFxT",
         "TTT2" -> "Tekken Tag Tournament 2"
@@ -136,7 +130,6 @@ object OlympicGamingParser extends ChannelParser {
         "GGXrd" -> "Guilty Gear Xrd",
         "KI" -> "Killer Instinct"
     )
-    // val rEndtag = " *(?:[\\w ]*-? *Gameplay).*"
     val rEndtag = "(?:Wii|Xbox|PS4|-? ?Gameplay).*"
 
     object GameLastParser extends VideoParser {
