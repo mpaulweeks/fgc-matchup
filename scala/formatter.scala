@@ -34,6 +34,10 @@ trait Parser {
     val rCharacter = "(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) "
     val rVersus = "(?:Vs|vs)\\.? "
     val rGameMap: Map[String, String]
+    def rGame(): String = {
+        val rGames = rGameMap.values.mkString("|")
+        s" *($rGames) *"
+    }
 
     def fixGame(rawGame: String): String = {
         // todo improve this
@@ -72,8 +76,6 @@ object YogaFlameParser extends Parser {
     val regex: Regex = {
         val rRounds = "(?:X[0-9] )?"
         val rResolution = " *(?:1080p|720p)"
-        val rGames = rGameMap.values.mkString("|")
-        val rGame = s" *($rGames) "
         (
             rRounds +
             rPlayer +
@@ -107,10 +109,80 @@ object YogaFlameParser extends Parser {
     }
 }
 
+object OlympicGamingParser extends Parser {
+    val channel = YouTubeChannel.OlympicGaming
+
+    val rGameMap = Map(
+        "SF5" -> "Street Fighter (?:5 *\\/? *V|5|V)|SFV",
+        "SFxT" -> "Street Fighter X Tekken",
+        "P4AU" -> "Persona 4 Arena Ultimax",
+        "MKX" -> "Mortal Kombat X",
+        "SC5" -> "SoulCalibur 5\\/V",
+        "DOA5" -> "Dead Or Alive 5 Last Round",
+        "Smash4" -> "Super Smash Bros Wii U",
+        "GGXrd" -> "Guilty Gear Xrd",
+        "KI" -> "Killer Instinct"
+    )
+    // val rEndtag = " *(?:[\\w ]*-? *Gameplay).*"
+    val rEndtag = "(?:Wii|Xbox|PS4|-? ?Gameplay).*"
+    val regex1 = (
+        rPlayer +
+        rCharacter +
+        rVersus +
+        rPlayer +
+        rCharacter +
+        rGame +
+        rEndtag
+    ).r
+    val regex2 = (
+        rGame + ": " +
+        rPlayer +
+        rCharacter +
+        rVersus +
+        rPlayer +
+        rCharacter +
+        rEndtag
+    ).r
+
+    def parseVideo(videoItem: VideoItem): Option[VideoData] = {
+        var res: Option[VideoData] = None
+        val matchMaybe1 = regex1.findFirstMatchIn(videoItem.title)
+        matchMaybe1 match {
+            case Some(matchRes) => {
+                val matches = matchRes.subgroups
+                res = Option(new VideoData(
+                    videoItem.id,
+                    videoItem.timestamp,
+                    fixGame(matches(4)),
+                    fixPlayers(matches(0), matches(2)),
+                    fixCharacters(matches(1), matches(3))
+                ))
+            }
+            case None => {}
+        }
+        val matchMaybe2 = regex2.findFirstMatchIn(videoItem.title)
+        matchMaybe2 match {
+            case Some(matchRes) => {
+                val matches = matchRes.subgroups
+                res = Option(new VideoData(
+                    videoItem.id,
+                    videoItem.timestamp,
+                    fixGame(matches(0)),
+                    fixPlayers(matches(1), matches(3)),
+                    fixCharacters(matches(2), matches(4))
+                ))
+            }
+            case None => {}
+        }
+        res
+    }
+}
+
 object VideoManager {
     private val DATA_FILE_PATH = "data/video.json"
     private val parsers = List(
-        YogaFlameParser
+        YogaFlameParser,
+        OlympicGamingParser
     )
 
     def toFile(videoDatas: List[VideoData]): String = {
