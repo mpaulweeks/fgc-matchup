@@ -23,11 +23,33 @@ case class VideoData(
     )
 }
 
-trait Parser {
+trait ChannelParser {
     val channel: YouTubeChannel
-    def parseVideo(videoItem: VideoItem): Option[VideoData]
     def loadVideos(): List[VideoData] = {
         channel.loadFile.values.flatMap(parseVideo).toList
+    }
+
+    trait VideoParser {
+        val regex: Regex
+        def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData {}
+    }
+    val parsers: List[VideoParser]
+    def parseVideo(videoItem: VideoItem): Option[VideoData] = {
+        var toRet: Option[VideoData] = None
+        parsers.foreach { parser =>
+            val matchMaybe = parser.regex.findFirstMatchIn(videoItem.title)
+            matchMaybe match {
+                case Some(matchRes) => {
+                    val regexMatch = matchRes.subgroups
+                    toRet = Option(parser.parseSuccess(videoItem, regexMatch))
+                }
+                case None => {}
+            }
+        }
+        if (toRet == None){
+            // failed regex, maybe log?
+        }
+        toRet
     }
 
     val rPlayer = "([\\w\\.\\-\\| ]+) "
@@ -61,7 +83,7 @@ trait Parser {
     }
 }
 
-object YogaFlameParser extends Parser {
+object YogaFlameParser extends ChannelParser {
     val channel = YouTubeChannel.YogaFlame
 
     val rGameMap = Map(
@@ -73,10 +95,11 @@ object YogaFlameParser extends Parser {
         "SFxT" -> "SFxT",
         "TTT2" -> "Tekken Tag Tournament 2"
     )
-    val regex: Regex = {
-        val rRounds = "(?:X[0-9] )?"
-        val rResolution = " *(?:1080p|720p)"
-        (
+    val rRounds = "(?:X[0-9] )?"
+    val rResolution = " *(?:1080p|720p)"
+
+    object GameLastParser extends VideoParser {
+        val regex = (
             rRounds +
             rPlayer +
             rCharacter +
@@ -86,30 +109,20 @@ object YogaFlameParser extends Parser {
             rGame +
             rResolution
         ).r
-    }
-
-    def parseVideo(videoItem: VideoItem): Option[VideoData] = {
-        val matchMaybe = regex.findFirstMatchIn(videoItem.title)
-        matchMaybe match {
-            case Some(matchRes) => {
-                val matches = matchRes.subgroups
-                Option(new VideoData(
-                    videoItem.id,
-                    videoItem.timestamp,
-                    fixGame(matches(4)),
-                    fixPlayers(matches(0), matches(2)),
-                    fixCharacters(matches(1), matches(3))
-                ))
-            }
-            case None => {
-                // failed regex, maybe log?
-                None
-            }
+        def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
+            new VideoData(
+                videoItem.id,
+                videoItem.timestamp,
+                fixGame(regexMatch(4)),
+                fixPlayers(regexMatch(0), regexMatch(2)),
+                fixCharacters(regexMatch(1), regexMatch(3))
+            )
         }
     }
+    val parsers = List(GameLastParser)
 }
 
-object OlympicGamingParser extends Parser {
+object OlympicGamingParser extends ChannelParser {
     val channel = YouTubeChannel.OlympicGaming
 
     val rGameMap = Map(
@@ -125,57 +138,48 @@ object OlympicGamingParser extends Parser {
     )
     // val rEndtag = " *(?:[\\w ]*-? *Gameplay).*"
     val rEndtag = "(?:Wii|Xbox|PS4|-? ?Gameplay).*"
-    val regex1 = (
-        rPlayer +
-        rCharacter +
-        rVersus +
-        rPlayer +
-        rCharacter +
-        rGame +
-        rEndtag
-    ).r
-    val regex2 = (
-        rGame + ": " +
-        rPlayer +
-        rCharacter +
-        rVersus +
-        rPlayer +
-        rCharacter +
-        rEndtag
-    ).r
 
-    def parseVideo(videoItem: VideoItem): Option[VideoData] = {
-        var res: Option[VideoData] = None
-        val matchMaybe1 = regex1.findFirstMatchIn(videoItem.title)
-        matchMaybe1 match {
-            case Some(matchRes) => {
-                val matches = matchRes.subgroups
-                res = Option(new VideoData(
-                    videoItem.id,
-                    videoItem.timestamp,
-                    fixGame(matches(4)),
-                    fixPlayers(matches(0), matches(2)),
-                    fixCharacters(matches(1), matches(3))
-                ))
-            }
-            case None => {}
+    object GameLastParser extends VideoParser {
+        val regex = (
+            rPlayer +
+            rCharacter +
+            rVersus +
+            rPlayer +
+            rCharacter +
+            rGame +
+            rEndtag
+        ).r
+        def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
+            new VideoData(
+                videoItem.id,
+                videoItem.timestamp,
+                fixGame(regexMatch(4)),
+                fixPlayers(regexMatch(0), regexMatch(2)),
+                fixCharacters(regexMatch(1), regexMatch(3))
+            )
         }
-        val matchMaybe2 = regex2.findFirstMatchIn(videoItem.title)
-        matchMaybe2 match {
-            case Some(matchRes) => {
-                val matches = matchRes.subgroups
-                res = Option(new VideoData(
-                    videoItem.id,
-                    videoItem.timestamp,
-                    fixGame(matches(0)),
-                    fixPlayers(matches(1), matches(3)),
-                    fixCharacters(matches(2), matches(4))
-                ))
-            }
-            case None => {}
-        }
-        res
     }
+    object GameFirstParser extends VideoParser {
+        val regex = (
+            rGame + ": " +
+            rPlayer +
+            rCharacter +
+            rVersus +
+            rPlayer +
+            rCharacter +
+            rEndtag
+        ).r
+        def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
+            new VideoData(
+                videoItem.id,
+                videoItem.timestamp,
+                fixGame(regexMatch(0)),
+                fixPlayers(regexMatch(1), regexMatch(3)),
+                fixCharacters(regexMatch(2), regexMatch(4))
+            )
+        }
+    }
+    val parsers = List(GameLastParser, GameFirstParser)
 }
 
 object VideoManager {
