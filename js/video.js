@@ -57,7 +57,7 @@ function VideoItem(videoTuple) {
     self.toData = function(){
         var playerItems = self.players();
         return [
-            TOOL.format(youtubeLink, id, date),
+            TOOL.format(youtubeLink, videoData.id, date),
             TOOL.internalLink(playerClass, playerItems[0]),
             characterLinks(0),
             TOOL.internalLink(playerClass, playerItems[1]),
