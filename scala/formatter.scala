@@ -6,6 +6,7 @@ import fgc.scraper.YouTubeChannel
 
 import java.io._
 import scala.util.matching.Regex
+ import scala.collection.mutable
 
 import scalaj.http._
 import org.json4s._
@@ -136,7 +137,6 @@ object OlympicGamingParser extends ChannelParser {
         "GGXrd" -> "Guilty Gear Xrd",
         "KI" -> "Killer Instinct"
     )
-    // val rEndtag = " *(?:[\\w ]*-? *Gameplay).*"
     val rEndtag = "(?:Wii|Xbox|PS4|-? ?Gameplay).*"
 
     object GameLastParser extends VideoParser {
@@ -182,6 +182,20 @@ object OlympicGamingParser extends ChannelParser {
     val parsers = List(GameLastParser, GameFirstParser)
 }
 
+object PlayerNormalizer {
+
+    class AliasTracker() {
+        val mutable.Map
+
+    }
+
+    private def reduce(rawName){
+        rawName.toLowerCase.trim //.replace(/\s+/g, '')
+    }
+
+    def generateLookup(List[VideoData]): AliasTracker
+}
+
 object VideoManager {
     private val DATA_FILE_PATH = "data/video.json"
     private val parsers = List(
@@ -210,6 +224,7 @@ object VideoManager {
 
     def formatVideos(rawVideos: List[VideoData]): List[VideoData] = {
         // todo player/character normalization
+
         rawVideos
     }
 }
