@@ -12,6 +12,6 @@ object Main {
 
     def main(args: Array[String]) {
         println("running main")
-        run
+        // run
     }
 }

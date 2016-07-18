@@ -142,4 +142,9 @@ object Scraper {
         }
         newVideos
     }
+
+    def main(args: Array[String]) {
+        println("running scraper")
+        // println(run)
+    }
 }

@@ -1,3 +1,3 @@
 
 cd scala
-sbt run
+sbt "run-main fgc.runtime.Main"

@@ -15,8 +15,8 @@ var Store = (function() {
 
     function parseJSON(data){
         var res = [];
-        data.forEach(function (videoData){
-            res.push(VideoItem(videoData));
+        data.forEach(function (videoTuple){
+            res.push(VideoItem(videoTuple));
         });
         return res;
     }

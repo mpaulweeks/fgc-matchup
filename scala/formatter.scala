@@ -15,9 +15,13 @@ case class VideoData(
     id: String,
     timestamp: String,
     game: String,
-    characters: List[List[String]],
-    players: List[String]
-){}
+    players: List[String],
+    characters: List[List[String]]
+){
+    val tuple: List[Any] = List(
+        timestamp, id, game, players, characters
+    )
+}
 
 trait Parser {
     val channel: YouTubeChannel
@@ -32,6 +36,7 @@ trait Parser {
     val rGameMap: Map[String, String]
 
     def fixGame(rawGame: String): String = {
+        // todo improve this
         var matchingKey = ""
         rGameMap.foreach { case (key, value) =>
             val matchMaybe = value.r.findFirstIn(rawGame)
@@ -90,8 +95,8 @@ object YogaFlameParser extends Parser {
                     videoItem.id,
                     videoItem.timestamp,
                     fixGame(matches(4)),
-                    fixCharacters(matches(1), matches(3)),
-                    fixPlayers(matches(0), matches(2))
+                    fixPlayers(matches(0), matches(2)),
+                    fixCharacters(matches(1), matches(3))
                 ))
             }
             case None => {
@@ -112,6 +117,7 @@ object VideoManager {
         val sortedVideos = (
             videoDatas
             .sortBy(r => (r.timestamp, r.id)).reverse
+            .map(_.tuple)
         )
         implicit val formats = Serialization.formats(NoTypeHints)
         val serialized = Serialization.writePretty(sortedVideos)
@@ -138,5 +144,10 @@ object Formatter {
         val formatted = VideoManager.formatVideos(videos)
         VideoManager.toFile(formatted)
         true
+    }
+
+    def main(args: Array[String]) {
+        println("running formatter")
+        println(run)
     }
 }

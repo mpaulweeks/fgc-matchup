@@ -1,5 +1,12 @@
 
-function VideoItem(videoData) {
+function VideoItem(videoTuple) {
+    var videoData = {
+        timestamp: videoTuple[0],
+        id: videoTuple[1],
+        game: videoTuple[2],
+        players: videoTuple[3],
+        characters: videoTuple[4],
+    }
     var self = {};
 
     self.game = GameManager.get(videoData.game);
