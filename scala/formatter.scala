@@ -6,6 +6,7 @@ import fgc.scraper.YouTubeChannel
 
 import java.io._
 import scala.util.matching.Regex
+import scala.collection.immutable.ListMap
 
 import scalaj.http._
 import org.json4s._
@@ -52,22 +53,9 @@ trait ChannelParser {
     }
 
     def fixGame(rawGame: String): String = {
-        // rGameMap.flatMap { case (key, value) =>
-        //     value.r.findFirstIn(rawGame).map { m => key }
-        // }.head
-
-        // todo improve this
-        var matchingKey = ""
-        rGameMap.foreach { case (key, value) =>
-            val matchMaybe = value.r.findFirstIn(rawGame)
-            matchMaybe match {
-                case Some(name) =>
-                    matchingKey = key
-                case None =>
-                    // do nothing
-            }
-        }
-        matchingKey
+        rGameMap.flatMap { case (key, value) =>
+            value.r.findFirstIn(rawGame).map { m => key }
+        }.head
     }
     def fixCharacters(char1: String, char2: String): List[List[String]] = {
         List(List(char1), List(char2))
@@ -80,7 +68,7 @@ trait ChannelParser {
 object YogaFlameParser extends ChannelParser {
     val channel = YouTubeChannel.YogaFlame
 
-    val rGameMap = Map(
+    val rGameMap = ListMap(
         "SF5" -> "SF5|SFV|Beta SFV",
         "USF4" -> "USF4",
         "SSF4AE2012" -> "(?:Arcade Edition|AE)(?: Version)? +2012",
@@ -119,7 +107,7 @@ object YogaFlameParser extends ChannelParser {
 object OlympicGamingParser extends ChannelParser {
     val channel = YouTubeChannel.OlympicGaming
 
-    val rGameMap = Map(
+    val rGameMap = ListMap(
         "SF5" -> "Street Fighter (?:5 *\\/? *V|5|V)|SFV",
         "SFxT" -> "Street Fighter X Tekken",
         "P4AU" -> "Persona 4 Arena Ultimax",
