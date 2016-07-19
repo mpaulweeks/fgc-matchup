@@ -17,7 +17,7 @@ var GameManager = (function(){
             if (gameId in CONSTANTS.GAME_NAMES){
                 lookup[gameId] = GameItem(gameId, CONSTANTS.GAME_NAMES[gameId]);
             } else {
-                return GameItem("unknown", "(unknown)");
+                return false;
             }
         }
         return lookup[gameId];

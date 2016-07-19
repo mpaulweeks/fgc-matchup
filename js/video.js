@@ -138,9 +138,12 @@ var VideoManager = (function(){
 
     self.getGames = function(){
         var gameItems = [];
-        for (var gameId in byGame){
-            gameItems.push(GameManager.get(gameId));
-        }
+        CONSTANTS.GAME_ORDER.forEach(function (gameId){
+            var gameItem = GameManager.get(gameId);
+            if (gameItem){
+                gameItems.push(gameItem);
+            }
+        });
         return gameItems;
     }
 
