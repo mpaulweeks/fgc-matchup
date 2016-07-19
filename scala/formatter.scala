@@ -6,6 +6,7 @@ import fgc.scraper.YouTubeChannel
 
 import java.io._
 import scala.util.matching.Regex
+import scala.collection.immutable.ListMap
  import scala.collection.mutable
 
 import scalaj.http._
@@ -36,21 +37,11 @@ trait ChannelParser {
     }
     val parsers: List[VideoParser]
     def parseVideo(videoItem: VideoItem): Option[VideoData] = {
-        var toRet: Option[VideoData] = None
-        parsers.foreach { parser =>
-            val matchMaybe = parser.regex.findFirstMatchIn(videoItem.title)
-            matchMaybe match {
-                case Some(matchRes) => {
-                    val regexMatch = matchRes.subgroups
-                    toRet = Option(parser.parseSuccess(videoItem, regexMatch))
-                }
-                case None => {}
+        parsers.flatMap { parser =>
+            parser.regex.findFirstMatchIn(videoItem.title).map { m =>
+                parser.parseSuccess(videoItem, m.subgroups)
             }
-        }
-        if (toRet == None){
-            // failed regex, maybe log?
-        }
-        toRet
+        }.headOption
     }
 
     val rPlayer = "([\\w\\.\\-\\| ]+) "
@@ -63,18 +54,9 @@ trait ChannelParser {
     }
 
     def fixGame(rawGame: String): String = {
-        // todo improve this
-        var matchingKey = ""
-        rGameMap.foreach { case (key, value) =>
-            val matchMaybe = value.r.findFirstIn(rawGame)
-            matchMaybe match {
-                case Some(name) =>
-                    matchingKey = key
-                case None =>
-                    // do nothing
-            }
-        }
-        matchingKey
+        rGameMap.flatMap { case (key, value) =>
+            value.r.findFirstIn(rawGame).map { m => key }
+        }.head
     }
     def fixCharacters(char1: String, char2: String): List[List[String]] = {
         List(List(char1), List(char2))
@@ -87,11 +69,11 @@ trait ChannelParser {
 object YogaFlameParser extends ChannelParser {
     val channel = YouTubeChannel.YogaFlame
 
-    val rGameMap = Map(
+    val rGameMap = ListMap(
         "SF5" -> "SF5|SFV|Beta SFV",
         "USF4" -> "USF4",
         "SSF4AE2012" -> "(?:Arcade Edition|AE)(?: Version)? +2012",
-        "SSF4AE" -> "Arcade Edition|AE",
+        "SSF4AE" -> "Arcade Edition|AE",  // todo this collides with above
         "SF3" -> "SF3",
         "SFxT" -> "SFxT",
         "TTT2" -> "Tekken Tag Tournament 2"
@@ -126,7 +108,7 @@ object YogaFlameParser extends ChannelParser {
 object OlympicGamingParser extends ChannelParser {
     val channel = YouTubeChannel.OlympicGaming
 
-    val rGameMap = Map(
+    val rGameMap = ListMap(
         "SF5" -> "Street Fighter (?:5 *\\/? *V|5|V)|SFV",
         "SFxT" -> "Street Fighter X Tekken",
         "P4AU" -> "Persona 4 Arena Ultimax",

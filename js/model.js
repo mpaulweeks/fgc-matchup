@@ -17,7 +17,7 @@ var GameManager = (function(){
             if (gameId in CONSTANTS.GAME_NAMES){
                 lookup[gameId] = GameItem(gameId, CONSTANTS.GAME_NAMES[gameId]);
             } else {
-                return GameItem("unknown", "(unknown)");
+                return false;
             }
         }
         return lookup[gameId];
@@ -32,7 +32,7 @@ var CharacterManager = (function(){
 
     function CharacterItem(name){
         var item = {};
-        item.name = name;
+        item.name = TYPO.fixCharacterName(name);
         item.id = TOOL.fixValue(item.name);
         return item;
     }

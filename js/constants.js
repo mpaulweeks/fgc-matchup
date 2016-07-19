@@ -16,3 +16,19 @@ CONSTANTS.GAME_NAMES = {
     KI: "Killer Instinct",
     Smash4: "Super Smash Bros Wii U",
 };
+CONSTANTS.GAME_ORDER = [
+    'SF5',
+    'USF4',
+    'SSF4AE2012',
+    'SSF4AE',
+    'SF3',
+    'SFxT',
+    'TTT2',
+    'SC5',
+    'DOA5',
+    'GGXrd',
+    'P4AU',
+    'MKX',
+    'KI',
+    'Smash4',
+]
