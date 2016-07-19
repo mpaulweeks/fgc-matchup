@@ -145,6 +145,6 @@ object Scraper {
 
     def main(args: Array[String]) {
         println("running scraper")
-        // println(run)
+        println(run)
     }
 }
