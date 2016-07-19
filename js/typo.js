@@ -131,10 +131,5 @@ var TYPO = (function(){
         return char;
     }
 
-    self.fixPlayerName = function(player){
-        player = player.trim().replace(/\s+/g, ' ');
-        return player;
-    }
-
     return self;
 })();

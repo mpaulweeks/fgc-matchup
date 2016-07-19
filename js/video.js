@@ -13,12 +13,14 @@ function VideoItem(videoTuple) {
     var date = videoData.timestamp.split('T')[0];
     var allChars = {};
     var playerCharacters = [[],[]];
+    var characterSets = [new Set(), new Set()];
     for (var i = 0; i < 2; i++){
         var charTuple = videoData.characters[i];
         charTuple.forEach(function (char){
             var charItem = CharacterManager.new(char);
             allChars[charItem.id] = charItem;
             playerCharacters[i].push(charItem);
+            characterSets[i].add(charItem.id);
         });
     }
     self.characters = [];
@@ -37,8 +39,6 @@ function VideoItem(videoTuple) {
     };
 
     self.isMirror = function(char){
-        // todo this is broken?
-        // check if both player's rosters contain char
         return characterSets[0].has(char) && characterSets[1].has(char);
     }
 
