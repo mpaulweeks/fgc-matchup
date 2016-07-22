@@ -1,29 +1,18 @@
 
 package fgc.formatter
 
+import fgc.model.VideoData
 import fgc.scraper.VideoItem
 import fgc.scraper.YouTubeChannel
+import fgc.normalizer.PlayerNormalizer
 
 import java.io._
 import scala.util.matching.Regex
 import scala.collection.immutable.ListMap
- import scala.collection.mutable
 
 import scalaj.http._
 import org.json4s._
 import org.json4s.native.Serialization
-
-case class VideoData(
-    id: String,
-    timestamp: String,
-    game: String,
-    players: List[String],
-    characters: List[List[String]]
-){
-    val tuple: List[Any] = List(
-        timestamp, id, game, players, characters
-    )
-}
 
 trait ChannelParser {
     val channel: YouTubeChannel
@@ -164,20 +153,6 @@ object OlympicGamingParser extends ChannelParser {
     val parsers = List(GameLastParser, GameFirstParser)
 }
 
-object PlayerNormalizer {
-
-    class AliasTracker() {
-        val mutable.Map
-
-    }
-
-    private def reduce(rawName){
-        rawName.toLowerCase.trim //.replace(/\s+/g, '')
-    }
-
-    def generateLookup(List[VideoData]): AliasTracker
-}
-
 object VideoManager {
     private val DATA_FILE_PATH = "data/video.json"
     private val parsers = List(
@@ -205,9 +180,7 @@ object VideoManager {
     }
 
     def formatVideos(rawVideos: List[VideoData]): List[VideoData] = {
-        // todo player/character normalization
-
-        rawVideos
+        PlayerNormalizer.normalize(rawVideos)
     }
 }
 
