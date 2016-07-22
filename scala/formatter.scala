@@ -186,6 +186,7 @@ object VideoManager {
 
 object Formatter {
     def run(): Boolean = {
+        println("running formatter")        
         val videos = VideoManager.loadVideos
         val formatted = VideoManager.formatVideos(videos)
         VideoManager.toFile(formatted)
@@ -193,7 +194,6 @@ object Formatter {
     }
 
     def main(args: Array[String]) {
-        println("running formatter")
         println(run)
     }
 }

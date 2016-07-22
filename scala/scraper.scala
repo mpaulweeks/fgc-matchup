@@ -132,6 +132,7 @@ case class VideoFetcher(apiKey: String) {
 
 object Scraper {
     def run(): Boolean = {
+        println("running scraper")
         val apiKey = Source.fromFile("keys/youtube").getLines.next
         val fetcher = new VideoFetcher(apiKey)
         var newVideos = false
@@ -142,7 +143,6 @@ object Scraper {
     }
 
     def main(args: Array[String]) {
-        println("running scraper")
         println(run)
     }
 }
