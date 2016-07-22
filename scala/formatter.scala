@@ -91,7 +91,28 @@ object YogaFlameParser extends ChannelParser {
             )
         }
     }
-    val parsers = List(GameLastParser)
+    object GameFirstParser extends VideoParser {
+        val regex = (
+            rGame + " - " +
+            rRounds +
+            rPlayer +
+            rCharacter +
+            rVersus +
+            rPlayer +
+            rCharacter +
+            rResolution
+        ).r
+        def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
+            new VideoData(
+                videoItem.id,
+                videoItem.timestamp,
+                fixGame(regexMatch(0)),
+                fixPlayers(regexMatch(1), regexMatch(3)),
+                fixCharacters(regexMatch(2), regexMatch(4))
+            )
+        }
+    }
+    val parsers = List(GameLastParser, GameFirstParser)
 }
 
 object OlympicGamingParser extends ChannelParser {
@@ -190,7 +211,7 @@ object Formatter {
         val videos = VideoManager.loadVideos
         val formatted = VideoManager.formatVideos(videos)
         VideoManager.toFile(formatted)
-        true
+        (videos != formatted)
     }
 
     def main(args: Array[String]) {

@@ -7,7 +7,11 @@ import fgc.formatter.Formatter
 object Main {
     def run(): Unit = {
         val newVideos = Scraper.run
-        val parsed = Formatter.run
+        if (newVideos){
+            Formatter.run
+        } else {
+            println("no new videos, skipping formatter")
+        }
     }
 
     def main(args: Array[String]) {
