@@ -11,4 +11,17 @@ case class VideoData(
     val tuple: List[Any] = List(
         timestamp, id, game, players, characters
     )
+
+    // todo de-dupe
+    def reduce(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
+
+    def updatePlayers(keyLookup: Map[String, String]): VideoData = {
+        new VideoData(
+            id,
+            timestamp,
+            game,
+            players.map(p => keyLookup(reduce(p))),
+            characters
+        )
+    }
 }

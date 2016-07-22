@@ -9,8 +9,6 @@ import scala.util.parsing.json.JSON
 
 import scalaj.http._
 import org.json4s._
-// import org.json4s.JsonDSL._
-// import org.json4s.native.JsonMethods._
 import org.json4s.native.Serialization
 
 case class VideoItem(timestamp: String, id: String, title: String) {
