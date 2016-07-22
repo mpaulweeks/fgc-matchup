@@ -30,13 +30,10 @@ function VideoItem(videoTuple) {
         }
     }
     self.playerNames = videoData.players;
-    self.players = function(){
-        var playerItems = [];
-        self.playerNames.forEach(function (playerName){
-            playerItems.push(PlayerManager.new(self.game.id, playerName));
-        });
-        return playerItems;
-    };
+    self.playerItems = [];
+    self.playerNames.forEach(function (playerName){
+        self.playerItems.push(PlayerManager.new(playerName));
+    });
 
     self.isMirror = function(char){
         return characterSets[0].has(char) && characterSets[1].has(char);
@@ -55,12 +52,11 @@ function VideoItem(videoTuple) {
     }
 
     self.toData = function(){
-        var playerItems = self.players();
         return [
             TOOL.format(youtubeLink, videoData.id, date),
-            TOOL.internalLink(playerClass, playerItems[0]),
+            TOOL.internalLink(playerClass, self.playerItems[0]),
             characterLinks(0),
-            TOOL.internalLink(playerClass, playerItems[1]),
+            TOOL.internalLink(playerClass, self.playerItems[1]),
             characterLinks(1),
         ];
     }
@@ -77,18 +73,6 @@ var VideoManager = (function(){
     self.currentGameId = null;
 
     self.organize = function(allVideos){
-        var playerNamesByGame = {};
-        allVideos.forEach(function (video){
-            if (!(video.game.id in playerNamesByGame)){
-                playerNamesByGame[video.game.id] = [];
-            }
-            video.playerNames.forEach(function (playerName){
-                playerNamesByGame[video.game.id].push(playerName);
-            })
-        });
-        Object.keys(playerNamesByGame).forEach(function (gameId){
-            PlayerManager.organize(gameId, playerNamesByGame[gameId]);
-        });
         allVideos.forEach(function (video){
             if (!(video.game.id in byGame)){
                 byGame[video.game.id] = {
@@ -107,7 +91,7 @@ var VideoManager = (function(){
                 byChar[char.id].push(video);
             });
             var byPlayer = gameObj.byPlayer;
-            video.players().forEach(function (player){
+            video.playerItems.forEach(function (player){
                 if (!(player.id in byPlayer)){
                     byPlayer[player.id] = [];
                 }

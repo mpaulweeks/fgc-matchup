@@ -2,9 +2,9 @@
 var PlayerManager = (function(){
     var self = {};
     var lookup = {};
-    var regByGame = {};
 
     self.getDisplayName = function(gameId, playerName){
+        // defunct and unused, keeping around until ported to scala
         var registry = regByGame[gameId];
         var reg = registry[playerKey(playerName)];
         while (reg.levensteinKey && reg.count < registry[reg.levensteinKey].count){
@@ -13,9 +13,9 @@ var PlayerManager = (function(){
         return reg.displayName;
     }
 
-    function PlayerItem(gameId, name){
+    function PlayerItem(name){
         var item = {};
-        item.name = self.getDisplayName(gameId, name);
+        item.name = name;
         item.id = TOOL.fixValue(item.name);
         return item;
     }
@@ -24,38 +24,16 @@ var PlayerManager = (function(){
         return lookup[playerId];
     }
 
-    self.new = function(gameId, playerName){
-        var playerItem = PlayerItem(gameId, playerName);
+    self.new = function(playerName){
+        var playerItem = PlayerItem(playerName);
         if (!(playerItem.id in lookup)){
             lookup[playerItem.id] = playerItem;
         }
         return self.get(playerItem.id);
     }
 
-    function playerKey(playerName){
-        return playerName.toLowerCase().trim().replace(/\s+/g, '');
-    }
-
-    function register(registry, playerName){
-        var key = playerKey(playerName);
-        if (!(key in registry)){
-            registry[key] = {
-                displayName: null,
-                levensteinKey: null,
-                levensteinDistance: null,
-                count: 0,
-                matches: {},
-            }
-        }
-        registry[key].count += 1;
-        var matches = registry[key].matches;
-        if (!(playerName in matches)){
-            matches[playerName] = 0;
-        }
-        matches[playerName] += 1;
-    }
-
     function calculateLevenstein(registry){
+        // defunct and unused, keeping around until ported to scala
         var regKeys = Object.keys(registry);
 
         var levenReq = 1;
@@ -80,36 +58,6 @@ var PlayerManager = (function(){
                 console.log(levenKey, key1);
             }
         });
-    }
-
-    self.organize = function(gameId, playerNames){
-        var registry = {};
-        playerNames.forEach(function (playerName){
-            register(registry, playerName);
-        });
-
-        var regKeys = Object.keys(registry);
-
-        regKeys.forEach(function (key){
-            var reg = registry[key];
-            var maxName = null;
-            var maxCount = 0;
-            for (var playerName in reg.matches){
-                // determine best names
-                if (reg.matches.hasOwnProperty(playerName)){
-                    if (reg.matches[playerName] > maxCount){
-                        maxName = playerName;
-                        maxCount = reg.matches[playerName];
-                    }
-                }
-            }
-            reg.displayName = maxName;
-        });
-
-        // disabled for now, takes too long :(
-        // calculateLevenstein(registry);
-
-        regByGame[gameId] = registry;
     }
 
     return self;
