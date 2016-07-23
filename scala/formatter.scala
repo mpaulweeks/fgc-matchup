@@ -33,8 +33,8 @@ trait ChannelParser {
         }.headOption
     }
 
-    val rPlayer = "([\\w\\.\\-\\| ]+) "
-    val rCharacter = "(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) "
+    val rPlayer = " *([\\w\\.\\-\\| ]+) *"
+    val rCharacter = " *(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) *"
     val rVersus = "(?:Vs|vs)\\.? "
     val rGameMap: Map[String, String]
     def rGame(): String = {
@@ -197,7 +197,7 @@ object VideoManager {
     }
 
     def loadVideos(): List[VideoData] = {
-        parsers.map(p => p.loadVideos).flatten
+        parsers.map(p => p.loadVideos).flatten.map(_.trim)
     }
 
     def formatVideos(rawVideos: List[VideoData]): List[VideoData] = {

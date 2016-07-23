@@ -15,6 +15,16 @@ case class VideoData(
     // todo de-dupe
     def reduce(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
 
+    def trim(): VideoData = {
+        new VideoData(
+            id,
+            timestamp,
+            game,
+            players.map(p => p.trim),
+            characters.map(cl => cl.map(cn => cn.trim))
+        )
+    }
+
     def updatePlayers(keyLookup: Map[String, String]): VideoData = {
         new VideoData(
             id,
