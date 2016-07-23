@@ -2,9 +2,6 @@
 var TOOL = (function(){
     var self = {};
 
-    self.is_local = window.location.href.indexOf('file:///') > -1;
-    self.is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-
     self.log = function(message){
         if (self.is_local){
             console.log(message);
