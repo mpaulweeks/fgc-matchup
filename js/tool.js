@@ -23,7 +23,7 @@ var TOOL = (function(){
 
     self.sortById = function(arr) {
         return arr.concat().sort(function (item1, item2){
-            return item1.id > item2.id;
+            return item1.id.toLowerCase().localeCompare(item2.id.toLowerCase());
         });
     };
 
