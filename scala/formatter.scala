@@ -4,7 +4,7 @@ package fgc.formatter
 import fgc.model.VideoData
 import fgc.scraper.VideoItem
 import fgc.scraper.YouTubeChannel
-import fgc.normalizer.PlayerNormalizer
+import fgc.normalizer.Normalizer
 
 import java.io._
 import scala.util.matching.Regex
@@ -201,7 +201,7 @@ object VideoManager {
     }
 
     def formatVideos(rawVideos: List[VideoData]): List[VideoData] = {
-        PlayerNormalizer.normalize(rawVideos)
+        Normalizer.normalize(rawVideos)
     }
 }
 

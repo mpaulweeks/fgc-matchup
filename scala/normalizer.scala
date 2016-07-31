@@ -6,10 +6,7 @@ import fgc.levenshtein.EditDistance.editDist
 
 import scala.collection.mutable
 
-object PlayerNormalizer {
-
-    def reduce(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
-
+object Normalizer {
     class AliasTracker() {
         case class AliasStat(
             key: String,
@@ -40,12 +37,15 @@ object PlayerNormalizer {
             }
         }
 
-        val lookup: mutable.Map[String, AliasStat] = mutable.Map()
+        def reduce(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
+
+        private val registry: mutable.Map[String, AliasStat] = mutable.Map()
+        private var lookup: Map[String, AliasStat] = Map()
 
         def register(rawName: String): Unit = {
             val key = reduce(rawName)
-            val stat = lookup.getOrElse(key, new AliasStat(key))
-            lookup(key) = stat.register(rawName)
+            val stat = registry.getOrElse(key, new AliasStat(key))
+            registry(key) = stat.register(rawName)
         }
 
         private def leveshtein(stats: List[AliasStat]): Map[String, String] = {
@@ -73,27 +73,28 @@ object PlayerNormalizer {
             }.toMap
         }
 
-        def generateKeyLookup(): Map[String, String] = {
-            val stats = lookup.values.map(_.determineDisplayName)
-            // needs work
-            // leveshtein(stats.toList)
-            stats.map { as => (as.key, as.displayName)}.toMap
+        def normalize(): Unit = {
+            var stats = registry.values.map(_.determineDisplayName)
+            // stats = leveshtein(stats)
+            lookup = stats.map{stat =>
+                (stat.key, stat)
+            }.toMap
         }
-    }
 
-    def generateTracker(videos: List[VideoData]): AliasTracker = {
-        val tracker = new AliasTracker()
-        videos.foreach { videoData =>
-            videoData.players.foreach(tracker.register)
+        def get(rawName: String): String = {
+            lookup(reduce(rawName)).displayName
         }
-        tracker
     }
 
     def normalize(rawVideos: List[VideoData]): List[VideoData] = {
-        val tracker = generateTracker(rawVideos)
-        val keyLookup = tracker.generateKeyLookup
-        rawVideos.map{ video =>
-            video.updatePlayers(keyLookup)
+        val pTracker = new AliasTracker()
+        val cTracker = new AliasTracker()
+        rawVideos.foreach { videoData =>
+            videoData.players.foreach(pTracker.register)
+            videoData.characters.foreach(_.foreach(cTracker.register))
         }
+        pTracker.normalize
+        cTracker.normalize
+        rawVideos.map(_.update(pTracker.get, cTracker.get))
     }
 }
