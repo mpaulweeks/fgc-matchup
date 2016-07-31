@@ -19,5 +19,3 @@ when in doubt: `git grep todo`
 ## quickies
 - add real url encoding/decoding for params
 - overhaul readme, describe how to contrib
-- organize classes, figure out dependency graph
-- refactor parsers and FIXER
