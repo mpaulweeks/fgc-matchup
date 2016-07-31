@@ -1,6 +1,10 @@
 
 package fgc.model
 
+object Transform{
+    def toKey(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
+}
+
 case class VideoData(
     id: String,
     timestamp: String,

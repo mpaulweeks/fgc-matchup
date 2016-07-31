@@ -1,12 +1,13 @@
 
 package fgc.alias
 
+import fgc.model.Transform
 import fgc.model.VideoData
 import fgc.levenshtein.EditDistance.editDist
 
 import scala.collection.mutable
 
-class AliasTracker() {
+class AliasTracker(typoFixer: String => String) {
     private case class AliasStat(
         key: String,
         displayName: String = "(n/a)",
@@ -24,9 +25,13 @@ class AliasTracker() {
         }
 
         def determineDisplayName(): AliasStat = {
-            val newDisplayName = matches.keys.reduceLeft { (x,y) =>
+            var newDisplayName = matches.keys.reduceLeft { (x,y) =>
                 if (matches(x) > matches(y)) x else y
             }
+            setDisplayName(newDisplayName)
+        }
+
+        def setDisplayName(newDisplayName: String): AliasStat = {
             new AliasStat(
                 key,
                 newDisplayName,
@@ -38,8 +43,6 @@ class AliasTracker() {
 
     private val registry: mutable.Map[String, AliasStat] = mutable.Map()
     private var lookup: Map[String, AliasStat] = Map()
-
-    private def reduce(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
 
     private def leveshtein(stats: List[AliasStat]): Map[String, String] = {
         // need to recursively collapse levenshtein matches
@@ -67,20 +70,24 @@ class AliasTracker() {
     }
 
     def register(rawName: String): Unit = {
-        val key = reduce(rawName)
+        val key = Transform.toKey(rawName)
         val stat = registry.getOrElse(key, new AliasStat(key))
         registry(key) = stat.register(rawName)
     }
 
     def normalize(): Unit = {
-        var stats = registry.values.map(_.determineDisplayName)
+        var stats = registry.values
+        stats = stats.map(_.determineDisplayName)
         // stats = leveshtein(stats)
-        lookup = stats.map{stat =>
-            (stat.key, stat)
+        stats = stats.map{s =>
+            s.setDisplayName(typoFixer(s.displayName))
+        }
+        lookup = stats.map{s =>
+            (s.key, s)
         }.toMap
     }
 
     def get(rawName: String): String = {
-        lookup(reduce(rawName)).displayName
+        lookup(Transform.toKey(rawName)).displayName
     }
 }
