@@ -31,7 +31,7 @@ var CharacterManager = (function(){
 
     function CharacterItem(name){
         var item = {};
-        item.name = TYPO.fixCharacterName(name);
+        item.name = name;
         item.id = TOOL.fixValue(item.name);
         return item;
     }
