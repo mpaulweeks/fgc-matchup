@@ -93,7 +93,7 @@ object YogaFlameParser extends ChannelParser {
     }
     object GameFirstParser extends VideoParser {
         val regex = (
-            rGame + " - " +
+            rGame + " *- *" +
             rRounds +
             rPlayer +
             rCharacter +
