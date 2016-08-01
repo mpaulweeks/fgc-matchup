@@ -27,7 +27,7 @@ trait ChannelParser {
         }.headOption
     }
 
-    val rPlayer = "(?:[\\w ]* ft\\.? )? *([\\w\\.\\-\\| ]+) *"
+    val rPlayer = "(?:[\\w ]* (?:ft |ft\\.))? *([\\w\\.\\-\\| ]+) *"
     val rCharacter = " *(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) *"
     val rVersus = "(?:Vs|vs)\\.? "
     val rGameMap: Map[String, String]
@@ -119,7 +119,7 @@ object OlympicGamingParser extends ChannelParser {
         "MKX" -> "Mortal Kombat X",
         "SC5" -> "SoulCalibur 5\\/V",
         "DOA5" -> "Dead Or Alive 5 Last Round",
-        "Smash4" -> "Super Smash Bros Wii U",
+        "Smash4" -> "Super Smash Bros *Wii U",
         "GGXrd" -> "Guilty Gear Xrd",
         "KI" -> "Killer Instinct"
     )
