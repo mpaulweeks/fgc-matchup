@@ -27,7 +27,7 @@ trait ChannelParser {
         }.headOption
     }
 
-    val rPlayer = " *([\\w\\.\\-\\| ]+) *"
+    val rPlayer = "(?:[\\w ]* ft\\.? )? *([\\w\\.\\-\\| ]+) *"
     val rCharacter = " *(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) *"
     val rVersus = "(?:Vs|vs)\\.? "
     val rGameMap: Map[String, String]
