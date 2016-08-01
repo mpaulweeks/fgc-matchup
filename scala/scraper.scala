@@ -64,7 +64,7 @@ case class VideoFetcher(apiKey: String) {
         val existingVideos = channel.loadFile
         val updatedVideos = updateVideos(channel, existingVideos)
         val newVideos = updatedVideos.size > existingVideos.size
-        if (true) {
+        if (true) { // todo
             channel.toFile(updatedVideos)
         }
         newVideos
