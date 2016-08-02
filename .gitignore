@@ -21,3 +21,6 @@ project/plugins/project/
 
 # Security
 scala/keys/
+
+# temp
+scala/logs/

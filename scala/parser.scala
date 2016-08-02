@@ -7,11 +7,18 @@ import scala.collection.immutable.ListMap
 import fgc.model.VideoData
 import fgc.scraper.VideoItem
 import fgc.scraper.YouTubeChannel
+import fgc.logger.Logger
 
 trait ChannelParser {
     val channel: YouTubeChannel
     def loadVideos(): List[VideoData] = {
-        channel.loadFile.values.flatMap(parseVideo).toList
+        channel.loadFile.values.flatMap { videoItem =>
+            val opt = parseVideo(videoItem)
+            if (!opt.isDefined){
+                Logger.parsingFailure(channel.fileName, videoItem.title)
+            }
+            opt
+        }.toList
     }
 
     trait VideoParser {
