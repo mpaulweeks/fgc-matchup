@@ -1,3 +1,3 @@
 
 cd scala
-sbt "run-main fgc.scraper.ChannelInfo ${@}"
+sbt "run-main fgc.scraper.ChannelFetcher ${@}"

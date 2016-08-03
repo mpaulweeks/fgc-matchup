@@ -130,7 +130,7 @@ case class ChannelFetcher(apiKey: String) {
     }
 }
 
-object ChannelInfo {
+object ChannelFetcher {
     def run(args: Array[String]): Boolean = {
         println("running channel info")
         val apiKey = Source.fromFile("keys/youtube").getLines.next
