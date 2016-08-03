@@ -12,6 +12,8 @@ when in doubt: `git grep todo`
     - more centralized/shared logic between parsers
 
 ## research
+- research ways to minify `video.json` that still works with git
+    - normalize data?
 - look into CapcomFighters/alternative channels
 
 ## quickies

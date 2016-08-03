@@ -5,9 +5,6 @@ import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter
 
-import org.json4s.NoTypeHints
-import org.json4s.native.Serialization
-
 import fgc.model.VideoData
 import fgc.parser.YouTubeChannelParser
 import fgc.normalizer.Normalizer
@@ -20,10 +17,9 @@ object VideoManager {
         val sortedVideos = (
             videoDatas
             .sortBy(r => (r.timestamp, r.id)).reverse
-            .map(_.tuple)
+            .map(_.json)
         )
-        implicit val formats = Serialization.formats(NoTypeHints)
-        val serialized = Serialization.writePretty(sortedVideos)
+        val serialized = "[\n" + sortedVideos.mkString(",\n") + "\n]"
         val file = new File(DATA_FILE_PATH)
         val bw = new BufferedWriter(new FileWriter(file))
         bw.write(serialized)

@@ -1,6 +1,9 @@
 
 package fgc.model
 
+import org.json4s.NoTypeHints
+import org.json4s.native.Serialization
+
 object Transform{
     def toKey(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
 }
@@ -19,6 +22,9 @@ case class VideoData(
     val tuple: List[Any] = List(
         timestamp, id, game, players, characters
     )
+
+    implicit val formats = Serialization.formats(NoTypeHints)
+    val json: String = Serialization.write(tuple)
 
     def trim(): VideoData = {
         new VideoData(
