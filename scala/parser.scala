@@ -5,8 +5,8 @@ import scala.util.matching.Regex
 import scala.collection.immutable.ListMap
 
 import fgc.model.VideoData
-import fgc.scraper.VideoItem
-import fgc.scraper.YouTubeChannel
+import fgc.model.VideoItem
+import fgc.channel.YouTubeChannel
 import fgc.logger.Logger
 
 trait ChannelParser {
