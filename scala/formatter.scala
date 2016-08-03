@@ -9,17 +9,12 @@ import org.json4s.NoTypeHints
 import org.json4s.native.Serialization
 
 import fgc.model.VideoData
-import fgc.parser.YogaFlameParser
-import fgc.parser.OlympicGamingParser
+import fgc.parser.YouTubeChannelParser
 import fgc.normalizer.Normalizer
 import fgc.logger.Logger
 
 object VideoManager {
     private val DATA_FILE_PATH = "data/video.json"
-    private val parsers = List(
-        YogaFlameParser,
-        OlympicGamingParser
-    )
 
     def toFile(videoDatas: List[VideoData]): String = {
         val sortedVideos = (
@@ -37,7 +32,12 @@ object VideoManager {
     }
 
     def loadVideos(): List[VideoData] = {
-        parsers.map(p => p.loadVideos).flatten.map(_.trim)
+        (
+            YouTubeChannelParser.Parsers
+            .map(p => p.loadVideos)
+            .flatten
+            .map(_.trim)
+        )
     }
 
     def formatVideos(rawVideos: List[VideoData]): List[VideoData] = {

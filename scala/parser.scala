@@ -9,6 +9,13 @@ import fgc.model.VideoItem
 import fgc.channel.YouTubeChannel
 import fgc.logger.Logger
 
+object YouTubeChannelParser {
+    val Parsers = List(
+        YogaFlameParser,
+        OlympicGamingParser
+    )
+}
+
 trait ChannelParser {
     val channel: YouTubeChannel
     def loadVideos(): List[VideoData] = {
