@@ -12,12 +12,7 @@ when in doubt: `git grep todo`
     - more centralized/shared logic between parsers
 
 ## research
-- add more support for Olympic games/style
-- look into iShoryuken https://www.youtube.com/user/iShoryukenTV
 - look into CapcomFighters/alternative channels
-- https://www.youtube.com/user/XblackvegetaX/videos
-- https://www.youtube.com/user/Tokidoblog/videos
-- https://www.youtube.com/channel/UCskcifXzKVhmof87fefuxsA/videos
 
 ## quickies
 - add real url encoding/decoding for params

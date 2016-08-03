@@ -85,6 +85,70 @@ case class VideoFetcher(apiKey: String) {
     }
 }
 
+case class ChannelFetcher(apiKey: String) {
+    private val SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
+    private val CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
+    import org.json4s._
+    import org.json4s.native.JsonMethods._
+    implicit val formats = DefaultFormats // Brings in default date formats etc.
+
+    def fetchChannelInfo(channelName: String): List[String] = {
+        val channelId = getChannelId(channelName)
+        val uploadsId = getUploadsId(channelId)
+        List(channelName, channelId, uploadsId)
+    }
+
+    private def getChannelId(channelName: String): String = {
+        println(s"fetching info for channelName: $channelName")
+        var request: HttpRequest = (
+            Http(SEARCH_URL)
+            .param("part", "snippet")
+            .param("type", "channel")
+            .param("q", channelName)
+            .param("key", apiKey)
+        )
+        val response: HttpResponse[String] = request.asString
+        println(response.code)
+        val json = parse(response.body)
+        val item = (json \ "items")(0)
+        (item \ "id" \ "channelId").extract[String]
+    }
+
+    private def getUploadsId(channelId: String): String = {
+        println(s"fetching info for channelId: $channelId")
+        var request: HttpRequest = (
+            Http(CHANNEL_URL)
+            .param("part", "contentDetails")
+            .param("id", channelId)
+            .param("key", apiKey)
+        )
+        val response: HttpResponse[String] = request.asString
+        println(response.code)
+        val json = parse(response.body)
+        val item = (json \ "items")(0)
+        (item \ "contentDetails" \ "relatedPlaylists" \ "uploads").extract[String]
+    }
+}
+
+object ChannelInfo {
+    def run(args: Array[String]): Boolean = {
+        println("running channel info")
+        val apiKey = Source.fromFile("keys/youtube").getLines.next
+        val fetcher = new ChannelFetcher(apiKey)
+        var results = args.map { channelName =>
+            fetcher.fetchChannelInfo(channelName)
+        }
+        results.foreach { r =>
+            println(r.mkString(", "))
+        }
+        results.length > 0
+    }
+
+    def main(args: Array[String]) {
+        println(run(args))
+    }
+}
+
 object Scraper {
     def run(): Boolean = {
         println("running scraper")

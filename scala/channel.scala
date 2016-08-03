@@ -48,6 +48,10 @@ case class YouTubeChannel(fileName: String, playlistId: String) {
 object YouTubeChannel {
     val YogaFlame = new YouTubeChannel("YogaFlame24", "UU1UzB_b7NSxoRjhZZDicuqw")
     val OlympicGaming = new YouTubeChannel("TubeOlympicGaming", "UUg5TGonF8hxVU_YVVaOC_ZQ")
+    val BlackVegeta = new YouTubeChannel("XblackvegetaX", "UU0B_RY99vT1r13YJYA9SfXQ")
+    val TokidoBlog = new YouTubeChannel("Tokidoblog", "UUBznN6sKP6Cts3OceowtEnA")
+    val SF5Channel = new YouTubeChannel("UCskcifXzKVhmof87fefuxsA", "UUskcifXzKVhmof87fefuxsA")
+    val iShoryukenTV = new YouTubeChannel("iShoryukenTV", "UU6scX38N_OxTIGDzHjZ9a4Q")
 
     val Channels = List(
         YogaFlame,
