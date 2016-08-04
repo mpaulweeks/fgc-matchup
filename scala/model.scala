@@ -5,7 +5,7 @@ import org.json4s.NoTypeHints
 import org.json4s.native.Serialization
 
 object Transform{
-    def toKey(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "")
+    def toKey(rawName: String): String = rawName.toLowerCase.trim.replace(" ", "").replace("_", "").replace("-", "")
 }
 
 case class VideoItem(timestamp: String, id: String, title: String) {

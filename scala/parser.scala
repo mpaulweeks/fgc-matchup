@@ -44,7 +44,7 @@ trait ChannelParser {
     }
 
     val rPlayer = "(?:[\\w ]* (?:ft |ft\\.))? *([\\w\\.\\-\\| ]+) *"
-    val rCharacter = " *(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) *"
+    val rCharacter = " *(?:\\(|\\[) *([\\w\\.\\- ]+) *(?:\\)|\\]) *"
     val rVersus = "(?:vs)\\.? "
     val rGameMap: Map[String, String]
     def rGame(): String = {
@@ -79,7 +79,7 @@ object YogaFlameParser extends ChannelParser {
         "GGXrd" -> "GGXrd",
         "TTT2" -> "Tekken Tag Tournament 2"
     )
-    val rRounds = "(?:X[0-9] )?"
+    val rRounds = "(?:X10|X18|X[0-9]|\\[X[0-9]\\])? *"
     val rResolution = " *(?:1080p|720p)"
 
     object GameLastParser extends VideoParser {
