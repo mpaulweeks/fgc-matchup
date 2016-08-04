@@ -14,7 +14,7 @@ import org.json4s.native.Serialization
 import fgc.model.VideoItem
 
 case class YouTubeChannel(fileName: String, playlistId: String) {
-    private val DATA_FILE_PATH = s"data/$fileName.json"
+    private val DATA_FILE_PATH = s"../data/scraped/$fileName.json"
 
     def loadFile(): Map[String, VideoItem] = {
         if (!(new File(DATA_FILE_PATH).exists)){

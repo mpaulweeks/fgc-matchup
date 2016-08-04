@@ -11,7 +11,7 @@ import fgc.normalizer.Normalizer
 import fgc.logger.Logger
 
 object VideoManager {
-    private val DATA_FILE_PATH = "data/video.json"
+    private val DATA_FILE_PATH = "../data/formatted/video.json"
 
     def toFile(videoDatas: List[VideoData]): String = {
         val sortedVideos = (
