@@ -3,7 +3,7 @@ var Store = (function() {
 
     var self = {};
 
-    var VIDEO_FILE = 'scala/data/video.json';
+    var VIDEO_FILE = 'data/formatted/video.json';
 
     function parseJSON(data){
         var res = [];
