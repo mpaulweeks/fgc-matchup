@@ -43,8 +43,10 @@ object VideoManager {
 
 object Formatter {
     def run(): Boolean = {
-        println("running formatter")        
+        println("running formatter")
+        println("parsing videos")
         val videos = VideoManager.loadVideos
+        println("normalizing videos")
         val formatted = VideoManager.formatVideos(videos)
         VideoManager.toFile(formatted)
         Logger.logParsing

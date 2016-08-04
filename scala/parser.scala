@@ -28,14 +28,16 @@ trait ChannelParser {
         }.toList
     }
 
+    def fixRegex(rawRegexStr: String): Regex = { ("(?i)" + rawRegexStr).r }
+
     trait VideoParser {
-        val regex: Regex
+        val regexStr: String
         def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData {}
     }
     val parsers: List[VideoParser]
     def parseVideo(videoItem: VideoItem): Option[VideoData] = {
         parsers.flatMap { parser =>
-            parser.regex.findFirstMatchIn(videoItem.title).map { m =>
+            fixRegex(parser.regexStr).findFirstMatchIn(videoItem.title).map { m =>
                 parser.parseSuccess(videoItem, m.subgroups)
             }
         }.headOption
@@ -43,7 +45,7 @@ trait ChannelParser {
 
     val rPlayer = "(?:[\\w ]* (?:ft |ft\\.))? *([\\w\\.\\-\\| ]+) *"
     val rCharacter = " *(?:\\(|\\[) *([\\w\\. ]+) *(?:\\)|\\]) *"
-    val rVersus = "(?:Vs|vs)\\.? "
+    val rVersus = "(?:vs)\\.? "
     val rGameMap: Map[String, String]
     def rGame(): String = {
         val rGames = rGameMap.values.mkString("|")
@@ -51,8 +53,8 @@ trait ChannelParser {
     }
 
     def fixGame(rawGame: String): String = {
-        rGameMap.flatMap { case (key, value) =>
-            value.r.findFirstIn(rawGame).map { m => key }
+        rGameMap.flatMap { case (key, gameRegexStr) =>
+            fixRegex(gameRegexStr).findFirstIn(rawGame).map { m => key }
         }.head
     }
     def fixCharacters(char1: String, char2: String): List[List[String]] = {
@@ -73,13 +75,15 @@ object YogaFlameParser extends ChannelParser {
         "SSF4AE" -> "Arcade Edition|AE",  // todo this collides with above
         "SF3" -> "SF3",
         "SFxT" -> "SFxT",
+        "GGXrdRev" -> "GGXrd Rev|GGXrd REVELATOR",
+        "GGXrd" -> "GGXrd",
         "TTT2" -> "Tekken Tag Tournament 2"
     )
     val rRounds = "(?:X[0-9] )?"
     val rResolution = " *(?:1080p|720p)"
 
     object GameLastParser extends VideoParser {
-        val regex = (
+        val regexStr = (
             rRounds +
             rPlayer +
             rCharacter +
@@ -88,7 +92,7 @@ object YogaFlameParser extends ChannelParser {
             rCharacter +
             rGame +
             rResolution
-        ).r
+        )
         def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
             new VideoData(
                 videoItem.id,
@@ -100,7 +104,7 @@ object YogaFlameParser extends ChannelParser {
         }
     }
     object GameFirstParser extends VideoParser {
-        val regex = (
+        val regexStr = (
             rGame + " *- *" +
             rRounds +
             rPlayer +
@@ -109,7 +113,7 @@ object YogaFlameParser extends ChannelParser {
             rPlayer +
             rCharacter +
             rResolution
-        ).r
+        )
         def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
             new VideoData(
                 videoItem.id,
@@ -134,13 +138,13 @@ object OlympicGamingParser extends ChannelParser {
         "SC5" -> "SoulCalibur 5\\/V",
         "DOA5" -> "Dead Or Alive 5 Last Round",
         "Smash4" -> "Super Smash Bros *Wii U",
-        "GGXrd" -> "Guilty Gear Xrd",
+        "GGXrd" -> "Guilty Gear Xrd|Guilty Gear",
         "KI" -> "Killer Instinct"
     )
     val rEndtag = "(?:Wii|Xbox|PS4|-? ?Gameplay).*"
 
     object GameLastParser extends VideoParser {
-        val regex = (
+        val regexStr = (
             rPlayer +
             rCharacter +
             rVersus +
@@ -148,7 +152,7 @@ object OlympicGamingParser extends ChannelParser {
             rCharacter +
             rGame +
             rEndtag
-        ).r
+        )
         def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
             new VideoData(
                 videoItem.id,
@@ -160,7 +164,7 @@ object OlympicGamingParser extends ChannelParser {
         }
     }
     object GameFirstParser extends VideoParser {
-        val regex = (
+        val regexStr = (
             rGame + ": " +
             rPlayer +
             rCharacter +
@@ -168,7 +172,7 @@ object OlympicGamingParser extends ChannelParser {
             rPlayer +
             rCharacter +
             rEndtag
-        ).r
+        )
         def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
             new VideoData(
                 videoItem.id,
