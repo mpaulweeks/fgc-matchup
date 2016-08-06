@@ -54,6 +54,7 @@ object YouTubeChannel {
     val TokidoBlog = new YouTubeChannel("Tokidoblog", "UUBznN6sKP6Cts3OceowtEnA")
     val SF5Channel = new YouTubeChannel("UCskcifXzKVhmof87fefuxsA", "UUskcifXzKVhmof87fefuxsA")
     val iShoryukenTV = new YouTubeChannel("iShoryukenTV", "UU6scX38N_OxTIGDzHjZ9a4Q")
+    val CrossCounter = new YouTubeChannel("crosscountertv", "UUTDdH72PnLY1V_ERklKSXMg")
 
     val Channels = List(
         YogaFlame,
@@ -61,6 +62,7 @@ object YouTubeChannel {
         BlackVegeta,
         TokidoBlog,
         SF5Channel,
-        iShoryukenTV
+        iShoryukenTV,
+        CrossCounter
     )
 }
