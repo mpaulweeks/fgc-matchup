@@ -39,7 +39,6 @@ case class YouTubeChannel(fileName: String, playlistId: String) {
         implicit val formats = Serialization.formats(NoTypeHints)
         val serialized = Serialization.writePretty(sortedVideos)
         val file = new File(DATA_FILE_PATH)
-        // file.createNewFile()
         val bw = new BufferedWriter(new FileWriter(file))
         bw.write(serialized)
         bw.close
@@ -55,6 +54,7 @@ object YouTubeChannel {
     val SF5Channel = new YouTubeChannel("UCskcifXzKVhmof87fefuxsA", "UUskcifXzKVhmof87fefuxsA")
     val iShoryukenTV = new YouTubeChannel("iShoryukenTV", "UU6scX38N_OxTIGDzHjZ9a4Q")
     val CrossCounter = new YouTubeChannel("crosscountertv", "UUTDdH72PnLY1V_ERklKSXMg")
+    val VGBootCamp = new YouTubeChannel("VideoGameBootCamp", "UUj1J3QuIftjOq9iv_rr7Egw")
 
     val Channels = List(
         YogaFlame,
@@ -63,6 +63,7 @@ object YouTubeChannel {
         TokidoBlog,
         SF5Channel,
         iShoryukenTV,
-        CrossCounter
+        CrossCounter,
+        VGBootCamp
     )
 }
