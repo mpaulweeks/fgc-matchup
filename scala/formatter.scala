@@ -32,7 +32,7 @@ object VideoManager {
             YouTubeChannelParser.Parsers
             .map(p => p.loadVideos)
             .flatten
-            .map(_.trim)
+            .map(_.trim.fixCharacters)
         )
     }
 
