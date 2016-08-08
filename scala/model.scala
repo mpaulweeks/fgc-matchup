@@ -13,7 +13,7 @@ case class VideoItem(timestamp: String, id: String, title: String) {
 }
 
 object VideoData {
-    val colors = List(
+    val meleeColors = List(
         "Black",
         "Blue",
         "Green",
@@ -22,6 +22,13 @@ object VideoData {
         "Purple",
         "Red",
         "White"
+    )
+    // todo: make this a generic lookup by game
+    val meleeTypos: Map[String, List[String]] = Map(
+        "Captian Falcon Fox" -> List("Captain Falcon", "Fox"),
+        "Falco Fox" -> List("Falco", "Fox"),
+        "Marth Sheik" -> List("Marth", "Sheik"),
+        "Sheik Marth" -> List("Sheik", "Marth")
     )
 }
 
@@ -52,9 +59,13 @@ case class VideoData(
     def fixCharacters(): VideoData = {
         if (game == "Melee"){
             val fixedCharacters = List(0,1).map{ i =>
-                characters(i).map{ char =>
+                var chars = characters(i)
+                if (chars.length == 1) {
+                    chars = VideoData.meleeTypos.getOrElse(chars(0), chars)
+                }
+                chars.map{ char =>
                     var fixed = char
-                    VideoData.colors.foreach{ col =>
+                    VideoData.meleeColors.foreach{ col =>
                         if (fixed.startsWith(col)){
                             fixed = fixed.stripPrefix(col)
                         }
