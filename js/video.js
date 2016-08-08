@@ -48,7 +48,7 @@ function VideoItem(videoTuple) {
         playerCharacters[index].forEach(function (charItem){
             playerCharLinks.push(TOOL.internalLink(characterClass, charItem));
         });
-        return playerCharLinks.join(', ');
+        return playerCharLinks.join(' / ');
     }
 
     self.toData = function(){
