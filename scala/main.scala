@@ -19,3 +19,11 @@ object Main {
         run
     }
 }
+
+object Debug {
+    def main(args: Array[String]) {
+        // fill with whatever
+        import fgc.parser.VGBootCampParser
+        println(VGBootCampParser.GameLastParser.regexStr)
+    }
+}

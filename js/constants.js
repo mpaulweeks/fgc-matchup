@@ -16,6 +16,7 @@ CONSTANTS.GAME_NAMES = {
     MKX: "Mortal Kombat X",
     KI: "Killer Instinct",
     Smash4: "Super Smash Bros Wii U",
+    Melee: "Super Smash Bros Melee",
 };
 CONSTANTS.GAME_ORDER = [
     'SF5',
@@ -33,4 +34,5 @@ CONSTANTS.GAME_ORDER = [
     'MKX',
     'KI',
     'Smash4',
+    'Melee',
 ]

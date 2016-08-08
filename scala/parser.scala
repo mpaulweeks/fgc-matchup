@@ -12,7 +12,8 @@ import fgc.logger.Logger
 object YouTubeChannelParser {
     val Parsers = List(
         YogaFlameParser,
-        OlympicGamingParser
+        OlympicGamingParser,
+        VGBootCampParser
     )
 }
 
@@ -44,7 +45,7 @@ trait ChannelParser {
     }
 
     val rPlayer = "(?:[\\w ]* (?:ft |ft\\.))? *([\\w\\.\\-\\| ]+) *"
-    val rCharacter = " *(?:\\(|\\[) *([\\w\\.\\- ]+) *(?:\\)|\\]) *"
+    val rCharacter = " *(?:\\(|\\[) *([\\w\\.\\-, ]+) *(?:\\)|\\]) *"
     val rVersus = "(?:vs)\\.? "
     val rGameMap: Map[String, String]
     def rGame(): String = {
@@ -58,7 +59,7 @@ trait ChannelParser {
         }.head
     }
     def fixCharacters(char1: String, char2: String): List[List[String]] = {
-        List(List(char1), List(char2))
+        List(char1.split(",").toList, char2.split(",").toList)
     }
     def fixPlayers(player1: String, player2: String): List[String] = {
         List(player1, player2)
@@ -184,4 +185,37 @@ object OlympicGamingParser extends ChannelParser {
         }
     }
     val parsers = List(GameLastParser, GameFirstParser)
+}
+
+object VGBootCampParser extends ChannelParser {
+    val channel = YouTubeChannel.VGBootCamp
+
+    val rGameMap = ListMap(
+        "Melee" -> "Smash Melee"
+    )
+    val rIntro = " - "
+    val rFiller = "[\\w ]*"
+
+    object GameLastParser extends VideoParser {
+        val regexStr = (
+            rIntro +
+            rPlayer +
+            rCharacter +
+            rVersus +
+            rPlayer +
+            rCharacter +
+            rFiller +
+            " - " + rGame
+        )
+        def parseSuccess(videoItem: VideoItem, regexMatch: List[String]): VideoData = {
+            new VideoData(
+                videoItem.id,
+                videoItem.timestamp,
+                fixGame(regexMatch(4)),
+                fixPlayers(regexMatch(0), regexMatch(2)),
+                fixCharacters(regexMatch(1), regexMatch(3))
+            )
+        }
+    }
+    val parsers = List(GameLastParser)
 }
