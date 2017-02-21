@@ -43,6 +43,15 @@ function VideoItem(videoTuple) {
     var playerClass = 'link-player';
     var characterClass = 'link-character';
 
+    function embed(){
+        var html = (
+            '<iframe id="ytplayer" type="text/html" width="640" height="390"  src="https://www.youtube.com/embed/'
+            + videoData.id
+            + '?autoplay=1&origin=http://example.com"  frameborder="0"></iframe>'
+        );
+        return html;
+    }
+
     function characterLinks(index){
         var playerCharLinks = []
         playerCharacters[index].forEach(function (charItem){
