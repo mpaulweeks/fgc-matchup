@@ -1,5 +1,5695 @@
 [
   [
+    "2017-05-21T21:00:00.000Z",
+    "L_67wIn8vIE",
+    "S@X Maylee Monthly - Smash G0D (Marth) Vs. Llod (Peach) SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-05-21T20:30:00.000Z",
+    "pJjHmAfH9D8",
+    "S@X Maylee Monthly - Jerry (Fox) Vs. Llod (Peach) SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-05-21T20:00:03.000Z",
+    "yN77R-_AFQc",
+    "S@X Maylee Monthly - Llod (Peach) Vs. Zain (Marth) SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-05-21T19:30:01.000Z",
+    "8oXcLuo6RYI",
+    "S@X Maylee Monthly - Jerry (Fox) Vs. Smash GoD (Marth) SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-05-21T19:00:03.000Z",
+    "zAPdZaE6eAE",
+    "S@X Maylee Monthly - Aglet (Jigglypuff) Vs. Zain (Marth) SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-21T19:00:01.000Z",
+    "Q_wpDD6RFeU",
+    "S@X Maylee Monthly - Cool Lime (Ice Climbers) Vs. Llod (Peach) SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-21T18:30:01.000Z",
+    "bvWJdM11kyY",
+    "S@X Maylee Monthly - Zain (Marth) Vs. Smash G0D (Marth) SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-05-21T18:30:00.000Z",
+    "F-y4K9pkp9k",
+    "S@X Maylee Monthly - Jerry (Fox) Vs. Llod (Peach) SSBM Winners Semis - SMash Melee"
+  ],
+  [
+    "2017-05-21T18:00:04.000Z",
+    "hIH6jRRcUGs",
+    "S@X Maylee Monthly - Hat (Sheik) Vs. Smash G0D (Marth) SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-21T18:00:03.000Z",
+    "fI0pyLZQyjM",
+    "S@X Maylee Monthly - Plank (Sheik) Vs. Zain (Marth) SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-21T18:00:02.000Z",
+    "oqbG2AQaOnc",
+    "S@X Maylee Monthly - Jerry (Fox) Vs. Aglet (Jigglypuff) SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-21T17:30:01.000Z",
+    "QGGHkkS6eyk",
+    "S@X Maylee Monthly - Zain (Marth) Vs. Fendrick Lamar (Marth) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-21T17:30:01.000Z",
+    "HExktbP2Wf0",
+    "S@X Maylee Monthly - Cool Lime (Ice Climbers) Vs. MOM! (Peach) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-21T17:30:00.000Z",
+    "HEE_NrY_Ghg",
+    "S@X Maylee Monthly - Wenbo (Fox) Vs. Llod (Peach) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-21T17:00:03.000Z",
+    "pSgZ5RhaWCk",
+    "S@X Maylee Monthly - Junebug & Aglet Vs.Smash G0D & LloD - Smash Melee Grand Finals"
+  ],
+  [
+    "2017-05-18T01:30:01.000Z",
+    "Cj7tb3kxkZ8",
+    "S@X 201 - Hat (Marth, Captain Falcon) Vs. Plank (Falcon, Marth, Sheik) Smash Melee GF - SSBM"
+  ],
+  [
+    "2017-05-18T01:00:01.000Z",
+    "Dz7SPgy_MWc",
+    "S@X 201 - Mayb (Fox, Peach) Vs. Plank (Sheik) Smash Melee Losers Finals - SSBM"
+  ],
+  [
+    "2017-05-18T00:30:01.000Z",
+    "Sa5P0PmgQQU",
+    "S@X 201 - Mayb (Peach) Vs. Jerry (Fox) Smash Melee Losers Semis - SSBM"
+  ],
+  [
+    "2017-05-18T00:00:01.000Z",
+    "3HVyCnRAqSA",
+    "S@X 201 - Hat (Sheik) Vs. Plank (Sheik) Smash Melee Winners Finals - SSBM"
+  ],
+  [
+    "2017-05-17T23:30:00.000Z",
+    "u6u8aIOc9Dg",
+    "S@X 201 - Mayb (Peach) Vs. Atomsk (Sheik) Smash Melee Losers Quarters - SSBM"
+  ],
+  [
+    "2017-05-17T23:30:00.000Z",
+    "4cJGk_V4nWw",
+    "S@X 201 - Jerry (Fox) Vs. Nurok (Falco) Smash Melee Losers Quarters - SSBM"
+  ],
+  [
+    "2017-05-17T23:00:01.000Z",
+    "TuVtBZq3Yek",
+    "S@X 201 - Jerry (Fox) Vs. Hat (Sheik, Marth) Smash Melee Winners Semis - SSBM"
+  ],
+  [
+    "2017-05-17T23:00:00.000Z",
+    "Es6GiAjRLaU",
+    "S@X 201 - Mayb (Peach) Vs. Plank (Sheik) Smash Melee Winners Semis - SSBM"
+  ],
+  [
+    "2017-05-17T22:30:01.000Z",
+    "srTpV1W4aSY",
+    "S@X 201 - Mayb (Peach) Vs. Wenbo (Fox) Smash Melee Winners Quarters - SSBM"
+  ],
+  [
+    "2017-05-17T22:30:01.000Z",
+    "EhnTWdPOCjk",
+    "S@X 201 - Plank (Sheik, Marth) Vs. Nurok (Falco) Smash Melee Winners Quarters - SSBM"
+  ],
+  [
+    "2017-05-17T22:30:00.000Z",
+    "knFqC1ruN24",
+    "S@X 201 - Jerry (Fox) Vs. Ace of Flakes (Jigglypuff) Smash Melee Winners Quarters - SSBM"
+  ],
+  [
+    "2017-05-17T22:30:00.000Z",
+    "6YYl8B6rGpQ",
+    "S@X 201 - Hat (Sheik) Vs. Atomsk (Jigglypuff) Smash Melee Winners Quarters - SSBM"
+  ],
+  [
+    "2017-05-17T22:00:04.000Z",
+    "nSJ1IhIUk6o",
+    "S@X 201 - Bird (Fox) Vs. Isaiah (Falco) Smash Melee Tournament - SSBM"
+  ],
+  [
+    "2017-05-17T22:00:03.000Z",
+    "vG-ihbw6A0M",
+    "S@X 201 - Wenbo (Fox) Vs. Bird (Fox) Melee Tournament - SSBM"
+  ],
+  [
+    "2017-05-17T22:00:02.000Z",
+    "OLQpQI4ceNo",
+    "S@X 201 - Hat (Sheik, Marth) Vs. VGBC | GimR (Falco) Smash Melee Tournament - SSBM"
+  ],
+  [
+    "2017-05-17T22:00:01.000Z",
+    "D-xKFxKDrdc",
+    "S@X 201 - Mayb (Peach, Falco) Vs. Llama (Sheik) Melee Smash Melee Tournament - SSBM"
+  ],
+  [
+    "2017-05-17T20:39:49.000Z",
+    "8Tr4ToXqLxE",
+    "Smash The Record 2017 Announcement Video"
+  ],
+  [
+    "2017-05-15T03:56:39.000Z",
+    "tr4k4oux0to",
+    "Royal Flush 2017 - Phil Interviews Mango"
+  ],
+  [
+    "2017-05-15T03:56:38.000Z",
+    "KE-SLt6SZo0",
+    "Royal Flush 2017 - Phil Interviews Armada"
+  ],
+  [
+    "2017-05-15T03:56:29.000Z",
+    "9m3FLJqQJsY",
+    "Royal Flush 2017 - Phil Interviews Android"
+  ],
+  [
+    "2017-05-15T03:16:43.000Z",
+    "SZh9aXUcN2s",
+    "Royal Flush SSBM - [A] Armada (Peach) Vs. C9 Mango (Fox, Marth) Smash Melee GF"
+  ],
+  [
+    "2017-05-15T02:22:32.000Z",
+    "-un5uAJHhFc",
+    "Royal Flush SSBM - C9 Mango (Fox) Vs. Liquid Hungrybox (Jigglypuff) Smash Melee LF"
+  ],
+  [
+    "2017-05-15T02:06:04.000Z",
+    "whtRQNWapr0",
+    "Royal Flush SSBM - C9 Mango (Falco) Vs. Druggedfox (Fox) Smash Melee LS"
+  ],
+  [
+    "2017-05-15T01:47:38.000Z",
+    "1TybWPPaVfc",
+    "Royal Flush SSBM - [A] Armada (Peach) Vs. Liquid Hungrybox (JigglypufF) Smash Melee WF"
+  ],
+  [
+    "2017-05-15T01:46:02.000Z",
+    "R8aDmXuIhCo",
+    "Royal Flush SSBM - RB TSM | Leffen (Fox) Vs. Druggedfox (Fox) Smash Melee LQ"
+  ],
+  [
+    "2017-05-15T01:15:21.000Z",
+    "YvZMFcGmNIg",
+    "The Big House 7 Teaser Trailer"
+  ],
+  [
+    "2017-05-15T01:13:49.000Z",
+    "DKuovALh5M8",
+    "Royal Flush SSBM - C9 Mango (Fox) Vs. IMT | Shroomed (Sheik) Smash Melee Losers Quarters"
+  ],
+  [
+    "2017-05-15T00:35:24.000Z",
+    "S5tXtTDEIKc",
+    "Royal Flush SSBM - TSM RB | Leffen (Fox) Vs. Liquid | Hungrybox (Jigglypuff) Smash Melee WS"
+  ],
+  [
+    "2017-05-15T00:26:58.000Z",
+    "Pi22P58IVbk",
+    "Royal Flush SSBM - [A] Armada (Peach) Vs. C9 Mango (Falco) Smash Melee Winners Semis"
+  ],
+  [
+    "2017-05-15T00:21:56.000Z",
+    "g-mGfwTsabs",
+    "Royal Flush SSBM - Druggedfox (Fox) Vs. SPY | Nintendude (Ice Climbers) Smash Melee Losers 7ths"
+  ],
+  [
+    "2017-05-15T00:21:11.000Z",
+    "6GrK6YoO-PY",
+    "Royal Flush SSBM - IMT | Shroomed (Sheik) Vs. MSF | The Moon (Marth) Smash Melee Losers 7ths"
+  ],
+  [
+    "2017-05-15T00:17:49.000Z",
+    "Heo9tQj0zDo",
+    "Royal Flush SSBM Doubles - IMT | Shroomed & Tempo | S2J Vs. MSF | The Moon & DJ Nintendo - Melee LS"
+  ],
+  [
+    "2017-05-14T23:45:19.000Z",
+    "gbtZeapM7Yc",
+    "Royal Flush SSB4 - MR. R (Sheik) Vs. P1 | Tweek (Cloud, Donkey, Donkey Kong) SSB4 WS - Smash 4"
+  ],
+  [
+    "2017-05-14T23:29:19.000Z",
+    "_tuhmlmoQ74",
+    "Royal Flush SSBM Doubles - RB TSM | Leffen & LG | Ice - Vs. [A] Armada & [A] Android Smash Melee GF"
+  ],
+  [
+    "2017-05-14T23:20:39.000Z",
+    "skaetWGJ0a4",
+    "Royal Flush SSBM Doubles - [A] Armada & [A] Android Vs. IMT | Shroomed & Tempo | S2J - Melee LF"
+  ],
+  [
+    "2017-05-14T23:05:04.000Z",
+    "X-GQkha0EVY",
+    "Royal Flush SSBM Doubles - [A] Armada & [A] Android Vs. RB TSM | Leffen & LG | Ice - Smash Melee WF"
+  ],
+  [
+    "2017-05-14T23:00:14.000Z",
+    "qPJ1RFryETM",
+    "Royal Flush SSB4 - TSM | Zero (Diddy Kong) Vs. Mr. R (Sheik) SSB4 GF - Smash 4"
+  ],
+  [
+    "2017-05-14T22:58:25.000Z",
+    "KopnN54CdLE",
+    "Royal Flush SSB4 - Mr. R (Sheik) Vs. Tweek (Donkey Kong) SSB4 LF - Smash 4"
+  ],
+  [
+    "2017-05-14T22:56:02.000Z",
+    "amtvYFYYvls",
+    "Royal Flush SSB4 - CLG | VoiD (Sheik) Vs. P1 | Tweek (Sheik, Bayo, DK) SSB4 LS - Smash 4"
+  ],
+  [
+    "2017-05-14T22:51:36.000Z",
+    "5J0MQkgTbzE",
+    "Royal Flush SSB4 - TSM | ZeRo (Diddy Kong) Vs. Mr. R (Sheik) SSB4 WF - Smash 4"
+  ],
+  [
+    "2017-05-14T22:48:44.000Z",
+    "Ax3cxAfO-sY",
+    "Royal Flush SSB4 - The Great Gonzalez (Ness) Vs. P1 | Tweek (Cloud) SSB4 LQ - Smash 4"
+  ],
+  [
+    "2017-05-14T22:43:30.000Z",
+    "qHxMqi_42V8",
+    "Royal Flush SSB4 - CLG | VoiD (Sheik) Vs. BOT | Super Girl Kels (Sonic) SSB4 LQ - Smash 4"
+  ],
+  [
+    "2017-05-14T22:29:16.000Z",
+    "T2e8DFldLdY",
+    "Royal Flush SSB4 - Nairo (Lucina) Vs. CLG | VoiD (Sheik) SSB4 Losers 7ths - Smash Wii U"
+  ],
+  [
+    "2017-05-14T21:50:31.000Z",
+    "Wz_G4G2LRPA",
+    "Royal Flush SSB4 - TSM | ZeRo (Diddy Kong) Vs. BOT | Super Girl Kels (Sonic) SSB4 WS - Smash 4"
+  ],
+  [
+    "2017-05-14T17:43:37.000Z",
+    "KsXaah9B6hA",
+    "Royal Flush SSB4 - The Great Gonzales (Ness) vs. Wadi (Mewtwo, Rob) - Smash 4 -  Smash Wii U"
+  ],
+  [
+    "2017-05-14T16:40:41.000Z",
+    "qy48Kimlmrg",
+    "Royal Flush  ssb4 - EG | Zinoto & IMT | ANTi  vs. NRG | Nairo & TSM | Zero - Smash 4 LF"
+  ],
+  [
+    "2017-05-14T15:11:12.000Z",
+    "levBztdhn70",
+    "Royal Flush SSBM - Tempo | S2J (Captain Falcon) vs. MSF | The Moon (Marth) - Smash Melee"
+  ],
+  [
+    "2017-05-14T15:10:53.000Z",
+    "PX77je1JZqA",
+    "Royal Flush SSBM - Mafia (Peach) vs. IMT | Shroomed (Sheik) - Smash Melee"
+  ],
+  [
+    "2017-05-14T01:38:24.000Z",
+    "c6ciSw6QrJQ",
+    "Royal Flush SSBM - DruggedFox (Fox) vs. EGtv.Crush (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-14T01:02:03.000Z",
+    "sP-mtlRt2jE",
+    "Royal Flush SSBM - Tempo | S2J (Captain Falcon) vs. TL | Hungrybox (Jigglypuff) - Smash Melee"
+  ],
+  [
+    "2017-05-14T00:17:03.000Z",
+    "Dnb2_tZWVgU",
+    "Royal Flush SSBM - C9 | Mango (Falco) vs. OBEY | MikeHaze (Fox) - Smash Melee WQ"
+  ],
+  [
+    "2017-05-14T00:16:56.000Z",
+    "xhqfMcKBXQI",
+    "Royal Flush SSBM - [A]rmada (Peach) vs. DruggedFox (Fox) - Smash Melee WQ"
+  ],
+  [
+    "2017-05-13T23:57:46.000Z",
+    "ELQVnVsUf4A",
+    "Royal Flush SSBM - MSF | The Moon (Marth) vs. SPY | Cactuar (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T23:57:35.000Z",
+    "IVTuT-X4y4U",
+    "Royal Flush SSBM - Mafia (Peach) vs. Selfless | Lucky (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T23:42:11.000Z",
+    "i4LVaHO4p4w",
+    "Royal Flush SSBM - VGBC | Chudat (Ice Climbers) vs. IMT | Shroomed (Marth) - Smash Melee"
+  ],
+  [
+    "2017-05-13T23:42:04.000Z",
+    "Fpag6jJsmUU",
+    "Royal Flush SSBM - TSM RB | Leffen (Fox) vs. EGtv.Crush (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T22:26:47.000Z",
+    "PyFU1LIxFy0",
+    "Royal Flush SSBM - TL | Hungrybox (Jigglypuff) vs. Professor Pro (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T22:07:05.000Z",
+    "jq7-lfjlAEM",
+    "Royal Flush SSBM - dizzkidboogie (Ice Climbers) vs. EGtv.Crush (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T21:29:12.000Z",
+    "lLvAEpdkAag",
+    "Royal Flush SSBM - Slox (Fox) vs. Luminosity | Ice (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T21:10:22.000Z",
+    "2KI7b4duLRc",
+    "Royal Flush SSBM - VGz | Junebug (Sheik) vs. TL | Hungrybox (Jigglypuff) - Smash Melee"
+  ],
+  [
+    "2017-05-13T20:45:14.000Z",
+    "sBmjJzk_Sog",
+    "Royal Flush SSBM - KJH (fox) vs. Professor Pro (fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T20:07:48.000Z",
+    "Re49acB0wEo",
+    "Royal Flush SSBM - Tempo | S2J (Captain Falcon) vs. TL | Chillindude (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-13T20:06:25.000Z",
+    "URyMsluCNmE",
+    "Royal Flush SSBM - [A]ndroid (Sheik) vs. SPY | Cactuar (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T19:51:41.000Z",
+    "teWm8sF6Qzg",
+    "Royal Flush SSBM - CLG | SFAT (Fox) vs. Selfless | Lucky (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T19:30:51.000Z",
+    "3gbMFvYhvSM",
+    "Royal Flush SSBM - [A]rmada (Peach) vs. Selfless | Hugs (Samus) - Smash Melee"
+  ],
+  [
+    "2017-05-13T19:14:56.000Z",
+    "Uv293-bO9ns",
+    "Royal Flush SSBM - SPY | Cactuar (Fox) vs. OBEY | MikeHaze (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T19:14:50.000Z",
+    "Keab7n-C910",
+    "Royal Flush SSBM - Selfless | Lucky (Fox) vs. DruggedFox (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T18:19:27.000Z",
+    "57SJWdWV1S0",
+    "Royal Flush SSBM - C9 | Mango (Falco) vs. MSF | The Moon (Marth) - Smash Melee"
+  ],
+  [
+    "2017-05-13T18:18:11.000Z",
+    "lSCTqdApNqg",
+    "Royal Flush SSBM - ER | Ryan Ford (Sheik) vs. Selfless | Hugs (Samus) - Smash Melee"
+  ],
+  [
+    "2017-05-13T17:58:23.000Z",
+    "Va-vQhLOEgE",
+    "Royal Flush SSBM - Captain Smuckers (Captain Falcon) vs. OBEY | MikeHaze (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T17:41:02.000Z",
+    "hSMhs_Ml02s",
+    "Royal Flush SSBM - MSF | The Moon (Marth) vs. Zealous5000 (Marth) - Smash Melee"
+  ],
+  [
+    "2017-05-13T17:18:02.000Z",
+    "B4zPbp8GI6M",
+    "Royal Flush SSBM - Stango (Marth) vs. Selfless | Lucky (Fox, Captain Falcon) - Smash Melee"
+  ],
+  [
+    "2017-05-13T17:00:22.000Z",
+    "-7J38qucTJ8",
+    "Royal Flush SSBM - Mafia (Peach) vs. C9 | Mango (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-13T16:54:20.000Z",
+    "n-5DXjPubiI",
+    "Royal Flush SSBM - CLG | SFAT (Fox, Falco) vs. SPY | Cactuar (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-12T21:00:02.000Z",
+    "UwfshtRHYiY",
+    "Xanadu 200 - Wadi (Rob) Vs. InC | ZD (Fox) SSB4 GF- Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T20:30:00.000Z",
+    "szOsHuTbOvU",
+    "Xanadu 200 - Wadi (Mewtwo, Rob) Vs. InC | Seagull (Diddy, Sonic) SSB4 LF - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T20:00:00.000Z",
+    "6Am5XwkB7gs",
+    "Xanadu 200 - Zephyr (Cloud) Vs. InC | Seagull (Sonic) SSB4 LS - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T19:30:01.000Z",
+    "plVd0cqDP7Q",
+    "Xanadu 200 - InC | ZD (Fox) Vs. Wadi (Mewtwo) SSB4 WF - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T19:00:06.000Z",
+    "v4Lwt3UPqJo",
+    "Xanadu 200 - VGBC | Pink Fresh (Bayonetta) Vs. Seagull (Diddy) SSB4 LQ - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T19:00:03.000Z",
+    "Q6ooyQC8K48",
+    "Xanadu 200 - Zephyr (Cloud) Vs. Remzi (ZSS) SSB4 LQ - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T18:30:00.000Z",
+    "FCk-LWTCu-s",
+    "Xanadu 200 - Zephyr (Cloud) Vs. Dexter (Marth) SSB4 Losers 7ths - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T18:00:03.000Z",
+    "bwSK5uA1wAo",
+    "Xanadu 200 - Remzi (ZSS) Vs. Wadi (Mewtwo) SSB4 WS- Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T18:00:02.000Z",
+    "EZ0JL-dnIqQ",
+    "Xanadu 200 - ZD (Fox) Vs. VGBC | Pink Fresh (Bayonetta) SSB4 WS - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T17:30:01.000Z",
+    "wm5NhgihiLM",
+    "Xanadu 200 - Zephyr (Little Mac) Vs. ZD (Fox) SSB4 WQ - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T17:30:01.000Z",
+    "M-rBlZJdsMs",
+    "Xanadu 200 - Dexter (Roy) Vs. VGBC Pink Fresh (Bayonetta) SSB4 WQ - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T17:30:00.000Z",
+    "_L6qH7CrokI",
+    "Xanadu 200 - Remzi (ZSS) Vs. Seagull (Diddy, Duck Hunt) SSB4 WQ - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T17:00:04.000Z",
+    "hmfM1X0ugYw",
+    "Xanadu 200 - Logic (Olimar) Vs. Seagull (Sonic) SSB4 Tournament- Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T17:00:03.000Z",
+    "bMkKEPJUZuw",
+    "Xanadu 200 - Coreo (Mario) Vs. Nika (Lucina) SSB4 Tournament- Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-12T17:00:01.000Z",
+    "5eE6_TtaSqk",
+    "Xanadu 200 - Smash G0d (Kirby) Vs. Remzi (Corrin, ZSS) SSB4 Tournament- Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-10T20:30:00.000Z",
+    "sKCUoJY2k6c",
+    "Xanadu 200 - Plank (Sheik, Marth) Vs. Jerry (Fox) SSBM GF - Smash Melee"
+  ],
+  [
+    "2017-05-10T20:00:00.000Z",
+    "-OlfVUP4fuw",
+    "Xanadu 200 - Plank (Sheik) Vs. Hat (Sheik, Marth) SSBM LF - Smash Melee"
+  ],
+  [
+    "2017-05-10T19:30:01.000Z",
+    "vwAALQmK0Cs",
+    "Xanadu 200 - Mayb (Peach) Vs. Hat (Captain Falcon, Sheik) SSBM LS Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-10T19:00:03.000Z",
+    "Q-1un21LOE4",
+    "Xanadu 200 - Jerry (Fox) Vs. Plank (Sheik) SSBM WF - Smash Melee"
+  ],
+  [
+    "2017-05-10T18:30:00.000Z",
+    "PvUgyiDTNNk",
+    "Xanadu 200 - Mayb (Peach) Vs. Wenbo (Fox, Falco) SSBM LQ Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-10T18:00:06.000Z",
+    "gAI7V4ysboE",
+    "Xanadu 200 - Hat (Sheik) Vs. Plank (Sheik) SSBM WS - Smash Melee"
+  ],
+  [
+    "2017-05-10T18:00:03.000Z",
+    "c4X7pNNB9zc",
+    "Xanadu 200 - Jerry (Fox) Vs. Wenbo (Fox) SSBM WS - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:30:01.000Z",
+    "wYKzIXwvDU8",
+    "Xanadu 200 - Stango (Marth) Vs. Wenbo (Fox) SSBM WQ - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:30:01.000Z",
+    "10CKmbymoac",
+    "Xanadu 200 - Plank (Sheik, Fox) Vs. Ace of Flakes (Jigglypuff) SSBM WQ - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:30:00.000Z",
+    "FOZRV9jskKY",
+    "Xanadu 200 - Jerry (Fox) Vs. Vist (Luigi) SSBM WQ - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:00:06.000Z",
+    "bKhUUC_yTbc",
+    "Xanadu 200 - Corn (Ice Climbers) Vs. Vist (Luigi) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:00:05.000Z",
+    "YorQaINehq8",
+    "Xanadu 200 - Nurok (Falco) Vs. Mayb (Peach) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:00:04.000Z",
+    "iBQWVuZ_9W8",
+    "Xanadu 200 - Hat (Captain Falcon, Sheik) Vs. Tanwad (Jigglypuff) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:00:03.000Z",
+    "V0tgDfRit7o",
+    "Xanadu 200 - Mayb (Peach) Vs. Hat (Captain Falcon, Sheik) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-10T17:00:01.000Z",
+    "4Chd3tycPbk",
+    "Xanadu 200 - Emerald (Fox) Vs. Ace of Flakes (Jigglypuff) SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-10T15:30:00.000Z",
+    "K0Dpkp6PXZw",
+    "S@X 199 - InC | ZD (Fox) Vs. Dexter (Marth) - SSB4 Grand Finals - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T15:00:05.000Z",
+    "r5w_4X96HMw",
+    "S@X 199 - Zephyr (Little Mac, Cloud) Vs. Dexter (Corrin, Marth) - SSB4 Losers Finals - Smash Wii U"
+  ],
+  [
+    "2017-05-10T14:30:00.000Z",
+    "i7s2-Bug2Z0",
+    "S@X 199 - InC VGBC | Logic (Olimar) Vs. Dexter (Corrin) - SSB4 Losers Semis - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T14:00:05.000Z",
+    "kBOG4KRhw5I",
+    "S@X 199 - InC VGBC | Logic (Olimar) Vs. Nika (Duck Hunt, Marth) - SSB4 Losers Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-10T14:00:03.000Z",
+    "XvHkj8Ak6as",
+    "S@X 199 - InC | ZD (Fox) Vs. Zephyr (Little Mac) - SSB4 Winners Finals - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T14:00:01.000Z",
+    "D47HARkO2-M",
+    "S@X 199 - Dexter (Corrin) Vs. Z8 (Rosalina) - SSB4 Losers Quarters - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T13:30:01.000Z",
+    "LufvXgzJTK0",
+    "S@X 199 - InC | ZD (Fox) Vs. InC VGBC | Logic (Olimar) - SSB4 Winners Semis - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T13:30:01.000Z",
+    "0uO010Vj5-o",
+    "S@X 199 - Dexter (Marth, Corrin) Vs. Zephyr (Little Mac) - SSB4 Winners Semis - Smash Wii U"
+  ],
+  [
+    "2017-05-10T13:00:05.000Z",
+    "vp9y-mV7CI8",
+    "S@X 199 - Nika (Lucina) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T13:00:03.000Z",
+    "XFex_gH0ZBQ",
+    "S@X 199 - Jeebus (Lil Mac) Vs. InC VGBC | Logic (Olimar) - SSB4 Winners Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-10T13:00:01.000Z",
+    "GskOAfU1pt4",
+    "S@X 199 - InC | ZD (Fox) Vs. Z8 (Rosalina) - SSB4 Winners Quarters - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T13:00:00.000Z",
+    "7ML78wMzd1Y",
+    "S@X 199 - Dexter (Corrin, Roy) Vs. Dingus Joe (G&W) - SSB4 Winners Quarters - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:01.000Z",
+    "cZe0sJNNlQQ",
+    "S@X 199 - Coreo (Mario) Vs. Zephyrus (Ryu) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:01.000Z",
+    "bS7w3EOPQzo",
+    "S@X 199 - Nika (Lucina) Vs. Average Joe (Donkey Kong) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:01.000Z",
+    "4adZvkC8C8A",
+    "S@X 199 - Dexter (Corrin) Vs. Astra (Toon Link) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "q2V-UMedozU",
+    "S@X 199 - Jeebus (Lil Mac) Vs. Coldweather (Marth) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "i6sZGudFfoE",
+    "S@X 199 - Fruit (Link) Vs. KirbyCombo35 (Kirby) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "dsEYz6My4Lg",
+    "S@X 199 - Osiris (Falco) Vs. Dingus Joe (G&W) - SSB4 Touranment - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "Nz03L-hRtQk",
+    "S@X 199 - Yama (Lucina) Vs. Rychu (Pikachu, Samus) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "E8IDjNGq8uA",
+    "S@X 199 - Average Joe (Donkey Kong) Vs. Mzzkc (Pikachu) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "9VFYqaZhUIU",
+    "S@X 199 - InC | ZD (Fox) Vs. DCe | Dark Flame (Captain Falcon) - SSB4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "3Ss5x67ojZk",
+    "S@X 199 - Bratt (Rosalina) Vs. Nika (Lucina, Marth) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-10T12:30:00.000Z",
+    "1of-x5PyEaQ",
+    "S@X 199 - King (Cloud) Vs. Airlift (Sheik) - SSB4 Tournament - Smash Wii U - Smash 4"
+  ],
+  [
+    "2017-05-09T17:00:03.000Z",
+    "EeE5kFlMfn8",
+    "DHA 2017 - Toph Interviews Hungrybox"
+  ],
+  [
+    "2017-05-09T16:30:00.000Z",
+    "ZvoKhbJGW-4",
+    "DHA 2017 - Blur Interviews Chudat"
+  ],
+  [
+    "2017-05-09T16:00:02.000Z",
+    "PjqhBZawQE8",
+    "DHA 2017 - Toph Interviews Mew2King"
+  ],
+  [
+    "2017-05-09T00:00:01.000Z",
+    "728pggTHsDw",
+    "DHA 2017 SSBM - VGBC | Chudat (Ice Climbers) Vs. TL | Hungrybox (Jigglypuff) Smash Melee GF"
+  ],
+  [
+    "2017-05-08T23:30:00.000Z",
+    "gWeWyM6Stf0",
+    "DHA 2017 SSBM - FOX MVG | Mew2King (Peach, Marth) Vs. VGBC | Chudat (Jiggs, Ice Climbers) Melee LF"
+  ],
+  [
+    "2017-05-08T23:00:02.000Z",
+    "kfT8tHTMVWg",
+    "DHA 2017 SSBM - FOX MVG | Mew2King (Marth, Sheik) Vs. C9 | Mang0 (Falco) Smash Melee LS"
+  ],
+  [
+    "2017-05-08T22:30:00.000Z",
+    "e_QOqH91snI",
+    "DHA 2017 SSBM - VGBC | Chudat (Ice Climbers) Vs. TL | Hungrybox (Jigglypuff) Smash Melee WF"
+  ],
+  [
+    "2017-05-08T22:00:02.000Z",
+    "Nd3W60VnlBo",
+    "DHA 2017 SSBM - FOX MVG | Mew2King (Sheik) Vs. PG | Plup (Sheik) Smash Melee LQ"
+  ],
+  [
+    "2017-05-08T22:00:01.000Z",
+    "2fOcYwMxi8g",
+    "DHA 2017 SSBM - Wizzrobe (Captain Falcon) Vs. C9 | Mang0 (Falco) Smash Melee LQ"
+  ],
+  [
+    "2017-05-08T21:30:00.000Z",
+    "tbCqAQUtMCo",
+    "DHA 2017 SSBM - VGBC | Chudat (Ice Climbers) Vs. C9 | Mang0 (Fox, Falco) Smash Melee WS"
+  ],
+  [
+    "2017-05-08T21:30:00.000Z",
+    "BwES2ix9eO4",
+    "DHA 2017 SSBM - PG | Plup (Sheik, Fox) Vs. TL | Hungrybox (Jigglypuff) Smash Melee WS"
+  ],
+  [
+    "2017-05-08T21:00:05.000Z",
+    "y9H5GAYEixY",
+    "DHA 2017 SSBM - Wizzrobe (Captain Falcon) Vs. Laudandus (Sheik) Smash Melee Losers 7ths"
+  ],
+  [
+    "2017-05-08T21:00:01.000Z",
+    "4cRKGLBXZOA",
+    "DHA 2017 SSBM - FOX MVG | Mew2King (Marth) Vs. TSM RB | Leffen (Fox) Smash Melee Losers 7ths"
+  ],
+  [
+    "2017-05-08T20:30:01.000Z",
+    "wAtKt4ehDZk",
+    "DHA 2017 SSBM - CLG | SFAT (Fox) Vs. TSM RB | Leffen (Fox) - Smash Melee Losers 9ths"
+  ],
+  [
+    "2017-05-08T20:30:00.000Z",
+    "uii6yZzpAdk",
+    "DHA 2017 SSBM - Wizzrobe (Captain Falcon) Vs. Gahtzu (Captain Falcon) - Smash Melee Losers 9ths"
+  ],
+  [
+    "2017-05-08T20:00:00.000Z",
+    "fK_NnmbtEwY",
+    "DHA 2017 SSBM - PG | Plup (Sheik) Vs. ALG EMG | n0ne (Captain Falcon) - Smash Melee WQ"
+  ],
+  [
+    "2017-05-08T20:00:00.000Z",
+    "IhDVEv_WmGM",
+    "DHA 2017 SSBM - C9 | Mang0 (Falco) Vs. TSM RB | Leffen (Fox) - Smash Melee WQ"
+  ],
+  [
+    "2017-05-08T20:00:00.000Z",
+    "Fmdzgce3stk",
+    "DHA 2017 SSBM - Wizzrobe (Captain Falcon) Vs. TL | Hungrybox (Jigglypuff) - Smash Melee WQ"
+  ],
+  [
+    "2017-05-08T20:00:00.000Z",
+    "7sx_y5D9r8Y",
+    "DHA 2017 SSBM - VGBC | Chudat (Ice Climbers) Vs. OBEY | Mike Haze (Fox) - Smash Melee WQ"
+  ],
+  [
+    "2017-05-08T19:30:01.000Z",
+    "cw1ILjpkjEg",
+    "DHA 2017 SSBM - C9 | Mango (Falco) Vs. P1 | Duck (Samus) - Winners - Smash Melee Bracket"
+  ],
+  [
+    "2017-05-08T19:30:01.000Z",
+    "7NAldzyjnWI",
+    "DHA 2017 SSBM - FOX MVG | Mew2King (Sheik) Vs. ALG EMG | n0ne (Captain Falcon) - Smash Melee"
+  ],
+  [
+    "2017-05-08T19:30:00.000Z",
+    "z-OK-jkvDZY",
+    "DHA 2017 SSBM - Wizzrobe (Captain Falcon) Vs. CLG | SFAT (Fox) - Smash Melee Bracket"
+  ],
+  [
+    "2017-05-08T19:30:00.000Z",
+    "dYlTtFDRpKM",
+    "DHA 2017 SSBM - A | Android (Sheik) Vs. VGBC | Chudat (Ice Climbers) - Smash Melee Bracket"
+  ],
+  [
+    "2017-05-08T19:30:00.000Z",
+    "Cele6TJb0CM",
+    "DHA 2017 SSBM - G2 | Westballz (Falco) Vs. PG | Plup (Sheik, Samus) - Smash Melee Bracket"
+  ],
+  [
+    "2017-05-08T19:00:06.000Z",
+    "mQnIMAdHq2c",
+    "DHA 2017 SSBM - C9 | Tafokints (Sheik, Fox) Vs. Chandy (Donkey Kong) - Smash Melee"
+  ],
+  [
+    "2017-05-08T19:00:02.000Z",
+    "RqDMFT-8hyk",
+    "DHA 2017 SSBM - Wizzrobe (Captain Falcon) Vs. Laudandus (Sheik) Smash Melee"
+  ],
+  [
+    "2017-05-08T19:00:02.000Z",
+    "HtLjYwJwNi4",
+    "DHA 2017 SSBM - VGBC | Chudat (Ice Climbers) Vs. El Fuego (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-08T19:00:01.000Z",
+    "-0PL5vslP58",
+    "DHA 2017 SSBM - IMT | Shroomed (Sheik) Vs. Selfless | Hugs (Samus) - Smash Melee"
+  ],
+  [
+    "2017-05-08T19:00:00.000Z",
+    "6IxFHS0mN4I",
+    "DHA 2017 SSBM - P1 | Duck (Samus) Vs. Brian (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-08T18:00:02.000Z",
+    "UiyWzbCVV8A",
+    "DHA 2017 SSB4 - Fox MVG | MKLeo (Marth, Cloud, Lucario) Vs. TSM | ZeRo (Diddy) Smash 4 GF - Wii U"
+  ],
+  [
+    "2017-05-08T17:30:01.000Z",
+    "Ihg6eQbh_XQ",
+    "DHA 2017 SSB4 - C9 | Ally (Mario) Vs. TSM | ZeRo (Lucina) Smash 4 LF - Smash Wii U"
+  ],
+  [
+    "2017-05-08T17:00:02.000Z",
+    "_DpVGl-6rn0",
+    "DHA 2017 SSB4 - TSM | ZeRo (Diddy Kong) Vs. MSF | Larry Lurr (Fox) Smash 4 LS - Smash Wii U"
+  ],
+  [
+    "2017-05-08T16:30:01.000Z",
+    "saTJQx2HEfo",
+    "DHA 2017 SSB4 - Fox MVG | MKLeo (Marth) Vs. C9 | Ally (Mario, Donkey Kong) Smash 4 WF - Wii U"
+  ],
+  [
+    "2017-05-08T16:00:04.000Z",
+    "wfni1fPkLYc",
+    "DHA 2017 SSB4 - CLG | VoiD (Sheik) Vs. MSF | Larry Lurr (Fox) Smash 4 LQ - Smash Wii U"
+  ],
+  [
+    "2017-05-08T16:00:00.000Z",
+    "2SGAxutnFR8",
+    "DHA 2017 SSB4 - TSM | Zero (Diddy Kong) Vs. PG | ESAM (Pikachu, Samus) Smash 4 LQ - Smash Wii U"
+  ],
+  [
+    "2017-05-08T15:30:03.000Z",
+    "njXhFLY0OZo",
+    "DHA 2017 SSB4 - CLG | Void (Sheik) Vs. FOX MVG | MKLeo (Cloud) Smash 4 WS - Smash Wii U"
+  ],
+  [
+    "2017-05-08T15:30:01.000Z",
+    "V_3X5cJVyts",
+    "DHA 2017 SSB4 - TSM Zero (Lucina) Vs. C9 | Ally (Mario) Smash 4 WS - Smash Wii U"
+  ],
+  [
+    "2017-05-08T15:00:09.000Z",
+    "vJ-w2uIoibU",
+    "DHA 2017 SSB4 - KoF | Konga (Donkey Kong) Vs. MSF | Larry Lurr (Fox) Losers 7ths - Smash Wii U"
+  ],
+  [
+    "2017-05-08T15:00:01.000Z",
+    "P26naXJSRe4",
+    "DHA 2017 SSB4 - Locus (Ryu) Vs. PG | ESAM (Pikachu, Samus) Losers 7ths - Smash Wii U"
+  ],
+  [
+    "2017-05-08T14:30:01.000Z",
+    "nhT_4zlahnw",
+    "DHA 2017 SSB4 - MSF | Larry Lurr (Fox) Vs. Captain Zack (Bayonetta) Smash 4 Losers 9ths - Wii U"
+  ],
+  [
+    "2017-05-08T14:30:01.000Z",
+    "bxQt_7NLetM",
+    "DHA 2017 SSB4 - UG | DeluxeMenu (Bowser) & PG | ESAM (Samus) Smash 4 Losers 9ths - Smash Wii U"
+  ],
+  [
+    "2017-05-08T14:30:00.000Z",
+    "yRLpUkS0A7U",
+    "DHA 2017 SSB4 - Locus (Ryu) Vs. PG | MVD (Diddy Kong) Smash 4 Losers 9ths - Smash Wii U"
+  ],
+  [
+    "2017-05-08T14:30:00.000Z",
+    "FFQSD_25udQ",
+    "DHA 2017 SSB4 - KoL Konga (Donkey Kong) Vs. MF | LH K9sBruce (Sheik) Smash 4 Losers 9ths - Wii U"
+  ],
+  [
+    "2017-05-08T14:00:04.000Z",
+    "pSg4FZToFC0",
+    "DHA 2017 SSB4 - C9 | Ally (Mario) Vs. Captain Zack (Bayonetta) Smash 4 WQ - Smash Wii U"
+  ],
+  [
+    "2017-05-08T14:00:02.000Z",
+    "Hiovtb4R38U",
+    "DHA 2017 SSB4 - CLG | VoiD (Sheik, Fox) Vs. PG | ESAM (Pikachu) Smash 4 WQ - Smash Wii U"
+  ],
+  [
+    "2017-05-08T14:00:01.000Z",
+    "3jnvZFSqaXw",
+    "DHA 2017 SSB4 - TSM ZeRo (Diddy Kong) Vs. KoL Konga (Donkey Kong) Smash 4 WQ - Smash Wii U"
+  ],
+  [
+    "2017-05-08T14:00:00.000Z",
+    "4-b47llk-64",
+    "DHA 2017 SSB4 - Fox MVG | Leo (Marth) Vs. Locus (Ryu) Smash 4 WQ - Smash Wii U"
+  ],
+  [
+    "2017-05-07T21:30:01.000Z",
+    "Ls8Y0T4GGVc",
+    "DHA 2017 SSBM - EGtv.Syrox (Fox) Vs. Obey | MikeHaze (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T21:30:01.000Z",
+    "GKW7QA690dY",
+    "DHA 2017 SSBM - TL | Ken (Marth) Vs. C9 | Mango (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-07T21:00:03.000Z",
+    "msakkSMWQwo",
+    "DHA 2017 SSBM - G2 | Westballz (Falco) Vs. Gahtzu (Captain Falcon) - Smash Melee"
+  ],
+  [
+    "2017-05-07T21:00:01.000Z",
+    "lMLn88h9z7k",
+    "DHA 2017 SSBM - CFH (G&W) Vs. C9 | Mango (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-07T21:00:00.000Z",
+    "qMhoghO978U",
+    "DHA 2017 SSBM - G2 | Westballz (Falco, Captain Falcon) Vs. Woxy (Marth) - Smash Melee"
+  ],
+  [
+    "2017-05-07T21:00:00.000Z",
+    "9UC7GbCgdlU",
+    "DHA 2017 SSBM - P2 (Fox) Vs. Obey | MikeHaze (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T21:00:00.000Z",
+    "6Ef8AwVHtZc",
+    "DHA 2017 SSBM - Bananas (Ice Climbers) Vs. Laudandus (Sheik) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:30:01.000Z",
+    "fcY8P1RCTmw",
+    "DHA 2017 SSBM - Chetmag (Falco) Vs. Gahtzu (Captain Falcon) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:30:01.000Z",
+    "PPG6XeV6YUA",
+    "DHA 2017 SSBM - Uncle Mojo (Fox) Vs. CLG | SFAT (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:30:01.000Z",
+    "JFxXveTf4es",
+    "DHA 2017 SSBM - Valdo (Fox) Vs. TSM RB | Leffen (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:30:00.000Z",
+    "meSb9OfRspk",
+    "DHA 2017 SSBM - Microwade (Sheik) Vs. EGtv.Syrox (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:30:00.000Z",
+    "C5igxsEEdKg",
+    "DHA 2017 SSBM - Chandy (Donkey Kong) Vs. PG | Plup (Sheik) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:00:02.000Z",
+    "WkywF1xeC7A",
+    "DHA 2017 SSBM - TL | Chillindude (Fox, Marth) Vs. Bread (Sheik) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:00:02.000Z",
+    "W-TNiTnwDwQ",
+    "DHA 2017 SSBM - CLG | SFAT (Fox) Vs. Vash (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:00:00.000Z",
+    "Wcl_Krbyluc",
+    "DHA 2017 SSBM - P1 | Duck (Samus) Vs. Brian (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:00:00.000Z",
+    "B0smY0kR88o",
+    "DHA 2017 SSBM - Hubsrico (Falco) Vs. TSM RB | Leffen (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T20:00:00.000Z",
+    "4I3WTMnvlWw",
+    "DHA 2017 SSBM - TL | Crunch (Fox) Vs. Uncle Mojo (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:30:02.000Z",
+    "m3M8ddAY7R8",
+    "DHA 2017 SSBM - FOX MVG | Mew2King (Fox) Vs. Aperature (Jigglypuff) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:30:01.000Z",
+    "EWY_knvjRAU",
+    "DHA 2017 SSBM - VGBC | Chudat (Ice Climbers) Vs. Younger (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:30:00.000Z",
+    "qEGa7M714_o",
+    "DHA 2017 SSBM - NYJoey (Falco) Vs. Tyrant | Logos (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:30:00.000Z",
+    "ZBn58wjxgbQ",
+    "DHA 2017 SSBM - Tempo | S2J (Captain Falcon) Vs. EGTV.Crush (Fox) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:30:00.000Z",
+    "MSiTwVPtoRE",
+    "DHA 2017 SSBM - FOX MVG | Mew2King (Sheik, Marth) Vs. NYJoey (Falco) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:00:09.000Z",
+    "kRWevEymw04",
+    "DHA 2017 SSBM - ALP (Fox) Vs. TL | Hungrybox (Jigglypuff) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:00:07.000Z",
+    "mq_BxU14XdM",
+    "DHA 2017 SSBM - A | Android (Sheik) Vs. Tempo | Axe (Pikachu) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:00:04.000Z",
+    "vUONuG1GUrM",
+    "DHA 2017 SSBM - Brother Rob (Captain Falcon) Vs. Selfless | Hugs (Samus) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:00:02.000Z",
+    "E9xJ0TdSJhQ",
+    "DHA 2017 SSBM - PrettySwift17 (Marth) Vs. IMT | Shroomed (Sheik) - Smash Melee"
+  ],
+  [
+    "2017-05-07T19:00:01.000Z",
+    "OApLVZKEvyc",
+    "DHA 2017 SSBM - Envy (Falco) Vs. Tempo | S2J (Captain Falcon) - Smash Melee"
+  ],
+  [
+    "2017-05-07T17:30:01.000Z",
+    "RdGIq-ugt40",
+    "DHA 2017 SSB4 - PG | ESAM (Pikachu) Vs. MF | LH K9sBruce (Sheik) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:30:01.000Z",
+    "RNbkFx4v23s",
+    "DHA 2017 SSB4 - Sassy (ROB) Vs. Tenni (Charizard) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:30:00.000Z",
+    "zeXbxeAnOe8",
+    "DHA 2017 SSB4 - UG | DeluxeMenu (Bowser) Vs. KoL Konga (Donkey Kong) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:30:00.000Z",
+    "jQAgmwHQP_k",
+    "DHA 2017 SSB4 - Mikeffect (Ness) Vs. HSN | Louie (Luigi) Smash 4  -Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:30:00.000Z",
+    "MBbnkaZvbSI",
+    "DHA 2017 SSB4 - Captain Zack (Bayonetta) Vs. PG | MVD (Diddy Kong) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:30:00.000Z",
+    "2opTtd29HpI",
+    "DHA 2017 SSB4 - MSF | Larry Lurr (Donkey Kong, Fox) Vs. Locus (Ryu) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:00:04.000Z",
+    "cF9Kn9Qf6Y8",
+    "DHA 2017 SSB4 - ShadowFox (Fox) Vs. Karna (Sheik) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:00:02.000Z",
+    "jFDr9bNkQp0",
+    "DHA 2017 SSB4 - Nuvi (Ryu) Vs. Xavier (Mario) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:00:01.000Z",
+    "PXhdnd9YTL0",
+    "DHA 2017 SSB4 - Whispy (Diddy Kong, Falcon) Vs. Lole (ROB) Smash 4 - SMash Wii U"
+  ],
+  [
+    "2017-05-07T17:00:01.000Z",
+    "57NtL2eyOEo",
+    "DHA 2017 SSB4 - Whispy (Diddy Kong, Falcon) Vs. Lole (ROB) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T17:00:00.000Z",
+    "HJ2WJT8SsKM",
+    "DHA 2017 SSB4 - Sausage (Ganondorf, Ryu) Vs. Silent (Ike) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:30:01.000Z",
+    "kOQs9GYwI_w",
+    "DHA 2017 SSB4 - Failo (Fox, Rosalina) Vs. FuriousDuffman (Lucina) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:30:01.000Z",
+    "2uWxWomMCL8",
+    "DHA 2017 SSB4 - X-rey (Jigglypuff) Vs. AlychaFanco (Ike) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:30:01.000Z",
+    "2oVWuQhjrsk",
+    "DHA 2017 SSB4 - Izeron (ZSS) Vs. Nubi (Ryu) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:30:00.000Z",
+    "YPI_mrX1ieU",
+    "DHA 2017 SSB4 - MF | K9sBruce (Diddy Kong) Vs. KADC (Robin) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:30:00.000Z",
+    "Spqns7wkfGI",
+    "DHA 2017 SSB4 - UNF | Ashikabi (Rosalina) Vs. Go! | Alvizor (Pac-Man) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:00:05.000Z",
+    "xFzPcUwBiFk",
+    "DHA 2017 SSB4 - Samsora (Peach) Vs. Konga (Donkey Kong) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:00:04.000Z",
+    "iXDYucbiVRM",
+    "DHA 2017 SSB4 - EG | Zinoto (Diddy Kong) Vs. UG | DeluxeMenu (Bowser) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:00:04.000Z",
+    "WcfdBHHibvE",
+    "DHA 2017 SSB4 - Goyo (Little Mac) Vs. Midi (Falco) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:00:02.000Z",
+    "H6Wf3Fb-7PQ",
+    "DHA 2017 SSB4 - MF | K9sBruce (Sheik) Vs. Goyo (Little Mac) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T16:00:00.000Z",
+    "2oj-uqk-2XE",
+    "DHA 2017 SSB4 - Locus (Ryu) Vs. Haipe (Ryu) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:30:01.000Z",
+    "xA1nWJiwuxA",
+    "DHA 2017 SSB4 - EG | Zinoto (Diddy Kong) Vs. Rick (Luigi) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:30:01.000Z",
+    "huAv89HNrms",
+    "DHA 2017 SSB4 - Liquid Ken (Ganondorf) Vs. Goyo (Little Mac) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:30:01.000Z",
+    "byHrz8iS96Y",
+    "DHA 2017 SSB4 - El Yoshi (Yoshi) Vs. Gibus (Greninja) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:30:00.000Z",
+    "bU9n75Qg3GY",
+    "DHA 2017 SSB4 - Sandman (Mario) Vs. Go! | FelixFaction (Mega Man) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:30:00.000Z",
+    "J0Rz3dKafGU",
+    "DHA 2017 SSB4 - Samsora (Peach) Vs. SpacePyro (Marth) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:00:07.000Z",
+    "tsPqILmlUpI",
+    "DHA 2017 SSB4 - MSF | Larry Lurr (Fox) Vs. Forbidden One (Pac-Man) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:00:05.000Z",
+    "hvKCuBCCLw0",
+    "DHA 2017 SSB4 - Captain Zack (Bayonetta) Vs. Aerolink (Bayonetta) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:00:03.000Z",
+    "WTPxUmqyglA",
+    "DHA 2017 SSB4 - ThisGuy (Fox) Vs. Mojo Monkey (Donkey Kong) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:00:02.000Z",
+    "Kt0QjOT5LJo",
+    "DHA 2017 SSB4 - PG | ESAM (Pikachu, Samus) Vs. Nyhita (Corrin) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T15:00:01.000Z",
+    "R1jInpZLO-c",
+    "DHA 2017 SSB4 - Wormy (Toon Link) Vs. Weegee(Mario) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:30:01.000Z",
+    "wNEU2XIVors",
+    "DHA 2017 SSB4 - CapK (Mario) Vs. =Doom (Lucina) Smash 4  - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:30:01.000Z",
+    "GBG8OAPoMu0",
+    "DHA 2017 SSB4 - MSF | Larry Lurr (Fox) Vs. Mojo Monkey (Donkey Kong) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:30:00.000Z",
+    "skU9uU-oQFk",
+    "DHA 2017 SSB4 - Captain Zack (Bayonetta, WFT) Vs. Remo (Diddy Kong) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:30:00.000Z",
+    "nsnh45bVZrY",
+    "DHA 2017 SSB4 - PG | ESAM (Pikachu, Samus) Vs. Das Wolfy (Mewtwo) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:30:00.000Z",
+    "dLyop9AMq4c",
+    "DHA 2017 SSB4 - A1 (Mario) Vs. Shaft (Cloud) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:00:09.000Z",
+    "rtzY9HngH-A",
+    "DHA 2017 SSB4 - C9 | Ally (Mario, Donkey Kong) Vs. Shaft (Cloud) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:00:04.000Z",
+    "p8uVuOxjn9Q",
+    "DHA 2017 SSB4 - C9 | Ally (Mario) Vs. Jerm (Toon Link) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:00:03.000Z",
+    "LXt7X-0fWLg",
+    "DHA 2017 SSB4 - Fox MVG | MKLeo (Cloud) Vs. Deadly Shock (Greninja) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:00:03.000Z",
+    "CGkMGdhgHNs",
+    "DHA 2017 SSB4 - CLG | VoiD (Sheik) Vs. Lucy (Toon Link) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-07T14:00:01.000Z",
+    "KjYPqgA5-yo",
+    "DHA 2017 SSB4 - Jumbo (Ryu) Vs. FOX MVG | MKLeo (Marth) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-05-06T21:00:01.000Z",
+    "NYN8zGAcJTE",
+    "DHA 2017 SSBM Doubles - C9 | Mango & CLG | SFAT Vs. FOX MVG | Mew2King & PG | Plup - Smash Melee GF"
+  ],
+  [
+    "2017-05-06T20:30:00.000Z",
+    "GQBhPruzOMk",
+    "DHA 2017 SSBM Doubles - C9 | Mango & CLG | SFAT Vs. A | Armada & A | Android - Smash Melee LF"
+  ],
+  [
+    "2017-05-06T20:00:04.000Z",
+    "rJxo8AiqpGE",
+    "DHA 2017 SSBM Doubles - C9 | Mango & CLG | SFAT Vs. IMT | Shroomed & Tempo | S2J - Smash Melee LS"
+  ],
+  [
+    "2017-05-06T19:30:00.000Z",
+    "-xrUpC-jsDY",
+    "DHA 2017 SSBM Doubles - PG | Plup & FOX MVG | Mew2King Vs. A | Armada & A | Android - Smash Melee WF"
+  ],
+  [
+    "2017-05-06T19:00:04.000Z",
+    "S3bp7jqP5sQ",
+    "DHA 2017 SSBM Doubles - C9 | Mango & CLG | SFAT Vs. TL | Hungrybox & PG | ESAM - Smash Melee LQ"
+  ],
+  [
+    "2017-05-06T19:00:01.000Z",
+    "57LkQDaBSVQ",
+    "DHA 2017 SSBM Doubles - SPY | MacD & Crush Vs. Tempo | S2J & IMT | Shroomed - Smash Melee LQ"
+  ],
+  [
+    "2017-05-06T18:30:01.000Z",
+    "sXPdoXvqhkE",
+    "DHA 2017 SSBM Doubles - IMT | Shroomed & Tempo | S2J Vs. A | Armada & A | Android - Smash Melee WS"
+  ],
+  [
+    "2017-05-06T18:30:01.000Z",
+    "sKINNJ9981U",
+    "DHA 2017 SSBM Doubles - C9 | Mango & CLG | SFAT Vs. FOX MVG | Mew2King & PG | Plup - Smash Melee WS"
+  ],
+  [
+    "2017-05-06T18:00:06.000Z",
+    "t4kp5UMnbD0",
+    "DHA 2017 SSBM Doubles - UncleMojo & Jake13 Vs. TL | Chillindude & VGBC | Chudat - Smash Melee"
+  ],
+  [
+    "2017-05-06T18:00:02.000Z",
+    "V7dvUm0vACo",
+    "DHA 2017 SSBM Doubles - Gahtzu & Syrox Vs. CLG | SFAT & C9 | Mango - Smash Melee WQ"
+  ],
+  [
+    "2017-05-06T18:00:01.000Z",
+    "Trsu8MRk6iE",
+    "DHA 2017 SSBM Doubles - IMT | Shroomed & Tempo | S2J Vs. TL | Hungrybox & PG | ESAM - Smash Melee WQ"
+  ],
+  [
+    "2017-05-06T18:00:01.000Z",
+    "GaqfqjQysN8",
+    "DHA 2017 SSBM Doubles - PG | Plup & FOX MVG | Mew2King Vs. Wizzrobe & Westballz - Smash Melee WQ"
+  ],
+  [
+    "2017-05-06T18:00:00.000Z",
+    "KA4ceQV4dqk",
+    "DHA 2017 SSBM Doubles - Obey | MikeHaze & ALG | n0ne Vs. A | Armada & A | Android - Smash Melee WQ"
+  ],
+  [
+    "2017-05-06T17:30:01.000Z",
+    "wzTI6BQ5nD4",
+    "DHA 2017 SSBM Doubles - A | Armada & A | Android Vs. Jello & PapaNoJohns - Smash Melee"
+  ],
+  [
+    "2017-05-06T17:30:01.000Z",
+    "3ndU01u-8fI",
+    "DHA 2017 SSBM Doubles - UncleMojo & Jake13 Vs. CLG | SFAT & C9 | Mango - Smash Melee"
+  ],
+  [
+    "2017-05-06T17:30:00.000Z",
+    "xeQYjYJtFXU",
+    "DHA 2017 SSBM Doubles - SPY | MacD & Crush Vs. ALG EMG | n0ne & Obey | MikeHaze - Smash Melee"
+  ],
+  [
+    "2017-05-06T17:30:00.000Z",
+    "2gdEX4L9sAM",
+    "DHA 2017 SSBM Doubles - TL | Ken & El Fuego Vs. G2 | Westballz & Wizzrobe - Smash Melee"
+  ],
+  [
+    "2017-05-06T17:00:03.000Z",
+    "d3-mU1LgdcE",
+    "DHA 2017 SSBM Doubles - Snowy & Overdrive Vs. PG | Plup & FOX MVG | Mew2King - Smash Melee"
+  ],
+  [
+    "2017-05-06T17:00:02.000Z",
+    "mDB5BJ8S8-c",
+    "DHA 2017 SSBM Doubles - TL | Chillindude & VGBC | Chudat Vs. Farbot & Wootet - Smash Melee"
+  ],
+  [
+    "2017-05-06T17:00:02.000Z",
+    "_UgFYd_bHmc",
+    "DHA 2017 SSBM Doubles - C9 | Mango & CLG | SFAT Vs. Krispy & Dong Squared - Smash Melee"
+  ],
+  [
+    "2017-05-06T17:00:02.000Z",
+    "MPxwgWd51pI",
+    "DHA 2017 SSBM Doubles - TL | Hungrybox & PG | ESAM Vs. Lane & InstantClassic - Smash Melee"
+  ],
+  [
+    "2017-05-06T16:00:03.000Z",
+    "FHQQ235zml0",
+    "DHA 2017 SSB4 Doubles - TSM | ZeRo & Fox MVG | MKLeo Vs. Locus & C9 | Ally - Smash 4 GF"
+  ],
+  [
+    "2017-05-06T15:30:00.000Z",
+    "P3b-xZjDo3E",
+    "DHA 2017 SSB4 Doubles - PG | ESAM & PG | MVD Vs. C9 | Ally & Locus - Smash 4 LF"
+  ],
+  [
+    "2017-05-06T15:00:05.000Z",
+    "fxrpwAgWRq8",
+    "DHA 2017 SSB4 Doubles - C9 | Ally & Locus Vs. Captain Zack & Samsora - Smash 4 LS"
+  ],
+  [
+    "2017-05-06T14:30:01.000Z",
+    "5zSp9LSqqis",
+    "DHA 2017 SSB4 Doubles - TSM | ZeRo & FOX MVG | MKLeo Vs. PG | ESAM & PG | MVD - Smash 4 WF"
+  ],
+  [
+    "2017-05-06T14:00:01.000Z",
+    "3dUu2grZ5d0",
+    "DHA 2017 SSB4 Doubles - Captain Zack & Samsora Vs.CLG | VoiD & MSF | Larry Lurr - Smash 4 LQ"
+  ],
+  [
+    "2017-05-06T14:00:01.000Z",
+    "0oX8jScUyWc",
+    "DHA 2017 SSB4 Doubles - Locus & C9 | Ally Vs. Karna & Dakpo - Smash 4 LQ"
+  ],
+  [
+    "2017-05-06T13:30:01.000Z",
+    "gvt040CmbTM",
+    "DHA 2017 SSB4 Doubles - Locus & C9 | Ally Vs. Fox MVG | MKLeo & TSM | ZeRo - Smash 4 WS"
+  ],
+  [
+    "2017-05-06T13:30:01.000Z",
+    "R41Iu90bfGg",
+    "DHA 2017 SSB4 Doubles - PG | ESAM & PG | MVD Vs. Samsora & Captain Zack - Smash 4 WS"
+  ],
+  [
+    "2017-05-06T13:00:00.000Z",
+    "55CxSAAqosI",
+    "DHA 2017 SSB4 Doubles - ThisGuy & Gnes Vs. CLG | VoiD & MSF | Larry Lurr - Smash 4 L. Top 8"
+  ],
+  [
+    "2017-05-06T12:30:01.000Z",
+    "CbBzAGpKhL0",
+    "DHA 2017 SSB4 Doubles - MF | K9sBruce & Fox MVG | M2K Vs. Samsora and Captain Zack - Smash 4"
+  ],
+  [
+    "2017-05-06T12:30:00.000Z",
+    "1MnnRAOnMoE",
+    "DHA 2017 SSB4 Doubles - MSF | Larry Lurr & CLG | VoiD Vs. C9 | Ally & Locus - Smash 4 WQ"
+  ],
+  [
+    "2017-05-06T12:00:04.000Z",
+    "loxvZMp013Y",
+    "DHA 2017 SSB4 Doubles - Samsora & Captain Zack Vs. El Yoshi & Wormy - Smash 4"
+  ],
+  [
+    "2017-05-06T12:00:03.000Z",
+    "bWhJO5duEOA",
+    "DHA 2017 SSB4 Doubles - Haipe & Whispy Vs. Weegee & Shadow_FoxXD - Smash 4"
+  ],
+  [
+    "2017-05-06T12:00:03.000Z",
+    "HCPm4oyQAWg",
+    "DHA 2017 SSB4 Doubles - Dakpo & Karma Vs. Red9 & Cyanide - Smash 4"
+  ],
+  [
+    "2017-05-06T12:00:03.000Z",
+    "FUAZKNUo7Uw",
+    "DHA 2017 SSB4 Doubles - MSF | Larry Lurr & CLG | VoiD Vs. SaSSy & DeluxeMenu - Smash 4"
+  ],
+  [
+    "2017-05-06T12:00:00.000Z",
+    "A1eiN6Z644g",
+    "DHA 2017 SSB4 Doubles - Locus & C9 | Ally Vs. Deadly Diva & Haalkron - Smash 4"
+  ],
+  [
+    "2017-05-06T11:30:01.000Z",
+    "ukj-3m1l6PU",
+    "DHA 2017 SSB4 Doubles - Fox MVG | Leo & TSM | ZeRo Vs. Waffles & Cashew - Smash 4"
+  ],
+  [
+    "2017-05-06T11:30:01.000Z",
+    "sdJ_ByUZ7QI",
+    "DHA 2017 SSB4 Doubles - PG | MVD & PG | ESAM Vs. Bad & Humble - Smash 4"
+  ],
+  [
+    "2017-05-06T11:30:01.000Z",
+    "LnNWYMRyObI",
+    "DHA 2017 SSB4 Doubles - DreMF | K9sBruce & Fox MVG | Mew2King Vs. Kiwisaurus & Swqig - Smash 4"
+  ],
+  [
+    "2017-05-06T11:30:01.000Z",
+    "LX1ub7pZxK4",
+    "DHA 2017 SSB4 Doubles - Captain Zack & Samsora Vs. Dawnbreaker & Axai - Smash 4"
+  ],
+  [
+    "2017-05-06T11:30:00.000Z",
+    "bxbrTlLRFyk",
+    "DHA 2017 SSB4 Doubles - CLG | Void & MSF | Larry Lurr Vs. Slick128 & Crabbin - Smash 4"
+  ],
+  [
+    "2017-05-06T03:30:00.000Z",
+    "Lx1_r5eW6Zs",
+    "S@X 198 - InC | Wadi (Jigglypuff) Vs. VGBC | Pink Fresh (Link) - SSB4 Grand Finals - Smash Wii U"
+  ],
+  [
+    "2017-05-06T03:00:00.000Z",
+    "HNslRBUQQjI",
+    "S@X 198 - Dexter (Dr. Mario, Charizard) Vs. VGBC | Pink Fresh (Dr. Mario, Link) - SSB4 Losers Finals"
+  ],
+  [
+    "2017-05-06T02:30:00.000Z",
+    "mEchlhM5q7Y",
+    "S@X 198 - Dexter (Marth) Vs. Zephyr (Cloud) - SSB4 Losers Semis - Smash Wii U"
+  ],
+  [
+    "2017-05-06T02:00:02.000Z",
+    "1Yo0nvA299s",
+    "S@X 198 - Dexter (Roy) Vs. Broseidon (Yoshi) - SSB4 Losers Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-06T02:00:01.000Z",
+    "gtGMwuk965k",
+    "S@X 198 - Coreo (Mario) Vs. Zephyr (Cloud) - SSB4 Losers Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-06T02:00:01.000Z",
+    "DM-TMcHS878",
+    "S@X 198 - InC | Wadi (Jigglypuff) Vs. VGBC | Pink Fresh (Link) - SSB4 Winners Finals - Smash Wii U"
+  ],
+  [
+    "2017-05-06T01:30:01.000Z",
+    "UsNolOWfWgo",
+    "S@X 198 - VGBC | Pink Fresh (Link) Vs. Zephyr (Mario) - SSB4 Winners Semis - Smash Wii U"
+  ],
+  [
+    "2017-05-06T01:30:00.000Z",
+    "rgHD5n8zcFc",
+    "S@X 198 - Coreo (Mario) Vs. Dingus Joe (G&W) - SSB4 Losers Eighths - Smash Wii U"
+  ],
+  [
+    "2017-05-06T01:30:00.000Z",
+    "LvU0pssV0bw",
+    "S@X 198 - Dexter (Roy) Vs. InC | Wadi (ROB) - SSB4 Winners Semis - Smash Wii U"
+  ],
+  [
+    "2017-05-06T01:00:02.000Z",
+    "ZgkQcZ6lrw8",
+    "S@X 198 - InC | Wadi (ROB) Vs. Coreo (Mario) - SSB4 Winners Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-06T01:00:01.000Z",
+    "UXa9wJww3os",
+    "S@X 198 - VGBC | Pink Fresh (Link) Vs. Broseidon (Yoshi) - SSB4 Winners Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-06T01:00:00.000Z",
+    "F64SfrSyov8",
+    "S@X 198 - Zephyr (Cloud) Vs. InC VGBC | Logic (Diddy Kong) - SSB4 Winners Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-06T01:00:00.000Z",
+    "2u77GNMy6fY",
+    "S@X 198 - Dexter (Marth) Vs. Dingus Joe (G&W) - SSB4 Winners Quarters - Smash Wii U"
+  ],
+  [
+    "2017-05-06T00:30:01.000Z",
+    "xMxkEfyP8mk",
+    "S@X 198 - Nature (Mewtwo) Vs. Laska (Mii Brawler) - SSB4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-05-06T00:30:01.000Z",
+    "c_DBmYc90Y4",
+    "S@X 198 - VGBC | Pink Fresh (Link) Vs. Vanilla (ROB) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-05-06T00:30:00.000Z",
+    "u7Jr6BB2FbM",
+    "S@X 198 - DCe | Darkflame (Captain Falcon) Vs. InC VGBC | Logic (Diddy Kong) - SSB4"
+  ],
+  [
+    "2017-05-06T00:30:00.000Z",
+    "8nN9wkrNuCw",
+    "S@X 198 - Coreo (Mario) Vs. Coldweather (Marth) - SSB4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-05-06T00:30:00.000Z",
+    "21MG8bbkI48",
+    "S@X 198 - Wave | Cinnpie (ZSS) Vs. PK Jon (Lucas) - SSB4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-05-06T00:30:00.000Z",
+    "1Ue1h8Wjctc",
+    "S@X 198 - Karma (Bayonetta) Vs. Broseidon (Yoshi) - SSB4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-05-06T00:30:00.000Z",
+    "-xOcxCzS9EE",
+    "S@X 198 - Nature (Mewtwo) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-05-05T19:00:00.000Z",
+    "9MsoGQYNPWQ",
+    "S@X 198 - Jerry (Fox) Vs. Plank (Marth, Sheik) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-05-05T18:30:00.000Z",
+    "hLPGDK23ww0",
+    "S@X 198 - Hat (Fox, Sheik) Vs. Plank (Sheik) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-05-05T18:00:01.000Z",
+    "D_paLnVw3oQ",
+    "S@X 198 - Wenbobular (Fox) Vs. Hat (Marth, Sheik) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-05-05T17:30:07.000Z",
+    "a1_2idFL5ks",
+    "S@X 198 - Nurok (Falco) Vs. Wenbobular (Fox) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-05T17:30:01.000Z",
+    "i8bDYRoWM8U",
+    "S@X 198 - Hat (Marth) Vs. Peanutphobia (Yoshi) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-05T17:30:01.000Z",
+    "6JpRCKTd7OI",
+    "S@X 198 - Plank (Sheik) Vs. Jerry (Fox) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-05-05T17:00:06.000Z",
+    "xZEaRz6MHN0",
+    "S@X 198 - Plank (Sheik) Vs. Wenbobular (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-05-05T17:00:01.000Z",
+    "I0JPSoEPZds",
+    "S@X 198 - Jerry (Fox) Vs. Hat (Marth, Sheik) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:30:01.000Z",
+    "eyMf1r3SCk4",
+    "S@X 198 - Hat (Marth) Vs. AceOfFlakes (Jigglypuff) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:30:01.000Z",
+    "BYCdr9rkBmw",
+    "S@X 198 - Bradday (Ice Climbers) Vs. Plank (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:30:00.000Z",
+    "Gxaq4db1ovs",
+    "S@X 198 - Wenbobular (Fox) Vs. Peanutphobia (Yoshi) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:30:00.000Z",
+    "1N1i_JRh3nU",
+    "S@X 198 - Nurok (Falco) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:00:41.000Z",
+    "q5e07RkplNM",
+    "S@X 198 - Wenbobular (Fox) Vs. Toast (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:00:24.000Z",
+    "jMr3_CNn5Us",
+    "S@X 198 - Nurok (Falco) Vs. Old Bay (Captain Falcon) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:00:03.000Z",
+    "OITcl51ePYU",
+    "S@X 198 - Hat (Marth) Vs. Moss (Samus) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:00:03.000Z",
+    "JMElNQg1Zbk",
+    "S@X 198 - Cyxy (Fox) Vs. AceOfFlakes (Jigglypuff) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:00:01.000Z",
+    "I0cmL_cZgsQ",
+    "S@X 198 - SomethingUgly (Pikachu) Vs. KaiserGL (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-05-05T16:00:00.000Z",
+    "61YzGAYcVTA",
+    "S@X 198 - Ulsi (Sheik) Vs. Peanutphobia (Yoshi) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-25T19:00:04.000Z",
+    "LpFP0Jd2l0g",
+    "S@X 197 - Light (Fox) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Grand Finals - Smash for Wii U"
+  ],
+  [
+    "2017-04-25T18:30:00.000Z",
+    "tbHr6l0DLY8",
+    "S@X 197 - Light (Fox) Vs. EZG | Remzi (ZSS) - SSB4 Losers Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T18:00:01.000Z",
+    "76v-qOVXL7E",
+    "S@X 197 - Light (Fox) Vs. InC | Wadi (Mewtwo) - SSB4 Losers Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T17:30:01.000Z",
+    "q2leivWsrjk",
+    "S@X 197 - VGBC | Pink Fresh (Bayonetta) Vs. EZG | Remzi (ZSS) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-04-25T17:30:00.000Z",
+    "jQn4f28BX-c",
+    "S@X 197 - Dexter (Marth) Vs. InC | Wadi (ROB) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T17:30:00.000Z",
+    "Bes5_uZENXw",
+    "S@X 197 - Light (Fox) Vs. InC | Seagull Joe (Sonic) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-04-25T17:00:04.000Z",
+    "vZVw05nwT7E",
+    "S@X 197 - Light (Fox) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Semis - Smash 4"
+  ],
+  [
+    "2017-04-25T17:00:01.000Z",
+    "GDJeXEwnhjY",
+    "S@X 197 - FOE (Greninja) Vs. InC | Seagull Joe (Sonic) - SSB4 Losers Eighths - Smash for Wii U"
+  ],
+  [
+    "2017-04-25T17:00:01.000Z",
+    "5gW0ZkiaEnE",
+    "S@X 197 - EZG | Remzi (ZSS) Vs. InC | Wadi (ROB) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T17:00:00.000Z",
+    "EA1jkg6Fmb0",
+    "S@X 197 - Ash (Ryu, Bowser) Vs. Dexter (Corrin) - SSB4 Losers Eighths - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:30:02.000Z",
+    "lzL7VYXLrvw",
+    "S@X 197 - EZG | Remzi (ZSS) Vs. InC | Seagull Joe (Diddy Kong) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-04-25T16:30:00.000Z",
+    "SS-g1EbTpzw",
+    "S@X 197 - VGBC | Pink Fresh (Bayonetta) Vs. Dexter (Corrin) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-04-25T16:30:00.000Z",
+    "QY1zYFKMIyo",
+    "S@X 197 - Xion (Cloud) Vs. InC | Wadi (ROB) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:30:00.000Z",
+    "QCUiXq7dKRI",
+    "S@X 197 - Light (Fox) Vs. Jeebus (Lil Mac) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:00:06.000Z",
+    "f0VSElamDV0",
+    "S@X 197 - Light (Fox) Vs. Airlift (Metaknight) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:00:05.000Z",
+    "zHKgbSTdJuU",
+    "S@X 197 - Jewchainz (Mario) Vs. Orpheus (ROB) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:00:05.000Z",
+    "qbTFZHhwxlc",
+    "S@X 197 - Apollo (Bayonetta) Vs. Barking_Frog (Rosalina) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-04-25T16:00:05.000Z",
+    "nutObHd8Z80",
+    "S@X 197 - Ash (Ryu) Vs. Kaboom (Olimar) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:00:04.000Z",
+    "ochcFFEpnfA",
+    "S@X 197 - Nature (Mewtwo) Vs. Jeebus (Lil Mac) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:00:03.000Z",
+    "hZlOOU6ZajI",
+    "S@X 197 - Xion (Cloud) Vs. Stress (Link) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:00:03.000Z",
+    "ew1UV_YuEJI",
+    "S@X 197 - Dexter (Corrin) Vs. FOE (Greninja) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-25T16:00:00.000Z",
+    "8QSPUg0Lz-0",
+    "S@X 197 - Jeebus (Lil Mac) Vs. Zephyr (Cloud, Lil Mac) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-04-23T16:00:04.000Z",
+    "Wcr4NJpc3LI",
+    "S@X 197 - Roxalina (Olimar) Vs. VGBC | Coney (Donkey Kong) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-04-23T16:00:01.000Z",
+    "MZbtjxpV2SY",
+    "S@X 197 - optimistnic (Bayonetta) Vs. Catharc (Robin) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-20T19:30:02.000Z",
+    "uq2oagvz8Vg",
+    "S@X 197 - Behemoth (Captain Falcon) Vs. Dank (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-19T22:30:00.000Z",
+    "0MIAtLJjFWc",
+    "S@X 197 - Hat (Sheik, Marth) Vs. Jerry (Fox, Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-04-19T22:00:05.000Z",
+    "zQkrIMju7Z8",
+    "S@X 197 - Wenbobular (Fox) Vs. Jerry (Peach, Fox, Marth) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-04-19T21:30:00.000Z",
+    "SIIUvNsEE3I",
+    "S@X 197 - Wenbobular (Fox) Vs. Nurok (Falco) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-04-19T21:00:01.000Z",
+    "OCTxVpIfiW0",
+    "S@X 197 - Hat (Captain Falcon, Sheik) Vs. Jerry (Fox, Marth) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-04-19T21:00:01.000Z",
+    "KIon_KHKUsM",
+    "S@X 197 - Ace of Flakes (Jigglypuff) Vs. Nurok (Falco) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-19T20:30:01.000Z",
+    "hQVMzppXUHw",
+    "S@X 197 - Nurok (Falco) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-04-19T20:30:01.000Z",
+    "PzFp6usZb8w",
+    "S@X 197 - Hat (Captain Falcon, Sheik) Vs. Wenbobular (Captain Falcon) - SSBM Winners Semis"
+  ],
+  [
+    "2017-04-19T20:00:02.000Z",
+    "hoOgOyqeMBA",
+    "S@X 197 - Bradday (Ice Climbers) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-19T20:00:01.000Z",
+    "T3uCbKkJx7E",
+    "S@X 197 - Hat (Captain Falcon) Vs. Ulsi (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-19T19:30:01.000Z",
+    "udBmIJpVwgs",
+    "S@X 197 - Isaiah (Falco) Vs. Smiley (Captain Falcon) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-19T19:30:01.000Z",
+    "2LNU0cb3PSQ",
+    "S@X 197 - Hat (Captain Falcon) Vs. Wumpus (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-19T19:00:04.000Z",
+    "U4bgT8d8HR4",
+    "S@X 196 - VGBC | Pink Fresh (Bayonetta) Vs. InC | Wadi (Mewtwo) - SSB4 Grand Finals - Smash 4"
+  ],
+  [
+    "2017-04-19T18:30:00.000Z",
+    "urkcxCbV4XQ",
+    "S@X 196 - Wave | Black Yoshi (Bayonetta, Yoshi) Vs. InC | Wadi (ROB) - SSB4 Losers Finals - Smash 4"
+  ],
+  [
+    "2017-04-19T18:00:03.000Z",
+    "r6HHJBh3w0U",
+    "S@X 196 - Wave | Black Yoshi (Bayonetta) Vs. Zephyr (Cloud) - SSB4 Losers Semis - Smash for Wii U"
+  ],
+  [
+    "2017-04-19T17:30:01.000Z",
+    "Kvt35lx_lDk",
+    "S@X 196 - Wave | Black Yoshi (Bayonetta) Vs. Xorax (Cloud) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-04-19T17:30:00.000Z",
+    "BXbcvBT_ioA",
+    "S@X 196 - InC | ZD (Fox) Vs. Zephyr (Cloud, Lil Mac) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-04-19T17:30:00.000Z",
+    "-hSYN9fEVLc",
+    "S@X 196 - InC | Wadi (Mewtwo) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-04-19T17:00:00.000Z",
+    "MdiM_9FsrUM",
+    "S@X 196 - InC | ZD (Fox) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Semis - Smash 4"
+  ],
+  [
+    "2017-04-19T17:00:00.000Z",
+    "42hsJ1exmdw",
+    "S@X 196 - Wave | Black Yoshi (Bayonetta) Vs. InC | Wadi (ROB) - SSB4 Winners Semis - Smash for Wii U"
+  ],
+  [
+    "2017-04-19T16:30:01.000Z",
+    "WbobKjBPeU4",
+    "S@X 196 - Nika (Lucina) Vs. InC | Wadi (ROB) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:30:01.000Z",
+    "WVAAn7H38dw",
+    "S@X 196 - Wave | Black Yoshi (Bayonetta) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-04-19T16:30:01.000Z",
+    "Om6s91GZgLA",
+    "S@X 196 - VGBC | Pink Fresh (Bayonetta) Vs. Xorax (Cloud) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-04-19T16:30:00.000Z",
+    "52druYa3Q4s",
+    "S@X 196 - InC | ZD (Fox) Vs. Dingus Joe (G&W) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:00:08.000Z",
+    "i8eUuCTvrEk",
+    "S@X 196 - Submediant (Peach) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:00:07.000Z",
+    "d4yMH8fCD58",
+    "S@X 196 - Yama (Marth, Fox) Vs. King (Cloud, Lucina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:00:06.000Z",
+    "xTlamA8ZONM",
+    "S@X 196 - CarddSD (Toon Link) Vs. VIB (Greninja) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:00:05.000Z",
+    "mEufx7jJ_cg",
+    "S@X 196 - Nika (Duck Hunt, Marth) Vs. Tico (Toon Link) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:00:03.000Z",
+    "HkLvuUOuc2w",
+    "S@X 196 - Black Yoshi (Bayonetta) Vs. Catharc (Robin) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:00:01.000Z",
+    "C16m6KR2uC8",
+    "S@X 196 - Jeebus (Lil Mac) Vs. Xorax (Fox) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-19T16:00:00.000Z",
+    "8VWrzkvgv7w",
+    "S@X 196 - Coreo (Mario, Ness) Vs. Orpheus (ROB) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-17T10:45:01.000Z",
+    "6kpiOxJfAfI",
+    "CEO Dreamland 2017 - GimR Interviews Mr. R For Like An Hour"
+  ],
+  [
+    "2017-04-17T10:40:45.000Z",
+    "dd99KGi4_s4",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo (Diddy Kong) Vs. Elevate | Mr. R (Sheik/Cloud) SSB4 GF"
+  ],
+  [
+    "2017-04-17T10:40:29.000Z",
+    "tUWOaVFLjc8",
+    "CEO Dreamland 2017 Smash 4 - NRG | Nairo (ZSS/Lucina) Vs. Elevate | Mr. R (Sheik) SSB4 Losers Finals"
+  ],
+  [
+    "2017-04-17T10:40:00.000Z",
+    "O6JOo8B9-tY",
+    "CEO Dreamland 2017 Smash 4 - NRG | Nairo (ZSS) Vs. RNG | Dabuz (Rosalina) SSB4 Losers Semis"
+  ],
+  [
+    "2017-04-17T10:39:45.000Z",
+    "lgUzNGU7bXU",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo (Diddy Kong) Vs. Elevate | Mr. R (Sheik) SSB4 Winners Finals"
+  ],
+  [
+    "2017-04-17T10:39:30.000Z",
+    "PfwT1q028kM",
+    "CEO Dreamland 2017 Smash 4 - Samsora (Peach) Vs. NRG | Nairo (ZSS) SSB4 Losers Quarters"
+  ],
+  [
+    "2017-04-17T10:33:24.000Z",
+    "hZ8bBDzmXik",
+    "CEO Dreamland 2017 Smash 4 - PG | ESAM (Pikachu) Vs. RNG | Dabuz (Rosalina) SSB4 Losers Quarters"
+  ],
+  [
+    "2017-04-17T06:48:00.000Z",
+    "C6x6ggnN60w",
+    "CEO Dreamland 2017 Smash 4 - NRG | Nairo (ZSS) Vs. Elevate | Mr. R (Sheik) SSB4 Winners Semis"
+  ],
+  [
+    "2017-04-17T06:47:44.000Z",
+    "el8amo4Jb7w",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo (Diddy Kong) Vs. PG | ESAM (Pikachu) SSB4 Winners Semis"
+  ],
+  [
+    "2017-04-17T06:47:24.000Z",
+    "VJ_W2waMO44",
+    "CEO Dreamland 2017 Smash 4 - Samsora (Peach) Vs. CLG | VoiD (Sheik) SSB4 Losers Top 8 - Smash Wii U"
+  ],
+  [
+    "2017-04-17T06:47:10.000Z",
+    "mUZeel4Jtdw",
+    "CEO Dreamland 2017 Smash 4 - RNG | Dabuz (Rosalina) Vs. DNL | Marss (ZSS) SSB4 Losers Top 8"
+  ],
+  [
+    "2017-04-17T05:28:20.000Z",
+    "Gn1xSuuGd04",
+    "CEO Dreamland 2017 SSBM - FOX MVG | Mew2King (Marth) Vs. CLG | SFAT (Fox) Smash Melee Grand Finals"
+  ],
+  [
+    "2017-04-17T05:27:54.000Z",
+    "fLPwGpNkQbk",
+    "CEO Dreamland 2017 SSBM - Liquid` Hungrybox (Jigglypuff) Vs. FOX MVG | Mew2King Smash Melee LF"
+  ],
+  [
+    "2017-04-17T05:25:25.000Z",
+    "UDbM39q5-_U",
+    "CEO Dreamland 2017 SSBM - RNG | Swedish Delight (Sheik) Vs. Liquid` Hungrybox (Jiggs) Smash Melee LS"
+  ],
+  [
+    "2017-04-17T05:00:16.000Z",
+    "IAX20B35Ikw",
+    "CEO Dreamland 2017 SSBM - CLG | SFAT (Fox) Vs. Fox MVG | Mew2King (Marth) Smash Melee Winners Finals"
+  ],
+  [
+    "2017-04-17T04:59:09.000Z",
+    "pH5__uHIru0",
+    "CEO Dreamland 2017 SSBM - PG | Plup (Luigi) Vs. RNG | Swedish Delight (Sheik/Luigi) Smash Melee LQ"
+  ],
+  [
+    "2017-04-17T04:58:56.000Z",
+    "h66y1bjqS8k",
+    "CEO Dreamland 2017 SSBM - Selfless | HugS (Samus) Vs. Liquid` Hungrybox (Jigglypuff) Smash Melee LQ"
+  ],
+  [
+    "2017-04-17T04:58:42.000Z",
+    "LV2cn9tvHtw",
+    "CEO Dreamland 2017 SSBM - FOX MVG | Mew2King (Sheik/Marth) Vs. PG | Plup (Luigi) Smash Melee WS"
+  ],
+  [
+    "2017-04-17T04:57:16.000Z",
+    "zHCLFDTrct8",
+    "CEO Dreamland 2017 SSBM - Liquid` Hungrybox (Jigglypuff) Vs. CLG | SFAT (Fox) Smash Melee WS"
+  ],
+  [
+    "2017-04-17T04:56:56.000Z",
+    "fyE6dC-Rigk",
+    "CEO Dreamland 2017 SSBM - Selfless | HugS (Samus) Vs. CLG | PewPewU (Marth) Smash Melee Losers Top 8"
+  ],
+  [
+    "2017-04-17T04:56:42.000Z",
+    "QGLfpM_tZMk",
+    "CEO Dreamland 2017 SSBM - dizzkidboogie (Ice Climbers) Vs. RNG | Swedish Delight Smash Melee LT8"
+  ],
+  [
+    "2017-04-17T03:40:42.000Z",
+    "cBH7ry1KHYw",
+    "CEO Dreamland 2017 SSBM - Selfless | HugS (Samus) Vs. DruggedFox (Fox) Smash Melee Top 8 Qualifier"
+  ],
+  [
+    "2017-04-17T03:40:05.000Z",
+    "Tn97gZeDyw4",
+    "CEO Dreamland 2017 SSBM - dizzkidboogie (Ice Climbers) Vs. P1 | Duck (Samus) Smash Melee Top 8 Qual."
+  ],
+  [
+    "2017-04-17T03:39:13.000Z",
+    "FlSH89yhx4U",
+    "CEO Dreamland 2017 SSBM - PG | Plup (Luigi) Vs. DruggedFox (Fox) Smash Melee Winners Quarters"
+  ],
+  [
+    "2017-04-17T03:15:56.000Z",
+    "bZM60dUSYwg",
+    "CEO Dreamland 2017 SSBM - Fox MVG | Mew2King (Sheik/Marth) Vs. CLG | PewPewU (Marth) Smash Melee WQ"
+  ],
+  [
+    "2017-04-17T03:15:39.000Z",
+    "gEaLICwvDvQ",
+    "CEO Dreamland 2017 SSBM - P1 | Duck (Samus) Vs. Liquid Hungrybox (Jigglypuff) Smash Melee WQ"
+  ],
+  [
+    "2017-04-17T03:15:20.000Z",
+    "wlUnNN_90q0",
+    "CEO Dreamland 2017 SSBM - Tempo | Axe (Pikachu) Vs. CLG | SFAT (Fox) Smash Melee Winners Quarters"
+  ],
+  [
+    "2017-04-16T05:33:20.000Z",
+    "HZKgp7MpyG4",
+    "CEO Dreamland 2017 Smash 4 - Raito (Duck Hunt) Vs. RNG | Dabuz (Rosalina) SSB4 Top 8 Qualifier"
+  ],
+  [
+    "2017-04-16T05:33:05.000Z",
+    "ge7pbd887K8",
+    "CEO Dreamland 2017 Smash 4 - Samsora (Peach) Vs. Circa | 6WX (Sonic) SSB4 Top 8 Qualifier"
+  ],
+  [
+    "2017-04-16T05:32:47.000Z",
+    "WaoRXzK8sCc",
+    "CEO Dreamland 2017 Smash 4 - CLG | VoiD (Sheik) Vs. CaptainZack (Bayonetta) SSB4 Top 8 Qualifier"
+  ],
+  [
+    "2017-04-16T05:32:28.000Z",
+    "nIQcTrOoLjo",
+    "CEO Dreamland 2017 Smash 4 - DNL | Marss (ZSS) Vs. MVG | ScAtt (Mega Man) SSB4 Top 8 Qualifier"
+  ],
+  [
+    "2017-04-16T05:31:53.000Z",
+    "1WIxkCwD_RU",
+    "CEO Dreamland 2017 Smash 4 - RNG | Dabuz (Rosalina) Vs. Elevate | Mr. R (Cloud) SSB4 WQ"
+  ],
+  [
+    "2017-04-16T05:31:39.000Z",
+    "eyNZtWwkySU",
+    "CEO Dreamland 2017 Smash 4 - NRG | Nairo (ZSS) Vs. DNL | Marss (ZSS) SSB4 Winners Quarters"
+  ],
+  [
+    "2017-04-16T05:30:56.000Z",
+    "StmdO9iGUxU",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo (Diddy Kong) Vs. Circa | 6WX (Sonic) SSB4 Winners Quarters"
+  ],
+  [
+    "2017-04-16T05:03:20.000Z",
+    "732aun9aytw",
+    "CEO Dreamland 2017 Smash 4 - PG | ESAM (Pikachu) Vs. CLG | VoiD (Sheik) SSB4 Winners Quarters"
+  ],
+  [
+    "2017-04-16T05:03:02.000Z",
+    "bIe5nypstBY",
+    "CEO Dreamland 2017 Smash 4 - PG | Rich Brown (Mewtwo) Vs. MVG | ScAtt (Mega Man) SSB4 Losers Top 48"
+  ],
+  [
+    "2017-04-16T04:49:20.000Z",
+    "Q8lWeu-917o",
+    "CEO Dreamland 2017 Smash 4 - Raito (Duck Hunt) Vs. MSF | Larry Lurr (Fox) SSB4 Losers Top 48"
+  ],
+  [
+    "2017-04-16T04:48:38.000Z",
+    "mc-KNRTEqxo",
+    "CEO Dreamland 2017 Smash 4 - Blank (Sheik) Vs. Elevate | Mr. R (Sheik) SSB4 Winners Top 48"
+  ],
+  [
+    "2017-04-16T04:48:17.000Z",
+    "4S_haMdM2-k",
+    "CEO Dreamland 2017 Smash 4 - Ookami (Greninja/Mega Man) Vs. RNG | Dabuz (Rosalina) SSB4 Winners"
+  ],
+  [
+    "2017-04-16T04:47:52.000Z",
+    "snewS0oPqxY",
+    "CEO Dreamland 2017 Smash 4 - Samsora (Peach) Vs. NRG | Nairo (ZSS) SSB4 Winners Top 48 - Smash Wii U"
+  ],
+  [
+    "2017-04-16T04:28:32.000Z",
+    "3eO6eeYXteI",
+    "CEO Dreamland 2017 Smash 4 - DNL | Marss (Lucario/ZSS) Vs. MVG | Salem (Bayonetta) SSB4 Winners"
+  ],
+  [
+    "2017-04-16T04:28:16.000Z",
+    "Z5FwT6PAdsI",
+    "CEO Dreamland 2017 Smash 4 - Circa | 6WX (Sonic) Vs. INC | ZD (Fox) SSB4 Winners Top 48"
+  ],
+  [
+    "2017-04-16T04:27:49.000Z",
+    "hXl7yC1phLw",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo (Diddy Kong) Vs. PG | Rich Brown (Mewtwo) SSB4 Winners"
+  ],
+  [
+    "2017-04-16T04:27:31.000Z",
+    "sxBD2DRCbeY",
+    "CEO Dreamland 2017 Smash 4 - Raito (Duck Hunt) Vs. CLG | VoiD (Sheik) SSB4 Winners Top 48"
+  ],
+  [
+    "2017-04-16T04:27:15.000Z",
+    "lERENcndV0g",
+    "CEO Dreamland 2017 Smash 4 - MSF | Larry Lurr (Fox) Vs. PG | ESAM (Pikachu) SSB4 Winners Top 48"
+  ],
+  [
+    "2017-04-16T04:02:28.000Z",
+    "KD9yW2xAG1o",
+    "CEO Dreamland 2017 Brawl - NRG | Nairo (Meta Knight) Vs. V115 (ZSS) SSBB Grand Finals"
+  ],
+  [
+    "2017-04-16T04:02:11.000Z",
+    "KJZjXjbr350",
+    "CEO Dreamland 2017 Brawl - NRG | Nairo (Meta Knight) Vs. MVG | Salem (ZSS) SSBB Losers Finals"
+  ],
+  [
+    "2017-04-16T04:01:58.000Z",
+    "gPhaQpx8hsI",
+    "CEO Dreamland 2017 Brawl - NRG | Nairo (Meta Knight) Vs. InC | Seagull (Wolf) SSBB Losers Semis"
+  ],
+  [
+    "2017-04-16T04:01:31.000Z",
+    "I4Ru22oPj7c",
+    "CEO Dreamland 2017 Brawl - MVG | Salem (ZSS) Vs. V115 (ZSS) SSBB Winners Finals"
+  ],
+  [
+    "2017-04-16T04:01:13.000Z",
+    "Pz_muEmD_Wk",
+    "CEO Dreamland 2017 Brawl - NRG | Nairo (Meta Knight) Vs. FOX MVG | Mew2king (Meta Knight) SSBB LQ"
+  ],
+  [
+    "2017-04-16T04:00:58.000Z",
+    "ipsKLB0xtNY",
+    "CEO Dreamland 2017 Brawl - InC | Seagull (Wolf) Vs. PG | MVD (Snake) SSBB Losers Quarters"
+  ],
+  [
+    "2017-04-16T03:19:33.000Z",
+    "1QmO7_e1NCo",
+    "CEO Dreamland 2017 Smash 4 - MSF | Larry Lurr (Fox) Vs. Cashmere (Falcon) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T03:19:07.000Z",
+    "b29NxvwYLWI",
+    "CEO Dreamland 2017 Smash 4 - NRG | Nairo (ZSS) Vs. Player1 (Diddy Kong) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T03:04:34.000Z",
+    "dYNzaBIqti0",
+    "CEO Dreamland 2017 Smash 4 - Blank (Sheik) Vs. P1 | Tweek (Donkey Kong) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T03:04:08.000Z",
+    "ZDf4OO-_Fxw",
+    "CEO Dreamland 2017 Smash 4 - Circa | 6WX (Sonic) Vs. Captain Zack (Bayonetta) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T03:03:49.000Z",
+    "7yn42Zzl77w",
+    "CEO Dreamland 2017 Smash 4 - Cashmere (Falcon) Vs. InC | Seagull (Diddy Kong) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T03:03:14.000Z",
+    "ziRqFFjKD90",
+    "CEO Dreamland 2017 Smash 4 - NRG | Nairo (ZSS) Vs. PSI | Sells (Bayonetta) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T03:02:55.000Z",
+    "Hq3pkm4-EHw",
+    "CEO Dreamland 2017 Smash 4 - Blank (Sheik) Vs. Fable | 8bitman (Diddy Kong) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T03:01:07.000Z",
+    "FQ3IUuTDCSA",
+    "CEO Dreamland 2017 Smash 4 - Captain Zack (Bayonetta) Vs. V115 (ZSS) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T02:34:15.000Z",
+    "-EK_yB05maI",
+    "CEO Dreamland 2017 Smash 4 - Circa | 6WX (Sonic) Vs. Jade (Bowser Jr.) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T02:33:47.000Z",
+    "2Piq50YIyWI",
+    "CEO Dreamland 2017 Smash 4 - MVG | Dyr (Diddy Kong) Vs. Akashic (Greninja) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T02:33:18.000Z",
+    "78x2H_NA8aE",
+    "CEO Dreamland 2017 Smash 4 - Zephyr (Cloud) Vs. Morpheus (Mega Man) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T02:32:55.000Z",
+    "s270oyCQ6Ws",
+    "CEO Dreamland 2017 Smash 4 - Noble | Manny (Sonic) Vs. PG | Rich Brown (Mewtwo) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T02:32:31.000Z",
+    "IPvzl5TsNfQ",
+    "CEO Dreamland 2017 Smash 4 - Raito (Duck Hunt) Vs. IMT | ANTi (Cloud/Mario) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T02:09:32.000Z",
+    "SSRb00cLp6E",
+    "CEO Dreamland 2017 Smash 4 - MVG | Salem (Bayonetta) Vs. WormyNugget (Diddy Kong) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T02:08:51.000Z",
+    "FBJhItIewpQ",
+    "CEO Dreamland 2017 Smash 4 - RNG | Dabuz (Rosalina) Vs. JJRockets (Diddy Kong) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T02:08:30.000Z",
+    "JhLBeVN7L-8",
+    "CEO Dreamland 2017 Smash 4 - Raito (Duck Hunt) Vs. MVG | Dyr (Diddy Kong) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T02:08:04.000Z",
+    "tpooRQRal40",
+    "CEO Dreamland 2017 Smash 4 - Sharpyzard (Charizard) Vs. MVG | Salem (Bayonetta) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T01:45:52.000Z",
+    "5loZL5VMxNg",
+    "CEO Dreamland 2017 Smash 4 - Seibrik (Cloud) Vs. CSG | Chez (Sonic) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:45:26.000Z",
+    "3YjIHVBVlEg",
+    "CEO Dreamland 2017 Smash 4 - PK1ng (Little Mac) Vs. PG | MVD (Diddy Kong) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:44:54.000Z",
+    "8Ny48GqW3b8",
+    "CEO Dreamland 2017 Smash 4 - Ookami (MegaMan) Vs. PK kid (Ness) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:44:33.000Z",
+    "_x8EPx8QOZo",
+    "CEO Dreamland 2017 Smash 4 - CLG | VoiD (Sheik) Vs. FX | Karna (Sheik) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:15:53.000Z",
+    "RdbEV-hOGZE",
+    "CEO Dreamland 2017 Smash 4 - DNL | Marss (ZSS) Vs. Rideae (Pikachu) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:15:12.000Z",
+    "wErsjdW03FU",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo (Diddy Kong) Vs. TNF | Child (Bayonetta) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T01:14:45.000Z",
+    "RpvSG-hA8K4",
+    "CEO Dreamland 2017 Smash 4 - CLG | VoiD (Sheik) Vs. Dandy Penguin (Duck Hunt) SSB4 Pools"
+  ],
+  [
+    "2017-04-16T01:14:18.000Z",
+    "gc8rRgukd0A",
+    "CEO Dreamland 2017 Smash 4 - PKkid (Ness) Vs. Pk1ng (Little Mac) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:13:44.000Z",
+    "bkvpvtPGeZc",
+    "CEO Dreamland 2017 Smash 4 - Phuzix (Sheik) Vs. Dandy Penguin (Duck Hunt) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:13:20.000Z",
+    "3IXlILxE2ug",
+    "CEO Dreamland 2017 Smash 4 - GForce | Day (Lucario) Vs. Promaelia (Corrin) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T01:12:55.000Z",
+    "F02e4UjjodA",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo (Lucina) Vs. Taku (Captain Falcon) SSB4 Pools - Smash Wii U"
+  ],
+  [
+    "2017-04-16T00:40:36.000Z",
+    "_yb4JOEDHuk",
+    "CEO Dreamland 2017 - BAM Interviews Nakat"
+  ],
+  [
+    "2017-04-16T00:40:13.000Z",
+    "ALvA0octw5w",
+    "CEO Dreamland 2017 Smash 4 - CLG | Nakat & CLG | VoiD Vs. TSM | ZeRo & NRG | Nairo SSB4 Doubles GF"
+  ],
+  [
+    "2017-04-16T00:39:49.000Z",
+    "nSfHOfN_oMs",
+    "CEO Dreamland 2017 Smash 4 - NRG Nairo & TSM ZeRo Vs. P1 | Tweek Vs. Captain Zack SSB4 Doubles LF"
+  ],
+  [
+    "2017-04-16T00:39:08.000Z",
+    "qObm4eydC4k",
+    "CEO Dreamland 2017 Smash 4 - RvL | Mr. E & Mekos Vs. P1 |  Tweek & Captain Zack SSB4 Doubles LS"
+  ],
+  [
+    "2017-04-16T00:38:33.000Z",
+    "oLDBa4j5vSQ",
+    "CEO Dreamland 2017 Smash 4 - NRG | Nairo & TSM | ZeRo Vs. CLG | Nakat & CLG | VoiD SSB4 Doubles WF"
+  ],
+  [
+    "2017-04-16T00:37:56.000Z",
+    "5TfE8liFxz8",
+    "CEO Dreamland 2017 Smash 4 - Samsora & RNG | Dabuz  Vs. P1 | Tweek & Captain Zack SSB4 Doubles LQ"
+  ],
+  [
+    "2017-04-16T00:36:58.000Z",
+    "fVVKCseSaZY",
+    "CEO Dreamland 2017 Smash 4 - MVG Salem & Fox MVG Mew2King Vs. Tweek & Captain Zack SSB4 Doubles LT8"
+  ],
+  [
+    "2017-04-16T00:36:30.000Z",
+    "S9FBTWxMxWs",
+    "CEO Dreamland 2017 Smash 4 - FS | Fatality & IMT | ANTi Vs. Mekos & RvL | Mr. E SSB4 Doubles LQ"
+  ],
+  [
+    "2017-04-16T00:35:55.000Z",
+    "C8teTZYTdkE",
+    "CEO Dreamland 2017 Smash 4 - RvL | Mr. E & Mekos Vs. PG | ESAM & PG | MVD SSB4 Doubles Losers Top 8"
+  ],
+  [
+    "2017-04-16T00:35:11.000Z",
+    "IV0uG7YubHA",
+    "CEO Dreamland 2017 Smash 4 - TSM | ZeRo & NRG | Nairo Vs. FS | Fatality & IMT | ANTi SSB4 Doubles WS"
+  ],
+  [
+    "2017-04-16T00:34:44.000Z",
+    "4nG6Lpzs_1I",
+    "CEO Dreamland 2017 Smash 4 - Samsora & RNG | Dabuz Vs. CLG | Nakat & CLG | VoiD SSB4 Doubles WS"
+  ],
+  [
+    "2017-04-16T00:34:15.000Z",
+    "BbWpN4br3d4",
+    "CEO Dreamland 2017 Smash 4 - FS | Fatality & IMT | ANTi Vs. RVL | XZAX & CL | DSS SSB4 Doubles WQ"
+  ],
+  [
+    "2017-04-15T17:00:04.000Z",
+    "qQdbxwa5qjk",
+    "S@X 196 - Dark Child (Necalli) Vs. Unknown (Ken) - SFV Grand Finals - Street Fighter V"
+  ],
+  [
+    "2017-04-15T16:30:02.000Z",
+    "tjjqYv_Ib1s",
+    "F@X 196 - DCB DCint (Nash) Vs. Unknown (Cammy) - SFV Losers Finals - Street Fighter V"
+  ],
+  [
+    "2017-04-15T16:00:02.000Z",
+    "COYEmKEPQWE",
+    "F@X 196 - Dark Child (Necalli) Vs. Unknown (Cammy) - SFV Winners Finals - Street Fighter V"
+  ],
+  [
+    "2017-04-12T19:00:01.000Z",
+    "B4ztKvunbYE",
+    "S@X 196 - Wenbobular (Fox) Vs. Plank (Sheik, Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-04-12T18:30:00.000Z",
+    "GOFU5CN4PeI",
+    "S@X 196 - Hat (Sheik) Vs. Plank (Sheik) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-04-12T18:00:04.000Z",
+    "xyUwsoE8JAg",
+    "S@X 196 - ThumbsWayUp (Captain Falcon) Vs. Plank (Sheik) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-04-12T17:30:02.000Z",
+    "ismC2c4bmVk",
+    "S@X 196 - Plank (Sheik) Vs. Jerry (Fox) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-12T17:30:00.000Z",
+    "15-SHN5aR20",
+    "S@X 196 - Wenbobular (Fox) Vs. Hat (Sheik) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-04-12T17:30:00.000Z",
+    "0q5pKY4v4-s",
+    "S@X 196 - ThumbsWayUp (Captain Falcon) Vs. Corn (Ice Climbers) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-12T17:00:06.000Z",
+    "ymH4Cs2XB5k",
+    "S@X 196 - Plank (Sheik) Vs. Wenbobular (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-04-12T17:00:04.000Z",
+    "VpMWXBRbJ0Y",
+    "S@X 196 - Jerry (Fox) Vs. Moss (Samus) - SSBM Losers Bracket - Smash Melee"
+  ],
+  [
+    "2017-04-12T17:00:01.000Z",
+    "LxPWKUpS2m8",
+    "S@X 196 - Hat (Marth) Vs. Corn (Ice Climbers) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-04-12T16:30:01.000Z",
+    "ae9DCtWl7Os",
+    "S@X 196 - ThumbsWayUp (Captain Falcon) Vs. Plank (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-12T16:30:01.000Z",
+    "_r028iI52nU",
+    "S@X 196 - AceOfFlakes (Jigglypuff) Vs. Wenbobular (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-12T16:00:05.000Z",
+    "RYp05W-7s-s",
+    "S@X 196 - ThumbsWayUp (Captain Falcon) Vs. Guac (Samus) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-12T16:00:04.000Z",
+    "SxnKdsDr13E",
+    "S@X 196 - Hat (Marth) Vs. Hutch (Peach) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-12T16:00:03.000Z",
+    "U-OW5LOoLns",
+    "S@X 196 - ThumbsWayUp (Captain Falcon) Vs. Jellyman Kelly (Luigi) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-12T16:00:00.000Z",
+    "4edg-p6M7DU",
+    "S@X 196 - Nurok (Falco) Vs. Dank (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-12T16:00:00.000Z",
+    "1DjFc3WWgQ4",
+    "S@X 196 - Jerry (Fox) Vs. Oddish (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-11T19:00:01.000Z",
+    "1P68dOlLvo0",
+    "DxB 2017 SSB4 - Logic Interviews ESAM"
+  ],
+  [
+    "2017-04-10T23:00:04.000Z",
+    "xFjGWqKIMJU",
+    "DXB 2017 SSB4 - PG | ESAM (Pikachu) Vs. PG | MVD (Diddy Kong) Smash 4 Grand Finals -Smash Wii U"
+  ],
+  [
+    "2017-04-10T22:30:00.000Z",
+    "IACDrG_VC94",
+    "DXB 2017 SSB4 - DNL | Marss (ZSS, Lucario) Vs. PG | MVD (Diddy Kong) Losers Finals - Smash Wii U"
+  ],
+  [
+    "2017-04-10T22:00:01.000Z",
+    "P_Db-stccfs",
+    "DXB 2017 SSB4 - Pugwest (Marth) Vs. PG | MVD (Diddy Kong) Smash 4 Losers Semis - Smash Wii U"
+  ],
+  [
+    "2017-04-10T21:30:00.000Z",
+    "zdh6nMU9v3E",
+    "DXB 2017 SSB4 - PG | ESAM (Pikachu) Vs.DNL | Marss (ZSS, Lucario) Smash 4 WF - Smash Wii U"
+  ],
+  [
+    "2017-04-10T21:00:02.000Z",
+    "J5wq5tKbg0o",
+    "DXB 2017 SSB4 - PG | MVD (Diddy Kong) Vs. Coco | SSS (Diddy, Donkey Kong) Smash 4 LQ - Smash Wii U"
+  ],
+  [
+    "2017-04-10T21:00:02.000Z",
+    "ED9-JiqEWiA",
+    "DXB 2017 SSB4 - Pugwest (Marth) Vs.Snack (Mega Man, Sonic, Zard) Smash 4 LQ - Smash Wii U"
+  ],
+  [
+    "2017-04-10T20:30:03.000Z",
+    "p66O9mceRpo",
+    "DXB 2017 SSB4 - PG | ESAM (Pikachu) Vs. Pugwest (Marth) Smash 4 WS - Smash Wii U"
+  ],
+  [
+    "2017-04-10T20:30:00.000Z",
+    "LCysWrQ1R3o",
+    "DXB 2017 SSB4 - DNL | Marss (ZSS) Vs. PG | MVD (Diddy Kong) Smash 4 WS - Smash Wii U"
+  ],
+  [
+    "2017-04-10T20:00:03.000Z",
+    "gm9wnxMmOZY",
+    "DXB 2017 SSB4 - Pugwest (Marth) Vs. Coco | SSS (Donkey Kong, Diddy) Smash 4 WQ - Smash Wii U"
+  ],
+  [
+    "2017-04-10T20:00:02.000Z",
+    "ozfbkNh4aLw",
+    "DXB 2017 SSB4 - Tooky (Pac-Man) Vs. DNL | Marss (ZSS) Smash 4 WQ - Smash Wii U"
+  ],
+  [
+    "2017-04-10T20:00:01.000Z",
+    "mcyQgSf96aw",
+    "DXB 2017 SSB4 - Fairess (Zelda) Vs. PG | ESAM (Pikachu) Smash 4 WQ - Smash Wii U"
+  ],
+  [
+    "2017-04-10T20:00:00.000Z",
+    "9SchQrErgEc",
+    "DXB 2017 SSB4 - Madara (Sheik) Vs. PG I MVD (Diddy Kong) Smash 4 WQ - Wii U"
+  ],
+  [
+    "2017-04-10T19:30:01.000Z",
+    "yrfEy68rkH4",
+    "DXB 2017 SSB4 - VGBC | GimR (G&W) Vs. Karamel (Pikachu, Cloud) Smash 4 Tournament -Smash Wii U"
+  ],
+  [
+    "2017-04-10T19:30:01.000Z",
+    "Rwl65zQlep0",
+    "DXB 2017 SSB4 - My Life (Rosalina) Vs. Pugwest (Marth, Lucina) Smash 4 Tournament -Smash Wii U"
+  ],
+  [
+    "2017-04-10T19:30:00.000Z",
+    "fWsLiu2jvC0",
+    "DXB 2017 SSB4 - Tooky (Pac-Man) Vs. Karamel (Pikachu) Smash 4 Tournament -Smash Wii U"
+  ],
+  [
+    "2017-04-10T19:30:00.000Z",
+    "X7GK0TNzmJw",
+    "DXB 2017 SSB4 - DNL | Marss (ZSS) Vs. Darkness (Sheik, Cloud) Smash 4 Tournamnet - Smash Wii U"
+  ],
+  [
+    "2017-04-10T19:30:00.000Z",
+    "DjYGQdZqZyw",
+    "DXB 2017 SSB4 - Inc VGBC | Logic (Olimar) Vs. Fairess (Zelda) Smash 4 Tournament -Smash Wii U"
+  ],
+  [
+    "2017-04-10T19:00:04.000Z",
+    "u-B3m5EOs1A",
+    "DXB 2017 SSB4 - Arash (Mewtwo) Vs. Don.hsz (Little Mac) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T19:00:02.000Z",
+    "kt6fJw3uspM",
+    "DXB 2017 SSB4 - Inc VGBC | Logic (Diddy Kong) Vs. Shiba (Corrin) Smash 4 Tournamnet - Smash WIi U"
+  ],
+  [
+    "2017-04-10T19:00:02.000Z",
+    "TxYS7-gsmkI",
+    "DXB 2017 SSb4 - Pugwest (Marth) Vs. Kailex (Metaknight) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T19:00:00.000Z",
+    "7Z2RjGlB17c",
+    "DXB 2017 SSB4 - Fairess (Zelda) Vs. VGBC | GimR (G&W) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:30:01.000Z",
+    "vPXj2Iv4w04",
+    "DXB 2017 SSB4 - Artehfx (ZSS) Vs. Darkness (Mario) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:30:01.000Z",
+    "GwjNNAowC28",
+    "DXB 2017 SSB4 - Zolain (Mario) Vs. Tooky (Pacman) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:30:00.000Z",
+    "XbZ-gsQUAA8",
+    "DXB 2017 SSB4 - Madara (Sheik) Vs. Majid (Duck Hunt) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:30:00.000Z",
+    "G8nBoz-UZpU",
+    "DXB 2017 SSB4 - Sultoon (G&W) Vs. VGBC | GimR  (G&W) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:30:00.000Z",
+    "9Khs1ICfcw0",
+    "DXB 2017 SSB4 - VGBC | TKBreezy (Marth) Vs. King Wario (Wario, Robin) Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:00:06.000Z",
+    "pBRHVgihewo",
+    "DXB 2017 SSB4 - Pugwest (Marth) Vs. Don.sz (Little Mac) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:00:05.000Z",
+    "z8EFMf7Kc18",
+    "DXB 2017 SSB4 - Psycho (Captain Falcon) Vs. PG | MVD (Diddy) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:00:03.000Z",
+    "gSkRk0NKzQ0",
+    "DXB 2017 SSB4 - VGBC | Aposl (Char) Vs. Lord Snackington (Mega-Man, Zard) Smash 4 Tournament - Wii U"
+  ],
+  [
+    "2017-04-10T18:00:02.000Z",
+    "8ZpTyBy5bD8",
+    "DXB 2017 SSB4 - PG | ESAM (Pikachu) Vs. Prado (Rob) Smas h 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T18:00:01.000Z",
+    "KmuGCx_UN30",
+    "DXB 2017 SSB4 - Marche (Villager) Vs. Bu7maid (RYU) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:30:01.000Z",
+    "oyiyXXjwOR8",
+    "DXB 2017 SSB4 - SSS (Donkey Kong) Vs. Fazed Rebal (Corrin, Cloud) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:30:01.000Z",
+    "jqwfJ6FqihE",
+    "DXB 2017 SSB4 - AAA (Ganondorf) Vs. Funtroon (Jigglypuff) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:30:01.000Z",
+    "HsjddUgrUTI",
+    "DXB 2017 SSB4 - Snick (Luigi) Vs. PG | MVD (Diddy) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:30:00.000Z",
+    "_-LT1mkN0n0",
+    "DXB 2017 SSB4 - Karamel (Pikachu) Vs. Arash (Mewtwo) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:30:00.000Z",
+    "H1NN3pGZLBk",
+    "DXB 2017 SSB4 - Kailex (Metaknight) Vs. Inc | VGBC | Logic (Olimar) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:00:10.000Z",
+    "x2RwWRZxjb8",
+    "DXB 2017 SSB4 - Fahad (ZSS) Vs. Airror (Ryu) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:00:05.000Z",
+    "uDzizVyWjgs",
+    "DXB 2017 SSB4 - My Life (Rosalina) Vs. Fairess (Zelda) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:00:04.000Z",
+    "lydJ1knY_K8",
+    "DXB 2017 SSB4 - Neo Tempus (Marth) Vs. DNL | Mars (ZSS) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:00:03.000Z",
+    "Ec7jN27b5xo",
+    "DXB 2017 SSB4 - Zanza (Link) Vs. PG | ESAM (Pikachu) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T17:00:01.000Z",
+    "9bIgu1Ax9HQ",
+    "DXB 2017 SSB4 - DNL | Marss (ZSS) Vs. Mubrik (Ness) Smash 4 Tournament - Smash Wii U"
+  ],
+  [
+    "2017-04-10T16:00:03.000Z",
+    "PdBpN8_vSxg",
+    "DXB 2017 SSB4 - DNL | Marss & PugWest Vs. PG | MVD & PG | ESAM - Smash 4 Grand Finals - Smash Wii U"
+  ],
+  [
+    "2017-04-10T15:30:00.000Z",
+    "LfvFx4w1TgE",
+    "DXB 2017 SSB4 - PG | ESAM & PG | MVD Vs. Madara & Coco | SSS - Smash 4 Losers Finals - Smash Wii U"
+  ],
+  [
+    "2017-04-10T15:00:03.000Z",
+    "VW14wOCGBLM",
+    "DXB 2017 SSB4 - VGBC | TKbreezy & INC VGBC | Logic Vs. CoCo | SSS & Madara - Smash 4 LS - Wii U"
+  ],
+  [
+    "2017-04-10T14:30:00.000Z",
+    "BpuZ1J9_nIA",
+    "DXB 2017 SSB4 - Pugwest & DNL | Marss Vs. PG | ESAM & PG | MVD - Smash 4 WF - Smash Wii U"
+  ],
+  [
+    "2017-04-10T14:00:03.000Z",
+    "T6hvSNfNtXU",
+    "DXB 2017 SSB4 - Marss & Pugwest Vs. Coco | SSS & Madara -Smash 4 WS"
+  ],
+  [
+    "2017-04-10T14:00:01.000Z",
+    "EhoMgD_FgCo",
+    "DXB 2017 SSB4 - VGBC | TKbreezy & INC VGBC | Logic Vs. Sanza & Tooky - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-04-10T13:30:02.000Z",
+    "YiN-3F_B7Ng",
+    "DXB 2017 SSB4 - PG | ESAM & PG | MVD Vs. Don.hsz & Fazed Rebel - WQ - Smash Wii U"
+  ],
+  [
+    "2017-04-10T13:30:01.000Z",
+    "eWb_7k6Nj60",
+    "DXB 2017 SSB4 - VGBC | TKbreezy & INC VGBC | Logic Vs. Coco | SSS & Madara - Smash 4 WQ"
+  ],
+  [
+    "2017-04-10T13:00:08.000Z",
+    "gMIiBIO__5k",
+    "DXB 2017 SSB4 - VGBC | TKbreezy & INC VGBC | Logic Vs. Fairess & Kailex - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-04-10T13:00:02.000Z",
+    "Jkiym8lC-Qg",
+    "DXB 2017 SSB4 - VGBC | GimR & Sultoon Vs. AAA & VGBC | Aposl - Smash 4 Doubles - Smash Wii U"
+  ],
+  [
+    "2017-04-10T13:00:00.000Z",
+    "-lZKoaHtzPE",
+    "DXB 2017 SSB4 - PG | ESAM & PG | MVD Vs. SS | PBnJ & SPY | EE - Smash 4 Doubles - Smash Wii U"
+  ],
+  [
+    "2017-04-07T19:00:00.000Z",
+    "3NXwSLt7skw",
+    "S@X 195 - InC | ZD (Fox) Vs. InC | Wadi (Mewtwo) - SSB4 Grand Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T18:30:00.000Z",
+    "-2FWAdW7WBU",
+    "S@X 195 - InC | ZD (Fox) Vs. InC | Seagull Joe (Sonic) - SSB4 Losers Finals - Smash for Wii U"
+  ],
+  [
+    "2017-04-07T18:00:01.000Z",
+    "GZmdiaUO-1c",
+    "S@X 195 - InC | ZD (Fox) Vs. Spirunk (Yoshi) - SSB4 Losers Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T17:30:01.000Z",
+    "xJSfqUzB6y8",
+    "S@X 195 - InC | Wadi (Mewtwo) Vs. InC | Seagull Joe (Diddy Kong) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-04-07T17:30:01.000Z",
+    "VU4VGl_a1yw",
+    "S@X 195 - InC | ZD (Fox) Vs. Zephyr (Cloud) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T17:30:00.000Z",
+    "Lvtwg5rS9J8",
+    "S@X 195 - Dexter (Corrin) Vs. Spirunk (Yoshi) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T17:00:07.000Z",
+    "wBvVj7I5kqA",
+    "S@X 195 - Spirunk (Yoshi) Vs. BlaiseAgain (Yoshi) - SSB4 Losers Eighths - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T17:00:04.000Z",
+    "m7snIItq6JA",
+    "S@X 195 - Dexter (Corrin) Vs. InC | Wadi (ROB) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T17:00:03.000Z",
+    "hvueaA1u9Wk",
+    "S@X 195 - PootieTang (Diddy Kong) Vs. Zephyr (Cloud) - SSB4 Losers Eighths - Smash for Wii U"
+  ],
+  [
+    "2017-04-07T17:00:00.000Z",
+    "CxgWrSssotE",
+    "S@X 195 - InC | ZD (Fox) Vs. InC | Seagull Joe (Sonic) - SSB4 Winners Semis - Smash for Wii U"
+  ],
+  [
+    "2017-04-07T16:30:02.000Z",
+    "m8J9xSDLAF4",
+    "S@X 195 - Dexter (Marth) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T16:30:01.000Z",
+    "yJ9T6a285Eo",
+    "S@X 195 - InC | Seagull Joe (Sonic) Vs. BlaiseAgain (Yoshi) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-04-07T16:30:01.000Z",
+    "FDQ_kQlqv4Q",
+    "S@X 195 - Nika (Lucina) Vs. InC | Wadi (ROB) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T16:30:01.000Z",
+    "77no0hRiL4g",
+    "S@X 195 - InC | ZD (Fox) Vs. Z8 (Rosalina) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T16:00:28.000Z",
+    "pSUaYy4VRmQ",
+    "S@X 195 - SmashG0D (Kirby) Vs. Rex (Lucas) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T16:00:06.000Z",
+    "b6OMB8DujXM",
+    "S@X 195 - SmashG0D (Kirby) Vs. InC | ZD (Luigi) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T16:00:04.000Z",
+    "dSX2nN_hS84",
+    "S@X 195 - Nika (Lucina) Vs. Apollo (Bayonetta) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-07T16:00:03.000Z",
+    "_0zPRQ_I7IE",
+    "S@X 195 - Devvystar (Lil Mac, Corrin) Vs. Guy (Duck Hunt) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-04-07T16:00:01.000Z",
+    "4t63twlPpQI",
+    "S@X 195 - InC | Seagull Joe (Sonic) Vs. Airlift (Metaknight) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-04-05T19:00:05.000Z",
+    "qLBuPvFUkNw",
+    "S@X 195 - Jerry (Fox) Vs. SmashG0D (Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-04-05T18:30:01.000Z",
+    "NdQpSul_LTU",
+    "S@X 195 - Hat (Sheik) Vs. Jerry (Fox) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-04-05T18:00:01.000Z",
+    "NLThhC8G6Lw",
+    "S@X 195 - Nurok (Falco) Vs. Hat (Sheik) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-04-05T17:30:00.000Z",
+    "qgH8Myty0-Y",
+    "S@X 195 - Nurok (Falco) Vs. Corn (Ice Climbers) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-05T17:30:00.000Z",
+    "e6VLDtaWtlU",
+    "S@X 195 - Jerry (Fox) Vs. SmashG0D (Marth) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-04-05T17:00:06.000Z",
+    "y_YEURNCwSs",
+    "S@X 195 - SmashG0D (Marth) Vs. Corn (Ice Climbers) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-04-05T17:00:01.000Z",
+    "GPmn67_Glkg",
+    "S@X 195 - Jerry (Fox) Vs. Hat (Sheik, Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-04-05T16:30:02.000Z",
+    "uTXctdPJ0Xg",
+    "S@X 195 - Peanutphobia (Yoshi) Vs. Corn (Ice Climbers) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-05T16:30:02.000Z",
+    "h8yNXC6rQqc",
+    "S@X 195 - SmashG0D (Marth) Vs. Ulsi (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-05T16:30:00.000Z",
+    "2epTD_kk06k",
+    "S@X 195 - Husband (Marth) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-05T16:30:00.000Z",
+    "10AhrbvPOF4",
+    "S@X 195 - Nurok (Falco) Vs. Hat (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-04-05T16:00:08.000Z",
+    "uqX-GIsdjHM",
+    "S@X 195 - thathurtshead (Yoshi) Vs. Husband (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-05T16:00:02.000Z",
+    "O7ZxUJb9Wv8",
+    "S@X 195 - Carbon (Sheik) Vs. 1BM (Peach) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-05T16:00:01.000Z",
+    "CD0yjd1USvk",
+    "S@X 195 - SmashG0D (Marth) Vs. Tanwad (Jigglypuff) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-04-05T01:30:00.000Z",
+    "d2xuzTp8nIA",
+    "Royal Flush Trailer"
+  ],
+  [
+    "2017-04-03T20:30:00.000Z",
+    "ku7SNUy0LpI",
+    "S@X Monthly - InC | ZD (Fox) Vs. InC | Wadi (ROB, Mewtwo) - SSB4 Grand Finals - Smash for Wii U"
+  ],
+  [
+    "2017-04-03T20:00:00.000Z",
+    "DFCvF2mw2xY",
+    "S@X Monthly - InC | Wadi (Mewtwo) Vs. InC | Seagull Joe (Diddy Kong) - SSB4 Losers Finals - Smash 4"
+  ],
+  [
+    "2017-04-03T19:30:01.000Z",
+    "_HLeDeu6g1I",
+    "S@X Monthly - Promaelia (Corrin) Vs. InC | Seagull Joe (Sonic) - SSB4 Losers Semis - Smash for Wii U"
+  ],
+  [
+    "2017-04-03T19:00:04.000Z",
+    "Sd7623nPENw",
+    "S@X Monthly - InC | Wadi (Mewtwo) Vs. InC | ZD (Fox) - SSB4 Winners Finals - Smash for Wii U"
+  ],
+  [
+    "2017-04-03T19:00:00.000Z",
+    "4CtZxpNznSQ",
+    "S@X Monthly - Promaelia (Corrin) Vs. Dingus Joe (G&W) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-04-03T18:30:00.000Z",
+    "oOuWYiP8bRQ",
+    "S@X Monthly - Dingus Joe (G&W) Vs. InC | ZD (Fox) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-04-03T18:30:00.000Z",
+    "LzXi-WpE8jY",
+    "S@X Monthly - InC | Seagull Joe (Diddy Kong) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Semis - Smash 4"
+  ],
+  [
+    "2017-04-03T18:00:00.000Z",
+    "A0FeIaaj7a4",
+    "S@X Monthly - Zephyr (Cloud) Vs. InC | Seagull Joe (Sonic) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-04-03T18:00:00.000Z",
+    "6IzhSZhyt4k",
+    "S@X Monthly - Dingus Joe (G&W) Vs. AF | Iota (Wario) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-04-03T17:30:00.000Z",
+    "8JStRtI_SNg",
+    "S@X Monthly - InC | ZD (Fox) Vs. Zephyr (Lil Mac) - SSB4 No DLC Grand Finals - Smash 4"
+  ],
+  [
+    "2017-04-03T17:00:01.000Z",
+    "BQYZdFnKU0k",
+    "S@X Monthly - VGBC | Pink Fresh & Tension Vs. InC | Seagull Joe & InC | ZD - SSB4 Grand Finals"
+  ],
+  [
+    "2017-04-03T16:30:00.000Z",
+    "H8A817v1bmU",
+    "S@X Monthly - VGBC | Pink Fresh & Tension Vs. AF | Jebb & AF | Iota - SSB4 Doubles Losers Finals"
+  ],
+  [
+    "2017-04-03T16:00:06.000Z",
+    "wVvUE9XfccI",
+    "S@X Monthly - VGBC | Pink Fresh & Tension Vs. Zephyr & PootieTang - SSB4 Doubles Losers Semis"
+  ],
+  [
+    "2017-03-31T19:00:02.000Z",
+    "RpxFZl74cPc",
+    "S@X 5 Year - NRG | Nairo (ZSS) Vs. InC | Wadi (Mewtwo) - SSB4 Grand Finals - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T18:30:01.000Z",
+    "2uhY0IBN8iE",
+    "S@X 5 Year - InC | Wadi (Mewtwo) Vs. InC | ZD (Fox) - SSB4 Losers Finals - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T18:00:02.000Z",
+    "UY6DojK6MM4",
+    "S@X 5 Year - InC | ZD (Fox) Vs. Zephyr (Corrin, Cloud) - SSB4 Losers Semis - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T17:30:01.000Z",
+    "jZX6K6OjeO4",
+    "S@X 5 Year - NRG Nairo (ZSS) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Finals - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T17:30:01.000Z",
+    "3dyNbtx9wUw",
+    "S@X 5 Year - Promaelia (Corrin) Vs. Zephyr (Cloud) - SSB4 Losers Quarters - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T17:30:00.000Z",
+    "6-nVCT8KnnY",
+    "@X 5 Year - InC | ZD (Fox) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-03-31T17:00:01.000Z",
+    "5TXtrDofrFw",
+    "S@X 5 Year - InC | ZD (Fox) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Semis - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T17:00:00.000Z",
+    "5yXeOkmhbrQ",
+    "S@X 5 Year - NRG | Nairo (ZSS) Vs. Zephyr (Cloud) - SSB4 Winners Semis - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:30:03.000Z",
+    "egBuf6d4Ku8",
+    "S@X 5 Year - Xerom (Ness, Roy) Vs. InC | Wadi (Mewtwo) SSB4 Winners Quarters - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:30:01.000Z",
+    "pKq-udTMkjM",
+    "S@X 5 Year - InC | ZD (Fox) Vs. Promaelia (Corrin) - SSB4 Winners Quarters - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:30:01.000Z",
+    "KnDjR-hg8PM",
+    "S@X 5 Year - VGBC | Pink Fresh (Bayonetta) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-03-31T16:30:01.000Z",
+    "IpwQo_hTrDw",
+    "S@X 5 Year - NRG | Nairo (ZSS) Vs. F.O.E. (Greninja) SSB4 Winners Quarters - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:06.000Z",
+    "uHnGY8Ra6ik",
+    "S@X 5 Year - Catharc (Bayonetta) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:03.000Z",
+    "_a3SzyrPqL0",
+    "S@X 5 Year - NRG | Nairo (ZSS) Vs. Devvystar (Little Mac) - SSB4 Tournament - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:03.000Z",
+    "Z0qFvFXJgPY",
+    "S@X 5 Year - NRG | Nairo (ZSS) Vs. Zamboni (Lucina) - SSB4 Tournament - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:03.000Z",
+    "FKSgvRyIZ2s",
+    "S@X 5 Year - Promaelia (Corrin) Vs. InC VGBC | Logic (Diddy Kong) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-03-31T16:00:02.000Z",
+    "S-FuiZRl7hw",
+    "S@X 5 Year - BootEKing (Bayonetta) Vs. DGS (Lucina, Diddy) - SSB4 Tournament - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:02.000Z",
+    "LAtl13qHDVE",
+    "S@X 5 Year - Zephyr (Cloud) Vs. Submediant (Peach) - SSB4 Tournament - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:01.000Z",
+    "GI_tWcPLZA0",
+    "S@X 5 Year - Kaboom (Olimar) Vs. F.O.E. (Greninja) - SSB4 Tournament - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:00.000Z",
+    "44KpRBcPyys",
+    "S@X 5 Year - Dnnr Pants (Luigi) Vs. SJ | Vince (Cloud) SSB4 Tournament - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-03-31T16:00:00.000Z",
+    "-kULKPXml94",
+    "S@X 5 Year - VGBC | GimR (G&W) Vs. Da Real Cool Guy (Lucas) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-03-31T16:00:00.000Z",
+    "-cKCRuX0Qe8",
+    "S@X 5 Year - Beans (Captain Falcon) Vs. BootEKing (Bayonetta) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-03-29T19:00:04.000Z",
+    "xckLq8lEpgI",
+    "S@X 194 - Jerry (Fox) Vs. Hat (Sheik) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-03-29T18:30:01.000Z",
+    "pS6xrZx6BP8",
+    "S@X 194 - Jerry (Fox) Vs. Corn (Ice Climbers) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-03-29T18:00:00.000Z",
+    "21rurJ0pYcM",
+    "S@X 194 - Bones (Falco) Vs. Corn (Ice Climbers) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-03-29T17:30:01.000Z",
+    "pXxtjlkWwIU",
+    "S@X 194 - Jerry (Fox) Vs. Hat (Sheik) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-03-29T17:30:01.000Z",
+    "QE2I-taaqJE",
+    "S@X 194 - Bradday (Ice Climbers) Vs. Corn (Ice Climbers) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-29T17:30:00.000Z",
+    "3gncFxI9JiM",
+    "S@X 194 - Bones (Falco) Vs. DTG | Darkflame (Captain Falcon) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-29T17:00:05.000Z",
+    "nOnUs13p3Hg",
+    "S@X 194 - Bones (Falco) Vs. Hat (Sheik) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-29T17:00:00.000Z",
+    "4dUCpaJ3YO4",
+    "S@X 194 - Bradday (Ice Climbers) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-29T16:30:00.000Z",
+    "jbwz-gJ9iuc",
+    "S@X 194 - Bradday (Ice Climbers) Vs. Husband (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-29T16:30:00.000Z",
+    "e3iuDqIZbjI",
+    "S@X 194 - Bones (Falco) Vs. Answer (Falco) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-29T16:30:00.000Z",
+    "T3tonDCItCg",
+    "S@X 194 - DTG | Darkflame (Captain Falcon) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-29T16:00:41.000Z",
+    "XUWTgx5XGYQ",
+    "S@X 194 - Bradday (Ice Climbers) Vs. Corn (Ice Climbers) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-29T16:00:02.000Z",
+    "QCTqZbVE-oE",
+    "S@X 194 - Jerry (Fox) Vs. VGBC | GimR (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-29T16:00:02.000Z",
+    "M0LRA9wIa4I",
+    "S@X 194 - Bones (Falco) Vs. General Tso (Samus) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-29T16:00:01.000Z",
+    "7hnJqvWySMQ",
+    "S@X 194 - VGBC | GimR (G&W, Falco) Vs. BurritoWolf (Mario) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-27T16:00:00.000Z",
+    "44Jcs4ZftMk",
+    "VGBootCamp is Going to Dubai!!!"
+  ],
+  [
+    "2017-03-24T19:00:03.000Z",
+    "GcEHzekiZIU",
+    "S@X 193 - InC | ZD (Fox) Vs. InC | Wadi (ROB, Mewtwo) - SSB4 Grand Finals - Smash for Wii U"
+  ],
+  [
+    "2017-03-24T18:30:01.000Z",
+    "aWh-nzhKk7Y",
+    "S@X 193 - InC | Wadi (Mewtwo, ROB) Vs. InC | Seagull Joe (Sonic, Diddy Kong) - SSB4 Losers Finals"
+  ],
+  [
+    "2017-03-24T18:00:03.000Z",
+    "NLFEZZZvTB8",
+    "S@X 193 - Zephyr (Cloud, Corrin) Vs. InC | Seagull Joe (Sonic, Diddy Kong) - SSB4 Losers Semis"
+  ],
+  [
+    "2017-03-24T17:30:01.000Z",
+    "Kd2KqmpL6mg",
+    "S@X 193 - InC | ZD (Fox) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-24T17:30:00.000Z",
+    "_K2Q_shQ4HY",
+    "S@X 193 - NTarps (Captain Falcon) Vs. InC | Seagull Joe (Sonic) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-03-24T17:30:00.000Z",
+    "L5xcqqZ-5s4",
+    "S@X 193 - Zephyr (Cloud) Vs. InC VGBC | Logic (Diddy Kong, Olimar) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-03-24T17:00:43.000Z",
+    "dvTwcaeaG0s",
+    "S@X 193 - NTarps (Corrin, Cloud) Vs. Jeebus (Lil Mac) - SSB4 Losers Bracket - Smash for Wii U"
+  ],
+  [
+    "2017-03-24T17:00:03.000Z",
+    "RBPpuD8Da_g",
+    "S@X 193 - InC | Seagull Joe (Sonic) Vs. InC | ZD (Fox) - SSB4 Winners Semis - Smash for Wii U"
+  ],
+  [
+    "2017-03-24T17:00:03.000Z",
+    "Dc1eaZzsg5o",
+    "S@X 193 - InC | Wadi (Mewtwo) Vs. Zephyr (Cloud) - SSB4 Winners Semis - Smash for Wii u - Smash 4"
+  ],
+  [
+    "2017-03-24T16:30:01.000Z",
+    "kTeSQK9BrZM",
+    "S@X 193 - InC | Seagull Joe (Sonic) Vs. InC VGBC | Logic (Olimar) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-03-24T16:30:01.000Z",
+    "HIe8wv5e5_g",
+    "S@X 193 - NTarps (Cloud, Marth) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-03-24T16:30:01.000Z",
+    "4iwC0v8hYXQ",
+    "S@X 193 - InC | ZD (Fox) Vs. Xorn (Toon Link) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-24T16:30:00.000Z",
+    "5v3GIf0Kx9Q",
+    "S@X 193 - Jeebus (Lil Mac) Vs. InC | Wadi (ROB) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-24T16:00:06.000Z",
+    "XK54naCpVWk",
+    "S@X 193 - InC | ZD (Fox) Vs. Clockwork (Sheik, Marth) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-24T16:00:05.000Z",
+    "jUnLgdzFzn0",
+    "S@X 193 - Ntarps (Cloud, Captain Falcon) Vs. Orpheus (Diddy Kong, ROB) - SSB4 Tournamnet - Smash 4"
+  ],
+  [
+    "2017-03-24T16:00:05.000Z",
+    "fzug2hZ72AI",
+    "S@X 193 - Xorn (Toon Link) Vs. Nika (Marth) - SSB4 Tournament -  Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-24T16:00:03.000Z",
+    "bXVSy-cpews",
+    "S@X 193 - WD40 (Ryu) Vs. Dante (Zelda) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-24T16:00:02.000Z",
+    "afs6TbBdxNY",
+    "S@X 193 - VP (Diddy Kong) Vs. ICEE_Roy (Robin) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-24T16:00:02.000Z",
+    "Q7Mt9Wb0SmE",
+    "S@X 193 - InC | Seagull Joe (Diddy Kong) Vs. Wave | Cinnpie (ZSS) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-03-24T16:00:02.000Z",
+    "DIl_hW3hlLw",
+    "S@X 193 - Jeebus (Lil Mac) Vs. TheYungSiz (Captain Falcon) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-03-22T19:00:06.000Z",
+    "eDSjPjvqSIs",
+    "S@X 193 - Hat (Marth, Sheik) Vs. Jerry (Fox) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-03-22T18:30:00.000Z",
+    "NzJ-PGh-AtU",
+    "S@X 193 - Hat (Marth) Vs. Corn (Ice Climbers) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-03-22T18:00:04.000Z",
+    "hxJkA7eAvqs",
+    "S@X 193 - Peanutphobia (Yoshi) Vs. Corn (Ice Climbers) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-03-22T17:30:02.000Z",
+    "p543E0tG1Js",
+    "S@X 193 - Jerry (Peach, Fox) Vs. Hat (Sheik) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-03-22T17:30:00.000Z",
+    "7qGU_KMb5yw",
+    "S@X 193 - Bones (Falco) Vs. Corn (Ice Climbers) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-22T17:30:00.000Z",
+    "0ZbIkdm3t0g",
+    "S@X 193 - Wenbobular (Fox) Vs. Peanutphobia (Yoshi, Marth) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-22T17:00:07.000Z",
+    "z9OV96X8uts",
+    "S@X 193 - Hat (Sheik) Vs. Wenbobular (Captain Falcon, Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-22T17:00:04.000Z",
+    "_jgGnai59-c",
+    "S@X 193 - Bones (Falco) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-22T17:00:00.000Z",
+    "AW2uEJDNqtE",
+    "S@X 193 - Tipper (Sheik) Vs. Peanutphobia (Yoshi) - SSBM Losers Eighths - Smash Melee"
+  ],
+  [
+    "2017-03-22T16:30:01.000Z",
+    "v47TAGV1t3E",
+    "S@X 193 - Bones (Falco) Vs. Peanutphobia (Yoshi) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-22T16:30:00.000Z",
+    "6HsZO4pET6Q",
+    "S@X 193 - Corn (Ice Climbers) Vs. Wenbobular (Falco) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-22T16:00:04.000Z",
+    "cjiewOCJsRo",
+    "S@X 193 - Firmly Grasp Me (Fox) Vs. Talrye (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-22T16:00:01.000Z",
+    "JiC-ygHhzGE",
+    "S@X 193 - Ulsi (Ness) Vs. Dank (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-20T14:30:00.000Z",
+    "EOAJnFT2RwA",
+    "F@X 192 - Dark Child (Balrog) Vs. Steve H (Ryu) - SFV Grand Finals - Street Fighter V"
+  ],
+  [
+    "2017-03-20T14:00:02.000Z",
+    "ZCRtG6Z9oq0",
+    "F@X 192 - Unknown (Ken) Vs. Steve H (Ryu) - SFV Losers Finals - Street Fighter V"
+  ],
+  [
+    "2017-03-20T13:30:00.000Z",
+    "RVQgh7dAAWQ",
+    "F@X 192 - Unknown (Cammy) Vs. Vortex (Guile) - SFV Losers Semis - Street Fighter V"
+  ],
+  [
+    "2017-03-20T13:00:01.000Z",
+    "EryOtT--jK8",
+    "F@X 192 - Steve H (Ryu) Vs. Dark Child (Balrog) - SFV Winners Finals - Street Fighter V"
+  ],
+  [
+    "2017-03-17T19:00:05.000Z",
+    "wVExzSvyHaQ",
+    "S@X 192 - InC | ZD (Fox, Luigi) Vs. InC | Wadi (ROB, Mewtwo) - SSB4 Grand Finals - Smash 4"
+  ],
+  [
+    "2017-03-17T18:30:02.000Z",
+    "of0BnVs2V_Y",
+    "S@X 192 - InC | ZD (Fox) Vs. InC | Seagull Joe (Diddy Kong) - SSB4 Losers Finals - Smash 4"
+  ],
+  [
+    "2017-03-17T18:00:04.000Z",
+    "pU-DkzT1QrY",
+    "S@X 192 - InC | ZD (Fox) Vs. Zephyr (Cloud) - SSB4 Losers Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T17:30:01.000Z",
+    "24EF5MkdaM4",
+    "S@X 192 - InC | Seagull Joe (Diddy Kong) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-03-17T17:30:00.000Z",
+    "QxNLXdOEH10",
+    "S@X 192 - InC | ZD (Luigi) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-03-17T17:30:00.000Z",
+    "NxFl5ljTR7o",
+    "S@X 192 - Promaelia (Corrin) Vs. Zephyr (Cloud) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T17:00:04.000Z",
+    "WIP8Vf62hxA",
+    "S@X 192 - InC | Seagull Joe (Diddy Kong) Vs. Promaelia (Corrin) - SSB4 Winners Semis - Smash 4"
+  ],
+  [
+    "2017-03-17T17:00:02.000Z",
+    "8Ij-k4eGN4w",
+    "S@X 192 - InC | ZD (Fox) Vs. InC | Wadi (ROB) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:30:01.000Z",
+    "01mENvOQxCg",
+    "S@X 192 - Dexter (Corrin, Ness) Vs. InC | Seagull Joe (Diddy Kong) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-03-17T16:30:00.000Z",
+    "Sd8nlIjY4ds",
+    "S@X 192 - VGBC | Pink Fresh (Bayonetta) Vs. Promaelia (Palutena, Corrin) - SSB4 Winners Quarters"
+  ],
+  [
+    "2017-03-17T16:30:00.000Z",
+    "Rg_X5ip6ntw",
+    "S@X 192 - Iota (Wario) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:30:00.000Z",
+    "FnECLdRmthY",
+    "S@X 192 - InC | ZD (Fox) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:07.000Z",
+    "xANyrSBBtVI",
+    "S@X 192 - Gravon (Captain Falcon) Vs. Tito (Corrin, Wario) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-03-17T16:00:04.000Z",
+    "TFLx2tyaido",
+    "S@X 192 - Dante (Zelda) Vs. InC | ZD (Fox) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:04.000Z",
+    "S1HGlKHsMh4",
+    "S@X 192 - VGBC | Tantalus (ROB) Vs. Zephyr (Cloud) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:03.000Z",
+    "agp0Tjjn0Yc",
+    "S@X 192 - Iota (Wario) Vs. PootieTang (Diddy Kong) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:03.000Z",
+    "QU7Lxazs9xs",
+    "S@X 192 - Mata-Door (Wario) Vs. Bratt (Rosalina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:03.000Z",
+    "8DNVRgzhvso",
+    "S@X 192 - Osiris (Sheik) Vs. Coldweather (Lucina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:02.000Z",
+    "EknNunrIq5k",
+    "S@X 192 - Laska (Villager) Vs. Airlift (Metaknight) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:01.000Z",
+    "A4nFN78eyXE",
+    "S@X 192 - Promaelia (Corrin) Vs. Jeebus (Lil Mac) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-17T16:00:00.000Z",
+    "6VOfypbyQOA",
+    "S@X 192 - Dexter (Corrin) Vs. InC VGBC | Logic (Diddy Kong, Olimar) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-03-15T19:00:01.000Z",
+    "Bl_5Y7_58gg",
+    "S@X 192 - lloD (Sheik) Vs. Jerry (Fox) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-03-15T18:30:02.000Z",
+    "gG9xyWOmyCk",
+    "S@X 192 - Jerry (Fox) Vs. Plank (Sheik) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-03-15T18:00:06.000Z",
+    "cC2VnZpxryA",
+    "S@X 192 - SmashG0D (Marth) Vs. Plank (Sheik) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-03-15T17:30:03.000Z",
+    "zDbMygsGPzQ",
+    "S@X 192 - Bones (Falco) Vs. Plank (Sheik, Marth) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-15T17:30:01.000Z",
+    "b6wS6juL_cE",
+    "S@X 192 - lloD (Peach) Vs. Jerry (Fox) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-03-15T17:30:00.000Z",
+    "MT5hw3kLZ3o",
+    "S@X 192 - Wenbobular (Fox) Vs. SmashG0D (Marth) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-15T17:00:04.000Z",
+    "XCoQXTr5uOc",
+    "S@X 192 - Bones (Falco) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-15T17:00:02.000Z",
+    "FYDhNI6b-5A",
+    "S@X 192 - lloD (Peach) Vs. Wenbobular (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-15T16:30:02.000Z",
+    "caIhEFeYf0I",
+    "S@X 192 - Plank (Marth) Vs. Wenbobular (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-15T16:30:01.000Z",
+    "sH1Otwo6YVk",
+    "S@X 192 - Ace of Flakes (Jigglypuff) Vs. lloD (Peach) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-15T16:30:01.000Z",
+    "kiFkK2pLVX4",
+    "S@X 192 - Bones (Falco) Vs. SmashG0D (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-15T16:30:00.000Z",
+    "Q9JYnYO_BCc",
+    "S@X 192 - Hat (Marth, Sheik) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-15T16:00:08.000Z",
+    "lR89MnMeTro",
+    "S@X 192 - Ambiguously Polish (Falco) Vs. Bones (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-15T16:00:04.000Z",
+    "nt9TFCHKotY",
+    "S@X 192 - Hat (Sheik) Vs. Dank (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-15T16:00:03.000Z",
+    "VtwMgi8G-i4",
+    "S@X 192 - Simian (Peach) Vs. Wenbobular (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-15T15:30:02.000Z",
+    "oCzOIwNjhDo",
+    "December 2016 MD Vs. VA Smash 4 Crew Battle - Smash for Wii U"
+  ],
+  [
+    "2017-03-13T20:30:01.000Z",
+    "-T3ZDksTjV4",
+    "BGW15 SSBM - VGBC | aMSa (Yoshi)  Vs. Rudolph (Fox) Smash Melee GF"
+  ],
+  [
+    "2017-03-13T20:00:02.000Z",
+    "LgzxTTz4_F8",
+    "BGW15 SSBM - Rudolph (Marth) Vs. LG | Yu (Falco) Smash Melee LF"
+  ],
+  [
+    "2017-03-13T19:30:01.000Z",
+    "gZAJnfx6U20",
+    "BGW15 SSBM - Shippu (Peach) Vs. Rudolph (Marth) Smash Melee LS"
+  ],
+  [
+    "2017-03-13T19:00:00.000Z",
+    "6k0lShN_-2o",
+    "BGW15 SSBM - VGBC | aMSa (Yoshi) Vs. LG | Yu (Falco) Smash Melee WF"
+  ],
+  [
+    "2017-03-13T18:30:01.000Z",
+    "vSztAtFqjsE",
+    "BGW15 SSBM - Plata (Yoshi) Vs. Rudolph (Marth ,Fox, Falco) Smash Melee LQ"
+  ],
+  [
+    "2017-03-13T18:30:00.000Z",
+    "U9kAq8fhCug",
+    "BGW15 SSBM - Gucci (Captain Falcon) Vs. Shippu (Peach) Smash Melee LQ"
+  ],
+  [
+    "2017-03-13T18:00:08.000Z",
+    "yiSr5U2Jntw",
+    "BGW15 SSBM - VGBC | aMSa (Yoshi) Vs. Shippu (Peach) Smash Melee WS"
+  ],
+  [
+    "2017-03-13T18:00:02.000Z",
+    "Kh0OD2mXyYg",
+    "BGW15 SSBM - Rudolph (Marth) Vs. LG | Yu (Falco) Smash Melee WS"
+  ],
+  [
+    "2017-03-13T17:30:01.000Z",
+    "W18S6EcxkOY",
+    "BGW15 SSBM - Da-yoshi (Falco) Vs. Plata (Yoshi) Smash Melee Losers Top 8"
+  ],
+  [
+    "2017-03-13T17:30:00.000Z",
+    "MfYOZ0_d67Y",
+    "BGW15 SSBM - kkp (Fox) Vs. Pao (Fox) Smash Melee Losers 9ths"
+  ],
+  [
+    "2017-03-13T17:00:07.000Z",
+    "f0gtt6DmytA",
+    "BGW15 SSBM - VGBC | aMSa (Yoshi) Vs. Volvo (Fox) Smash Melee WQ"
+  ],
+  [
+    "2017-03-13T17:00:04.000Z",
+    "pa8RqC7YJTw",
+    "BGW15 SSBM - Gucci (Captain Falcon) Vs. LG | Yu (Falco) Smash Melee WQ"
+  ],
+  [
+    "2017-03-13T17:00:01.000Z",
+    "AZkqeTu-0Hk",
+    "BGW15 SSBM - Rudolph (Marth) Vs. kkp (Fox) Smash Melee WQ"
+  ],
+  [
+    "2017-03-13T17:00:00.000Z",
+    "7kS1cYKcm74",
+    "BGW15 SSBM - Shippu (Peach) Vs. Da-yoshi (Falco) Smash Melee WQ"
+  ],
+  [
+    "2017-03-13T16:30:01.000Z",
+    "x4Ue-E0QNe8",
+    "BGW15 SSBM - VGBC | aMSa (Yoshi) Vs. bitou (Fox) Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:30:01.000Z",
+    "oazdgzqgZIg",
+    "BGW15 SSBM - Plata (Yoshi) Vs. LG | Yu (Falco) Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:30:01.000Z",
+    "dfqSFQR3wlQ",
+    "BGW15 SSBM - VGBC | aMSa (Yoshi) Vs. Takapa (Falco) Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:30:01.000Z",
+    "_Hh31WziyoY",
+    "BGW15 SSBM - Watch (Ice Climbers) Vs. Rudolph (Marth) Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:30:01.000Z",
+    "GedyS46gPRA",
+    "BGW15 SSBM - Nagaimo (Captain Falcon) Vs. Gucci (Captain Falcon) Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:00:03.000Z",
+    "gvi2-fE-mJY",
+    "BGW15 SSBM - merino (Pikachu) Vs. Shippu (Falco,Peach) Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:00:03.000Z",
+    "c0d0hSGxCY8",
+    "BGW15 SSBM - LG | Yu (Falco) Vs. Butz (Captain Falcon)  Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:00:02.000Z",
+    "NiD-__jE6Yk",
+    "BGW15 SSBM - Rudolph (Fox) Vs. SamurAI (Sheik)  Smash Melee Tournament"
+  ],
+  [
+    "2017-03-13T16:00:01.000Z",
+    "DeF8rmC5JPo",
+    "BGW15 SSBM - Gucci (Captain Falcon) Vs. Luka (Falco)  Smash Melee Tournament"
+  ],
+  [
+    "2017-03-11T18:30:00.000Z",
+    "m2FGZtE0Pmg",
+    "F@X 191 - Dark Child (Balrog) Vs. Steve H (Ryu) - SFV Grand Finals - Street Fighter V"
+  ],
+  [
+    "2017-03-11T18:00:01.000Z",
+    "L4sZcjhb6UU",
+    "S@X 191 - Dark Child (Balrog) Vs. OGYawn (Laura) - SFV Losers Finals - Street Fighter V"
+  ],
+  [
+    "2017-03-11T17:30:00.000Z",
+    "YRQ8NPTT-P0",
+    "F@X 191 - Dark Child (Balrog) Vs. El Gallo (Urien) - SFV Losers Semis - Street Fighter V"
+  ],
+  [
+    "2017-03-11T17:00:00.000Z",
+    "AWzIUaP7HsY",
+    "F@X 191 - Steve H (Ryu) Vs. OGYawn (Laura) - SFV Winners Finals - Street Fighter V"
+  ],
+  [
+    "2017-03-10T20:00:02.000Z",
+    "ekPJeCKNd2U",
+    "S@X 191 - LingLing (Peach, Bayonetta) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Grand Finals"
+  ],
+  [
+    "2017-03-10T19:30:00.000Z",
+    "lGHkZaR8uNo",
+    "S@X 191 - Zephyr (Cloud) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Finals - Smash for Wii U"
+  ],
+  [
+    "2017-03-10T19:00:07.000Z",
+    "qK2BgZBjIQU",
+    "S@X 191 - InC | ZD (Fox) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Semis - Smash for Wii U"
+  ],
+  [
+    "2017-03-10T18:30:01.000Z",
+    "rW9_LDfQwKE",
+    "S@X 191 - Dexter (Corrin) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-03-10T18:30:01.000Z",
+    "mm_PfEozcko",
+    "S@X 191 - Viceroy (Rosalina, Captain Falcon) Vs. InC | ZD (Fox) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-03-10T18:30:00.000Z",
+    "N8Kk0gMYkSw",
+    "S@X 191 - LingLing (Peach) Vs. Zephyr (Cloud) - SSB4 Winners Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T18:00:26.000Z",
+    "g4fndPK1zMY",
+    "S@X 191 - Dexter (Corrin) Vs. InC VGBC | Logic (Diddy Kong) - SSB4 Losers Bracket - Smash for Wii U"
+  ],
+  [
+    "2017-03-10T18:00:03.000Z",
+    "jyPQRfZo9xI",
+    "S@X 191 - VGBC | Pink Fresh (Bayonetta) Vs. Zephyr (Cloud) - SSB4 Winners Semis - Smash for Wii U"
+  ],
+  [
+    "2017-03-10T18:00:02.000Z",
+    "GdtsevkgpyY",
+    "S@X 191 - InC | ZD (Fox) Vs. LingLing (Peach) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:30:01.000Z",
+    "wTzLYAfwKSo",
+    "S@X 191 - Dexter (Corrin) Vs. InC | ZD (Fox) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:30:01.000Z",
+    "qlTejo-WLzI",
+    "S@X 191 - Zephyr (Cloud) Vs. Naytro (Olimar) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:30:01.000Z",
+    "Zl4EBYxNasg",
+    "S@X 191 - VGBC | Pink Fresh (Bayonetta) Vs. Viceroy (Rosalina) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-03-10T17:30:01.000Z",
+    "M4zEzjr6z2k",
+    "S@X 191 - Karma (Bayonetta) Vs. LingLing (Peach, Bayonetta) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:26.000Z",
+    "tsv6Yp0hjlg",
+    "S@X 191 - Karma (Ness) Vs. Mzzkc (Pikachu) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:06.000Z",
+    "Z0dsy1QQUd8",
+    "S@X 191 - Shamoo (Cloud) Vs. Z8 (Rosalina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:03.000Z",
+    "_jRUURJ-aL4",
+    "S@X 191 - Tico (Toon Link) Vs. LingLing (Peach) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:03.000Z",
+    "NuaaSnCGEo0",
+    "S@X 191 - Nature (Mewtwo) Vs. VGBC | GimR (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:02.000Z",
+    "FPLBN3Dwp4E",
+    "S@X 191 - Viceroy (Rosalina) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:01.000Z",
+    "0x6S9Lq441M",
+    "S@X 191 - Airlift (Metaknight) Vs. Devvystar (Lil Mac) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:01.000Z",
+    "08qH8XybfO4",
+    "S@X 191 - Naytro (Olimar) Vs. InC VGBC | Logic (Diddy Kong, Olimar) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:00.000Z",
+    "729z_BI_rrY",
+    "S@X 191 - Dexter (Corrin, Ness) Vs. Emerald (Sheik) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-10T17:00:00.000Z",
+    "3vP4KKiDZY8",
+    "S@X 191 - Jeebus (Lil Mac) Vs. Dante (Zelda) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-08T20:00:02.000Z",
+    "VCCAJAeKr9Q",
+    "S@X 191 - Jerry (Fox) Vs. Corn (Ice Climbers) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-03-08T19:30:00.000Z",
+    "cMUCFpCOlBE",
+    "S@X 191 - Plank (Marth) Vs. Corn (Ice Climbers) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-03-08T19:00:02.000Z",
+    "bTM4FzrQqIk",
+    "S@X 191 - Ace of Flakes (Jigglypuff) Vs. Corn (Ice Climbers) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-03-08T18:30:01.000Z",
+    "UvROCrJdn4g",
+    "S@X 191 - Jerry (Fox) Vs. Plank (Marth) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-03-08T18:30:01.000Z",
+    "DkaBxANcLUk",
+    "S@X 191 - Hat (Marth) Vs. Corn (Ice Climbers) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-08T18:00:04.000Z",
+    "pNIJx5OUckM",
+    "S@X 191 - Hat (Sheik) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-08T18:00:03.000Z",
+    "s-g3VYsoBys",
+    "S@X 191 - Plank (Marth) Vs. Ace of Flakes (Jigglypuff) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-08T17:30:00.000Z",
+    "ViJxXaz37r4",
+    "S@X 191 - Tag (Marth) Vs. Plank (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-08T17:00:06.000Z",
+    "yL4t2WBSNQk",
+    "S@X 191 - Jerry (Fox) Vs. Oddish (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-08T17:00:03.000Z",
+    "TcyAFW3CDxg",
+    "S@X 191 - Dank (Falco) Vs. Gorg (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-08T17:00:01.000Z",
+    "AqpeqapAp60",
+    "S@X 191 - Ace of Flakes (Jigglypuff) Vs. Who? (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-07T20:00:03.000Z",
+    "oTZxJBJ3uTQ",
+    "S@X 190 - Circa | 6WX (Sonic) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Grand Finals - Smash 4"
+  ],
+  [
+    "2017-03-07T19:30:03.000Z",
+    "gl2ee45cmYE",
+    "S@X 190 - InC | Seagull Joe (Diddy Kong) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Finals"
+  ],
+  [
+    "2017-03-07T19:00:04.000Z",
+    "nbGzyJ8-6ic",
+    "S@X 190 - InC | Seagull Joe (Sonic) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Losers Semis - Smash 4"
+  ],
+  [
+    "2017-03-07T18:30:01.000Z",
+    "2YIcs57UrJs",
+    "S@X 190 - VGBC | Pink Fresh (Bayonetta) Vs. Circa | 6WX (Sonic) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-03-07T18:30:00.000Z",
+    "HTJ8f9A2lSw",
+    "S@X 190 - InC | ZD (Fox) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-03-07T18:30:00.000Z",
+    "0mJaesRgdto",
+    "S@X 190 - InC | Seagull Joe (Sonic) Vs. Zephyr (Cloud) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-03-07T18:00:03.000Z",
+    "hIfhW2W324s",
+    "S@X 190 - InC | Seagull Joe (Diddy Kong) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Semis"
+  ],
+  [
+    "2017-03-07T18:00:02.000Z",
+    "VZSPU8cr8Z0",
+    "S@X 190 - InC | ZD (Fox) Vs. Circa | 6WX (Sonic) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:30:01.000Z",
+    "ux8ySUtrtAY",
+    "S@X 190 - VGBC | Pink Fresh (Bayonetta) Vs. Mav (Robin) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-03-07T17:30:01.000Z",
+    "rrZGpeoGR1Q",
+    "S@X 190 - Circa | 6WX (Sonic) Vs. InC VGBC | Logic (Olimar) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-03-07T17:30:00.000Z",
+    "N8M0Ye05giE",
+    "S@X 190 - InC | ZD (Fox) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:30:00.000Z",
+    "7T6majs0x4o",
+    "S@X 190 - InC | Seagull Joe (Sonic) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Winners Quarters"
+  ],
+  [
+    "2017-03-07T17:00:08.000Z",
+    "mEaCHwNuoDI",
+    "S@X 190 - Uno (ROB) Vs. Mav (Corrin) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:00:04.000Z",
+    "gaCa_FgbwoM",
+    "S@X 190 - AoS (Mario) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-03-07T17:00:04.000Z",
+    "dJU56MdRTpk",
+    "S@X 190 - Catharc (Robin) Vs. Rex (Lucas) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:00:03.000Z",
+    "WimBTKeNuRQ",
+    "S@X 190 - Jeebus (Lil Mac) Vs. Yord (Gannondorf) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:00:02.000Z",
+    "NO-ZwjgvCvY",
+    "S@X 190 - Yama (Lucas) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:00:01.000Z",
+    "MCV0zzqRdjc",
+    "S@X 190 - Coreo (Mario) Vs. Poyo (Luigi) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:00:00.000Z",
+    "2a0nf6mWWL0",
+    "S@X 190 - Winter (Kirby) Vs. Unknown (Ryu) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-03-07T17:00:00.000Z",
+    "1gob6TrRVig",
+    "S@X 190 - InC | Seagull Joe (Sonic) Vs. VGBC | GimR (G&W) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-03-06T23:30:00.000Z",
+    "57Zq9siDLlY",
+    "S@X 190 - Hat (Sheik) Vs. Jerry (Fox) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-03-06T23:00:01.000Z",
+    "GQ0rewLAa6s",
+    "S@X 190 - Bones (Falco) Vs. Hat (Sheik) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-03-06T22:30:01.000Z",
+    "aY2ZSGee70I",
+    "S@X 190 - Hat (Sheik) Vs. Conman (Jigglypuff) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-03-06T22:00:03.000Z",
+    "oM4to6g5XCs",
+    "S@X 190 - Conman (Jigglypuff) Vs. Plank (Marth) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-06T22:00:01.000Z",
+    "BcDXNcj0rXA",
+    "S@X 190 - Bones (Falco) Vs. Jerry (Fox) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-03-06T22:00:00.000Z",
+    "Ce97OM3fsxI",
+    "S@X 190 - Wenbobular (Fox) Vs. Hat (Sheik) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-06T21:30:02.000Z",
+    "ib5Q_uMINbs",
+    "S@X 190 - Bones (Falco) Vs. Plank (Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-06T21:30:01.000Z",
+    "2HNpQuu7xAM",
+    "S@X 190 - Hat (Sheik) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-03-06T21:00:02.000Z",
+    "_6lSUHbEMsE",
+    "S@X 190 - Bones (Falco) Vs. Wenbobular (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-06T21:00:01.000Z",
+    "FXbxB44eELM",
+    "S@X 190 - Nurok (Fox, Falco) Vs. Plank (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-06T21:00:00.000Z",
+    "8R6B6xHBeDA",
+    "S@X 190 - Jerry (Fox) Vs. Peanutphobia (Yoshi) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-03-06T20:30:02.000Z",
+    "oSxYDS3x4JY",
+    "S@X 190 - Buzzkill (Marth, Captain Falcon) Vs. Tanwad (Jigglypuff) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-06T20:30:02.000Z",
+    "cfLbPY_GlH0",
+    "S@X 190 - Bradday (Ice Climbers) Vs. Ace of Flakes (Fox, Jigglypuff) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-06T20:30:01.000Z",
+    "8C9uncwypvI",
+    "S@X 190 - Plank (Marth) Vs. Oddish (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-03-06T20:00:00.000Z",
+    "60POivGcBrk",
+    "February Monthly - ANBU | Boom (Guile, Cammy) Vs. NS | Lud (Chun-Li) - SFV Grand Finals"
+  ],
+  [
+    "2017-03-06T19:30:01.000Z",
+    "ltHNlRXuyLI",
+    "February Monthly - ANBU | Boom (Cammy) Vs. GIAC | KingBuffalo  (Balrog, Laura) - SFV Losers Finals"
+  ],
+  [
+    "2017-03-06T19:00:00.000Z",
+    "-FiUTRABUSs",
+    "February Monthly - Unknown Vs. PZ Poy - UMVC3 Grand Finals - Ultimate Marvel Vs. Capcom 3"
+  ],
+  [
+    "2017-03-06T18:30:01.000Z",
+    "L2LT9JVl91c",
+    "February Monthly - PG | Insaynne Vs. PZ Poy - UMVC3 Losers Finals - Ultimate Marvel Vs. Capcom 3"
+  ],
+  [
+    "2017-03-06T18:00:01.000Z",
+    "18iOcE-gn4I",
+    "February Monthly - PG | Insaynne Vs. Prodigy - UMVC3 Losers Semis - Ultimate Marvel Vs. Capcom 3"
+  ],
+  [
+    "2017-03-06T17:30:01.000Z",
+    "2U664tzDvgs",
+    "February Monthly - PZ Poy Vs. Unknown - UMVC3 Winners Finals - Ultimate Marvel Vs. Capcom 3"
+  ],
+  [
+    "2017-03-06T17:00:02.000Z",
+    "GR5o6d8wJaA",
+    "February Monthly - PG | Insaynne Vs. KPB Taz - UMVC3 Losers Quarters - Ultimate Marvel Vs. Capcom 3"
+  ],
+  [
+    "2017-03-06T17:00:00.000Z",
+    "086cprk3DNo",
+    "February Monthly - Prodigy Vs. KPB Randomfiend - UMVC3 Losers Quarters"
+  ],
+  [
+    "2017-03-05T03:06:42.000Z",
+    "OG3fG9FPoTc",
+    "VGBCX BGW Partnership Starting at 2AM EST - BGW15 Featuring Rudolph, aMSa, Gucci, Shippu, & Yu!"
+  ],
+  [
+    "2017-02-24T20:00:02.000Z",
+    "R-RWLVK6K9g",
+    "S@X 189 - InC | ZD (Fox) Vs. InC | Wadi (Mewtwo) - SSB4 Grand Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T19:30:00.000Z",
+    "F68BKh-bavE",
+    "S@X 189 - Zephyr (Cloud) Vs. InC | Wadi (Mewtwo) - SSB4 Losers Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T19:00:01.000Z",
+    "PG8ct9jIV2o",
+    "S@X 189 - Dexter (Marth) Vs. InC | Wadi (ROB, Mewtwo) - SSB4 Losers Semis - Smash for Wii U"
+  ],
+  [
+    "2017-02-24T18:30:01.000Z",
+    "gh4EuVfSxIw",
+    "S@X 189 - InC | ZD (Fox) Vs. Zephyr (Cloud) - SSB4 Winners Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T18:30:01.000Z",
+    "CMSVW7iAb70",
+    "S@X 189 - Dexter (Corrin) Vs. Xerom (Ness) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T18:30:00.000Z",
+    "BYArUjIho3Q",
+    "S@X 189 - Jeebus (Lil Mac) Vs. InC | Wadi (ROB) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T18:00:01.000Z",
+    "HXCyxvvkVgg",
+    "S@X 189 - Dexter (Marth) Vs. InC | ZD (Fox) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T18:00:00.000Z",
+    "4znAkcbhypo",
+    "S@X 189 - InC | Wadi (Mewtwo) Vs. Zephyr (Cloud) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:30:01.000Z",
+    "t_cc8W7KxTI",
+    "S@X 189 - Zephyr (Cloud) Vs. Xerom (Ness) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:30:01.000Z",
+    "pS1NyHGzvPQ",
+    "S@X 189 - InC | Wadi (Mewtwo) Vs. Mav (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:30:00.000Z",
+    "aBnAgkZIebY",
+    "S@X 189 - Dexter (Corrin) Vs. Nika (Lucina) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:30:00.000Z",
+    "3nq7uunBXZI",
+    "S@X 189 - InC | ZD (Fox) Vs. Dingus Joe (G&W) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:00:04.000Z",
+    "dBwwO9VyahA",
+    "S@X 189 - RK (Kirby) Vs. Tombstone (Charizard) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:00:03.000Z",
+    "euaZutUQIxo",
+    "S@X 189 - Vanilla (Lucario, ROB) Vs. Dante (Zelda) - SSB4 Tournament - Smash for Wii U - Smash Melee"
+  ],
+  [
+    "2017-02-24T17:00:01.000Z",
+    "-slZdUYse28",
+    "S@X 189 - InC | ZD (Fox) Vs. Coreo (Mario) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:00:00.000Z",
+    "7Ftitn9RzU4",
+    "S@X 189 - Mav (Cloud) Vs. Wave | Cinnpie (ZSS) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-24T17:00:00.000Z",
+    "3bNChcqqVuA",
+    "S@X 189 - Dingus Joe (G&W) Vs. Catharc (Robin, Bayonetta) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-22T20:00:00.000Z",
+    "-ftMNZ3oqJw",
+    "S@X 189 - VGBC | ChuDat (Ice Climbers) Vs. SmashG0D (Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-02-22T19:30:01.000Z",
+    "xk-bypLdSDE",
+    "S@X 189 - VGBC | Chudat (Ice Climbers) Vs. Hat (Marth) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-22T19:00:08.000Z",
+    "sQMjT8SdhEk",
+    "S@X 189 - Plank (Sheik) Vs. Hat (Sheik, Marth) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-22T18:30:01.000Z",
+    "ty5j9VmEgt0",
+    "S@X 189 - Plank (Sheik) Vs. Jerry (Fox) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-22T18:30:00.000Z",
+    "N3XCdt05v9Y",
+    "S@X 189 - VGBC | Chudat (Ice Climbers) Vs. SmashG0D (Marth) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-22T18:30:00.000Z",
+    "8PYvVssJXew",
+    "S@X 189 - Fendrick Lamar (Marth) Vs. Hat (Sheik) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-22T18:00:05.000Z",
+    "v6Q_zi54ueg",
+    "S@X 189 - SmashG0D (Marth) Vs. Plank (Sheik) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-22T18:00:04.000Z",
+    "ywCChlBbH6Y",
+    "S@X 189 - VGBC | Chudat (Ice Climbers) Vs. Hat (Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:30:01.000Z",
+    "ofe7NjlSGbg",
+    "S@X 189 - Jerry (Fox) Vs. Hat (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:30:01.000Z",
+    "b5Latm00Ja4",
+    "S@X 189 - Ulsi (Sheik) Vs. Plank (Marth, Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:30:00.000Z",
+    "NouO5AqwE3g",
+    "S@X 189 - SmashG0D (Marth) Vs. Ace of Flakes (Jigglypuff) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:30:00.000Z",
+    "5Fwr2sW8lHo",
+    "S@X 189 - VGBC | Chudat (Ice Climbers) Vs. Nurok (Falco) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:00:05.000Z",
+    "tpmmCxZB9II",
+    "S@X 189 - Plank (Sheik, Marth) Vs. TallT (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:00:05.000Z",
+    "UHVI_3Yt2Zw",
+    "S@X 189 - TallT (Falco) Vs. Tanwad (Jigglypuff) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:00:05.000Z",
+    "P5BGEmh0qiE",
+    "S@X 189 - VGBC | Chudat (Ice Climbers) Vs. Major League Oddish (Falco) - SSBM Tournament"
+  ],
+  [
+    "2017-02-22T17:00:02.000Z",
+    "EKbpF4sTWH8",
+    "S@X 189 - Peanutphobia (Yoshi) Vs. Hydro Dynamic (Yoshi) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-22T17:00:01.000Z",
+    "GtlIOiiroA8",
+    "S@X 189 - SmashG0D (Marth) Vs. Mild Fool (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-21T22:00:05.000Z",
+    "sC26eHEKx2M",
+    "F@X 188 - OGYawn (Laura) Vs. Dark Child (Balrog) - SFV Grand Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-21T21:30:00.000Z",
+    "Tez8rq-gREs",
+    "F@X 188 - OGYawn (Laura) Vs. Ghost Wizards (Zangief) - SFV Losers Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-21T21:00:00.000Z",
+    "04Xo2P7Rzcc",
+    "F@X 188 - OGYawn (Laura) Vs. 56k (Karin) - SFV Losers Semis - Street Fighter V"
+  ],
+  [
+    "2017-02-21T20:30:01.000Z",
+    "Ke3x8e1l0ak",
+    "F@X 188 - Dark Child (Balrog) Vs. Ghost Wizards (Zangief) - SFV Winners Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-21T20:00:03.000Z",
+    "LX7LvhGCK7c",
+    "S@X 188 - InC | Wadi (Mewtwo, ROB) Vs. Zinoto (Diddy Kong) - SSB4 Grand Finals - Smash 4"
+  ],
+  [
+    "2017-02-21T19:30:01.000Z",
+    "zDmk0vWgUho",
+    "S@X 188 - InC | Wadi (Mewtwo) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Finals - Smash 4"
+  ],
+  [
+    "2017-02-21T19:00:01.000Z",
+    "VtIytFwHwhk",
+    "S@X 188 - Nero (Pikachu) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Semis - Smash for Wii U"
+  ],
+  [
+    "2017-02-21T18:30:00.000Z",
+    "nj1RxxB53Ws",
+    "S@X 188 - Jeebus (Lil Mac) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-02-21T18:30:00.000Z",
+    "EfMFGp-VRp0",
+    "S@X 188 - Zinoto (Diddy Kong) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Finals - Smash for Wii U"
+  ],
+  [
+    "2017-02-21T18:30:00.000Z",
+    "8eneirrOlfE",
+    "S@X 188 - Nero (Pikachu) Vs. SETHsational (C. Falcon) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-21T18:00:03.000Z",
+    "lzda4dlORkQ",
+    "S@X 188 - InC | Wadi (Mewtwo) Vs. Nero (Pikachu) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-21T18:00:03.000Z",
+    "lYinD7YnHFg",
+    "S@X 188 - Zinoto (Diddy Kong) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Semis - Smash 4"
+  ],
+  [
+    "2017-02-21T17:30:01.000Z",
+    "rIMUPlW7nos",
+    "S@X 188 - InC | ZD (Fox, Luigi) Vs. Nero (Pikachu) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-21T17:30:00.000Z",
+    "WtaRYySiKrI",
+    "S@X 188 - SETHsational (C. Falcon) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Quarters"
+  ],
+  [
+    "2017-02-21T17:30:00.000Z",
+    "Wo9E-tZsobk",
+    "S@X 188 - InC | Wadi (ROB) Vs. InC VGBC | Logic (Diddy Kong, Olimar) - SSB4 Winners Quarters"
+  ],
+  [
+    "2017-02-21T17:30:00.000Z",
+    "PFFiy8ZV2eA",
+    "S@X 188 - Dexter (Corrin, Marth) Vs. Zionoto (Diddy Kong) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-21T17:00:09.000Z",
+    "unWCM3xJOvg",
+    "S@X 188 - Nature (Mewtwo) Vs. SETHsational (C. Falcon) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-21T17:00:06.000Z",
+    "z50HmVxD4Lw",
+    "S@X 188 - Nature (Mewtwo) Vs. Catharc (Robin) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-21T17:00:06.000Z",
+    "rxFnhHJx9rU",
+    "S@X 188 - Airlift (Metaknight) Vs. Nika (Lucina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-21T17:00:05.000Z",
+    "SL2ja99hwMs",
+    "S@X 188 - Dante (Zelda) Vs. Tico (Toon Link) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-21T17:00:04.000Z",
+    "HrnTR5lrcjs",
+    "S@X 188 - Tails (Pikachu, Corrin) Vs. Vanilla (Lucario) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-21T17:00:03.000Z",
+    "KoB4In9Ely8",
+    "S@X 188 - VGBC | Pink Fresh (Bayonetta) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-02-21T17:00:01.000Z",
+    "4gCZVqp8gcE",
+    "S@X 188 - Nero (Pikachu) Vs. VGBC | GimR (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-21T17:00:01.000Z",
+    "3MmwUTvpjwU",
+    "S@X 188 - Coldweather (Marth) Vs. Devvystar (Corrin, Ike) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-21T17:00:00.000Z",
+    "APsDUlGTBv0",
+    "S@X 188 - King James (Diddy Kong) Vs. InC VGBC | Logic (Olimar) - SSB4 Tournament - Smash 4"
+  ],
+  [
+    "2017-02-16T20:00:06.000Z",
+    "xw0futlbjmk",
+    "S@X 188 - Kingsmen | Redd (Fox) Vs. SmashG0D (Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-02-16T19:30:01.000Z",
+    "raPrkMAESmg",
+    "S@X 188 - Jerry (Fox) Vs. SmashG0D (Marth) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-16T19:00:00.000Z",
+    "-_3_GMSCWJs",
+    "S@X 188 - Wenbobular (Fox) Vs. Jerry (Fox) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-16T18:30:01.000Z",
+    "pVSisgWlvus",
+    "S@X 188 - Wenbobular (Fox) Vs. Plank (Sheik) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-16T18:30:00.000Z",
+    "l_zfUvLEx7Q",
+    "S@X 188 - Fendrick Lamar (Marth) Vs. Jerry (Fox) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-16T18:30:00.000Z",
+    "PGNiofJXZSo",
+    "S@X 188 - Kingsmen | Redd (Fox) Vs. SmashG0D (Marth) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-16T18:00:02.000Z",
+    "SeYSO7DfPHs",
+    "S@X 188 - SmashG0D (Marth) Vs. Plank (Sheik) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-16T18:00:01.000Z",
+    "Fv1g1Ah1-vk",
+    "S@X 188 - Kingsmen | Redd (Fox) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:30:00.000Z",
+    "kuC4IVr-MO0",
+    "S@X 188 - Fendrick Lamar (Marth) Vs. Plank (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:30:00.000Z",
+    "azkn5F_IEZM",
+    "S@X 188 - Hat (Sheik, Marth) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:30:00.000Z",
+    "YM15BpN0ug8",
+    "S@X 188 - Kingsmen | Redd (Fox) Vs. SypherPhoenix (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:30:00.000Z",
+    "BpkeiBzl7d0",
+    "S@X 188 - Nurok (Falco) Vs. SmashG0D (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:00:06.000Z",
+    "qGwIiieRIEU",
+    "S@X 188 - Kingsmen | Redd (Fox) Vs. Major League Oddish (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:00:04.000Z",
+    "lC50Z7Fs6n8",
+    "S@X 187 - SypherPhoenix (Fox) Vs. Ace of Flakes (Jigglypuff) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:00:03.000Z",
+    "ZcYuQ7Jyx_M",
+    "S@X 188 - Scrapmettle (Captain Falcon) Vs. SmashG0D (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:00:02.000Z",
+    "LtiY4BNcFtM",
+    "S@X 188 - Nurok (Falco) Vs. Wenbobular (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-16T17:00:02.000Z",
+    "K0NMeoUPdJE",
+    "S@X 188 - Empala (Marth) Vs. McNutley (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-16T16:30:00.000Z",
+    "2-ujjGFyav0",
+    "F@X 187 - Dark Child (Balrog) Vs. Steve H (Ryu) - SFV Grand Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-16T16:00:00.000Z",
+    "C_za_inn21s",
+    "F@X 187 - Dark Child (Balrog) Vs. Huracan (R. Mika) - SFV Losers Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-16T15:30:01.000Z",
+    "Vq1NK9Y2PmA",
+    "F@X 187 - Dark Child (Balrog) Vs. Unknown (Cammy) - SFV Losers Semis - Street Fighter V"
+  ],
+  [
+    "2017-02-16T15:00:04.000Z",
+    "tMBfkSX2_A0",
+    "F@X 187 - Steve H (Ryu) Vs. Huracan (R. Mika) - SFV Winners Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-15T20:30:01.000Z",
+    "0ClXiWLIvh8",
+    "S@X 187 - Hat (Sheik) Vs. Jerry (Fox) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-02-15T20:00:04.000Z",
+    "b_rA3KH0_9A",
+    "S@X 187 - Jerry (Fox) Vs. SmashG0D (Marth) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-15T19:30:01.000Z",
+    "fxOjf6wzz6Y",
+    "S@X 187 - Plank (Sheik) Vs. Jerry (Fox) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-15T19:00:02.000Z",
+    "Zzrldhr3L2k",
+    "S@X 187 - Wenbobular (Fox) Vs. Jerry (Fox) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-15T19:00:01.000Z",
+    "Cqk8xsucu8M",
+    "S@X 187 - SmashG0D (Marth) Vs. Hat (Sheik) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-15T19:00:00.000Z",
+    "EoyUKYwjU7I",
+    "S@X 187 - Nurok (Falco) Vs. Plank (Peach, Marth, Falco, Fox, Jigglypuff) - SSBM Losers Quarters"
+  ],
+  [
+    "2017-02-15T18:30:01.000Z",
+    "ykMulPI7oNg",
+    "S@X 187 - SmashG0D (Marth) Vs. Jerry (Fox) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-15T18:30:00.000Z",
+    "K_bY31b5VJk",
+    "S@X 187 - Hat (Sheik) Vs. Plank (Sheik, Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-15T18:00:04.000Z",
+    "bWq9VnWDcws",
+    "S@X 187 - Obo (Samus) Vs. Plank (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-15T18:00:03.000Z",
+    "ckAqCuaJ1qo",
+    "S@X 187 - Wenbobular (Fox) Vs. Hat (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-15T18:00:01.000Z",
+    "LunIFum3YHk",
+    "S@X 187 - Silence (Fox) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-15T18:00:00.000Z",
+    "aR-0dcgxCv4",
+    "S@X 187 - Nurok (Falco) Vs. SmashG0D (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-15T17:30:01.000Z",
+    "uAvDOBJ7Ozc",
+    "S@X 187 - Plank (Sheik) Vs. Dosv (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-15T17:30:01.000Z",
+    "3mafVSlZGTg",
+    "S@X 187 - SmashG0D (Marth) Vs. Moss (Samus) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-15T17:30:00.000Z",
+    "bIuGvT70EHU",
+    "S@X 187 - Lamvert (Fox) Vs. Oro (Samus) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-15T17:30:00.000Z",
+    "0MaFYiX1atU",
+    "S@X 187 - Wenbobular (Fox, C. Falcon) Vs. BurritoWolf (Falco, C. Falcon) - SSBM Tournament"
+  ],
+  [
+    "2017-02-15T17:00:05.000Z",
+    "sn_yNQDS1rM",
+    "S@X 187 - InC | Seagull Joe (Sonic) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Grand Finals - Smash 4"
+  ],
+  [
+    "2017-02-15T16:30:01.000Z",
+    "5UyyCwxQ-Ek",
+    "S@X 187 - InC | Seagull Joe (Diddy Kong) Vs. EZG | Remzi (ZSS) - SSB4 Losers Finals - Smash 4"
+  ],
+  [
+    "2017-02-15T16:00:06.000Z",
+    "nYB5lswJjXc",
+    "S@X 187 - InC | Seagull Joe (Sonic) Vs. Ash (Bowser) - SSB4 Losers Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T15:30:02.000Z",
+    "sZSXLikaPck",
+    "S@X 187 - VGBC | Pink Fresh (Bayonetta) Vs. EZG | Remzi (ZSS) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-02-15T15:30:01.000Z",
+    "1NhZdBC1R3k",
+    "S@X 187 - Mav (Cloud) Vs. InC | Seagull Joe (Sonic) - SSB4 Losers Quarters - Smash"
+  ],
+  [
+    "2017-02-15T15:30:00.000Z",
+    "9VJMyOwz5Pk",
+    "S@X 187 - Ash (Ryu) Vs. Jeebus (Lil Mac) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T15:00:08.000Z",
+    "ybiPj5hDccQ",
+    "S@X 187 - InC | Seagull Joe (Diddy Kong) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Semis"
+  ],
+  [
+    "2017-02-15T15:00:03.000Z",
+    "XbKMca0JZV8",
+    "S@X 187 - Jeebus (Fox) Vs. EZG | Remzi (ZSS) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:30:03.000Z",
+    "mPIfwnUWTs8",
+    "S@X 187 - Jeebus (Lil Mac) Vs. Mav (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:30:02.000Z",
+    "bAOjCRS2Qic",
+    "S@X 187 - VGBC | Pink Fresh (Bayonetta) Vs. Airlift (Metaknight) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-15T14:30:00.000Z",
+    "Xd4Mf7BuIuI",
+    "S@X 187 - InC | Seagull Joe (Diddy Kong) Vs. Ash (Bowser) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-15T14:00:03.000Z",
+    "fqYFoH5RUzc",
+    "S@X 187 - Dexter (Marth) Vs. Submediant (Peach) - SSB4 Tournament  - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:00:03.000Z",
+    "cF9fu92IwZE",
+    "S@X 187 - Ash (Ryu) Vs. Zephyr (Cloud) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:00:03.000Z",
+    "XSAnVjWJZs4",
+    "S@X 187 - Archy (Sheik) Vs. Catharc (Robin) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:00:03.000Z",
+    "MpWeevw_7GA",
+    "S@X 187 - Mav (Cloud) Vs. InC VGBC | Logic (Diddy Kong) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-15T14:00:03.000Z",
+    "Kc8jCiyVfyo",
+    "S@X 187 - Karma (Ness) Vs. VGBC | GimR (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:00:02.000Z",
+    "LC0mudZ1N5c",
+    "S@X 187 - Dante (Zelda) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:00:02.000Z",
+    "KlWJMfPRcbM",
+    "S@X 187 - Naytro (Olimar) Vs. BootEKing (Bayonetta, Diddy Kong) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-15T14:00:02.000Z",
+    "GOsWEqnTSLU",
+    "S@X 187 - Bratt (Rosalina) Vs. Zamboni (Lucina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T14:00:01.000Z",
+    "Gin_MZBfy-0",
+    "S@X 187 - VGBC | GimR (G&W) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-15T14:00:00.000Z",
+    "C7D6EpQFFYc",
+    "S@X 187 - Airlift (Metaknight) Vs. Nika (Marth) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-15T13:30:00.000Z",
+    "Hq88p1b8-aE",
+    "F@X 186 - Steve H (Ryu) Vs. Dark Child (Balrog) - SFV Grand Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-15T13:00:01.000Z",
+    "a9i0-9KDFQ0",
+    "F@X 186 - Papa de Andy (Urien) Vs. Dark Child (Balrog) - SFV Losers Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-15T12:30:01.000Z",
+    "y0PLbTz4Vvs",
+    "F@X 186 - Vato (Karin) Vs. Dark Child (Balrog) - SFV Losers Semis - Street Fighter V"
+  ],
+  [
+    "2017-02-15T12:00:07.000Z",
+    "vD3KshGuF2s",
+    "F@X 186 - Steve H (Ryu) Vs. Papa de Andy (Urien) - SFV Winners Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-14T20:00:00.000Z",
+    "FYUBQHpNs8A",
+    "S@X 186 - Hat (C. Falcon, Marth, Falco, Sheik) Vs Plank (Marth, C. Falcon, Sheik) - SSBM Grand Final"
+  ],
+  [
+    "2017-02-14T19:30:00.000Z",
+    "nE5_eTFst6Q",
+    "S@X 186 - Obi (Fox) Vs. Hat (Marth) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-14T19:00:02.000Z",
+    "WjAifA3IyXg",
+    "S@X 186 - Ace of Flakes (Jigglypuff) Vs. Obi (Fox) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-14T18:30:01.000Z",
+    "kyON714yWf0",
+    "S@X 186 - Hat (Sheik) Vs. Plank (Sheik) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-14T18:30:01.000Z",
+    "HO3GKXTZQEg",
+    "S@X 186 - Nurok (Falco) Vs. Ace of Flakes (Jigglypuff) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-14T18:30:01.000Z",
+    "0g93TB4u0sg",
+    "S@X 186 - Silence (Fox) Vs. Obi (Fox) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-14T18:00:06.000Z",
+    "gOpovQ-Umok",
+    "S@X 186 - Silence (Fox) Vs. Plank (Sheik) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-14T18:00:03.000Z",
+    "ltjFvfTYgbo",
+    "S@X 186 - Nurok (Falco) Vs. Hat (Sheik) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-14T18:00:02.000Z",
+    "hU-YJc2VSKM",
+    "S@X 186 - Snacks (Fox) Vs. Obi (Fox) - SSBM Losers Bracket - Smash Melee"
+  ],
+  [
+    "2017-02-14T17:30:01.000Z",
+    "yQ1D9TdICrw",
+    "S@X 186 - Nurok (Falco) Vs. Obi (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-14T17:30:00.000Z",
+    "HL7C1uJd0eo",
+    "S@X 186 - Harambe (Fox) Vs. Plank (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-14T17:00:05.000Z",
+    "p7AWilkY2BM",
+    "S@X 186 - Oddish (Falco) Vs. Plank (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-14T17:00:04.000Z",
+    "uJ_Avj3iC_E",
+    "S@X 186 - Bradday (Ice Climbers) Vs. Ace of Flakes (Jigglypuff) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-14T17:00:00.000Z",
+    "0cibB0iM6bE",
+    "S@X 186 - BriBri (Fox) Vs. Ace of Flakes (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-14T16:30:00.000Z",
+    "_XdPpKNwquY",
+    "S@X 186 - InC | Wadi (Mewtwo) Vs. Viceroy (Rosalina) - SSB4 Grand Finals - Smash for Wii U"
+  ],
+  [
+    "2017-02-14T16:00:02.000Z",
+    "Qi9e4WYBWxc",
+    "S@X 186 - Wave | Black Yoshi (Bayonetta) Vs. Viceroy (Rosalina) - SSB4 Losers Finals - Smash 4"
+  ],
+  [
+    "2017-02-14T15:30:01.000Z",
+    "lhmqU-mTra0",
+    "S@X 186 - InC | ZD (Fox, Metaknight) Vs. Viceroy (Rosalina) - SSB4 Losers Semis - Smash 4"
+  ],
+  [
+    "2017-02-14T15:00:03.000Z",
+    "gvbaJ4bsBaE",
+    "S@X 186 - InC | ZD (Fox) Vs. Zephyr (Cloud) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T15:00:02.000Z",
+    "HUxNk06aoik",
+    "S@X 186 - InC | Wadi (Mewtwo) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-02-14T15:00:01.000Z",
+    "DLcLwOzh8IE",
+    "S@X 186 - Viceroy (Rosalina) Vs. InC VGBC | Logic (Diddy Kong) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-02-14T14:30:01.000Z",
+    "YbvGBvcNPYI",
+    "S@X 186 - Viceroy (Rosalina) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Winners Semis - Smash 4"
+  ],
+  [
+    "2017-02-14T14:30:00.000Z",
+    "vaedq1tbNzg",
+    "S@X 186 - InC | ZD (Fox) Vs. Dexter (Marth) - SSB4 Losers Bracket - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T14:30:00.000Z",
+    "94cZ4mCEIIc",
+    "S@X 186 - Zephyr (Cloud) Vs. InC | Wadi (Mewtwo) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T14:00:04.000Z",
+    "iffzaYM2qK0",
+    "S@X 186 -  InC | ZD (Fox) Vs. Viceroy (Rosalina) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T14:00:02.000Z",
+    "UVZqF7GA-5U",
+    "S@X 186 - InC | Wadi (ROB, Mewtwo) Vs. Nika (Lucina, Marth) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-14T14:00:01.000Z",
+    "EEzqjUhgukI",
+    "S@X 186 - Vanity (G&W) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T14:00:00.000Z",
+    "Axdpe-qDH-U",
+    "S@X 186 - Submediant (Peach) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-14T13:30:03.000Z",
+    "us80JzsC4tI",
+    "S@X 186 - InC VGBC | Logic (Diddy Kong) Vs. Submediant (Peach) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-14T13:30:02.000Z",
+    "VuEGqmEqC0k",
+    "S@X 186 - Submediant (Peach) Vs. Coreo (Mario) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T13:30:01.000Z",
+    "YyDojQ-48zw",
+    "S@X 186 - Wave | Cinnpie (ZSS) Vs. Dnnr Pants (Luigi) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T13:30:01.000Z",
+    "RifPHTqDa4Y",
+    "S@X 186 - Dingus Joe (G&W) Vs. Nika (Lucina, Marth) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T13:30:01.000Z",
+    "4xtMmffAUP4",
+    "S@X 186 - Dingus Joe (G&W) Vs. Archy (Sheik, Diddy Kong) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-14T13:30:00.000Z",
+    "Wn6wvZz2-l8",
+    "S@X 186 - Yama (Lucas, Ness) Vs. Nai_Yako (Mario, Diddy Kong) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-14T13:30:00.000Z",
+    "LlDFVCJdFAI",
+    "S@X 186 - Tico (Toon Link) Vs. ZMan (Donkey Kong) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-14T13:30:00.000Z",
+    "3O_mfIdnXw8",
+    "S@X 186 - Dexter (Marth) Vs. Coreo (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-13T22:30:00.000Z",
+    "dpfqMJmbbGg",
+    "S@X Monthly - lloD (Peach) Vs. SmashG0D (Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-02-13T22:00:01.000Z",
+    "T-UZmKXwyBg",
+    "S@X Monthly - lloD (Peach) Vs. SSI | Zain (Marth) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-13T21:30:00.000Z",
+    "s9vTyD6_6T4",
+    "S@X Monthly - lloD (Peach) Vs. Jerry (Fox) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-13T21:00:00.000Z",
+    "A96y9_rZuO0",
+    "S@X Monthly - SmashG0D (Marth) Vs. SSI | Zain (Marth) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-13T21:00:00.000Z",
+    "9AaW10vpnpM",
+    "S@X Monthly - ATOMSK (Jigglypuff) Vs. lloD (Peach) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-13T21:00:00.000Z",
+    "-Cei9wvo1H0",
+    "S@X Monthly - Jerry (Fox) Vs. SypherPhoenix (Fox) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-13T20:30:00.000Z",
+    "qQbwTPPsjrA",
+    "S@X Monthly - Jerry (Fox) Vs. SmashG0D (Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-13T20:30:00.000Z",
+    "5BLnHyz4XvQ",
+    "S@X Monthly - Wenbobular (Fox) Vs. SypherPhoenix (Fox) - SSBM Losers Eights - Smash Melee"
+  ],
+  [
+    "2017-02-13T20:30:00.000Z",
+    "20nITGWK55c",
+    "S@X Monthly - lloD (Peach) Vs. SSI | Zain (Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-13T20:00:01.000Z",
+    "De5DazJ1k7c",
+    "S@X Monthly - Corn (Ice Climbers) Vs. Jerry (Fox) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-13T20:00:00.000Z",
+    "4FYpdd1ZD0w",
+    "S@X Monthly - Bones (Falco) Vs. SSI | Zain (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-13T20:00:00.000Z",
+    "0iQeRmE0ts0",
+    "S@X Monthly - Kevorkian (Dr. Mario) Vs. SmashG0D (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-13T19:30:01.000Z",
+    "-N44OqghZwE",
+    "S@X Monthly - TheSWOOPER (Samus) Vs. lloD (Peach) - SSBM Winners Top 16 - Smash Melee"
+  ],
+  [
+    "2017-02-13T19:30:00.000Z",
+    "UUE4-ja2etI",
+    "S@X Monthly - Cool Lime (Ice Climbers) Vs. Jerry (Fox) - SSBM Winners Top 16 - Smash Melee"
+  ],
+  [
+    "2017-02-13T19:00:03.000Z",
+    "Pg6eIt44L2g",
+    "S@X Monthly - SmashG0D & lloD Vs. Digital & Aglet - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-02-13T18:30:00.000Z",
+    "tKQggKt0Ge4",
+    "S@X Monthly - ATOMSK & TheSWOOPER Vs. Digital & Aglet - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-13T18:00:02.000Z",
+    "YlRYrZIPiWA",
+    "S@X Monthly - ATOMSK & TheSWOOPER Vs. SypherPhoenix & SSI | Zain - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-13T17:30:00.000Z",
+    "MJOaam9cIcM",
+    "S@X Monthly - SmashG0D & lloD Vs. Aglet & Digital - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-13T17:00:01.000Z",
+    "80E65nKskHk",
+    "S@X Monthly - SmashG0D & lloD Vs. Wenbobular & Hat - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-10T05:21:14.000Z",
+    "m_yDo7J6nic",
+    "S@X 185 - InC | ZD (Fox) Vs. InC | Seagull Joe (Sonic, Diddy Kong) - SSB4 Losers Finals - Smash 4"
+  ],
+  [
+    "2017-02-09T23:00:01.000Z",
+    "HRXkY-rWFl0",
+    "S@X 185 - InC | ZD (Fox) Vs. Wadi (Mewtwo) - SSB4 Grand Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T22:00:00.000Z",
+    "Ebr5M8NQbUA",
+    "S@X 185 - InC | ZD (Fox) Vs. Promaelia (Corrin) - SSB4 Losers Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T21:30:00.000Z",
+    "pvYAm46ZR5I",
+    "S@X 185 - Wadi (Mewtwo) Vs. InC | Seagull Joe (Sonic) - SSB4 Winners Finals - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T21:30:00.000Z",
+    "SQRB-6XZmRE",
+    "S@X 185 - Zephyr (Cloud) Vs. Promaelia (Corrin) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T21:30:00.000Z",
+    "91yHMjSixm8",
+    "S@X 185 - InC | ZD (Fox) Vs. Pootietang (Diddy Kong) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T21:00:03.000Z",
+    "zj0_FlbCXqg",
+    "S@X 185 - InC | ZD (Fox) Vs. Dexter (Corrin, Marth) - SSB4 Losers Bracket - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T21:00:01.000Z",
+    "Y70BlPScXW0",
+    "S@X 185 - Wadi (Mewtwo) Vs. Zephyr (Cloud) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T21:00:01.000Z",
+    "J6lbLEvmPYM",
+    "S@X 185 - Pootietang (Diddy Kong) Vs. InC | Seagull Joe (Sonic, Diddy Kong) - SSB4 Winners Semis"
+  ],
+  [
+    "2017-02-09T21:00:00.000Z",
+    "217AptGiGlw",
+    "S@X 185 - Scarlet (Sheik) Vs. Promaelia (Corrin, Palutena) - SSB4 Losers Bracket - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T20:30:00.000Z",
+    "wvEtd-tvaeU",
+    "S@X 185 - Wadi (Mewtwo) Vs. InC VGBC | Logic (Diddy Kong, Olimar) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-09T20:30:00.000Z",
+    "UiFtGVtxl20",
+    "S@X 185 - Dexter (Corrin, Roy) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T20:30:00.000Z",
+    "6MNBes28Pww",
+    "S@X 185 - Pootietang (Diddy Kong) Vs. Skance (Fox, Ryu) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T20:30:00.000Z",
+    "5cnnyEo4ECk",
+    "S@X 185 - InC | Seagull Joe (Sonic) Vs. Promaelia (Corrin) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T20:00:04.000Z",
+    "tDl3xYu5qaw",
+    "S@X 185 - Dexter (Corrin, Marth) Vs. SciFire (Bayonetta) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T20:00:03.000Z",
+    "_jzg4A37q8Y",
+    "S@X 185 - Nika (Lucina, Marth) Vs. Weste (Olimar) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T20:00:03.000Z",
+    "MWkUz2ts1nI",
+    "S@X 185 - Sarcelle (Peach) Vs. Dante (Zelda) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T20:00:02.000Z",
+    "kGKbTEia6N4",
+    "S@X 185 - Nature (Mewtwo) Vs. Skance (Fox) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T20:00:02.000Z",
+    "bQAqpHGhm58",
+    "S@X 185 - Scarlet (Sheik) Vs. Xorax (Fox) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T20:00:02.000Z",
+    "Ws2qG4Y3UwQ",
+    "S@X 185 - InC | ZD (Bowser, Luigi, Fox) Vs. Skance (Fox, Ryu) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-09T20:00:02.000Z",
+    "VFFKKVc9O_E",
+    "S@X 185 - Pootietang (Diddy Kong) Vs. Dingus Joe (GaW) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T20:00:00.000Z",
+    "9ozuCUh6O7A",
+    "S@X 185 - Wave | Cinnpie (ZSS) Vs. Sunfish (Rosalina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T20:00:00.000Z",
+    "59_6XZXvXIQ",
+    "S@X 185 - Asriel (Luigi) Vs. Coreo (Mario) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-09T19:00:01.000Z",
+    "HLJLDiWbMAI",
+    "F@X 184 - Dark Child (Balrog) Vs. Steve H (Ryu) - SFV Grand Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-09T18:30:01.000Z",
+    "TgKeuDWEgnk",
+    "F@X 184 - Lud (Chun-Li) Vs. Steve H (Ryu) - SFV Losers FInals - Street Fighter V"
+  ],
+  [
+    "2017-02-09T18:00:00.000Z",
+    "EWpJwJSYwFM",
+    "F@X 184 - Dark Child (Balrog) Vs. Lud (Guile) - SFV Winners Finals - Street Fighter V"
+  ],
+  [
+    "2017-02-08T23:30:01.000Z",
+    "4bm5CyyjJ7U",
+    "S@X 184 - SmashG0D (Marth) Vs. SSI | Zain (Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-02-08T23:00:02.000Z",
+    "_3RUZ58c_Gw",
+    "S@X 184 - Hat (Sheik) Vs. SmashG0D (Marth) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-08T22:30:00.000Z",
+    "nLzuYLJrRPQ",
+    "S@X 184 - Mom! (Peach, Sheik) Vs. SmashG0D (Marth) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-08T22:00:03.000Z",
+    "idyZE05Xyvg",
+    "S@X 184 - Wenbobular (Fox, Captain Falcon, Falco) Vs. SmashG0D (Marth) - SSBM Losers Quarters"
+  ],
+  [
+    "2017-02-08T22:00:01.000Z",
+    "DeLuCopN5T4",
+    "S@X 184 - Hat (Sheik) Vs. SSI | Zain (Marth) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-08T21:30:00.000Z",
+    "gAtd9IaSJ-k",
+    "S@X 184 - Mom! (Peach) Vs. SSI | Zain (Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-08T21:30:00.000Z",
+    "X37hxuhV7oo",
+    "S@X 184 - Hat (Sheik) Vs. SmashG0D (Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-08T21:00:04.000Z",
+    "t8BzY40ppus",
+    "S@X 184 - Mom! (Peach) Vs. TKK (Ice Climbers) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-08T21:00:03.000Z",
+    "pgi0OHrFxq0",
+    "S@X 184 - Ryobeat (Peach) Vs. SmashG0D (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-08T21:00:01.000Z",
+    "ZEJjLTn75B8",
+    "S@X 184 - Hat (Sheik) Vs. Junebug (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-08T21:00:00.000Z",
+    "GDGscwAgmgo",
+    "S@X 184 - Wenbobular (Fox) Vs. Zain (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:02.000Z",
+    "pyQj7h116XI",
+    "S@X 184 - Garbage Chic (Sheik) Vs. Carbon (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:01.000Z",
+    "4bEQRA-G-lQ",
+    "S@X 184 - Wenbobular (Fox) Vs. Juice Box (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "w6wxHgKUHB8",
+    "S@X 184 - Ryobeat (Peach) Vs. Peanutphobia (Yoshi) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "sXRfX-VyU8s",
+    "S@X 184 - Dain Bramage (Captain Falcon) Vs. SmashG0D (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "lLEWpnR0DTo",
+    "S@X 184 - Gypsy (Fox) Vs. Juice Box (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "kTS0vCwlg2s",
+    "S@X 184 - Squill (Fox) Vs. Wenbobular (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "hbCSSlOMqrI",
+    "S@X 184 - Bri Bri (Gannondorf) Vs. SSI | Zain (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "do7r3VT8oNQ",
+    "S@X 184 - SmashG0D (Marth) Vs. Advanced (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "d48oU71HmVQ",
+    "S@X 184 - Burritowolf (Captain Falcon) Vs. Tacocat (Luigi) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "VI7PTvVNOH8",
+    "S@X 184 - SSI | Zain (Marth) Vs. Empala (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:30:00.000Z",
+    "57p4trFtROc",
+    "S@X 184 - Fendrick Lamar (Marth) Vs. Kneel (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-08T20:00:02.000Z",
+    "c4GKkA_gcuA",
+    "S@X 184 - InC | ZD (Fox) Vs. Circa | 6WX (Sonic) - SSB4 Grand Finals - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T19:30:00.000Z",
+    "iIIWDQsEi-w",
+    "S@X 184 - InC | Seagull Joe (Sonic, Diddy Kong) Vs. Circa | 6WX (Sonic) - SSB4 Losers Finals"
+  ],
+  [
+    "2017-02-08T19:00:01.000Z",
+    "KW9RhG85fZE",
+    "S@X 184 - Nika (Lucina, Marth) Vs. Circa | 6WX (Sonic) - SSB4 Losers Semis - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T18:30:01.000Z",
+    "kWyCHF2oXyI",
+    "S@X 184 - Blazing Pasta (Peach) Vs. Circa | 6WX (Sonic) - SSB4 Losers Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T18:30:00.000Z",
+    "oy2XCvs9Ykc",
+    "S@X 184 - InC | Seagull Joe (Mewtwo, Sonic) Vs. InC | ZD (Fox) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-02-08T18:30:00.000Z",
+    "b587bRhOlTQ",
+    "S@X 184 - Zephyr (Cloud) Vs. Nika (Lucina) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T18:00:04.000Z",
+    "UCZV--skDQc",
+    "S@X 184 - ZD (Fox) Vs. Circa | 6WX (Sonic) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T18:00:01.000Z",
+    "D9jWjqM-eB4",
+    "S@X 184 - Blazing Pasta (Peach, Ness) Vs. Wadi (Mewtwo) - SSB4 Losers Bracket - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T18:00:01.000Z",
+    "CP6qbR9gVvs",
+    "S@X 184 - Zephyr (Cloud) Vs. InC | Seagull Joe (Sonic) - SSB4 Winners Semis - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T18:00:00.000Z",
+    "1x-Y-QD0_48",
+    "S@X 184 - Nika (Lucina) Vs. Dexter (Corrin) - SSB4 Losers Bracket - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:30:03.000Z",
+    "oGCrWhKN-Oc",
+    "S@X 184 - ZD (Fox) Vs. Xerom (Ness) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:30:01.000Z",
+    "dHDQCli1nwM",
+    "S@X 184 - Wadi (ROB) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:30:00.000Z",
+    "fzmtwA5hd2U",
+    "S@X 184 - Circa | 6WX (Sonic) Vs. Dexter (Corrin) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T17:30:00.000Z",
+    "6142OxxI918",
+    "S@X 184 - Blazing Pasta (Ness) Vs. InC | Seagull Joe (Diddy Kong) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:10.000Z",
+    "wLOUKj6SqAg",
+    "S@X 184 - Xerom (Ness) Vs. FOE (Greninja) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:06.000Z",
+    "x1PHBmC1AN4",
+    "S@X 184 - VGBC | Pink Fresh (Bayonetta) Vs. Xerom (Ness) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T17:00:06.000Z",
+    "UvJSZbIzLmU",
+    "S@X 184 - Xorax (Fox) Vs. Coldweather (Marth) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:05.000Z",
+    "xIpFiA3SwfE",
+    "S@X 184 - InC | Seagull Joe (Sonic, Bowser Jr.) Vs. Xorax (Fox) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T17:00:03.000Z",
+    "m6C6Gj7nYbI",
+    "S@X 184 - Cinnpie (ZSS) Vs. VGBC | Aposl (Charizard) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:03.000Z",
+    "YLOnEgYFQEY",
+    "S@X 184 - Z8 (Rosalina) Vs. Nika (Lucina) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:02.000Z",
+    "TTz6lNbgqEk",
+    "S@X 184 - InC | ZD (Fox) Vs. Dante (Zelda) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:01.000Z",
+    "apLo1tw4o6A",
+    "S@X 184 - Crownless King (Roy) Vs. Dingus Joe (G&W) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:01.000Z",
+    "a1e_VSQqlCY",
+    "S@X 184 - Dexter (Corrin) Vs. Ill | Jebb (Cloud, Lucas) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T17:00:01.000Z",
+    "H8IcFtAI02s",
+    "S@X 184 - Professor Soylent (Corrin) Vs. Gravon (Captain Falcon) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T17:00:01.000Z",
+    "Bakjjkirulg",
+    "S@X 184 - RK (Kirby) Vs. Pepsi Man (Bowser Jr.) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:00.000Z",
+    "aPHfEa3Bzlk",
+    "S@X 184 - The Great Gonzales (Ness) Vs. Zephyr (Cloud) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-08T17:00:00.000Z",
+    "3rJA0zHZm9Y",
+    "S@X 184 - VGBC | Tantalus (Lucina) Vs. Firefist Ace (Mario) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-08T17:00:00.000Z",
+    "-AEoqhW-qqc",
+    "S@X 184 - Blazing Pasta (Ness) Vs. Pepsi Man (Bowser Jr.) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-07T20:00:01.000Z",
+    "IS0RHSVComY",
+    "S@X 183 - VGBC | Pink Fresh (Bayonetta) Vs. Vex (Donkey Kong) - SSB4 Grand Finals - Smash for Wii U"
+  ],
+  [
+    "2017-02-07T19:30:00.000Z",
+    "A8jRPNIHg14",
+    "S@X 183 - VGBC | Pink Fresh (Lucina) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Losers Finals"
+  ],
+  [
+    "2017-02-07T19:00:01.000Z",
+    "2JN3V2ii-uc",
+    "S@X 183 - Wadi (Mewtwo) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Losers Semis - Smash 4"
+  ],
+  [
+    "2017-02-07T18:30:01.000Z",
+    "T6Coy-ddu04",
+    "S@X 183 - InC | ZD (Fox) Vs. Wadi (Mewtwo, ROB) - SSB4 Losers Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T18:30:00.000Z",
+    "SB8cO8zsqjU",
+    "S@X 183 - VGBC | Pink Fresh (Bayonetta) Vs. Vex (Donkey Kong) - SSB4 Winners Finals - Smash 4"
+  ],
+  [
+    "2017-02-07T18:30:00.000Z",
+    "AFObROpUFuQ",
+    "S@X 183 - Dexter (Corrin) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Losers Quarters - Smash 4"
+  ],
+  [
+    "2017-02-07T18:00:05.000Z",
+    "ss2XX3tCeLI",
+    "S@X 183 - Dexter (Corrin) Vs. Zephyr (Cloud) - SSB4 Losers Bracket - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T18:00:03.000Z",
+    "MUIFFqlfsAI",
+    "S@X 183 - Wave | Black Yoshi (Bayonetta) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Winners Semis"
+  ],
+  [
+    "2017-02-07T18:00:01.000Z",
+    "JlAtzbWzaOI",
+    "S@X 183 - Wadi (Mewtwo) Vs. Vex (Donkey Kong) - SSB4 Winners Semis - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:30:01.000Z",
+    "GytK2SVqN-4",
+    "S@X 183 - Wadi (Mewtwo) Vs. InC VGBC | Logic (Diddy Kong) - SSB4 Winners Quarters - Smash for Wii U"
+  ],
+  [
+    "2017-02-07T17:30:00.000Z",
+    "kkD73B6LKVE",
+    "S@X 183 - Vex (Donkey Kong) Vs. Zephyr (Cloud) - SSB4 Winners Quarters - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:30:00.000Z",
+    "GnGXpF_GB0k",
+    "S@X 183 - InC | ZD (Fox) Vs. Wave | Black Yoshi (Bayonetta) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-07T17:30:00.000Z",
+    "15niHzE4F6c",
+    "S@X 183 - VGBC | Pink Fresh (Bayonetta) Vs. Biddy (Toon Link) - SSB4 Winners Quarters - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:07.000Z",
+    "wlHEQMBXiUY",
+    "S@X 183 - Chud (Bayonetta) Vs. SciFire (Bayonetta) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:07.000Z",
+    "rGss6DfMkJ0",
+    "S@X 183 - Bob Saget (Sonic) Vs. VGBC | Tantalus (WFT) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:06.000Z",
+    "sIyDwd_EAmY",
+    "S@X 183 - Uno (Ness) Vs. Vex (Donkey Kong) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:05.000Z",
+    "yYPUuOQ8uu0",
+    "S@X 183 - Vex (Donkey Kong) Vs. Guy (Duck Hunt) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:03.000Z",
+    "d1frg019SO8",
+    "S@X 183 - Reedemer Z (Mario) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-07T17:00:02.000Z",
+    "WVEnpg28m7k",
+    "S@X 183 - Luck (Luigi) Vs. Hoodlife (Lil Mac) - SSB4 Tournament - Smash for Wii U -  Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:02.000Z",
+    "VnWjE4rz9TE",
+    "S@X 183 - Gravon (Captain Falcon) Vs. Xorax (Fox) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:02.000Z",
+    "NfitrOURxxU",
+    "S@X 183 - ActII (Samus) Vs. Zage II (Pikachu) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:02.000Z",
+    "N9cT47fsbbk",
+    "S@X 183 - Broseidon (Yoshi) Vs. Naytro (Olimar) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:02.000Z",
+    "JOt9kCIHsGY",
+    "S@X 183 - InC VGBC | Logic (Olimar) Vs. VGBC | GimR (G&W) - SSB4 Tournament - Smash for Wii U"
+  ],
+  [
+    "2017-02-07T17:00:01.000Z",
+    "Opcuc8R8Qfw",
+    "S@X 183 - Tito (Wario) Vs. Nach (Shulk) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:01.000Z",
+    "KrRZYlt1x1o",
+    "S@X 183 - Disqo Bunny (Diddy Kong) Vs. Zephyr (Cloud) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:01.000Z",
+    "Gy_mXhH7MM8",
+    "S@X 183 - Dexter (Corrin) Vs. Biddy (Toon Link) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:01.000Z",
+    "Ge0raD3Cb6s",
+    "S@X 183 - Parappa (Bowser Jr.) Vs. Wadi (Mewtwo) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:01.000Z",
+    "6jPwq84SbP0",
+    "S@X 183 - Redeemer Z (Mario, ROB) Vs. Nika (Lucina) - SSB4 Tournmanet - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T17:00:00.000Z",
+    "6EXoFiTFjAA",
+    "S@X 183 - Zephyr (Cloud) Vs. Vash (Ryu) - SSB4 Tournament - Smash for Wii U - Smash 4"
+  ],
+  [
+    "2017-02-07T03:00:01.000Z",
+    "iuKetrPgopg",
+    "S@X 182 - Obi (Fox) Vs. SSI | Zain (Marth) - SSBM Grand Finals - Smash Melee"
+  ],
+  [
+    "2017-02-07T02:30:00.000Z",
+    "7yMsdjfQjiU",
+    "S@X 182 - Obi (Fox) Vs. Hat (Sheik) - SSBM Losers Finals - Smash Melee"
+  ],
+  [
+    "2017-02-07T02:00:00.000Z",
+    "6e-bVL8DkWk",
+    "S@X 182 - Wenbobular (Fox) Vs. Hat (Sheik) - SSBM Losers Semis - Smash Melee"
+  ],
+  [
+    "2017-02-07T01:30:00.000Z",
+    "sbgFutzQvx8",
+    "S@X 182 - Wenbobular (Fox) Vs. Nakamaru (Marth) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-07T01:30:00.000Z",
+    "PNiDMBSzqzo",
+    "S@X 182 - SSI | Zain (Marth) Vs. Obi (Fox) - SSBM Winners Finals - Smash Melee"
+  ],
+  [
+    "2017-02-07T01:30:00.000Z",
+    "LZX0cZD6isc",
+    "S@X 182 - Hat (Sheik) Vs. Plank (Sheik) - SSBM Losers Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-07T01:00:01.000Z",
+    "rvDJV_vc82M",
+    "S@X 182 - Obi (Fox) Vs. Plank (Sheik) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-07T01:00:00.000Z",
+    "WVC-gzXvP70",
+    "S@X 182 - Wenbobular (Fox) Vs. SSI | Zain (Marth) - SSBM Winners Semis - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:30:01.000Z",
+    "c9MjeAVb4OU",
+    "S@X 182 - Messenger (Peach) Vs. SSI | Zain (Marth) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:30:00.000Z",
+    "S2lifDdsfAg",
+    "S@X 182 - Obi (Fox) Vs. Nakamaru (Captain Falcon) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:30:00.000Z",
+    "OZK-RDh3eWI",
+    "S@X 182 - Plank (Sheik) Vs. Polish (Falco) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:30:00.000Z",
+    "AcTIThqg35A",
+    "S@X 182 - Wenbobular (Fox) Vs. Hat (Sheik) - SSBM Winners Quarters - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:03.000Z",
+    "v3NG-J8SLyw",
+    "S@X 182 - Welz (Ice Climbers) Vs. Ulsi (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:03.000Z",
+    "s3UIjA_7pY8",
+    "S@X 182 - SSI | Zain (Marth) Vs. Space Ranger Sam (Marth) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:03.000Z",
+    "d2WSTQhPhDk",
+    "S@X 182 - Wenbobular (Fox) Vs. Answer (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:02.000Z",
+    "s8xZYdEejyw",
+    "S@X 182 - VGBC | Aposl (Gannondorf) Vs. Unfair (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:01.000Z",
+    "qZQHo8TMNTA",
+    "S@X 182 - CTL (Captain Falcon) Vs. Wenbobular (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:01.000Z",
+    "UHG64zZALR4",
+    "S@X 182 - Nakamaru (Captain Falcon) Vs. knox (Falco) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:00.000Z",
+    "JYp32bHxDI8",
+    "S@X 182 - Plank (Sheik) Vs. Ness's Down Tilt (Peach, Gannondorf) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:00.000Z",
+    "FxsWjXU476E",
+    "S@X 182 - Barracuda (Captain Falcon) Vs. Hat (Sheik) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-07T00:00:00.000Z",
+    "-DK1WvVcQOo",
+    "S@X 182 - Schun (Fox) Vs. Professor Peen (Fox) - SSBM Tournament - Smash Melee"
+  ],
+  [
+    "2017-02-06T19:00:03.000Z",
+    "Un9Vn4KENdw",
+    "S@X 181 - ZD (Fox) Vs. VGBC | Pink Fresh (Bayonetta) - SSB4 Losers Semis - Smash for Wii U"
+  ],
+  [
+    "2017-02-06T01:51:41.000Z",
+    "39_gLHo4yXo",
+    "S@X Feb Monthly - VGBC | Pink Fresh (Bayo) Vs. Inc | Seagull (Diddy) SSB4 GF - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-06T01:51:38.000Z",
+    "nMWH1o45vWg",
+    "S@X Feb Monthly - Dexter (Corrin) Vs. Inc | Seagull Joe (Diddy Kong) SSB4 LF - Smash 4 - Smash wii U"
+  ],
+  [
+    "2017-02-06T01:51:30.000Z",
+    "gg44zcPxXKw",
+    "S@X Feb Monthly - Dexter (Corrin, Marth) Vs. Zephyr (Cloud) SSB4 LS - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-06T01:51:23.000Z",
+    "lxtQL1YuTpE",
+    "S@X Feb Monthly - VGBC | Pink Fresh (Bayo) Vs. Inc | Seagull (Diddy) SSB4 WF - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-06T00:00:01.000Z",
+    "RNcY0JCvJ-I",
+    "S@X Feb Monthly - Zephyr (Cloud) Vs. Inc | Seagull Joe (Sonic) SSB4 Winners Semis"
+  ],
+  [
+    "2017-02-06T00:00:01.000Z",
+    "4S9SQFdY8Ho",
+    "S@X Feb Monthly - VGBC | Pink Fresh (Bayo) Vs. Wave | Black Yoshi (Bayonetta) SSB4 WS - Smash Wii U"
+  ],
+  [
+    "2017-02-05T23:48:16.000Z",
+    "wbMsMA-WwKo",
+    "S@X Feb Monthly - F.O.E. (Greninja) Vs. Inc | Seagull Joe (Sonic) SSB4 Winners Quarters"
+  ],
+  [
+    "2017-02-05T23:48:14.000Z",
+    "9VcmJzRjJxg",
+    "S@X Feb Monthly - Hiro (Diddy) Vs. Wave | Black Yoshi (Bayo) SSB4 WQ - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-05T23:48:12.000Z",
+    "iMCX-eWMKK8",
+    "S@X Feb Monthly - Dexter (Corrin) Vs. Zephyr (Cloud) SSB4 WQ - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-05T23:48:10.000Z",
+    "KZyJkyaZ_-0",
+    "S@X Feb Monthly - Zage (Brawler, Pac) Vs. VGBC | Pink Fresh (Bayo) SSB4 - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-05T23:48:05.000Z",
+    "_yj9V-YyFFA",
+    "S@X Feb Monthly - Rags (Metaknight) Vs. Wave | Black Yoshi (Bayonetta) SSB4 - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-05T23:48:02.000Z",
+    "ugKvuyjHHE8",
+    "S@X Feb Monthly - MM | Viceroy (Rosalina) Vs. Inc | Seagull Joe (Sonic) SSB4 - Smash 4 - Smash wii U"
+  ],
+  [
+    "2017-02-05T23:47:59.000Z",
+    "FY4zBqdTTCM",
+    "S@X Feb Monthly - Techei (Greninja) Vs. Leaf FC (Cloud) SSB4 - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-05T23:47:55.000Z",
+    "q_ZYvK2lq4A",
+    "S@X Feb Monthly - INc. ZD (Fox) Vs. Hiro (Diddy Kong, Bowser Jr.) SSB4 - smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-05T22:30:00.000Z",
+    "wnhstyQSkBY",
+    "S@X Feb Monthly - VGBC | GimR (G&W) Vs. Zephyr (Cloud) SSB4 Top 32 - Smash 4 - Smash Wii U"
+  ],
+  [
+    "2017-02-05T22:00:00.000Z",
+    "ARCZ9Z64l6g",
+    "S@X Monthly - VGBC | Pink Fresh & Tension Vs. Wave | Black Yoshi & Hiro - SSB4 GF  - Smash Wii U"
+  ],
+  [
+    "2017-02-05T21:30:01.000Z",
+    "0g9kPk5s0IQ",
+    "S@X Monthly - Inc | Seagull Joe & ZD Vs. Wave | Black Yoshi & Hiro - Smash 4 LF - Smash Wii U"
+  ],
+  [
+    "2017-02-05T21:00:01.000Z",
+    "O2O06iF4d7c",
+    "S@X Monthly - VGBC | Pink Fresh & Tension Vs. InC | ZD & InC | Seagull - Smash 4  WF - Smash Wii U"
+  ],
+  [
+    "2017-02-05T20:52:06.000Z",
+    "3j4TMAX2nsc",
+    "VGBootCamp VoDs - Channel Trailer"
+  ],
+  [
     "2017-01-23T20:48:52.000Z",
     "X62-5ZZwLZ0",
     "Genesis 4 SSBM - Liquid` Hungrybox (Jigglypuff) Vs. C9 Mango (Fox) Smash Melee Losers Semis"
